@@ -1,0 +1,66 @@
+{% assign sorted_pages = site.portfolio | sort: 'date' %}
+
+{% for item in sorted_pages %}
+    {% if item.url == page.url %}
+    	{% assign this_i = forloop.index0 %}
+    	{% assign num_of_pages = forloop.length %}
+    	{% assign last_i = forloop.length | minus: 1 %}
+    	{% assign next_i = forloop.index0 | plus: 1 %}
+    	{% assign prev_i = forloop.index0 | minus: 1 %}
+	{% endif %}
+{% endfor %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ page.title }}</title>
+<meta charset="utf-8" /> 
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script>
+function next() {
+	if(document.getElementById('body').className == 'menu') {
+		document.getElementById('body').className = '';
+		setTimeout(function(){next()}, 400);
+		return false;
+	}
+	document.getElementById('controls').style.display = 'none'; 
+	document.getElementById('innerpage').className = 'next'; 
+	setTimeout(function(){
+		document.location.href='{% if num_of_pages > next_i %}{{ sorted_pages[next_i].url }}{% else %}{{ sorted_pages[0].url }}{% endif %}';
+	}, 900);
+	return false;
+}
+function prev() {
+	if(document.getElementById('body').className == 'menu') {
+		document.getElementById('body').className = '';
+		setTimeout(function(){prev()}, 400);
+		return false;
+	}
+	document.getElementById('controls').style.display = 'none'; 
+	document.getElementById('innerpage').className = 'prev'; 
+	setTimeout(function(){
+		document.location.href='{% if prev_i < 0 %}{{ sorted_pages[last_i].url }}{% else %}{{ sorted_pages[prev_i].url }}{% endif %}';
+	}, 900);
+	return false;
+}
+var timeout;
+function menu() {
+	clearTimeout(timeout);
+	if(document.getElementById('body').className == 'menu') {
+		document.getElementById('body').className = '';
+		timeout = setTimeout(function(){document.getElementById('menu').style.zIndex = '-5'}, 600);
+	}
+	else {
+		document.getElementById('menu').style.zIndex = '5'
+		document.getElementById('body').className = 'menu'; 
+	}
+	return false;
+}
+</script>
+</head>
+
+<body id="body">
+<div id="page" class="{{ page.layout }}">
+
+	<div id="innerpage">
+		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: {{ page.color }}; background-image: url({{ page.image }});"><div id="content">

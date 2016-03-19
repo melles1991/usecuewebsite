@@ -1,0 +1,15 @@
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "text"
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: portfolio
+
+collections:
+  portfolio:
+    output: true

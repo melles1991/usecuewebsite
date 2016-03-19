@@ -1,0 +1,99 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Courthouse, 2013-2018, under construction,</title>
+<meta charset="utf-8" /> 
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script>
+function next() {
+	if(document.getElementById('body').className == 'menu') {
+		document.getElementById('body').className = '';
+		setTimeout(function(){next()}, 400);
+		return false;
+	}
+	document.getElementById('controls').style.display = 'none'; 
+	document.getElementById('innerpage').className = 'next'; 
+	setTimeout(function(){
+		document.location.href='/portfolio/2.html';
+	}, 900);
+	return false;
+}
+function prev() {
+	if(document.getElementById('body').className == 'menu') {
+		document.getElementById('body').className = '';
+		setTimeout(function(){prev()}, 400);
+		return false;
+	}
+	document.getElementById('controls').style.display = 'none'; 
+	document.getElementById('innerpage').className = 'prev'; 
+	setTimeout(function(){
+		document.location.href='/portfolio/2.html';
+	}, 900);
+	return false;
+}
+var timeout;
+function menu() {
+	clearTimeout(timeout);
+	if(document.getElementById('body').className == 'menu') {
+		document.getElementById('body').className = '';
+		timeout = setTimeout(function(){document.getElementById('menu').style.zIndex = '-5'}, 600);
+	}
+	else {
+		document.getElementById('menu').style.zIndex = '5'
+		document.getElementById('body').className = 'menu'; 
+	}
+	return false;
+}
+</script>
+</head>
+
+<body id="body">
+<div id="page" class="portfolio">
+
+	<div id="innerpage">
+		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #cbb3b3; background-image: url(/uploads/breda-gerechtsgebouw-impressie-consortium-inbalans-01.jpg);"><div id="content">
+
+<span>Client</span><br />
+Nieuw Zuid Hilversum<br />
+<br />
+<span>Techniek</span><br />
+Jekyll, CloudCannon<br />
+<br />
+<span>Ontwikkeltijd</span><br />
+1 maand<br />
+<br />
+<span>Beschrijving</span><br />
+<p>Rijksvastgoedbedrijf, Ministerie van Veiligheid &amp; Justitie, Ministerie van Defensie, rechtbank Zwolle, Belastingdienst, Rijkswaterstaat, Ned. Philharmonisch Orkest, Het Toneel Speelt, Rietveldacademie, Zuiderzee-museum Enkhuizen, Gemeente Amsterdam, Stichting Trudo, BAM Utiliteitsbouw, Bouwbedrijf Jan de Nul, Bouwbedrijf Besix, Vlaams Gewest, Volker Wessels Integraal, Reinout Oerlemans + Danielle Overgaag.</p>
+
+<br /><br />
+<a href="http://www.google.com" target="_blank" class="btn">bekijk de website</a>
+
+</div></td></tr></table>
+	</div>
+	
+	<div id="menu"><table cellpadding="0" cellspacing="0"><tr><td><div id="content">
+		    <a href="/">home.</a><br />
+		    <a href="/over-ons/">over ons.</a><br />
+		    <a href="/portfolio/2.html">portfolio.</a><br />
+		    <a href="/werkwijze/">werkwijze.</a><br />
+		    <a href="/contact/">contact.</a><br />		
+	</div></td></tr></table></div>
+</div>
+<div id="controls" class="portfolio">
+	<div id="innercontrols">
+		<a href="javascript: menu();"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="javascript: prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
+		<a href="javascript: next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
+	</div>
+	<div id="title">Usecue <span>&nbsp;web development</span></div>
+	<div id="pagenumber">2/2<br />&nbsp;</div>
+</div>
+
+
+</body>
+
+</html>
