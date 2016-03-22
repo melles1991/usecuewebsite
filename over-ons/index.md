@@ -5,7 +5,7 @@ layout: text
 image: null
 thumbnail: /uploads/thumbnails/3.jpg
 color: '#ffffff'
-order: 22
+order: 2
 ---
 
 Rijksvastgoedbedrijf, Ministerie van Veiligheid & Justitie, Ministerie van Defensie, rechtbank Zwolle, Belastingdienst, Rijkswaterstaat, Ned. Philharmonisch Orkest, Het Toneel Speelt, Rietveldacademie, Zuiderzee-museum Enkhuizen, Gemeente Amsterdam, Stichting Trudo, BAM Utiliteitsbouw, Bouwbedrijf Jan de Nul, Bouwbedrijf Besix, Vlaams Gewest, Volker Wessels Integraal, Reinout Oerlemans + Danielle Overgaag.
