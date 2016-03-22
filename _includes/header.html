@@ -1,4 +1,4 @@
-{% assign sorted_pages = site.portfolio | sort: 'date' %}
+{% assign sorted_pages = site.pages | sort: 'order' %}
 
 {% for item in sorted_pages %}
     {% if item.url == page.url %}
