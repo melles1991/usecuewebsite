@@ -1,4 +1,11 @@
-{% assign sorted_pages = site.pages | sort: 'order' %}
+{% assign sorted_pages2 = site.pages | sort: 'order' %}
+
+{% assign sorted_pages = "" | split: ""  %}
+{% for item in sorted_pages2 %}
+	{% unless item.url == "/biggie-smalls.json" %}	
+		{% assign sorted_pages = sorted_pages | push: item %}
+	{% endunless %}	
+{% endfor %}
 
 {% for item in sorted_pages %}
     {% if item.url == page.url %}
