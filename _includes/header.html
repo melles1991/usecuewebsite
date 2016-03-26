@@ -59,6 +59,29 @@ function menu() {
 	}
 	return false;
 }
+$(document).ready( function() {
+    $('#innerpage').draggable({ 
+        axis: 'x', 
+        revert: true,
+        revertDuration: 100,
+        axis: 'x',
+        drag: function (e, ui){
+            y2 = ui.position.top;
+            x2 = ui.position.left;
+            if(x2>150){prev();}
+                    if(x2<-150){next();}
+                   
+        },
+        start: function(e, ui) {
+            y1 = ui.position.top;
+            x1 = ui.position.left;
+            
+        },
+        stop: function(e, ui) {
+            
+        }        
+    });
+});
 </script>
 </head>
 
