@@ -88,6 +88,15 @@ $(document).ready( function() {
             
         }        
     });
+    $(window).resize();
+});
+
+$(window).resize( function() {
+    var trianglewidth = ($(window).width()-1100)/2;
+    $('#backgroundtriangle').css('height',$(window).height()+'px');
+    $('#triangle-topleft').css('border-top-width',$(window).height()+'px');
+    $('#backgroundtriangle').css('width',trianglewidth+'px');
+    $('#triangle-topleft').css('border-right-width',trianglewidth+'px');
 });
 </script>
 </head>
@@ -96,4 +105,5 @@ $(document).ready( function() {
 <div id="page" class="{{ page.layout }}">
 
 	<div id="innerpage">
-		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: {{ page.color }}; background-image: url({{ page.image }});"><div id="content">
+	{% if page.layout == 'portfolio' %}<div id="backgroundtriangle" style="background-image: url({{ page.image }});"><div id="triangle-topleft" style="border-top-color: {{ page.color }};"></div></div>{% endif %}
+		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: {{ page.color }};"><div id="content">

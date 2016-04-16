@@ -1,11 +1,17 @@
 
 
 
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
-<title>Courthouse, 2013-2018, under construction,</title>
+<title>Hootsmans</title>
 <meta charset="utf-8" /> 
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+<script src="/js/jquery.ui.touch-punch.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <script>
@@ -48,6 +54,38 @@ function menu() {
 	}
 	return false;
 }
+$(document).ready( function() {
+    $('#innerpage').draggable({ 
+        axis: 'x', 
+        revert: true,
+        revertDuration: 100,
+        axis: 'x',
+        drag: function (e, ui){
+            y2 = ui.position.top;
+            x2 = ui.position.left;
+            if(x2>150){prev();}
+                    if(x2<-150){next();}
+                   
+        },
+        start: function(e, ui) {
+            y1 = ui.position.top;
+            x1 = ui.position.left;
+            
+        },
+        stop: function(e, ui) {
+            
+        }        
+    });
+    $(window).resize();
+});
+
+$(window).resize( function() {
+    var trianglewidth = ($(window).width()-1100)/2;
+    $('#backgroundtriangle').css('height',$(window).height()+'px');
+    $('#triangle-topleft').css('border-top-width',$(window).height()+'px');
+    $('#backgroundtriangle').css('width',trianglewidth+'px');
+    $('#triangle-topleft').css('border-right-width',trianglewidth+'px');
+});
 </script>
 </head>
 
@@ -55,23 +93,19 @@ function menu() {
 <div id="page" class="portfolio">
 
 	<div id="innerpage">
-		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #cbb3b3; background-image: url(/uploads/breda-gerechtsgebouw-impressie-consortium-inbalans-01.jpg);"><div id="content">
-
-<span>Client</span><br />
-Nieuw Zuid Hilversum<br />
-<br />
-<span>Techniek</span><br />
-Jekyll, CloudCannon<br />
-<br />
-<span>Ontwikkeltijd</span><br />
-1 maand<br />
-<br />
-<span>Beschrijving</span><br />
+	<div id="backgroundtriangle" style="background-image: url(/uploads/lucass.jpg);"><div id="triangle-topleft" style="border-top-color: #46906b;"></div></div>
+		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #46906b;"><div id="content">
+<table cellpadding="0" cellspacing="0"><tr><td>
+<iframe src="http://whispering-wallaby.cloudvent.net" class="desktop" scrolling="no" style="background-color: #46906b;"></iframe>
+<iframe src="http://whispering-wallaby.cloudvent.net" class="mobile" scrolling="no" style="background-color: #46906b;"></iframe>
+<img src="/img/devices.png" />
+</td><td>
+<h1>Hootsmans</h1>
 <p>Rijksvastgoedbedrijf, Ministerie van Veiligheid &amp; Justitie, Ministerie van Defensie, rechtbank Zwolle, Belastingdienst, Rijkswaterstaat, Ned. Philharmonisch Orkest, Het Toneel Speelt, Rietveldacademie, Zuiderzee-museum Enkhuizen, Gemeente Amsterdam, Stichting Trudo, BAM Utiliteitsbouw, Bouwbedrijf Jan de Nul, Bouwbedrijf Besix, Vlaams Gewest, Volker Wessels Integraal, Reinout Oerlemans + Danielle Overgaag.</p>
 
 <br /><br />
 <a href="http://www.google.com" target="_blank" class="btn">bekijk de website</a>
-
+</td></tr></table>
 </div></td></tr></table>
 	</div>
 	
