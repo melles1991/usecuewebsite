@@ -44,9 +44,9 @@ table, td {width: 100%; height: 100%;
 }
 
 #page.portfolio #innerpage table td {line-height: 1.6em; padding: 0;}
-#page.portfolio #innerpage table td td {text-align: left;}
+#page.portfolio #innerpage table td td {text-align: left; width: 100%;}
 #page.portfolio #innerpage table td #bezel {
-    margin: 71px 0 0 405px;
+    margin: 71px 0 0 385px;
     position: absolute; z-index: 0;
     height: 300px;
     width: 12px;
@@ -56,7 +56,7 @@ table, td {width: 100%; height: 100%;
     border: 0;
     width: 1366px;
     height: 768px;
-    margin: 71px 0 0 63px;
+    margin: 71px 0 0 43px;
     position: absolute; z-index: 0;
     -ms-zoom: 0.348;
     -ms-transform-origin: 0 0;
@@ -71,7 +71,7 @@ table, td {width: 100%; height: 100%;
     border: 0;
     width: 375px;
     height: 667px;
-    margin: 55px 0 0 417px;
+    margin: 55px 0 0 397px;
     position: absolute; z-index: 0;
     -ms-zoom: 0.457;
     -ms-transform-origin: 0 0;
@@ -82,9 +82,17 @@ table, td {width: 100%; height: 100%;
     -webkit-transform: scale(0.457);
     -webkit-transform-origin: 0 0;
 }
+#page.portfolio #innerpage table td iframe.mobile.width450 {
+    width: 450px;
+    height: 801px;
+    -ms-zoom: 0.38;
+    -moz-transform: scale(0.38);
+    -o-transform: scale(0.38);
+    -webkit-transform: scale(0.38);
+}
 #page.portfolio #innerpage table td #content {color: white; width: 974px; display: inline-block; font-weight: 300; margin-right: 180px;}
-#page.portfolio #innerpage table td #content img {pointer-events: none; position: relative; right: 50px;width: 650px;}
-#page.portfolio #innerpage table td #content h1 {text-align: left;}
+#page.portfolio #innerpage table td #content img {position: relative; right: 70px;width: 650px;}
+#page.portfolio #innerpage table td #content h1 {width: 324px; text-align: left; line-height: 1em;}
 
 #backgroundtriangle {
   position: absolute; 
@@ -161,5 +169,5 @@ body.menu #title {color: white;}
 #pagenumber {display: none; position: absolute; bottom: 40px;}
 
 a {color: black;}
-.btn {display: inline-block; border: 1px solid black; padding: 5px 30px; text-transform: uppercase; text-decoration: none; font-size: 13px; font-weight: 400;}
+.btn {display: inline-block; border: 1px solid black; padding: 5px 30px; text-transform: uppercase; text-decoration: none; font-size: 13px; font-weight: 400; letter-spacing: 1px;}
 .portfolio .btn {border: 1px solid white; color: white;}
