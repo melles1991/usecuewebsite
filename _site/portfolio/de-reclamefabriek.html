@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web development done right</title>
+<title>de reclamefabriek.</title>
 <meta charset="utf-8" /> 
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
@@ -24,7 +24,7 @@ function next() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
-		document.location.href='/over-ons/';
+		document.location.href='/portfolio/felgen-wie-neu.html';
 	}, 900);
 	return false;
 }
@@ -37,7 +37,7 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='/contact/';
+		document.location.href='/portfolio/';
 	}, 900);
 	return false;
 }
@@ -90,17 +90,23 @@ $(window).resize( function() {
 </head>
 
 <body id="body">
-<div id="page" class="home">
+<div id="page" class="portfolio">
 
 	<div id="innerpage">
-	
-		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #ffffff;"><div id="content">
+	<div id="backgroundtriangle" style="background-image: url(/uploads/clouds.jpg);"><div id="triangle-topleft" style="border-top-color: #00a0dc;"></div></div>
+		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #00a0dc;"><div id="content">
+<table cellpadding="0" cellspacing="0"><tr><td>
+<iframe src="http://www.de-reclamefabriek.nl/#overons" class="desktop" scrolling="no" style="background-color: #00a0dc;"></iframe>
+<iframe src="http://www.de-reclamefabriek.nl/#overons" class="mobile width450" scrolling="no" style="background-color: #00a0dc;"></iframe>
+<div id="bezel" style="background-color: #00a0dc;"></div>
+<img src="/img/devices.png" />
+</td><td>
+<h1>de reclamefabriek.</h1>
+<p>Rijksvastgoedbedrijf, Ministerie van Veiligheid &amp; Justitie, Ministerie van Defensie, rechtbank Zwolle, Belastingdienst, Rijkswaterstaat, Ned. Philharmonisch Orkest, Het Toneel Speelt, Rietveldacademie, Zuiderzee-museum Enkhuizen, Gemeente Amsterdam, Stichting Trudo, BAM Utiliteitsbouw.</p>
 
-<h1 id="make-better-things-make-things-better">Make better things. Make things better.</h1>
-
-<p>We are making the internet a better place, since 2007.</p>
-
-
+<br /><br />
+<a href="http://www.de-reclamefabriek.nl/#overons" target="_blank" class="btn">bekijk website</a>
+</td></tr></table>
 </div></td></tr></table>
 	</div>
 	
@@ -112,14 +118,14 @@ $(window).resize( function() {
 		    <a href="/contact/">contact.</a><br />		
 	</div></td></tr></table></div>
 </div>
-<div id="controls" class="home">
+<div id="controls" class="portfolio">
 	<div id="innercontrols">
 		<a href="#" onclick="menu();"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
 		<a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>
 	<div id="title">Usecue <span>&nbsp;web development</span></div>
-	<div id="pagenumber">1/7<br />&nbsp;</div>
+	<div id="pagenumber">4/7<br />&nbsp;</div>
 </div>
 
 
