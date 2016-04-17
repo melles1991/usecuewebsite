@@ -88,9 +88,9 @@ $(document).ready( function() {
             
         }        
     });
-    $('iframe').load(function(){
+    $('iframe')..onload = function() {
         $(this).css('opcitiy','1');
-    });
+    };
     $(window).resize();
 });
 
