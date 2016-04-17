@@ -89,8 +89,8 @@ $(document).ready( function() {
         }        
     });
     $('iframe').load(function(){
-        $(this).css('opacity','1');
-        $("#imgoverlay").css('opacity','1');
+        $(this).delay(1000).css('opacity','1');
+        $("#imgoverlay").delay(1000).css('opacity','1');
     });
     $(window).resize();
 });
