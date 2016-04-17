@@ -1,6 +1,5 @@
 ---
 title: 'Usecues, also known as affordances'
-date: 2015-04-09T00:00:00.000Z
 ---
 
 
