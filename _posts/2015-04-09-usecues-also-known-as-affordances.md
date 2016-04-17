@@ -17,3 +17,5 @@ Affordance in digital spaces
 
 Digital interfaces are special. They allow us to do things that are limited to a two-dimensional world that is a computer screen. There are so many things we could do within any app, website or program; but they all have one big, crippling limitation: they cannot provide you with physical clues as to what you can do. Instead, they all rely on visual clues or affordances. This can be very tricky if you don’t understand the important role affordance plays in creating successful interfaces.
 <br>If you understand how affordances work, you will be able to use them to your advantage. When you can make affordance a tool you will be able to create designs that are intuitive and easy to use. Intuitive designs have this certain appeal to them — most likely because we find a lot of websites or apps tedious and annoying — so it’s really refreshing to use them. Additionally, affordance effects conversions, which matter a lot in creating a successful design.
+
+[Read the full article](http://www.webdesignerdepot.com/2015/04/6-types-of-digital-affordance-that-impact-your-ux/)
