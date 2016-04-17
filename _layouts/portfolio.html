@@ -1,10 +1,11 @@
 {% include header.html %}
 <table cellpadding="0" cellspacing="0"><tr><td>
-<iframe src="{{ page.address }}" class="desktop" scrolling="no" style="background-color: {{ page.color }};"></iframe>
-<iframe src="{{ page.address }}" class="mobile{% if page.mobile == 450 %} width450{% endif %}" scrolling="no" style="background-color: {{ page.color }};"></iframe>
+<div class="desktop" style="background-color: {{ page.color }};"><iframe src="{{ page.address }}" scrolling="no" style="background-color: {{ page.color }};"></iframe></div>
+<div class="mobile{% if page.mobile == 450 %} width450{% endif %}" style="background-color: {{ page.color }};"><iframe src="{{ page.address }}" scrolling="no" style="background-color: {{ page.color }};"></iframe></div>
 <div id="bezel" style="background-color: {{ page.color }};"></div>
 <img id="imgoverlay" src="/img/devices.png" />
-</td><td>
+<div id="loading">Bezig met laden..<span>.</span></div>
+</td><td id="textcell">
 <h1>{{ page.title }}</h1>
 {{ content }}
 <br /><br />

@@ -1,5 +1,5 @@
 ---
-title: 'Werkwijze.'
+title: 'Blog.'
 subtitle: null
 layout: text
 image: null

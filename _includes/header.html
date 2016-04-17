@@ -88,12 +88,23 @@ $(document).ready( function() {
             
         }        
     });
+    setInterval(function () {
+        $("#loading span").toggle();
+    },500);
     $('iframe').load(function(){
-        $(this).delay(300).css('opacity','1');
-        $("#imgoverlay").delay(300).css('opacity','1');
+        setTimeout(function () {
+            endloading();
+        }, 300)
     });
     $(window).resize();
 });
+
+function endloading() {
+	$("iframe").css('opacity','1');
+    $("#imgoverlay").css('opacity','1');
+    $("#textcell").css('opacity','1');
+    $("#loading").css('opacity','0');
+}
 
 $(window).resize( function() {
     var trianglewidth = ($(window).width()-1100)/2;

@@ -76,8 +76,23 @@ $(document).ready( function() {
             
         }        
     });
+    setInterval(function () {
+        $("#loading span").toggle();
+    },500);
+    $('iframe').load(function(){
+        setTimeout(function () {
+            endloading();
+        }, 300)
+    });
     $(window).resize();
 });
+
+function endloading() {
+	$("iframe").css('opacity','1');
+    $("#imgoverlay").css('opacity','1');
+    $("#textcell").css('opacity','1');
+    $("#loading").css('opacity','0');
+}
 
 $(window).resize( function() {
     var trianglewidth = ($(window).width()-1100)/2;
@@ -108,7 +123,7 @@ $(window).resize( function() {
 		    <a href="/">home.</a><br />
 		    <a href="/over-ons/">over ons.</a><br />
 		    <a href="/portfolio/">portfolio.</a><br />
-		    <a href="/werkwijze/">werkwijze.</a><br />
+		    <a href="/blog/">blog.</a><br />
 		    <a href="/contact/">contact.</a><br />		
 	</div></td></tr></table></div>
 </div>

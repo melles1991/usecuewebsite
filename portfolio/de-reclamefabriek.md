@@ -2,7 +2,7 @@
 title: 'de reclamefabriek.'
 layout: 'portfolio'
 image: '/uploads/clouds.jpg'
-color: '#00a0dc'
+color: '#008fc5'
 address: 'http://www.de-reclamefabriek.nl/#overons'
 mobile: 450
 order: 4

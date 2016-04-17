@@ -76,8 +76,23 @@ $(document).ready( function() {
             
         }        
     });
+    setInterval(function () {
+        $("#loading span").toggle();
+    },500);
+    $('iframe').load(function(){
+        setTimeout(function () {
+            endloading();
+        }, 300)
+    });
     $(window).resize();
 });
+
+function endloading() {
+	$("iframe").css('opacity','1');
+    $("#imgoverlay").css('opacity','1');
+    $("#textcell").css('opacity','1');
+    $("#loading").css('opacity','0');
+}
 
 $(window).resize( function() {
     var trianglewidth = ($(window).width()-1100)/2;
@@ -93,14 +108,15 @@ $(window).resize( function() {
 <div id="page" class="portfolio">
 
 	<div id="innerpage">
-	<div id="backgroundtriangle" style="background-image: url(/uploads/clouds.jpg);"><div id="triangle-topleft" style="border-top-color: #00a0dc;"></div></div>
-		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #00a0dc;"><div id="content">
+	<div id="backgroundtriangle" style="background-image: url(/uploads/clouds.jpg);"><div id="triangle-topleft" style="border-top-color: #008fc5;"></div></div>
+		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #008fc5;"><div id="content">
 <table cellpadding="0" cellspacing="0"><tr><td>
-<iframe src="http://www.de-reclamefabriek.nl/#overons" class="desktop" scrolling="no" style="background-color: #00a0dc;"></iframe>
-<iframe src="http://www.de-reclamefabriek.nl/#overons" class="mobile width450" scrolling="no" style="background-color: #00a0dc;"></iframe>
-<div id="bezel" style="background-color: #00a0dc;"></div>
-<img src="/img/devices.png" />
-</td><td>
+<div class="desktop" style="background-color: #008fc5;"><iframe src="http://www.de-reclamefabriek.nl/#overons" scrolling="no" style="background-color: #008fc5;"></iframe></div>
+<div class="mobile width450" style="background-color: #008fc5;"><iframe src="http://www.de-reclamefabriek.nl/#overons" scrolling="no" style="background-color: #008fc5;"></iframe></div>
+<div id="bezel" style="background-color: #008fc5;"></div>
+<img id="imgoverlay" src="/img/devices.png" />
+<div id="loading">Bezig met laden..<span>.</span></div>
+</td><td id="textcell">
 <h1>de reclamefabriek.</h1>
 <p>Rijksvastgoedbedrijf, Ministerie van Veiligheid &amp; Justitie, Ministerie van Defensie, rechtbank Zwolle, Belastingdienst, Rijkswaterstaat, Ned. Philharmonisch Orkest, Het Toneel Speelt, Rietveldacademie, Zuiderzee-museum Enkhuizen, Gemeente Amsterdam, Stichting Trudo, BAM Utiliteitsbouw.</p>
 
@@ -114,7 +130,7 @@ $(window).resize( function() {
 		    <a href="/">home.</a><br />
 		    <a href="/over-ons/">over ons.</a><br />
 		    <a href="/portfolio/">portfolio.</a><br />
-		    <a href="/werkwijze/">werkwijze.</a><br />
+		    <a href="/blog/">blog.</a><br />
 		    <a href="/contact/">contact.</a><br />		
 	</div></td></tr></table></div>
 </div>
