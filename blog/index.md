@@ -1,9 +1,7 @@
 ---
 title: 'Blog.'
-subtitle: null
-layout: text
+layout: blog
 image: null
-thumbnail: /uploads/thumbnails/3.jpg
 color: '#ffffff'
 order: 22
 ---

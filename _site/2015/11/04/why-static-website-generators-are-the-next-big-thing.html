@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Blog.</title>
+<title>Why Static Website Generators Are The Next Big Thing</title>
 <meta charset="utf-8" /> 
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
@@ -24,7 +24,7 @@ function next() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
-		document.location.href='/contact/';
+		document.location.href='/';
 	}, 900);
 	return false;
 }
@@ -37,7 +37,7 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='/portfolio/felgen-wie-neu.html';
+		document.location.href='';
 	}, 900);
 	return false;
 }
@@ -105,16 +105,17 @@ $(window).resize( function() {
 </head>
 
 <body id="body">
-<div id="page" class="blog">
+<div id="page" class="post">
 
 	<div id="innerpage">
 	
-		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #ffffff;"><div id="content">
+		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: ;"><div id="content">
 
-<h1>Blog.</h1>
+<h1>Why Static Website Generators Are The Next Big Thing</h1>
 
 <div>
-<p><em>18/04/2016</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="/2016/04/18/from-wordpress-to-jekyll.html">Van WordPress naar Jekyll</a><br /><em>04/01/2016</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="/2016/01/04/no-javascript-please.html">No Javascript Please!</a><br /><em>04/11/2015</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="/2015/11/04/why-static-website-generators-are-the-next-big-thing.html">Why Static Website Generators Are The Next Big Thing</a><br /><em>14/08/2015</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="/2015/08/14/the-race-to-zero-in-webhosting.html">The race to zero in webhosting</a><br /><em>09/04/2015</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="/2015/04/09/usecues-also-known-as-affordances.html">Usecues, also known as affordances</a><br /></p>
+<p>At StaticGen, the open-source directory of static website generators, they have kept track of more than a hundred generators for more than a year now, and you can see both the volume and popularity of these projects take off incredibly on GitHub during that time, going from just 50 to more than 100 generators and a total of more than 100,000 stars for static website generator repositories. <a href="http://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/">Read more</a></p>
+
 </div>
 
 </div></td></tr></table>
@@ -128,14 +129,14 @@ $(window).resize( function() {
 		    <a href="/contact/">contact.</a><br />		
 	</div></td></tr></table></div>
 </div>
-<div id="controls" class="blog">
+<div id="controls" class="post">
 	<div id="innercontrols">
 		<a href="#" onclick="menu();"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
 		<a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>
 	<div id="title">Usecue <span>&nbsp;web development</span></div>
-	<div id="pagenumber">6/7<br />&nbsp;</div>
+	<div id="pagenumber">1/<br />&nbsp;</div>
 </div>
 
 

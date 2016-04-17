@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Blog.</title>
+<title>No Javascript Please!</title>
 <meta charset="utf-8" /> 
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
@@ -24,7 +24,7 @@ function next() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
-		document.location.href='/contact/';
+		document.location.href='/';
 	}, 900);
 	return false;
 }
@@ -37,7 +37,7 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='/portfolio/felgen-wie-neu.html';
+		document.location.href='';
 	}, 900);
 	return false;
 }
@@ -105,16 +105,37 @@ $(window).resize( function() {
 </head>
 
 <body id="body">
-<div id="page" class="blog">
+<div id="page" class="post">
 
 	<div id="innerpage">
 	
-		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #ffffff;"><div id="content">
+		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: ;"><div id="content">
 
-<h1>Blog.</h1>
+<h1>No Javascript Please!</h1>
 
 <div>
-<p><em>18/04/2016</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="/2016/04/18/from-wordpress-to-jekyll.html">Van WordPress naar Jekyll</a><br /><em>04/01/2016</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="/2016/01/04/no-javascript-please.html">No Javascript Please!</a><br /><em>04/11/2015</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="/2015/11/04/why-static-website-generators-are-the-next-big-thing.html">Why Static Website Generators Are The Next Big Thing</a><br /><em>14/08/2015</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="/2015/08/14/the-race-to-zero-in-webhosting.html">The race to zero in webhosting</a><br /><em>09/04/2015</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="/2015/04/09/usecues-also-known-as-affordances.html">Usecues, also known as affordances</a><br /></p>
+<p>You probably load 100k jQuery in your page, because it makes programming soooo easy. But what if you want your page to be as small as 100k? Or usable by people who disable Javascript for security reasons (like many big companies in Germany)? Or just because you think that layout and fancy effects should be handled by CSS and not by javascript?</p>
+
+<p>What does the 100k jQuery in your website actually do? I bet it toggles your hamburger menu, it might toggle some tabs… and, of course, it powers that enormous homepage slider. Here are your replacements/solutions:</p>
+
+<p>Off-screen navigation</p>
+
+<p>No problem. Hiding and showing stuff was no problem with CSS, so all you need is the radio button hack, et voila… there you go:
+<br />http://www.sitepoint.com/pure-css-off-screen-navigation-menu/</p>
+
+<p>Tabs</p>
+
+<p>Useful for hiding and showing content. Same recipe:
+<br />http://stanhub.com/create-responsive-tabs-using-css-only-no-jquery/</p>
+
+<p>Sliders</p>
+
+<p>A little more complicated but also possible… Even with autoplay! Here are some examples:
+<br />http://codepen.io/hw/pen/biEBz
+<br />http://xdesigns.net/2013/08/css-slider/</p>
+
+<p>If you really MUST support IE8 or you want a more polished experience, you can use some conditional JS. But promise me to use it only when necessary, only to enhance the experience and that you use vanilla JS only. You do not want your site to be broken without JS. Seriously. Happy coding!</p>
+
 </div>
 
 </div></td></tr></table>
@@ -128,14 +149,14 @@ $(window).resize( function() {
 		    <a href="/contact/">contact.</a><br />		
 	</div></td></tr></table></div>
 </div>
-<div id="controls" class="blog">
+<div id="controls" class="post">
 	<div id="innercontrols">
 		<a href="#" onclick="menu();"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
 		<a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>
 	<div id="title">Usecue <span>&nbsp;web development</span></div>
-	<div id="pagenumber">6/7<br />&nbsp;</div>
+	<div id="pagenumber">1/<br />&nbsp;</div>
 </div>
 
 
