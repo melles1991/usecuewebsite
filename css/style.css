@@ -143,6 +143,8 @@ h2 {font-size: 110%; line-height: 1.5em; margin-top: 2em!important;}
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
 }
+#content div a {text-decoration: none; border-bottom: 1px dotted black;}
+
 #content ul {margin-left: 15px!important;}
 #content ol {margin-left: 35px!important;}
 blockquote {padding: 10px 0; border-top: 1px solid black; border-bottom: 1px solid black; font-size: 150%; line-height: 1.5em; margin: 20px 0 20px!important;}
