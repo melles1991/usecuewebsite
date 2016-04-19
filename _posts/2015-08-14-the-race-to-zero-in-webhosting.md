@@ -3,11 +3,11 @@ title: The race to zero in webhosting
 ---
 
 
-If you are a small business owner and you need a website, you will probably end up renting some cheap shared webspace at a big hosting company. Prices of these services are constantly under attack. XS4ALL used to ask 25 euro a month, but prices like 5 euro are more common these days. 
+If you are a small business owner and you need a website, you will probably end up renting some cheap shared webspace at a big hosting company. Prices of these services are constantly under attack. XS4ALL used to ask 25 euro a month, but prices like 5 euro are more common these days.
 
 It is the well-known ‘race to zero’… and we are waiting for the first company that offers this service for free. I have good news for you:
 
-> Zero is here! Github offers free webhosting.
+Zero is here! Github offers free webhosting.
 
 ## Too good to be true
 
@@ -32,5 +32,6 @@ So… you need to use Jekyll and the clients website must be relatively simple. 
 1. Minimal costs for your client
 2. Solid backups/version control through Github
 3. A user friendly CMS (CloudCannon), that needs no updates
+
 
 Hard to resist, right?
