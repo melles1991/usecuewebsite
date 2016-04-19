@@ -4,9 +4,8 @@
 
 <div>
 {{ page.content }}
-</div>
-<div>
-<p>{% for post in site.posts %}<em>{{ post.date | date: "%d/%m/%Y" }}</em>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a><br />{% endfor %}</p>
+<br /><br />
+<p>{% for post in site.posts %}{{ post.date | date: "%d/%m/%Y" }} - <a href="{{ post.url }}">{{ post.title }}</a><br />{% endfor %}</p>
 </div>
 
 {% include footer.html %}
