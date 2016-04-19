@@ -3,7 +3,7 @@ title: 'No Javascript Please!'
 ---
 
 
-You probably load 100k jQuery in your page, because it makes programming soooo easy. But what if you want your page to be as small as 100k? Or usable by people who disable Javascript for security reasons (like many big companies in Germany)?
+You probably load 100k jQuery in your page, because it makes programming soooo easy. But what if you want your page to be as small as 100k? Or usable by people who disable Javascript for security reasons?
 
 Let us look at what the 100k jQuery in your website actually does. I bet it toggles your hamburger menu, it might toggle some tabs… and, of course, it powers that enormous homepage slider. So… without further ado, let me present you the replacements:
 
