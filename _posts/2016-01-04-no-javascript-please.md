@@ -15,4 +15,4 @@ Let us look at what the 100k jQuery in your website actually does. I bet it togg
   <br>A little more complicated but also possible… Even with autoplay! Here are [some](http://codepen.io/hw/pen/biEBz) [examples](http://xdesigns.net/2013/08/css-slider/).
 
 
-If you really MUST support IE8 or you want a more polished experience, you can use some conditional JS. But promise me to use it only when necessary, only to enhance the experience and that you use vanilla JS only. You do not want your site to be broken without JS. Seriously. Happy coding!
+If you really MUST support IE8 or you want a more polished experience, you can use some conditional (vanilla) Javascript. In general, you should prefer to use Javascript only when necessary and only to enhance the experience. You do not want your site to be broken without.
