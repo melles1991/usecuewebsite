@@ -7,17 +7,17 @@ You probably load 100k jQuery in your page, because it makes programming soooo e
 
 What does the 100k jQuery in your website actually do? I bet it toggles your hamburger menu, it might toggle some tabs… and, of course, it powers that enormous homepage slider. Here are your replacements/solutions:
 
-Off-screen navigation
+## Off-screen navigation
 
 No problem. Hiding and showing stuff was no problem with CSS, so all you need is the radio button hack, et voila… there you go:
 <br>http://www.sitepoint.com/pure-css-off-screen-navigation-menu/
 
-Tabs
+## Tabs
 
 Useful for hiding and showing content. Same recipe:
 <br>http://stanhub.com/create-responsive-tabs-using-css-only-no-jquery/
 
-Sliders
+## Sliders
 
 A little more complicated but also possible… Even with autoplay! Here are some examples:
 <br>http://codepen.io/hw/pen/biEBz
