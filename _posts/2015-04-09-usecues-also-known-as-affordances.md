@@ -9,6 +9,8 @@ Understanding affordance will allow you to better understand product and interfa
 
 Crowdcube’s layman’s term definition is spot on. All of the objects around us have affordances, some more obvious than others. Affordance is the possibility of an action with an object; it is not a property of the object itself. In other words, a button can be pushed; the possibility of pushing a button is its affordance. The original definition coined by J. J. Gibson described all possible physical actions you could take with an object. Over time the definition shifted. Now, the definition is broader and includes discoverability of actions. This change has been brought about the technological evolution of digital interfaces. Discoverability is an interesting concept in the digital realm, as when you’re using a computer, you get to discover actions through the hints given to you within the interfaces themselves.
 
+![](/uploads/versions/featured20---x----1956-960x---.jpg)
+
 ## Physical objects
 
 Take a step back to the physical world, where you see that objects have physical properties like size, shape or weight that provide hints as to what you could do with them. Here are a few classic examples. Let’s start with a teacup; it’s small and has a handle, which affords holding. Its dipped bowl-like shape, indicating that it can hold something too. When it’s holding tea, the affordance is that you can hold the teacup and drink out of it. Another example is a toothbrush: it has a long-but-thin handle, which affords gripping, and so on.
