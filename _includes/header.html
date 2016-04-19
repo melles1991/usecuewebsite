@@ -1,7 +1,7 @@
 {% if page.layout != 'post' %}
 {% assign sorted_pages2 = site.pages | sort: 'order' %}
 {% else %}
-{% assign sorted_pages2 = site.posts | sort: 'order' %}
+{% assign sorted_pages2 = site.posts | sort: 'date' %}
 {% endif %}
 
 {% assign sorted_pages = "" | split: ""  %}
