@@ -1,4 +1,8 @@
+{% if page.layout != 'post' %}
 {% assign sorted_pages2 = site.pages | sort: 'order' %}
+{% else %}
+{% assign sorted_pages2 = site.posts | sort: 'order' %}
+{% endif %}
 
 {% assign sorted_pages = "" | split: ""  %}
 {% for item in sorted_pages2 %}
