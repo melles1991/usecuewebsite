@@ -1,11 +1,11 @@
 * {margin: 0; padding: 0;}
 img {border: 0;}
 
-body, html {height: 100%; overflow-x:hidden; }
+body, html {height: 100%;}
 body {overflow-y: auto;}
 body {font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 15px; line-height: 1.3em; background: #fff url('/img/preloader.gif') center center no-repeat;}
 
-
+#innerbody {width: 100%; overflow-x: hidden;}
 body #menu {opacity: 0; background-color: black; position: absolute; left: 0; top: 0; z-index: -5; color: white; font-size: 50px; font-weight: 900; letter-spacing: 1px; line-height: 1.5em;}
 body #menu, #page {width: 100%;}
 body #menu, #innerpage {
