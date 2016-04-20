@@ -7,6 +7,6 @@ color: '#ffffff'
 order: 1
 ---
 
-# Pssst... website kopen!?
+# Pssst... website nodig!?
 
 web development sinds 2007
