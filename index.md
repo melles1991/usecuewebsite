@@ -7,6 +7,6 @@ color: '#ffffff'
 order: 1
 ---
 
-# First class web developer nodig!?
+# Pssst...<br />web developer nodig!?
 
 At your service, sinds 2007.
