@@ -1,5 +1,5 @@
 ---
-title: Pssst... website kopen!?
+title: Pssst... website nodig!?
 layout: home
 image: ''
 thumbnail: '/uploads/thumbnails/1.jpg'
