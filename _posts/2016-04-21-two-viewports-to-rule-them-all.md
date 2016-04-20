@@ -13,7 +13,7 @@ What I do, is that I build for each of these sizes a fixed-width website: one 12
 
 With this technique, you can make ANY website responsive in about 3 hours, and this includes testing.
 
-I found the next quote on Twitter.
+I found the next quote on Twitter:&nbsp;
 
 > "After 14h straight I think it’s time I call it a day… responsive design is hard"
 
