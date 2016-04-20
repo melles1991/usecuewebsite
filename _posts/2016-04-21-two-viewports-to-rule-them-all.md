@@ -15,10 +15,8 @@ This means that the desktop version does not need to have any responsive feature
 
 Using this technique&nbsp;you can make ANY website responsive in less than 3 hours.
 
-I found this quote on Twitter:&nbsp;
-
 > "After 14h straight I think it’s time I call it a day… responsive design is hard"
 
-Do you feel the same? Try this technique! It will surely change your perspective.
+I found the above quote on Twitter. Do you feel the same? Try this technique! It will surely change your perspective.
 
 PS.&nbsp;If you want to go all fancy, you can add an in-between version for portrait tablets.
