@@ -3,7 +3,7 @@ title: Two viewports to rule them all
 ---
 
 
-The amount of available screen sizes is exploding. That is why we need responsive design. But what if I told you you only needed two sizes? Impossible, I hear you think. But you may be wrong. Hear me out, because this technique can potentially save you a huge amount of time (and/or money).&nbsp;
+The amount of available screen sizes is exploding. That is why we need responsive design. But what if I told you you only needed two sizes? Impossible, I hear you think. But you may be wrong. Hear me out, because this technique can potentially save you time and money.&nbsp;
 
 I have been experimenting with responsive web design a lot lately. This is mainly due to my side project called 'Without Coding'. In this project I give graphic designers a photoshop-like canvas for building websites. This canvas is based on absolute positioning, which is why normal responsive techniques are unfit. While trying to fix this problem, I came up with the idea of 'fixed viewports' (as opposed to fluid responsiveness).
 
