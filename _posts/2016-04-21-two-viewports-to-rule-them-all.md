@@ -15,6 +15,6 @@ This means that the CSS for the desktop version does not need to have any respon
 
 > "After 14h straight I think it’s time I call it a day… responsive design is hard"
 
-I found the above quote on Twitter. Do you feel the same? Try this technique! It will change your perspective. With this 'fixed viewports' building responsive websites is very easy. In my experience this technique allows you to make ANY website responsive in less than 3 hours.
+I found the above quote on Twitter. Do you feel the same? Try this technique! It will change your perspective. 'Fixed viewports' makes building responsive websites very easy. In my experience it allows you to make ANY website responsive in less than 3 hours.
 
 PRO TIP: Feeling fancy? Add an in-between version for portrait tablets.
