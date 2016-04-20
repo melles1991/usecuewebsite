@@ -9,4 +9,4 @@ order: 1
 
 # Pssst... website kopen!?
 
-Aan het werk voor beter internet sinds 2007.
+web development sinds 2007
