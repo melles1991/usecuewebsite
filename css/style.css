@@ -206,3 +206,7 @@ body.menu #title {color: white;}
 a {color: black;}
 .btn {display: inline-block; border: 1px solid black; padding: 5px 30px; text-transform: uppercase; text-decoration: none; font-size: 13px; font-weight: 400; letter-spacing: 1px;}
 .portfolio .btn {border: 1px solid white; color: white;}
+
+@media screen and (max-width: 600px) {
+  .home h1 {font-size: 50px; font-weight: 900; letter-spacing: 1px;}
+}

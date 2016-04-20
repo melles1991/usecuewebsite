@@ -9,9 +9,10 @@
 <head>
 <title>de reclamefabriek.</title>
 <meta charset="utf-8" /> 
+<meta id="viewport" name="viewport" content="width=device-width">
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
-<script src="/js/jquery.ui.touch-punch.min.js"></script>
+<!--<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>-->
+<!--<script src="/js/jquery.ui.touch-punch.min.js"></script>-->
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <script>
@@ -55,7 +56,7 @@ function menu() {
 	return false;
 }
 $(document).ready( function() {
-    $('#innerpage').draggable({ 
+    /* $('#innerpage').draggable({ 
         axis: 'x', 
         revert: true,
         revertDuration: 100,
@@ -75,7 +76,7 @@ $(document).ready( function() {
         stop: function(e, ui) {
             
         }        
-    });
+    }); */
     setInterval(function () {
         $("#loading span").toggle();
     },500);
@@ -100,7 +101,14 @@ $(window).resize( function() {
     $('#triangle-topleft').css('border-top-width',$(window).height()+'px');
     $('#backgroundtriangle').css('width',trianglewidth+'px');
     $('#triangle-topleft').css('border-right-width',trianglewidth+'px');
+	if (screen.width < 500) {
+	  document.getElementById("viewport").setAttribute("content", "width=500");
+	}
+    else { 
+      document.getElementById("viewport").setAttribute("content", "width=device-width");
+    }
 });
+
 </script>
 </head>
 
@@ -143,7 +151,6 @@ $(window).resize( function() {
 	<div id="title">Usecue <span>&nbsp;web development</span></div>
 	<div id="pagenumber">4/7<br />&nbsp;</div>
 </div>
-
 
 </body>
 

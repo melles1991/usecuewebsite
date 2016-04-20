@@ -9,9 +9,10 @@
 <head>
 <title>No Javascript Please!</title>
 <meta charset="utf-8" /> 
+<meta id="viewport" name="viewport" content="width=device-width">
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
-<script src="/js/jquery.ui.touch-punch.min.js"></script>
+<!--<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>-->
+<!--<script src="/js/jquery.ui.touch-punch.min.js"></script>-->
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <script>
@@ -24,7 +25,7 @@ function next() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
-		document.location.href='/';
+		document.location.href='/2015/11/04/why-static-website-generators-are-the-next-big-thing.html';
 	}, 900);
 	return false;
 }
@@ -37,7 +38,7 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='';
+		document.location.href='/2016/04/18/wordpress-naar-jekyll.html';
 	}, 900);
 	return false;
 }
@@ -55,7 +56,7 @@ function menu() {
 	return false;
 }
 $(document).ready( function() {
-    $('#innerpage').draggable({ 
+    /* $('#innerpage').draggable({ 
         axis: 'x', 
         revert: true,
         revertDuration: 100,
@@ -75,7 +76,7 @@ $(document).ready( function() {
         stop: function(e, ui) {
             
         }        
-    });
+    }); */
     setInterval(function () {
         $("#loading span").toggle();
     },500);
@@ -100,7 +101,14 @@ $(window).resize( function() {
     $('#triangle-topleft').css('border-top-width',$(window).height()+'px');
     $('#backgroundtriangle').css('width',trianglewidth+'px');
     $('#triangle-topleft').css('border-right-width',trianglewidth+'px');
+	if (screen.width < 500) {
+	  document.getElementById("viewport").setAttribute("content", "width=500");
+	}
+    else { 
+      document.getElementById("viewport").setAttribute("content", "width=device-width");
+    }
 });
+
 </script>
 </head>
 
@@ -111,31 +119,21 @@ $(window).resize( function() {
 	
 		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: ;"><div id="content">
 
-<h3>04/01/2016</h3>
+<h3>04.01.2016</h3>
 <h1>No Javascript Please!</h1>
 
 <div>
-<p>You probably load 100k jQuery in your page, because it makes programming soooo easy. But what if you want your page to be as small as 100k? Or usable by people who disable Javascript for security reasons (like many big companies in Germany)? Or just because you think that layout and fancy effects should be handled by CSS and not by javascript?</p>
+<p>You probably load 100k jQuery in your page, because it makes programming soooo easy. But what if you want your page to be as small as 100k? Or usable by people who disable Javascript for security reasons?</p>
 
-<p>What does the 100k jQuery in your website actually do? I bet it toggles your hamburger menu, it might toggle some tabs… and, of course, it powers that enormous homepage slider. Here are your replacements/solutions:</p>
+<p>Let us look at what the 100k jQuery in your website actually does. I bet it toggles your hamburger menu, it might toggle some tabs… and, of course, it powers that enormous homepage slider. So… without further ado, let me present you the replacements:</p>
 
-<p>Off-screen navigation</p>
+<ol>
+  <li>Off-screen navigation - Hiding and showing stuff is no problem with CSS. Alle you need is the <a href="http://www.sitepoint.com/pure-css-off-screen-navigation-menu/">radio button hack</a>, et voila… there you go.</li>
+  <li>Tabs - They are useful for hiding and showing content. You can use the <a href="http://stanhub.com/create-responsive-tabs-using-css-only-no-jquery/">same recipe</a> for them. </li>
+  <li>Sliders - A little more complicated but also possible… Even with autoplay! Here are <a href="http://codepen.io/hw/pen/biEBz">some</a> <a href="http://xdesigns.net/2013/08/css-slider/">examples</a>.</li>
+</ol>
 
-<p>No problem. Hiding and showing stuff was no problem with CSS, so all you need is the radio button hack, et voila… there you go:
-<br />http://www.sitepoint.com/pure-css-off-screen-navigation-menu/</p>
-
-<p>Tabs</p>
-
-<p>Useful for hiding and showing content. Same recipe:
-<br />http://stanhub.com/create-responsive-tabs-using-css-only-no-jquery/</p>
-
-<p>Sliders</p>
-
-<p>A little more complicated but also possible… Even with autoplay! Here are some examples:
-<br />http://codepen.io/hw/pen/biEBz
-<br />http://xdesigns.net/2013/08/css-slider/</p>
-
-<p>If you really MUST support IE8 or you want a more polished experience, you can use some conditional JS. But promise me to use it only when necessary, only to enhance the experience and that you use vanilla JS only. You do not want your site to be broken without JS. Seriously. Happy coding!</p>
+<p>If you really MUST support IE8 or you want a more polished experience, you can use some conditional (vanilla) Javascript. In general, you should prefer to use Javascript only when necessary and only to enhance the experience. You do not want your site to be broken without.</p>
 
 </div>
 
@@ -157,9 +155,8 @@ $(window).resize( function() {
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>
 	<div id="title">Usecue <span>&nbsp;web development</span></div>
-	<div id="pagenumber">1/<br />&nbsp;</div>
+	<div id="pagenumber">2/5<br />&nbsp;</div>
 </div>
-
 
 </body>
 
