@@ -9,4 +9,4 @@ order: 1
 
 # Pssst... website kopen!?
 
-We are making the internet a better place, since 2007.
+Aan het werk voor beter internet sinds 2007.
