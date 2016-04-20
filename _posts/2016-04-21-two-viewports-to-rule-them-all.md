@@ -13,10 +13,8 @@ What I do, is that I build for each of these versions a&nbsp;fixed-width website
 
 This means that the desktop version does not need to have any responsive features. You can use simple floats and all sizes can be measured in pixels. The phone version&nbsp;will override these sizes where needed. Most of the time this means applying 'float: none' and 'width: 100%' to these elements.&nbsp;
 
-Using this technique&nbsp;you can make ANY website responsive in less than 3 hours.
+Feeling fancy? Add an in-between version for portrait tablets. Know that using this technique&nbsp;you can make ANY website responsive in less than 3 hours.
 
 > "After 14h straight I think it’s time I call it a day… responsive design is hard"
 
-I found the above quote on Twitter. Do you feel the same? Try this technique! It will surely change your perspective.
-
-PS.&nbsp;If you want to go all fancy, you can add an in-between version for portrait tablets.
+I found the above quote on Twitter. Do you feel the same? Try this technique! It will change your perspective.
