@@ -5,7 +5,7 @@ title: Two viewports to rule them all
 
 Not possible… I hear you think. But you may be wrong. Hear me out and I will show you a technique that will save web designers a&nbsp;huge amount of time.
 
-I have been experimenting with responsive designs a lot lately. This is mainly due to my side project called Without Coding. In this project I try to give graphic designers a photoshop-like canvas for building websites. This canvas is based on absolute positioning, which makes normal responsive techniques inadequate. That is how I came up with the idea of 'fixed viewports' (as opposed to fluid responsiveness).
+I have been experimenting with responsiveness a lot lately. This is mainly due to my side project called Without Coding. In this project I try to give graphic designers a photoshop-like canvas for building websites. This canvas is based on absolute positioning, which makes normal responsive techniques inadequate. That is how I came up with the idea of 'fixed viewports' (as opposed to fluid responsiveness).
 
 On a tablet my clients often request the desktop experience, which can easily be achieved by using a the meta viewport tag to scale the content to the designed desktop size, say 1200 pixels wide. On a mobile phone however, they want a narrow representation of their website. This can be achieved in the same way, only with a much smaller width, say 400 pixels.
 
