@@ -75,7 +75,7 @@ table, td {width: 100%; height: 100%;
     -webkit-transform: scale(0.348);
     -webkit-transform-origin: 0 0;
 }
-#page.portfolio #innerpage table td .mobile {margin: 55px 0 0 397px; position: absolute; z-index: 0; width: 175px;}
+#page.portfolio #innerpage table td .mobile {margin: 55px 0 0 397px; position: absolute; z-index: 0; width: 175px; height: 305px;}
 #page.portfolio #innerpage table td .mobile iframe {
     border: 0;
     width: 375px;
