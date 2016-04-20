@@ -9,4 +9,4 @@ order: 1
 
 # Pssst... website nodig!?
 
-dan ben je hier aan het goede adres.
+Dan ben je hier aan het goede (web)adres.
