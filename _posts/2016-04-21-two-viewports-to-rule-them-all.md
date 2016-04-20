@@ -9,7 +9,7 @@ I have been experimenting with responsive web design &nbsp;a lot lately. This is
 
 The concept of 'fixed viewports' is based on the premise that all screens have viewport scaling, unless they have a certain minimum width. This minimum width is what we call the 'desktop width'. This is nowadays about 1200 pixels. This 'desktop width' can be shown on tablets through viewport scaling. Using this width on a phone, would result in an illegible website. Therefore we need a second width, the 'phone width'. Using 400 pixels works best for me.
 
-What I do, is that I build for each of these sizes a fixed-width website: one 1200 pixels wide and one 400 pixels wide. I use Javascript and (conditional) CSS to switch between these two sizes at about 600 pixels. Iff you want to go all fancy, you can even add an in-between version for portrait tablets.
+What I do, is that I build for each of these sizes a fixed-width website: one 1200 pixels wide and one 400 pixels wide. I use Javascript and (conditional) CSS to switch between these two sizes at about 600 pixels. If you want to go all fancy, you can even add an in-between version for portrait tablets.
 
 With this technique, you can make ANY website responsive in about 3 hours, and this includes testing.
 
