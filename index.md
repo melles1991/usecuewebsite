@@ -1,5 +1,5 @@
 ---
-title: first class web developer nodig!?
+title: Pssst... web developer nodig!?
 layout: home
 image: ''
 thumbnail: '/uploads/thumbnails/1.jpg'
