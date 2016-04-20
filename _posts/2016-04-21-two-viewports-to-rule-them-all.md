@@ -5,7 +5,7 @@ title: Two viewports to rule them all
 
 The amount of available screen sizes is exploding. That is why we need responsive design. But what if I told you you only needed two sizes? Impossible, I hear you think. But you may be wrong. Hear me out, because this technique can save you time and money.&nbsp;
 
-I have been experimenting with responsive web design a lot lately. This is mainly due to my side project called 'Without Coding'. In this project I give graphic designers a photoshop-like canvas for building websites. This canvas is based on absolute positioning, making normal responsive techniques unfit. To fix this problem, I came up with the concept of 'fixed viewports' (as opposed to fluid responsiveness).
+I have been experimenting with responsive web design a lot lately. This is mainly due to my side project called 'Without Coding'. In this project I give graphic designers a Photoshop-like canvas for building websites. This canvas is based on absolute positioning, making normal responsive techniques unfit. To fix this problem, I came up with the concept of 'fixed viewports' (as opposed to fluid responsiveness).
 
 The concept of 'fixed viewports' is based on the premise that all screens have viewport scaling, unless they have a certain minimum width. This minimum width is what we call the 'desktop version'. This is nowadays about 1200 pixels. This desktop version can be shown on tablets through viewport scaling. Using this width on a phone, would result in an illegible website. Therefore we need a second width, the 'phone version'. Using 400 pixels for this width works best for me.
 
