@@ -209,4 +209,9 @@ a {color: black;}
 
 @media screen and (max-width: 600px) {
   .home h1 {font-size: 50px; font-weight: 900; letter-spacing: 1px;}
+  #page.blog #innerpage #content div, 
+  #page.text #innerpage #content div {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
 }
