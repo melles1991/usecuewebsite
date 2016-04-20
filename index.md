@@ -9,4 +9,4 @@ order: 1
 
 # Pssst... website nodig!?
 
-web development sinds 2007
+dan ben je hier aan het goede adres.
