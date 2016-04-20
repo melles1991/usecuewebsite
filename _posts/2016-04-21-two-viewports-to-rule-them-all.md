@@ -17,4 +17,4 @@ I found the next quote on Twitter.
 
 > "After 14h straight I think it’s time I call it a day… responsive design is hard"
 
-I would like to invite anyone to try this technique. It will surely change your perspective on responsive design.
+Do you feel the same? I would like to invite you to try this technique. It will surely change your perspective.
