@@ -104,6 +104,27 @@ $(document).ready( function() {
     $(window).resize();
 });
 
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        prev();
+        break;
+
+        /*case 38: // up
+        break;*/
+
+        case 39: // right
+        next();
+        break;
+
+        /*case 40: // down
+        break;*/
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
 function endloading() {
 	$("iframe").css('opacity','1');
     $("#imgoverlay").css('opacity','1');
