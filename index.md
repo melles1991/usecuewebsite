@@ -9,4 +9,4 @@ order: 1
 
 # Pssst...<br />web developer nodig!?
 
-Usecue: Technisch hoogstaand web development
+Technisch hoogstaand web development met oog voor de klant.
