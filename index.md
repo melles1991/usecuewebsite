@@ -9,4 +9,4 @@ order: 1
 
 # Pssst...<br />web developer nodig!?
 
-Technisch hoogstaand web development met een focus op design.
+Technisch hoogstaand web development met een sterke focus op design.
