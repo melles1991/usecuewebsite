@@ -9,4 +9,4 @@ order: 1
 
 # Pssst...<br />web developer nodig!?
 
-Ik ben een digitale schroevendraaier...
+I know a bit of HTML (how to meet ladies...)
