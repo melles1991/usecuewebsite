@@ -9,4 +9,4 @@ order: 1
 
 # Pssst...<br />web developer nodig!?
 
-At your service, sinds 2007.
+Ik ben geen ontwerper, ik ben een digitale schroevendraaier...
