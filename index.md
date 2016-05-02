@@ -9,4 +9,4 @@ order: 1
 
 # Pssst...<br />web developer nodig!?
 
-I know a bit of HTML (how to meet ladies...)
+Usecue staat voor technisch hoogstaande weboplossingen.
