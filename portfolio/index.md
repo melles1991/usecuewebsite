@@ -1,10 +1,11 @@
 ---
-title: 'Lucass services.'
-layout: 'portfolio'
-image: '/uploads/lucass.jpg'
+title: "Luca's services."
+layout: portfolio
+image: /uploads/lucass.jpg
 color: '#46906b'
 address: 'http://whispering-wallaby.cloudvent.net'
 order: 3
 ---
 
-Rijksvastgoedbedrijf, Ministerie van Veiligheid & Justitie, Ministerie van Defensie, rechtbank Zwolle, Belastingdienst, Rijkswaterstaat, Ned. Philharmonisch Orkest, Het Toneel Speelt, Rietveldacademie, Zuiderzee-museum Enkhuizen, Gemeente Amsterdam, Stichting Trudo, BAM Utiliteitsbouw.
+
+De nieuwe website van dit bedrijf is sterk door zijn eenvoud. De site is uiteraard responsive en heeft een simpele consequent doorgevoerde vormgeving.
