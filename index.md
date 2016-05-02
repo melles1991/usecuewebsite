@@ -9,4 +9,4 @@ order: 1
 
 # Pssst...<br />web developer nodig!?
 
-Usecue staat voor technisch hoogstaande weboplossingen.
+Usecue staat voor technisch hoogstaand webdevelopment.
