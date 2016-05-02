@@ -13,4 +13,4 @@ Usecue is opgericht in 2007 door Joost van der Schee. Het begon op een studenten
 
 De klantenkring van Usecue bestaat voornamelijk uit reclame- en marketingbureau's. Het is fijn om te werken met ervaren professionals, en dat gevoel is wederzijds. Ook ziet Usecue het nut van het opbouwen van duurzame samenwerkingsverbanden.
 
-Usecue richt zich op het ontwikkelen van websites en webapplicaties. Aanvankelijk lag het gewicht vooral bij het ontwerp. Gedurende de afgelopen jaren is dat langzaam verschoven naar de techniek. Daarbij wordt gefocust op het leveren van kwaliteit en het zo goed en efficient mogelijk uitvoeren van het proces.&nbsp;
+Usecue richt zich op het ontwikkelen van websites en webapplicaties. Aanvankelijk lag het gewicht vooral bij het ontwerp. Gedurende de afgelopen jaren is dat langzaam verschoven naar de techniek. Daarbij wordt gefocust op het leveren van kwaliteit en het zo goed en efficient mogelijk uitvoeren van het proces.
