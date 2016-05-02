@@ -1,11 +1,12 @@
 ---
-title: 'de reclamefabriek.'
-layout: 'portfolio'
-image: '/uploads/clouds.jpg'
+title: de reclamefabriek.
+layout: portfolio
+image: /uploads/clouds.jpg
 color: '#008fc5'
 address: 'http://www.de-reclamefabriek.nl/#overons'
 mobile: 450
 order: 4
 ---
 
-Rijksvastgoedbedrijf, Ministerie van Veiligheid & Justitie, Ministerie van Defensie, rechtbank Zwolle, Belastingdienst, Rijkswaterstaat, Ned. Philharmonisch Orkest, Het Toneel Speelt, Rietveldacademie, Zuiderzee-museum Enkhuizen, Gemeente Amsterdam, Stichting Trudo, BAM Utiliteitsbouw.
+
+Voor de reclamefabriek hebben we de website omgebouwd van WordPress naar Jekyll. Tegelijkertijd hebben we de site een factor 10 keer zo snel gemaakt. Dit is gedaan door het aantal requests te verminderen, pagina's op te delen en files en afbeelding te optimaliseren.
