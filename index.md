@@ -8,7 +8,6 @@ order: 1
 ---
 
 
-# Pssst…
-<br>web developer nodig!?
+# Pssst...<br>web developer nodig!?
 
 Web development met een sterke focus op design.
