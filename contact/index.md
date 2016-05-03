@@ -14,3 +14,9 @@ Wil je meer weten over het bouwen van een website of een webapplicatie? Schroom 
 Heb je een korte vraag, wil je een prijsschatting of een volledige offerte? Ook dan kun je gerust contact opnemen. Mail naar joost@usecue.com of bel +31 (0)6 185 189 28.&nbsp;
 
 Hopelijk tot snel!
+
+[Github](https://github.com/jhvanderschee)
+<br>[Facebook](https://www.facebook.com/usecue)
+<br>[Google Plus](https://plus.google.com/101345401648717866709/about)
+<br>[Stack Overflow](http://stackoverflow.com/users/2397550/joosts)
+<br>&nbsp;
