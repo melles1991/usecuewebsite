@@ -8,7 +8,7 @@ order: 1
 ---
 
 
-# Have less do more.
+# have less do more.
 
 Pssst... web developer nodig!? Neem contact met ons op.
 
