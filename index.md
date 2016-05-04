@@ -8,6 +8,7 @@ order: 1
 ---
 
 
-# Pssst...<br>web developer nodig!?
+# Have less do more...
 
-Have less do more...
+Pssst... web developer nodig!? Neem contact met ons op.
+
