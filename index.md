@@ -10,5 +10,5 @@ order: 1
 
 # have less do more.
 
-Pssst... web developer nodig!? Neem contact met ons op.
+Pssst... web developer nodig!? Neem contact op.
 
