@@ -8,7 +8,7 @@ order: 1
 ---
 
 
-# have less do more.
+# de kunst van funtioneel minimalisme.
 
 Pssst... web developer nodig!? Neem contact op.
 
