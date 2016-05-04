@@ -8,7 +8,7 @@ order: 1
 ---
 
 
-# de kunst van funtioneel minimalisme.
+# de kunst van functioneel minimalisme.
 
 Pssst... web developer nodig!? Neem contact op.
 
