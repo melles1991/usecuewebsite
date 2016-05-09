@@ -88,9 +88,30 @@ $(document).ready( function() {
     $(window).resize();
 });
 
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        prev();
+        break;
+
+        /*case 38: // up
+        break;*/
+
+        case 39: // right
+        next();
+        break;
+
+        /*case 40: // down
+        break;*/
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
 function endloading() {
 	$("iframe").css('opacity','1');
-    $("#imgoverlay").css('opacity','1');
+    $("#imgoverlay").css('opacity','0.7');
     $("#textcell").css('opacity','1');
     $("#loading").css('opacity','0');
 }
@@ -170,12 +191,13 @@ $(window).resize( function() {
 </div>
 <div id="controls" class="post">
 	<div id="innercontrols">
-		<a href="#" onclick="menu();"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
 		<a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>
 	<div id="title">Usecue <span>&nbsp;web development</span></div>
-	<div id="pagenumber">4/5<br />&nbsp;</div>
+	<div id="pagenumber">5/6<br />&nbsp;</div>
 </div>
 
 </body>

@@ -88,9 +88,30 @@ $(document).ready( function() {
     $(window).resize();
 });
 
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        prev();
+        break;
+
+        /*case 38: // up
+        break;*/
+
+        case 39: // right
+        next();
+        break;
+
+        /*case 40: // down
+        break;*/
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
 function endloading() {
 	$("iframe").css('opacity','1');
-    $("#imgoverlay").css('opacity','1');
+    $("#imgoverlay").css('opacity','0.7');
     $("#textcell").css('opacity','1');
     $("#loading").css('opacity','0');
 }
@@ -122,11 +143,11 @@ $(window).resize( function() {
 <h1>Over ons.</h1>
 
 <div>
-<p>Rijksvastgoedbedrijf, Ministerie van Veiligheid &amp; Justitie, Ministerie van Defensie, rechtbank Zwolle, Belastingdienst, Rijkswaterstaat, Ned. Philharmonisch Orkest, Het Toneel Speelt, Rietveldacademie, Zuiderzee-museum Enkhuizen, Gemeente Amsterdam, Stichting Trudo, BAM Utiliteitsbouw, Bouwbedrijf Jan de Nul, Bouwbedrijf Besix, Vlaams Gewest, Volker Wessels Integraal, Reinout Oerlemans + Danielle Overgaag.</p>
+<p>Usecue is opgericht in 2007 door Joost van der Schee. Het begon op een studentenkamer in Delft op de Eduard du Perronlaan met een inschrijving bij de Kamer van Koophandel Haaglanden. Al snel volgde een verhuizing naar Amsterdam. Daar werd de samenwerking gezocht met Action This Day, een online productiebureau, van Benjamin van Rossum. Samen met Action This Day betrok Usecue een kantoor in de Tolstraat in Amsterdam. Daar voegde zich programmeer-, database- en hostingexpert Mark van Driel bij de vaste partners. In 2015 verhuisde Usecue naar een bedrijvenverzamelpand op de Rapenburgerstraat aan het Waterlooplein.</p>
 
-<p>Realized _ Rietveldacademie, verbouwing, Amsterdam 2014 / Raamplein, Amsterdam 2011-2013/ Rechtbank Zwolle, 2004-2016 / De Zande, Ruiselede (B) 2008-2011 / Openbaar Ministerie, Lelystad 2005-2007 / De Admiraliteit, Den Helder 2004-2009 / Nationale Ombudsman, Den Haag 1997-2001 en 2013 / Penitentiair Centrum Koning Willem III kazerne, Nieuwersluis 1997-2004 / Den Engh, Den Dolder 1998-2003 en 2009 / Belastingdienst, Apeldoorn 1998-2005 / Rijkswaterstaat, Den Haag 1998-2002 / Luifel Nieuwe Kerk Amsterdam, 2002 / jeugdinrichting Den Hey-Acker, Breda 2002-2005 / Villa Room, Rhenen 2002-2004.</p>
+<p>De klantenkring van Usecue bestaat voornamelijk uit reclame- en marketingbureau’s. Het is fijn om te werken met ervaren professionals, en dat gevoel is wederzijds. Usecue ziet grote waarde in het opbouwen en onderhouden van deze duurzame samenwerkingsverbanden.</p>
 
-<p>Selection not realized _ PPS Hoge Raad, 2011 / Salzburg Justizanstalt, eervolle vermelding, 2011 / Solar Park South, Italie, 2011,eervolle vermelding / PPS, Beveren en Dendermonde België, 2010 / Herhuisvesting Dienst Milieu en Bouwtoezicht, 1e prijs, Amsterdam 2010 / Justitieel Centrum Chemnitz (BRD), besloten prijsvraag, eervolle vermelding 2010 / Zuiderzeemuseum entreegebouw + studie centrale meldkamer, Enkhuizen 1997 + 2009 / Kamermuziekzaal, Bochum (BRD), besloten prijsvraag, eervolle vermelding 2009 / Rietveldacademie Studieopdracht uitbreiding, Amsterdam 2008-2009 / Multifunctioneel gebouw Strijp-S, besloten prijsvraag, 1 e prijs, Eindhoven 2007 / Repetitiefacititeiten NedPhO, studieopdracht, Amsterdam 2007 / Theater Zuidas, studieopdracht, Amsterdam 2007 / Ministersvleugel, Den Haag 2004 / Oostereiland, stedenbouwkundig plan, Hoorn 2004 / Parachute Pavilion, Coney Island, 2004, eervolle vermelding / Hembrugterrein, stedenbouwkundig plan, Zaanstad 2001-2003 / studie transformatie PI Overamstel 2006 / Ministerie BiZa + Justitie, meervoudige opdracht, Den Haag 1997 / prijsvraag Football stadium L.A., 1997, 1ste prijs.</p>
+<p>Usecue richt zich op het ontwikkelen van websites en webapplicaties. Aanvankelijk lag het gewicht vooral bij het ontwerp. Gedurende de afgelopen jaren is dat langzaam verschoven naar de techniek. Daarbij wordt gefocust op het leveren van kwaliteit en het zo goed en efficient mogelijk uitvoeren van het proces.</p>
 
 </div>
 
@@ -143,7 +164,8 @@ $(window).resize( function() {
 </div>
 <div id="controls" class="text">
 	<div id="innercontrols">
-		<a href="#" onclick="menu();"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
 		<a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>

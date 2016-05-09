@@ -173,6 +173,12 @@ p {margin-bottom: 1.5em;}
 #innercontrols a {color: black; display: block; text-decoration: none; font-size: 50px; line-height: 1.3em;}
 #innercontrols a img {width: 40px;}
 
+#innercontrols a#closemenu {display: none;}
+.menu #innercontrols a {display: none;}
+.menu #innercontrols a#closemenu {display: block;}
+#innercontrols a#openmenu {display: block;}
+.menu #innercontrols a#openmenu {display: none;}
+
 img.white {display: none;}
 .portfolio img.white {display: inline;}
 .portfolio img.black {display: none;}

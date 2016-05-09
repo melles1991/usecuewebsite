@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Web development done right</title>
+<title>Pssst... web developer nodig!?</title>
 <meta charset="utf-8" /> 
 <meta id="viewport" name="viewport" content="width=device-width">
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
@@ -88,9 +88,30 @@ $(document).ready( function() {
     $(window).resize();
 });
 
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        prev();
+        break;
+
+        /*case 38: // up
+        break;*/
+
+        case 39: // right
+        next();
+        break;
+
+        /*case 40: // down
+        break;*/
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
 function endloading() {
 	$("iframe").css('opacity','1');
-    $("#imgoverlay").css('opacity','1');
+    $("#imgoverlay").css('opacity','0.7');
     $("#textcell").css('opacity','1');
     $("#loading").css('opacity','0');
 }
@@ -119,9 +140,10 @@ $(window).resize( function() {
 	
 		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #ffffff;"><div id="content">
 
-<h1 id="make-better-things-make-things-better">Make better things. Make things better.</h1>
+<h1 id="have-less-do-more">have less do more.</h1>
 
-<p>We are making the internet a better place, since 2007.</p>
+<p>Pssst… web developer nodig!? Neem contact op.</p>
+
 
 
 </div></td></tr></table>
@@ -137,7 +159,8 @@ $(window).resize( function() {
 </div>
 <div id="controls" class="home">
 	<div id="innercontrols">
-		<a href="#" onclick="menu();"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
 		<a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>

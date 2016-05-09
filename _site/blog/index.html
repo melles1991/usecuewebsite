@@ -88,9 +88,30 @@ $(document).ready( function() {
     $(window).resize();
 });
 
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        prev();
+        break;
+
+        /*case 38: // up
+        break;*/
+
+        case 39: // right
+        next();
+        break;
+
+        /*case 40: // down
+        break;*/
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
 function endloading() {
 	$("iframe").css('opacity','1');
-    $("#imgoverlay").css('opacity','1');
+    $("#imgoverlay").css('opacity','0.7');
     $("#textcell").css('opacity','1');
     $("#loading").css('opacity','0');
 }
@@ -122,9 +143,9 @@ $(window).resize( function() {
 <h1>Blog.</h1>
 
 <div>
-Rijksvastgoedbedrijf, Ministerie van Veiligheid & Justitie, Ministerie van Defensie, rechtbank Zwolle, Belastingdienst, Rijkswaterstaat, Ned. Philharmonisch Orkest, Het Toneel Speelt, Rietveldacademie, Zuiderzee-museum Enkhuizen, Gemeente Amsterdam, Stichting Trudo, BAM Utiliteitsbouw, Bouwbedrijf Jan de Nul, Bouwbedrijf Besix, Vlaams Gewest, Volker Wessels Integraal, Reinout Oerlemans + Danielle Overgaag.
+Dit blog is een verzameling van werkgerelateerde zaken die ik (Joost van der Schee) graag met de wereld wil delen. Ik schrijf dit blog voor mijn collega web developers. Het gaat vaak om een 'best-practise' of een andersoortige 'ontdekking' die ik de moeite van het schrijven waard vind.
 <br /><br />
-<p>18.04.2016 - <a href="/2016/04/18/wordpress-naar-jekyll.html">May 1st Reboot</a><br />04.01.2016 - <a href="/2016/01/04/no-javascript-please.html">No Javascript Please!</a><br />04.11.2015 - <a href="/2015/11/04/why-static-website-generators-are-the-next-big-thing.html">Why Static Website Generators Are The Next Big Thing</a><br />14.08.2015 - <a href="/2015/08/14/the-race-to-zero-in-webhosting.html">The race to zero in webhosting</a><br />09.04.2015 - <a href="/2015/04/09/usecues-also-known-as-affordances.html">About 'usecues', also known as affordances</a><br /></p>
+<p>21.04.2016 - <a href="/2016/04/21/two-viewports-to-rule-them-all.html">Two viewports to rule them all</a><br />18.04.2016 - <a href="/2016/04/18/wordpress-naar-jekyll.html">May 1st Reboot</a><br />04.01.2016 - <a href="/2016/01/04/no-javascript-please.html">No Javascript Please!</a><br />04.11.2015 - <a href="/2015/11/04/why-static-website-generators-are-the-next-big-thing.html">Why Static Website Generators Are The Next Big Thing</a><br />14.08.2015 - <a href="/2015/08/14/the-race-to-zero-in-webhosting.html">The race to zero in webhosting</a><br />09.04.2015 - <a href="/2015/04/09/usecues-also-known-as-affordances.html">About 'usecues', also known as affordances</a><br /></p>
 </div>
 
 </div></td></tr></table>
@@ -140,7 +161,8 @@ Rijksvastgoedbedrijf, Ministerie van Veiligheid & Justitie, Ministerie van Defen
 </div>
 <div id="controls" class="blog">
 	<div id="innercontrols">
-		<a href="#" onclick="menu();"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
 		<a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>

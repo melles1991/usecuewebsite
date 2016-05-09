@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Lucass services.</title>
+<title>Luca's services.</title>
 <meta charset="utf-8" /> 
 <meta id="viewport" name="viewport" content="width=device-width">
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
@@ -88,9 +88,30 @@ $(document).ready( function() {
     $(window).resize();
 });
 
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        prev();
+        break;
+
+        /*case 38: // up
+        break;*/
+
+        case 39: // right
+        next();
+        break;
+
+        /*case 40: // down
+        break;*/
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
 function endloading() {
 	$("iframe").css('opacity','1');
-    $("#imgoverlay").css('opacity','1');
+    $("#imgoverlay").css('opacity','0.7');
     $("#textcell").css('opacity','1');
     $("#loading").css('opacity','0');
 }
@@ -125,10 +146,10 @@ $(window).resize( function() {
 <img id="imgoverlay" src="/img/devices.png" />
 <div id="loading">Bezig met laden..<span>.</span></div>
 </td><td id="textcell">
-<h1>Lucass services.</h1>
-<p>Rijksvastgoedbedrijf, Ministerie van Veiligheid &amp; Justitie, Ministerie van Defensie, rechtbank Zwolle, Belastingdienst, Rijkswaterstaat, Ned. Philharmonisch Orkest, Het Toneel Speelt, Rietveldacademie, Zuiderzee-museum Enkhuizen, Gemeente Amsterdam, Stichting Trudo, BAM Utiliteitsbouw.</p>
+<h1>Luca's services.</h1>
+<p>De nieuwe website van dit bedrijf is sterk door zijn eenvoud. De site is uiteraard responsive en heeft een simpele consequent doorgevoerde vormgeving. Voor de techniek is gekozen voor Jekyll i.c.m. het CMS van CloudCannon.</p>
 
-<br /><br />
+<br />
 <a href="http://whispering-wallaby.cloudvent.net" target="_blank" class="btn">bekijk website</a>
 </td></tr></table>
 </div></td></tr></table>
@@ -144,7 +165,8 @@ $(window).resize( function() {
 </div>
 <div id="controls" class="portfolio">
 	<div id="innercontrols">
-		<a href="#" onclick="menu();"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+		<a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
 		<a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>
