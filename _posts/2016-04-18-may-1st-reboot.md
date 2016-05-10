@@ -11,6 +11,8 @@ Wat ik allemaal wil veranderen? Allereerst gaat het ontwerp op de schop. Het wor
 
 **UPDATE: 1 mei 2016**
 
-De site is live! Je kijkt er nu naar. Natuurlijk dacht ik op het 'moment supr&ecirc;me' dat ik de site niet kon lanceren. De site was namelijk nog niet af. En lanceren was mijn eigen doodvonnis tekenen. De onaffe site zou het bewijs zijn dat ik een slechte programmeur was. Nooit meer zou iemand mij vragen een website voor hem/haar te maken.
+De site is live! Je kijkt er nu naar. 
+
+Natuurlijk dacht ik op het 'moment supr&ecirc;me' dat ik de site niet kon lanceren. De site was namelijk nog niet af. En lanceren was mijn eigen doodvonnis tekenen. De onaffe site zou het bewijs zijn dat ik een slechte programmeur was. Nooit meer zou iemand mij vragen een website voor hem/haar te maken.
 
 De realiteit was anders. Ik lanceerde mijn site precies op tijd en meldde dat netjes op de [May 1st Reboot website](http://www.may1reboot.com). En toen… gebeurde er (natuurlijk) helemaal NIETS. Teleurstellend aan de ene kant… maar ook een enorme opluchting. Nu kan ik namelijk naar hartelust deze site perfectioneren.
