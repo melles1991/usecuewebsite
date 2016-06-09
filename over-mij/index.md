@@ -1,5 +1,5 @@
 ---
-title: Over mij.
+title: Over ons.
 subtitle:
 layout: text
 image:
