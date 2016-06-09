@@ -1,5 +1,5 @@
 ---
-title: Over ons.
+title: Over mij.
 subtitle:
 layout: text
 image:
@@ -8,8 +8,4 @@ color: '#ffffff'
 order: 2
 ---
 
-Usecue richt zich op het ontwikkelen van websites en webapplicaties. Aanvankelijk lag het gewicht vooral bij het ontwerp. Gedurende de afgelopen jaren is dat langzaam verschoven naar de techniek. Daarbij wordt gefocust op het leveren van kwaliteit en het zo goed en efficient mogelijk uitvoeren van het proces.
-
-De klantenkring van Usecue bestaat voornamelijk uit reclame- en marketingbureau's. Het is fijn om te werken met ervaren professionals, en dat gevoel is wederzijds. Usecue ziet grote waarde in het opbouwen en onderhouden van deze duurzame samenwerkingsverbanden.
-
-Usecue is opgericht in 2007 door Joost van der Schee. Het begon op een studentenkamer in Delft op de Eduard du Perronlaan met een inschrijving bij de Kamer van Koophandel Haaglanden. Al snel volgde een verhuizing naar Amsterdam. Daar werd de samenwerking gezocht met Action This Day, een online productiebureau, van Benjamin van Rossum. Samen met Action This Day betrok Usecue een kantoor in de Tolstraat in Amsterdam. Daar voegde zich programmeer-, database- en hostingexpert Mark van Driel bij de vaste partners. In 2015 verhuisde Usecue naar een bedrijvenverzamelpand op de Rapenburgerstraat aan het Waterlooplein. Nieuwsgierig? Kom langs!
+Heb je gehoord die programmeur die 10x zo effectief is als zijn collega's? Dat gaat over mij. Jouw project? Heb ik al gedaan. Ik heb namelijk 20 jaar ervaring. Daardoor win ik het van andere freelancers, win ik het van off-shore en win ik het zelfs van gratis vriendendiensten. Hoe? Op basis van mijn ervaring kan ik direct de juiste beslissingen nemen en fouten en duur onderhoud voorkomen. Bovendien weet ik dat ieder uur dat jij niet aan 'core business' besteedt geld kost. 
