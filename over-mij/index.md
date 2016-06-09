@@ -12,4 +12,4 @@ Usecue richt zich op het ontwikkelen van websites en webapplicaties. Gedurende d
 
 Heb je wel eens gehoord van die programmeur die 10x zo effectief is als zijn collega's? Dat gaat over ons. Jouw project? Hebben we al een keer gedaan. Wij hebben namelijk 20 jaar ervaring. Daardoor winnen we het van andere freelancers, van off-shore en zelfs van gratis vriendendiensten. Hoe? Op basis van onze ervaring kunnen we direct de juiste beslissingen nemen en duur onderhoud en fouten voorkomen. Bovendien weten we dat ieder uur dat jij niet aan je 'core business' besteedt geld kost. 
 
-Kennis maken? Neem contact op!
+Kies jij ook voor kwaliteit? Neem dan contact op! Wij horen graag wat we voor je kunnen betekenen.
