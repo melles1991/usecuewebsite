@@ -9,7 +9,7 @@ I was using Wordpress to build client sites. Wordpress could do everything I nee
 
 I found CloudCannon and thought “Oh my goodness, this is the solution I’ve been dreaming about”. I now spends less time coding, gets sites live faster and no longer have to worry about security or back-ups.
 
-> Oh my goodness, this is the solution I’ve been dreaming about
+> “Oh my goodness, this is the solution I’ve been dreaming about.”
 
 My workflow is more streamlined too. I develop sites on my local computer and sync to CloudCannon using GitHub. If a client site needs tweaking urgently, I can login to CloudCannon on any computer, anywhere in the world and quickly make updates using the online code editor.
 
