@@ -11,7 +11,7 @@ I found CloudCannon and thought “Oh my goodness, this is the solution I’ve b
 
 > “Oh my goodness, this is the solution I’ve been dreaming about.”
 
-My workflow is more streamlined too. I develop sites on my local computer and sync to CloudCannon using GitHub. If a client site needs tweaking urgently, I can login to CloudCannon on any computer, anywhere in the world and quickly make updates using the online code editor.
+I develop sites on my local computer and sync to CloudCannon using GitHub. If a client site needs tweaking urgently, I can login to CloudCannon on any computer, anywhere in the world and quickly make updates using the online code editor.
 
 My clients gave CloudCannon the thumbs up. They found updating in CloudCannon easier and could update sections of the site they couldn’t before.&nbsp;
 
