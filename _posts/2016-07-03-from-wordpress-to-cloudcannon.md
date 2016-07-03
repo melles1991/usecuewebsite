@@ -7,7 +7,7 @@ I am a freelance web designer and I create elegant, hand-crafted websites for my
 
 Wordpress could do everything I needed, but my main concerns with using Wordpress were the lack of security (due to third party plugins), the high maintenance cost and the lack of version control. I wanted a platform my clients loved and that would reduce the risk and work for me.
 
-I found CloudCannon and thought “Oh my goodness, this is the solution I’ve been dreaming about”. I now spends less time coding, gets sites live faster and no longer have to worry about security or back-ups.
+I found CloudCannon and thought “Oh my goodness, this is the solution I’ve been dreaming about”. I now spends less time coding, I can get sites live faster and I no longer have to worry about security or back-ups.
 
 > “Oh my goodness, this is the solution I’ve been dreaming about.”
 
