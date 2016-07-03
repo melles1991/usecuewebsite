@@ -3,7 +3,7 @@ title: From Wordpress to CloudCannon
 ---
 
 
-I am a freelance web designer and I create elegant, hand-crafted websites for my clients. I have recently made the switch from WordPress to CloudCannon.&nbsp;
+I am a web designer and I create elegant, hand-crafted websites for my clients. I have recently made the switch from WordPress to CloudCannon.&nbsp;
 
 Wordpress could do everything I needed, but my main concerns with using Wordpress were the lack of security (due to third party plugins), the high maintenance cost and the lack of version control. I wanted a platform my clients loved and that would reduce the risk and work for me.
 
