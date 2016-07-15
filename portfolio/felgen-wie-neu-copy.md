@@ -9,4 +9,4 @@ order: 4
 ---
 
 
-Usecue ontwikkelde een Shopify winkel voor Bibi van der Velden. Het thema is gebaseerd op het Pipeline thema, maar volledig op maat gemaakt. Daarbij is alle functionaliteit uit het Pipeline thema behouden.
+Usecue ontwikkelde een Shopify winkel voor Bibi van der Velden (high-end sieraden). Het thema is gebaseerd op het Pipeline thema, maar volledig op maat gemaakt. Daarbij is alle functionaliteit uit het Pipeline thema behouden.
