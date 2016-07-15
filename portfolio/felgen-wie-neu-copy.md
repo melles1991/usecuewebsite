@@ -1,5 +1,5 @@
 ---
-title: bibivandervelden.
+title: bibi.
 layout: portfolio
 image: /uploads/homepage_hero_image4.jpg
 color: '#99948d'
@@ -9,4 +9,4 @@ order: 4
 ---
 
 
-Dit is een website voor Dirk Ihhmer, die velgen restaureert 'als nieuw' door ze te schuren, poedercoaten en af te werken. De site is minder dan 1 MB groot en heeft een mooie subtiele Ken Burns slider. Voor de techniek is gekozen voor Jekyll i.c.m. het CMS van CloudCannon.
+Usecue ontwikkelde een Shopify winkel voor Bibi van der Velden. Het thema is gebaseerd op het Pipeline thema, maar volledig op maat gemaakt. Daarbij is alle functionaliteit uit het Pipeline thema behouden.
