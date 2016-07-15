@@ -1,9 +1,9 @@
 ---
-title: felgen wie neu.
+title: bibivandervelden.
 layout: portfolio
-image: /uploads/fwn.jpg
-color: '#5b6669'
-address: 'http://www.felgen-wie-neu.com'
+image: /uploads/homepage_hero_image4.jpg
+color: '#b4aaac'
+address: 'http://bibivandervelden.com'
 mobile: 450
 order: 4
 ---
