@@ -2,7 +2,7 @@
 title: bibi.
 layout: portfolio
 image: /uploads/homepage_hero_image4.jpg
-color: '#99948d'
+color: '#6a6762'
 address: 'http://bibivandervelden.com'
 mobile: 450
 order: 4
