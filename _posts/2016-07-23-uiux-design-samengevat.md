@@ -3,8 +3,8 @@ title: UI/UX design samengevat
 ---
 
 
-Soms zegt een beeld meer dan 1000 woorden.
+Dit plaatje is de perfecte illustratie voor de ontwerpvraagstukken waar een UI/UX designer mee te maken krijgt. Ik heb er hieronder een aantal beschreven.
 
 ![](/uploads/versions/1-7nj2jzdhzm98az6emaenfg---x----783-500x---.png)
 
-Alles zit hierin... Vraaggestuurde interactie, iconen zonder en met tekstuele toelichting, het leunen op conventies, aanpasbaarheid van de interface ten behoeve van de voorkeuren van de gebruiker en ga zo maar door.
+Hoeveel keuzes moet je de gebruiker tegelijk geven? Moet je iconen gebruiken om ruimte te besparen en zoja, kun je dan het label (de tekst) weglaten? Kun je ervan uitgaan dat mensen weten wat een icoon betekent? Moet je opties verbergen in een dropdown menu? Hoeveel kliks mogen bepaalde acties kosten? Hoeveel items mogen er in een hoofdmenu staan? Moeten knoppen die niet gebruikt kunnen worden toch blijven staan voor consistentie? In hoeverre kun je leunen op conventies en interactie-patronen (voor bijvoorbeeld shortcuts)? Moet de interface aangepast kunnen worden (of zich aanpassen) aan de voorkeuren van de gebruiker? En als laatste... is het een goed idee om een chatbot (Clippy) te gebruiken voor vraaggestuurde interactie?
