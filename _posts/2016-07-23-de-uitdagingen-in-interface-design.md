@@ -3,7 +3,7 @@ title: De uitdagingen in interface design
 ---
 
 
-Dit plaatje is de perfecte illustratie voor de ontwerpvraagstukken waar een UI designer mee te maken krijgt. Ik heb er hieronder een aantal beschreven.
+Dit plaatje is de perfecte illustratie voor de ontwerpvraagstukken waar een User Interface (UI) designer mee te maken krijgt. Ik heb er hieronder een aantal beschreven.
 
 ![](/uploads/versions/1-7nj2jzdhzm98az6emaenfg---x----783-500x---.png)
 
