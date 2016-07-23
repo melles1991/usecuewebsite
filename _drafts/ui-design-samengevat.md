@@ -1,3 +1,0 @@
----
-title: UI design samengevat
----
