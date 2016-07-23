@@ -11,4 +11,4 @@ Hoeveel keuzes moet je de gebruiker tegelijk geven? Moet je iconen gebruiken om 
 
 De antwoorden zijn uiteraard niet eenduidig, dat zou te makkelijk zijn. De juiste keuzes zijn afhankelijk van o.a. de ervaring van je doelgroep, de gebruiksfrequentie van de interface, het doel van het gebruik en de gewenste uitstraling van het product.
 
-Heb jij een interface die (her)ontworpen moet worden, neem dan [contact](/contact/) met mij op. Ik ben ervaren en help je graag de juiste keuzes te maken.
+Heb jij een interface die (her)ontworpen moet worden, neem dan [contact](/contact/) met mij op. Ik help je graag de juiste keuzes te maken.
