@@ -9,5 +9,4 @@ Nevertheless, hover actions are still very important. Mice and trackpads aren’
 
 * Do use hover as clear feedback on clickable elements for people using a mouse.
 * Do use hover to trigger shortcut actions, but make sure they are optional.
-* Dohave a primary way to do the same actions with your fingers.
 * Don’t use hover as the primary action to trigger anything essential. Ever! FOR THE REST OF YOUR LIFE!
