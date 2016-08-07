@@ -9,7 +9,7 @@ order: 2
 ---
 
 
-Usecue richt zich op het ontwikkelen van websites en webapplicaties. Onze focus ligt altijd op het leveren van kwaliteit en het zo goed en efficient mogelijk uitvoeren van het proces. Gedurende de afgelopen jaren is het zwaartepunt van ontwerp naar techniek en UX verschoven. Naast het ontwikkelwerk bieden we ook Managed Hosting aan.
+Usecue richt zich op het ontwikkelen van websites en webapplicaties. Onze focus ligt altijd op het leveren van kwaliteit en het zo goed en efficient mogelijk uitvoeren van het proces.
 
 Jouw project? Dat hebben we al een keer gedaan. Wij hebben namelijk 20 jaar ervaring. Op basis van onze ervaring kunnen we direct de juiste beslissingen nemen en duur onderhoud en fouten voorkomen. Bovendien weten we dat ieder uur dat jij niet aan je 'core business' besteedt geld kost.&nbsp;
 
