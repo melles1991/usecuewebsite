@@ -8,7 +8,7 @@ order: 1
 ---
 
 
-# we create the interwebz
+# let's build the interwebz
 
 HTML since 1998
 
