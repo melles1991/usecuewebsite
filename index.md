@@ -8,7 +8,7 @@ order: 1
 ---
 
 
-# have less do more.
+# hello world.
 
 Web developer nodig? Neem contact op!
 
