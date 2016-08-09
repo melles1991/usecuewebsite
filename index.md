@@ -8,7 +8,7 @@ order: 1
 ---
 
 
-# usecue
+# we create the interwebz
 
-Web developer nodig!? Neem contact op.
+HTML since 1998
 
