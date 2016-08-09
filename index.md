@@ -8,7 +8,7 @@ order: 1
 ---
 
 
-# usecue web development
+# web development, but smarter
 
 Pssst... web developer nodig!? Neem contact op.
 
