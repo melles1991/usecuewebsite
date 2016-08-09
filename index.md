@@ -10,4 +10,4 @@ order: 1
 
 # hello world.
 
-Website of web developer nodig? Neem contact op!
+Website of webapplicatie of webdeveloper nodig? Neem contact op!
