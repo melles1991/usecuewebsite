@@ -8,7 +8,7 @@ order: 1
 ---
 
 
-# let's build the interwebz
+# have less do more.
 
-Usecue BV, delivering HTML since 1998
+Web developer nodig? Neem contact op!
 
