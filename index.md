@@ -10,5 +10,5 @@ order: 1
 
 # let's build the interwebz
 
-HTML since 1998
+Usecue BV, delivering HTML since 1998
 
