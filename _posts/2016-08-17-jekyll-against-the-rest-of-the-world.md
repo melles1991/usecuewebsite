@@ -13,4 +13,4 @@ From the corner of my eye I can make out a woman who was frantically flailing he
 
 Static publishing, oh blissful serenity. Why do I like you so much?
 
-[Read further](http://tobyx.com/2015/jekyll-vs-world)
+[Read more...](http://tobyx.com/2015/jekyll-vs-world)
