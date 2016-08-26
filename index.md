@@ -8,6 +8,6 @@ order: 1
 ---
 
 
-# Making IT happen
+# 127.0.0.1
 
 Nieuwsbrieven, magazines, websites, webapplicaties, intranetsites... [Meer weten?](/contact)
