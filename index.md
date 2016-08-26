@@ -8,6 +8,6 @@ order: 1
 ---
 
 
-# We write HTML<br />with &lt;style&gt;
+# We create HTML<br />with &lt;style&gt;
 
 Websites, magazines, webshops, webapplicaties... [Meer weten?](/contact)
