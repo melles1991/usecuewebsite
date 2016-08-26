@@ -8,6 +8,6 @@ order: 1
 ---
 
 
-# happy birthday Linux!
+# happy birthday Linux.
 
 Wij maken websites, webshops, webapplicaties en meer... [Nieuwsgierig?](/contact)
