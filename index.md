@@ -8,6 +8,6 @@ order: 1
 ---
 
 
-# websites en webapplicaties
+# Wij maken<br />websites en webapplicaties
 
 Heb je een developer nodig met jaren ervaring? Die 'value for money' kan leveren en met je mee denkt? Neem [contact](/contact) op!
