@@ -10,4 +10,4 @@ order: 1
 
 # Wij maken het online...
 
-Nieuwsbrieven, magazines, websites, webapplicaties, actiesites, intranetsites<br />Nieuwsgierig? Neem [contact](/contact) op!
+Nieuwsbrieven, magazines, websites, webapplicaties, actiesites, intranetsites...<br />Nieuwsgierig? Neem [contact](/contact) op!
