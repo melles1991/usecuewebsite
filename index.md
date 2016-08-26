@@ -10,4 +10,4 @@ order: 1
 
 # we make IT happen!
 
-Nieuwsbrieven, magazines, websites, webapplicaties, intranetsites... [Meer weten?](/contact)
+nieuwsbrieven, magazines, websites, webapplicaties, intranetsites... [meer weten?](/contact)
