@@ -10,4 +10,4 @@ order: 1
 
 # We write HTML with &lt;style&gt;
 
-Websites, nieuwsbrieven, magazines, webshops, webapplicaties, nieuwsbrieven... [Meer weten?](/contact)
+Websites, intranetsites, magazines, webshops, webapplicaties, nieuwsbrieven... [Meer weten?](/contact)
