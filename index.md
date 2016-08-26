@@ -10,4 +10,4 @@ order: 1
 
 # have less do more.
 
-Websites, magazines, webshops, webapplicaties... [Meer weten?](/contact)
+Wij maken websites, magazines, webshops, webapplicaties... [Meer weten?](/contact)
