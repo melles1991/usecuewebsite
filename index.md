@@ -10,4 +10,4 @@ order: 1
 
 # Wij maken het online...
 
-Neem [contact](/contact) op!
+Nieuwsgierig? Neem [contact](/contact) op!
