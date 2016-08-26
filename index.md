@@ -10,4 +10,4 @@ order: 1
 
 # Making IT happen
 
-Webshops, magazines, websites, webapplicaties, intranetsites... [Meer weten?](/contact)
+Webshops, magazines, websites, webapplicaties, nieuwsbrieven... [Meer weten?](/contact)
