@@ -8,6 +8,6 @@ order: 1
 ---
 
 
-# we love lean UX
+# we make 'lean UX' happen!
 
 nieuwsbrieven, magazines, websites, webapplicaties, intranetsites... [meer weten?](/contact)
