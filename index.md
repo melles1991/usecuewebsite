@@ -10,4 +10,4 @@ order: 1
 
 # Wij maken het online...
 
-Nieuwsbrieven, magazines, websites, webapplicaties, actiesites, intranetsites...<br />[Meer weten?](/contact)
+Nieuwsbrieven, magazines, websites, webapplicaties, actiesites, intranetsites... [Meer weten?](/contact)
