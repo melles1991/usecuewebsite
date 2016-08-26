@@ -8,6 +8,6 @@ order: 1
 ---
 
 
-# Wij maken het online
+# We make IT happen!
 
 Nieuwsbrieven, magazines, websites, webapplicaties, actiesites, intranetsites... [Meer weten?](/contact)
