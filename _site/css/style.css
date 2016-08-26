@@ -219,6 +219,20 @@ a {color: black;}
 .showdesktop {display: initial;}
 
 
+
+/* ---- particles.js container ---- */ 
+#particles-js{ 
+    pointer-events: none;
+    position:absolute; top: 0; left: 0; 
+    width: 100%; 
+    height: calc(100% - 4px);
+    background-color: transparent; 
+    background-image: url(""); background-repeat: no-repeat; background-size: cover; 
+    background-position: 50% 50%;
+    z-index: 5;
+}
+
+
 @media screen and (max-width: 800px) {
   #triangle-topleft, #backgroundtriangle {display: none;}
   #page.blog #innerpage #content div, 
@@ -265,4 +279,5 @@ h1 {text-align: left;}
 .blog h1:after, .post h1:after, .text h1:after {margin-left: 0;}
 body .home #innerpage {background: white!important;}
 .home h1:after {display: block; content: ""; width: 40px; height: 3px; background: black; margin: 25px 0 10px;}
+#particles-js{ display: none;}
 }

@@ -86,6 +86,8 @@ $(document).ready( function() {
         }, 300)
     });
     $(window).resize();
+
+    
 });
 
 $(document).keydown(function(e) {
@@ -107,6 +109,7 @@ $(document).keydown(function(e) {
         default: return; // exit this handler for other keys
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
+
 });
 
 function endloading() {
@@ -136,7 +139,7 @@ $(window).resize( function() {
 
 <body id="body">
 <div id="page" class="post">
-
+<div id="particles-js"></div>
 	<div id="innerpage" style="background-color: ;">
     <div id="border"></div>
 	
@@ -202,6 +205,8 @@ $(window).resize( function() {
   ga('send', 'pageview');
 
 </script>
+
+
 </body>
 
 </html>
