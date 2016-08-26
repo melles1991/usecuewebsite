@@ -10,4 +10,4 @@ order: 1
 
 # have less do more.
 
-Wij maken websites, webshops en webapplicaties... [Meer weten?](/contact)
+Wij maken websites, webshops, webapplicaties en meer... [Contact?](/contact)
