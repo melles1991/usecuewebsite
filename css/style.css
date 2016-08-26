@@ -234,7 +234,7 @@ a {color: black;}
 
 
 @media screen and (max-width: 600px) {
-.home h1 {font-size: 62px; font-weight: 900; letter-spacing: 1px;}
+.home h1 {font-size: 62px; font-weight: 900; letter-spacing: 1px; line-height: 1em;}
 .home p {text-align: left;}
 #content {padding: 0 15px;}
 .showmobile {display: initial;}
@@ -264,4 +264,5 @@ table td {vertical-align: top; padding: 10px 0 40px 0;}
 h1 {text-align: left;}
 .blog h1:after, .post h1:after, .text h1:after {margin-left: 0;}
 body .home #innerpage {background: white!important;}
+.home h1:after {display: block; content: ""; width: 40px; height: 3px; background: black; margin: 25px 0 10px;}
 }
