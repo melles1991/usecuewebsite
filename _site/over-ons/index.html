@@ -122,12 +122,13 @@ $(window).resize( function() {
     $('#triangle-topleft').css('border-top-width',$(window).height()+'px');
     $('#backgroundtriangle').css('width',trianglewidth+'px');
     $('#triangle-topleft').css('border-right-width',trianglewidth+'px');
-	if (screen.width < 500) {
-	  document.getElementById("viewport").setAttribute("content", "width=500");
+	if (screen.width < 410) {
+	  document.getElementById("viewport").setAttribute("content", "width=410");
 	}
     else { 
       document.getElementById("viewport").setAttribute("content", "width=device-width");
     }
+
 });
 
 </script>
@@ -136,21 +137,33 @@ $(window).resize( function() {
 <body id="body">
 <div id="page" class="text">
 
-	<div id="innerpage">
+	<div id="innerpage" style="background-color: #ffffff;">
+    <div id="border"></div>
 	
-		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #ffffff;"><div id="content">
+		<table cellpadding="0" cellspacing="0"><tr><td><div id="content">
+    <div id="innercontrols" class="showmobile">
+        <a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+        <a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
+        <a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
+        <a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
+    </div>
 
 <h1>Over ons.</h1>
 
 <div>
-<p>Usecue is opgericht in 2007 door Joost van der Schee. Het begon op een studentenkamer in Delft op de Eduard du Perronlaan met een inschrijving bij de Kamer van Koophandel Haaglanden. Al snel volgde een verhuizing naar Amsterdam. Daar werd de samenwerking gezocht met Action This Day, een online productiebureau, van Benjamin van Rossum. Samen met Action This Day betrok Usecue een kantoor in de Tolstraat in Amsterdam. Daar voegde zich programmeer-, database- en hostingexpert Mark van Driel bij de vaste partners. In 2015 verhuisde Usecue naar een bedrijvenverzamelpand op de Rapenburgerstraat aan het Waterlooplein.</p>
+<p>Usecue richt zich op het ontwikkelen van websites en webapplicaties. Onze focus ligt altijd op het leveren van kwaliteit en het zo goed en efficient mogelijk uitvoeren van het proces.</p>
 
-<p>De klantenkring van Usecue bestaat voornamelijk uit reclame- en marketingbureau’s. Het is fijn om te werken met ervaren professionals, en dat gevoel is wederzijds. Usecue ziet grote waarde in het opbouwen en onderhouden van deze duurzame samenwerkingsverbanden.</p>
+<p>Jouw project? Dat hebben we al een keer gedaan. Wij hebben namelijk 20 jaar ervaring. Op basis van onze ervaring kunnen we direct de juiste beslissingen nemen en duur onderhoud en fouten voorkomen. Bovendien weten we dat ieder uur dat jij niet aan je ‘core business’ besteedt geld kost. </p>
 
-<p>Usecue richt zich op het ontwikkelen van websites en webapplicaties. Aanvankelijk lag het gewicht vooral bij het ontwerp. Gedurende de afgelopen jaren is dat langzaam verschoven naar de techniek. Daarbij wordt gefocust op het leveren van kwaliteit en het zo goed en efficient mogelijk uitvoeren van het proces.</p>
+<p>Wij werken nauw samen met onze vaste CMS aanbieder CloudCannon voor het produceren van Jekyll websites. Daarnaast ontwikkelen wij WordPress en Shopify oplossingen. Voor webapplicaties gebruiken we o.a. CakePHP en InnoDB databases.</p>
+
+<p>Kies jij ook voor kwaliteit en efficiëntie? Neem dan contact op! Wij horen graag wat we voor je kunnen betekenen.</p>
 
 </div>
 
+
+
+<div id="title" class="showmobile">Usecue <span>&nbsp;web development</span></div>
 </div></td></tr></table>
 	</div>
 	
@@ -162,17 +175,35 @@ $(window).resize( function() {
 		    <a href="/contact/">contact.</a><br />		
 	</div></td></tr></table></div>
 </div>
-<div id="controls" class="text">
+<div id="controls" class="showdesktop text">
 	<div id="innercontrols">
 		<a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
 		<a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
 		<a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>
-	<div id="title">Usecue <span>&nbsp;web development</span></div>
-	<div id="pagenumber">2/7<br />&nbsp;</div>
+	<div id="title" class="showdesktop">Usecue <span>&nbsp;web development</span></div>
 </div>
+    <script>
+    //open external links in a new window
+    function externalLinks() {
+      for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+        var b = c[a];
+        b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+      }
+    }
+    externalLinks();
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-1168883-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 
 </html>

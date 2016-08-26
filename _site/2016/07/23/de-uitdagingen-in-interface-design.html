@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Two viewports to rule them all</title>
+<title>De uitdagingen in interface design</title>
 <meta charset="utf-8" /> 
 <meta id="viewport" name="viewport" content="width=device-width">
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
@@ -25,7 +25,7 @@ function next() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
-		document.location.href='/2016/04/18/may-1st-reboot.html';
+		document.location.href='/2016/07/03/from-wordpress-to-cloudcannon.html';
 	}, 900);
 	return false;
 }
@@ -38,7 +38,7 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='/2016/07/03/from-wordpress-to-cloudcannon.html';
+		document.location.href='/2016/08/07/hover-is-dead.html';
 	}, 900);
 	return false;
 }
@@ -148,27 +148,19 @@ $(window).resize( function() {
         <a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
     </div>
 
-<h3>21.04.2016</h3>
-<h1>Two viewports to rule them all</h1>
+<h3>23.07.2016</h3>
+<h1>De uitdagingen in interface design</h1>
 
 <div>
-<p>The amount of available screen sizes is exploding. That is why we need responsive design. But what if I told you you only needed two sizes? Impossible, I hear you think. But you may be wrong. I came up with a technique that requires just two sizes and saves you a huge amount of time. </p>
+<p>Dit plaatje is de perfecte illustratie voor de ontwerpvraagstukken waar een User Interface (UI) designer mee te maken krijgt. Ik heb er hieronder een aantal beschreven.</p>
 
-<p>I have been experimenting with responsive web design a lot lately. This is mainly due to my side project called ‘Without Coding’. In this project I enable graphic designers to create websites on a Photoshop-like canvas. This canvas is based on absolute positioning, making normal responsive techniques unfit. To fix this problem, I came up with the concept of ‘fixed viewports’ (as opposed to fluid responsiveness).</p>
+<p><img src="/uploads/versions/1-7nj2jzdhzm98az6emaenfg---x----783-500x---.png" alt="" /></p>
 
-<p>The concept of ‘fixed viewports’ is based on the premise that all screens have viewport scaling, unless they have a certain minimum width. This minimum width is what we call the ‘desktop version’. This is nowadays about 1200 pixels. This desktop version can be shown on tablets through viewport scaling. Using this width on a phone, would result in an illegible website. Therefore we need a second width, the ‘phone version’. Using 400 pixels for this width works best for me.</p>
+<p>Hoeveel keuzes moet je de gebruiker tegelijk geven? Moet je iconen gebruiken om ruimte te besparen en zoja, kun je dan het label (de tekst) weglaten? Kun je ervan uitgaan dat mensen weten wat een icoon betekent? Mag je weinig gebruikte opties kleiner maken of verder wegstoppen? Moet je opties verbergen in een drop-down menu? Hoeveel klikken mogen bepaalde acties kosten? Hoeveel items mogen er in een hoofdmenu staan? Moeten knoppen die niet gebruikt kunnen worden toch blijven staan voor consistentie? In hoeverre kun je leunen op conventies en interactie-patronen (voor bijvoorbeeld shortcuts)? Moet de interface aangepast kunnen worden (of zich aanpassen) aan de voorkeuren van de gebruiker? Moet je een chatbot gebruiken voor directe vraaggestuurde interactie?</p>
 
-<p>How it works is that you build a fixed-width website for each of these versions. This is done purely in CSS. You can start with the 1200 pixels version and switch to the 400 pixel version at about 600 pixels screen width. The switch can be made by using a CSS media query and rewriting the meta viewport tag with Javascript. </p>
+<p>De antwoorden zijn uiteraard niet eenduidig, dat zou te makkelijk zijn. De juiste keuzes zijn afhankelijk van o.a. de ervaring van je doelgroep, de gebruiksfrequentie van de interface, het doel van het gebruik en de gewenste uitstraling van het product.</p>
 
-<p>This means that the CSS for the desktop version does not need to have any responsive features. You can use simple floats and all sizes can be measured in pixels. The CSS for the phone version will override these sizes where needed. Most of the time this means applying ‘float: none’ and ‘width: 100%’ to these elements. Simple, right?</p>
-
-<blockquote>
-  <p>“After 14h straight I think it’s time I call it a day… responsive design is hard”</p>
-</blockquote>
-
-<p>I found the above quote on Twitter. Do you feel the same? Try this technique! ‘Fixed viewports’ makes building responsive websites very easy. In my experience it allows you to make ANY website responsive in less than 3 hours.</p>
-
-<p>PRO TIP: Feeling fancy? Add an in-between version for portrait tablets or enable <a href="/2015/05/30/the-viewport-meta-tag-on-desktop.html">the viewport meta tag on desktop</a>.</p>
+<p>Heb jij een interface die (her)ontworpen moet worden, neem dan <a href="/contact/">contact</a> met mij op. Ik help je graag de juiste keuzes te maken.</p>
 
 </div>
 

@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Two viewports to rule them all</title>
+<title>Jekyll against the rest of the world</title>
 <meta charset="utf-8" /> 
 <meta id="viewport" name="viewport" content="width=device-width">
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
@@ -25,7 +25,7 @@ function next() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
-		document.location.href='/2016/04/18/may-1st-reboot.html';
+		document.location.href='/2016/08/07/hover-is-dead.html';
 	}, 900);
 	return false;
 }
@@ -38,7 +38,7 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='/2016/07/03/from-wordpress-to-cloudcannon.html';
+		document.location.href='/2015/04/09/usecues-also-known-as-affordances.html';
 	}, 900);
 	return false;
 }
@@ -148,27 +148,21 @@ $(window).resize( function() {
         <a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
     </div>
 
-<h3>21.04.2016</h3>
-<h1>Two viewports to rule them all</h1>
+<h3>17.08.2016</h3>
+<h1>Jekyll against the rest of the world</h1>
 
 <div>
-<p>The amount of available screen sizes is exploding. That is why we need responsive design. But what if I told you you only needed two sizes? Impossible, I hear you think. But you may be wrong. I came up with a technique that requires just two sizes and saves you a huge amount of time. </p>
+<p>I’m stood in the center of a room, confident my choice to go all static had been a good one. It’s a serene scene—nothing can touch me.</p>
 
-<p>I have been experimenting with responsive web design a lot lately. This is mainly due to my side project called ‘Without Coding’. In this project I enable graphic designers to create websites on a Photoshop-like canvas. This canvas is based on absolute positioning, making normal responsive techniques unfit. To fix this problem, I came up with the concept of ‘fixed viewports’ (as opposed to fluid responsiveness).</p>
+<p>There are website owners running around wildly, chasing WordPress security vulnerabilities, while at the same time trying to plug holes, which the dubious free plug-ins they downloaded had ripped into their sites.</p>
 
-<p>The concept of ‘fixed viewports’ is based on the premise that all screens have viewport scaling, unless they have a certain minimum width. This minimum width is what we call the ‘desktop version’. This is nowadays about 1200 pixels. This desktop version can be shown on tablets through viewport scaling. Using this width on a phone, would result in an illegible website. Therefore we need a second width, the ‘phone version’. Using 400 pixels for this width works best for me.</p>
+<p>I see a man standing at the window, bashing his head against it in a slow rhythmic pace. It’s not a medical condition. He’s simply repeating the rate at which his PHP-based, database-driven publishing solution, accepts new requests.</p>
 
-<p>How it works is that you build a fixed-width website for each of these versions. This is done purely in CSS. You can start with the 1200 pixels version and switch to the 400 pixel version at about 600 pixels screen width. The switch can be made by using a CSS media query and rewriting the meta viewport tag with Javascript. </p>
+<p>From the corner of my eye I can make out a woman who was frantically flailing her arms about. She was trying to get into the room. Unfortunately, no one would let her in; her website had been infected with malware and whenever someone tried to visit it, there was a warning, urging users to run away as fast as they could.</p>
 
-<p>This means that the CSS for the desktop version does not need to have any responsive features. You can use simple floats and all sizes can be measured in pixels. The CSS for the phone version will override these sizes where needed. Most of the time this means applying ‘float: none’ and ‘width: 100%’ to these elements. Simple, right?</p>
+<p>Static publishing, oh blissful serenity. Why do I like you so much?</p>
 
-<blockquote>
-  <p>“After 14h straight I think it’s time I call it a day… responsive design is hard”</p>
-</blockquote>
-
-<p>I found the above quote on Twitter. Do you feel the same? Try this technique! ‘Fixed viewports’ makes building responsive websites very easy. In my experience it allows you to make ANY website responsive in less than 3 hours.</p>
-
-<p>PRO TIP: Feeling fancy? Add an in-between version for portrait tablets or enable <a href="/2015/05/30/the-viewport-meta-tag-on-desktop.html">the viewport meta tag on desktop</a>.</p>
+<p><a href="http://tobyx.com/2015/jekyll-vs-world">Read more…</a></p>
 
 </div>
 

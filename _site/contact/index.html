@@ -122,12 +122,13 @@ $(window).resize( function() {
     $('#triangle-topleft').css('border-top-width',$(window).height()+'px');
     $('#backgroundtriangle').css('width',trianglewidth+'px');
     $('#triangle-topleft').css('border-right-width',trianglewidth+'px');
-	if (screen.width < 500) {
-	  document.getElementById("viewport").setAttribute("content", "width=500");
+	if (screen.width < 410) {
+	  document.getElementById("viewport").setAttribute("content", "width=410");
 	}
     else { 
       document.getElementById("viewport").setAttribute("content", "width=device-width");
     }
+
 });
 
 </script>
@@ -136,9 +137,16 @@ $(window).resize( function() {
 <body id="body">
 <div id="page" class="text">
 
-	<div id="innerpage">
+	<div id="innerpage" style="background-color: #ffffff;">
+    <div id="border"></div>
 	
-		<table cellpadding="0" cellspacing="0"><tr><td style="background-color: #ffffff;"><div id="content">
+		<table cellpadding="0" cellspacing="0"><tr><td><div id="content">
+    <div id="innercontrols" class="showmobile">
+        <a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
+        <a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
+        <a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
+        <a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
+    </div>
 
 <h1>Contact.</h1>
 
@@ -151,6 +159,9 @@ $(window).resize( function() {
 
 </div>
 
+
+
+<div id="title" class="showmobile">Usecue <span>&nbsp;web development</span></div>
 </div></td></tr></table>
 	</div>
 	
@@ -162,17 +173,35 @@ $(window).resize( function() {
 		    <a href="/contact/">contact.</a><br />		
 	</div></td></tr></table></div>
 </div>
-<div id="controls" class="text">
+<div id="controls" class="showdesktop text">
 	<div id="innercontrols">
 		<a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
 		<a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
 		<a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
 		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
 	</div>
-	<div id="title">Usecue <span>&nbsp;web development</span></div>
-	<div id="pagenumber">7/7<br />&nbsp;</div>
+	<div id="title" class="showdesktop">Usecue <span>&nbsp;web development</span></div>
 </div>
+    <script>
+    //open external links in a new window
+    function externalLinks() {
+      for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+        var b = c[a];
+        b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+      }
+    }
+    externalLinks();
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-1168883-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 
 </html>

@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Two viewports to rule them all</title>
+<title>From Wordpress to CloudCannon</title>
 <meta charset="utf-8" /> 
 <meta id="viewport" name="viewport" content="width=device-width">
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
@@ -25,7 +25,7 @@ function next() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
-		document.location.href='/2016/04/18/may-1st-reboot.html';
+		document.location.href='/2016/04/21/two-viewports-to-rule-them-all.html';
 	}, 900);
 	return false;
 }
@@ -38,7 +38,7 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='/2016/07/03/from-wordpress-to-cloudcannon.html';
+		document.location.href='/2016/07/23/de-uitdagingen-in-interface-design.html';
 	}, 900);
 	return false;
 }
@@ -148,27 +148,25 @@ $(window).resize( function() {
         <a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
     </div>
 
-<h3>21.04.2016</h3>
-<h1>Two viewports to rule them all</h1>
+<h3>03.07.2016</h3>
+<h1>From Wordpress to CloudCannon</h1>
 
 <div>
-<p>The amount of available screen sizes is exploding. That is why we need responsive design. But what if I told you you only needed two sizes? Impossible, I hear you think. But you may be wrong. I came up with a technique that requires just two sizes and saves you a huge amount of time. </p>
+<p>I am a web designer and I create elegant, hand-crafted websites for my clients. I have recently made the switch from WordPress to CloudCannon. </p>
 
-<p>I have been experimenting with responsive web design a lot lately. This is mainly due to my side project called ‘Without Coding’. In this project I enable graphic designers to create websites on a Photoshop-like canvas. This canvas is based on absolute positioning, making normal responsive techniques unfit. To fix this problem, I came up with the concept of ‘fixed viewports’ (as opposed to fluid responsiveness).</p>
+<p>Wordpress could do everything I needed, but my main concerns with using Wordpress were the lack of security (due to third party plugins), the high maintenance cost and the lack of version control. I wanted a platform my clients loved and that would reduce the risk and work for me.</p>
 
-<p>The concept of ‘fixed viewports’ is based on the premise that all screens have viewport scaling, unless they have a certain minimum width. This minimum width is what we call the ‘desktop version’. This is nowadays about 1200 pixels. This desktop version can be shown on tablets through viewport scaling. Using this width on a phone, would result in an illegible website. Therefore we need a second width, the ‘phone version’. Using 400 pixels for this width works best for me.</p>
-
-<p>How it works is that you build a fixed-width website for each of these versions. This is done purely in CSS. You can start with the 1200 pixels version and switch to the 400 pixel version at about 600 pixels screen width. The switch can be made by using a CSS media query and rewriting the meta viewport tag with Javascript. </p>
-
-<p>This means that the CSS for the desktop version does not need to have any responsive features. You can use simple floats and all sizes can be measured in pixels. The CSS for the phone version will override these sizes where needed. Most of the time this means applying ‘float: none’ and ‘width: 100%’ to these elements. Simple, right?</p>
+<p>I found CloudCannon and thought “Wow, fantastic! This is the solution I’ve been dreaming about.” I now spend less time coding, I can get sites live faster and I no longer have to worry about security or back-ups.</p>
 
 <blockquote>
-  <p>“After 14h straight I think it’s time I call it a day… responsive design is hard”</p>
+  <p>“Wow, fantastic! This is the solution I’ve been dreaming about.”</p>
 </blockquote>
 
-<p>I found the above quote on Twitter. Do you feel the same? Try this technique! ‘Fixed viewports’ makes building responsive websites very easy. In my experience it allows you to make ANY website responsive in less than 3 hours.</p>
+<p>I develop sites on my local computer. But if a client site needs tweaking urgently, I can login to CloudCannon on any computer, anywhere in the world and quickly make updates using the online code editor. My clients also gave CloudCannon the thumbs up. They found updating in CloudCannon easier and could update sections of the site they couldn’t before. </p>
 
-<p>PRO TIP: Feeling fancy? Add an in-between version for portrait tablets or enable <a href="/2015/05/30/the-viewport-meta-tag-on-desktop.html">the viewport meta tag on desktop</a>.</p>
+<p>I have created some unique additions to my CloudCannon sites to make the client experience even smoother. First of all I use an image resizing service, to make sure clients do not have to worry about file sizes and cropping of images. Secondly, I have added a low traffic CDN for these resized images to improve reliability, performance and SEO. Finally, I have created a form builder to be able to easily create static forms that can be submitted through FormSubmit, FormSpree or FormBucket.</p>
+
+<p>With the help of the amazing CloudCannon team I am able to offer a professional managed hosting solution. This solution includes an online CMS, an online code editor, full version control, external hosting (if required), no vendor lock in (because Jekyll is open source) and a very happy developer.</p>
 
 </div>
 
