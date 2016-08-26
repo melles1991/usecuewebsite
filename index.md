@@ -8,6 +8,6 @@ order: 1
 ---
 
 
-# We create HTML<br />with &lt;style&gt;
+# have less do more.
 
 Websites, magazines, webshops, webapplicaties... [Meer weten?](/contact)
