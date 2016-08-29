@@ -228,7 +228,7 @@ body.menu #title {color: white;}
 
 a {color: black;}
 .btn {display: inline-block; border: 1px solid black; padding: 5px 30px; text-transform: uppercase; text-decoration: none; font-size: 13px; font-weight: 400; letter-spacing: 1px;}
-.portfolio .btn {border: 1px solid white; color: white;}
+.portfolio .btn {border: 1px solid white!important; color: white;}
 .showmobile {display: none;}
 .showdesktop {display: initial;}
 
@@ -291,7 +291,7 @@ a {color: black;}
     transform-origin: 0% 0%;
     margin-left: 180px;
 }
-    .post h1 {font-size: 42px;}
+    .post h1 {font-size: 45px; line-height: 1em;}
 }
 
 
