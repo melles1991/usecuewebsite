@@ -118,12 +118,18 @@ function endloading() {
 }
 
 $(window).resize( function() {
-    var trianglewidth = ($(window).width()-1100)/2;
+    if($(window).width()>1329) {
+        var trianglewidth = ($(window).width()-1100)/2;
+    } else {
+        var trianglewidth = ($(window).width()-670)/2;
+    }
+    if(trianglewidth<0) trianglewidth = 0;
     $('#backgroundtriangle').css('height',$(window).height()+'px');
     $('#triangle-topleft').css('border-top-width',$(window).height()+'px');
     $('#backgroundtriangle').css('width',trianglewidth+'px');
     $('#triangle-topleft').css('border-right-width',trianglewidth+'px');
-	if (screen.width < 410) {
+	
+    if (screen.width < 410) {
 	  document.getElementById("viewport").setAttribute("content", "width=410");
 	}
     else { 
@@ -148,19 +154,20 @@ $(window).resize( function() {
         <a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
         <a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
     </div>
-<table cellpadding="0" cellspacing="0"><tr><td>
-<div class="desktop" style="background-color: #46906b;"><iframe src="http://whispering-wallaby.cloudvent.net" scrolling="no" style="background-color: #46906b;"></iframe></div>
+
+<div class="col50">
+<div class="desktop"><iframe src="http://whispering-wallaby.cloudvent.net" scrolling="no" style="background-color: #46906b;"></iframe></div>
 <div class="mobile" style="background-color: #46906b;"><iframe src="http://whispering-wallaby.cloudvent.net" scrolling="no" style="background-color: #46906b;"></iframe></div>
 <div id="bezel" style="background-color: #46906b;"></div>
 <img id="imgoverlay" src="/img/devices.png" />
 <div id="loading">Bezig met laden..<span>.</span></div>
-</td><td id="textcell">
+</div><div class="col50" id="textcell">
 <h1>Luca's services.</h1>
 <p>De nieuwe website van dit bedrijf is sterk door zijn eenvoud. De site is uiteraard responsive en heeft een simpele consequent doorgevoerde vormgeving. Voor de techniek is gekozen voor Jekyll i.c.m. het CMS van CloudCannon.</p>
 
 <br />
 <a href="http://whispering-wallaby.cloudvent.net" target="_blank" class="btn">bekijk website</a>
-</td></tr></table>
+</div>
 
 
 <div id="title" class="showmobile">Usecue <span>&nbsp;web development</span></div>

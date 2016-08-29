@@ -36,7 +36,7 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='/portfolio/de-reclamefabriek.html';
+		document.location.href='/portfolio/felgen-wie-neu.html';
 	}, 900);
 	return false;
 }
@@ -118,12 +118,18 @@ function endloading() {
 }
 
 $(window).resize( function() {
-    var trianglewidth = ($(window).width()-1100)/2;
+    if($(window).width()>1329) {
+        var trianglewidth = ($(window).width()-1100)/2;
+    } else {
+        var trianglewidth = ($(window).width()-670)/2;
+    }
+    if(trianglewidth<0) trianglewidth = 0;
     $('#backgroundtriangle').css('height',$(window).height()+'px');
     $('#triangle-topleft').css('border-top-width',$(window).height()+'px');
     $('#backgroundtriangle').css('width',trianglewidth+'px');
     $('#triangle-topleft').css('border-right-width',trianglewidth+'px');
-	if (screen.width < 410) {
+	
+    if (screen.width < 410) {
 	  document.getElementById("viewport").setAttribute("content", "width=410");
 	}
     else { 
