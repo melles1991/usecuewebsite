@@ -289,8 +289,9 @@ a {color: black;}
     -ms-transform-origin: 0% 0%;
     -webkit-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
-    margin-left: 160px;
+    margin-left: 180px;
 }
+    .post h1 {font-size: 42px;}
 }
 
 
