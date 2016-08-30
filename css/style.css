@@ -303,6 +303,7 @@ a {color: black;}
 
    #content {padding: 0 110px 0 120px;}
    .post #content > div > * {max-width: 100%;}
+   #page.portfolio #innerpage table td #content {margin-right: 0px;}
 }
 
 
@@ -351,4 +352,5 @@ body .home #innerpage {background: white!important;}
     line-height: 1.6em;
     font-weight: 300;
 }
+#innerpage > table tr td {text-align: left;}
 }
