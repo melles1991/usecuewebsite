@@ -353,4 +353,5 @@ body .home #innerpage {background: white!important;}
     font-weight: 300;
 }
 #innerpage > table tr td {text-align: left;}
+#page {height: auto;}
 }
