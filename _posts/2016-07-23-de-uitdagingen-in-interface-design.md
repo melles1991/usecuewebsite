@@ -1,5 +1,5 @@
 ---
-title: De uitdagingen in interface design
+title: De uitdaging&shy;en in inter&shy;face design
 ---
 
 

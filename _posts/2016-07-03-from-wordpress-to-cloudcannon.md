@@ -1,5 +1,5 @@
 ---
-title: From Wordpress to CloudCannon
+title: From Wordpress to Cloud&shy;Cannon
 ---
 
 

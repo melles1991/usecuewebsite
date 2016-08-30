@@ -149,7 +149,7 @@ h2 {font-size: 110%; line-height: 1.5em; margin-top: 2em!important;}
 
 .post h1 {text-transform: none; text-align: left;}
 .post h1:after {margin-left: 0;}
-.post #content {max-width: 700px;}
+.post #content {max-width: 650px;}
 .post #content > div > * {max-width: 500px; margin: 0 0 1.5em;}
 .post #content > div > h2 {margin-bottom: 0;}
 .post #content > div > p:first-child {max-width: 800px; font-size: 150%; line-height: 1.5em;
@@ -247,12 +247,29 @@ a {color: black;}
 }
 
 @media screen and (max-width: 1329px) {
+  #page.portfolio #innerpage table td .col50:nth-child(2) {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari */
+    transform: scale(0.5);
+    -ms-transform-origin: 0% 0%; /* IE 9 */
+    -webkit-transform-origin: 0% 0%; /* Chrome, Safari, Opera */
+    transform-origin: 0% 0%;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+  }
   #page.portfolio #innerpage table td .col50:nth-child(3) {
-    width: 616px;
+    margin-left: 390px;
   }
   #loading {
-    margin-left: 280px;
-  }
+    -ms-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    -ms-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    margin-left: 180px;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -264,7 +281,6 @@ a {color: black;}
     column-count: 1;
   }
   table table {max-width: calc(100% - 30px); overflow: hidden; position: absolute;}
-  table table, table table td, table table tbody, table table tr {height: auto; display: block;}
   #page.portfolio #innerpage table td table td {display: block;}
   #page.portfolio #innerpage table td .col50:nth-child(2) {
     -ms-transform: scale(0.5); /* IE 9 */
@@ -275,27 +291,23 @@ a {color: black;}
     transform-origin: 0% 0%;
     position: absolute;
     margin-top: 0px;
+    margin-left: 0px;
   }
   #page.portfolio #innerpage table td .col50:nth-child(3) {
     padding-top: 250px;
     max-width: 300px;
+    margin-left: 0px;
   }
   #title {position: relative;}
-  table, td, #innerpage {height: auto; min-height: 100%;}
-  #loading {
-    -ms-transform: scale(1.6);
-    -webkit-transform: scale(1.6);
-    transform: scale(1.6);
-    -ms-transform-origin: 0% 0%;
-    -webkit-transform-origin: 0% 0%;
-    transform-origin: 0% 0%;
-    margin-left: 180px;
-}
-    .post h1 {font-size: 45px; line-height: 1em;}
+  table, td, #innerpage {min-height: 100%;}
+
+   #content {padding: 0 110px 0 120px;}
+   .post #content > div > * {max-width: 100%;}
 }
 
 
 @media screen and (max-width: 600px) {
+table table, table table td, table table tbody, table table tr {height: auto; display: block;}
 .home h1 {font-size: 62px; font-weight: 900; letter-spacing: 1px; line-height: 1em;}
 .home p {text-align: left;}
 #content {padding: 0 15px;}
