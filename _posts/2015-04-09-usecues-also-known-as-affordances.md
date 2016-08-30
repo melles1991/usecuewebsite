@@ -1,5 +1,5 @@
 ---
-title: "About 'usecues', also known as affordances"
+title: "About 'usecues', also known as affordan&shy;ces"
 ---
 
 

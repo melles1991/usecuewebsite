@@ -1,5 +1,5 @@
 ---
-title: Developing web applications on a Chromebook
+title: Develop&shy;ing web applica&shy;tions on a Chrome&shy;book
 ---
 
 

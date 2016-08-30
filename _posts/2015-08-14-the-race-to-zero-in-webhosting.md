@@ -1,5 +1,5 @@
 ---
-title: The race to zero in webhosting
+title: The race to zero in web&shy;hosting
 ---
 
 

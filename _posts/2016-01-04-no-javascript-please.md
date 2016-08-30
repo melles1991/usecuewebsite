@@ -1,5 +1,5 @@
 ---
-title: 'No Javascript Please!'
+title: 'No Java&shy;script Please!'
 ---
 
 
