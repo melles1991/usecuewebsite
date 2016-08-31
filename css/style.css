@@ -22,7 +22,7 @@ body #menu, #innerpage {
     -ms-transition: opacity 0.4s ease, left 0s ease;          
     transition: opacity 0.4s ease, left 0s ease;
 }
-body .home #innerpage {background: url('../img/penguin.png') center center !important; background-size: cover!important;}
+body .home #innerpage {background: url('../img/penguin.png') right center !important; background-size: cover!important;}
 
 body.menu #menu {opacity: 1;}
 body #menu #content {text-align: center;}
