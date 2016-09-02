@@ -8,6 +8,6 @@ order: 1
 ---
 
 
-# happy birthday Linux.
+<h1><span class="element">Ik ben web developer.</span></h1>
 
-Wij maken websites, webshops, webapplicaties en meer... [Nieuwsgierig?](/contact)
+Ik maak elegante, zelfgeprogrammeerde websites voor mijn klanten. [Meer weten?](/contact)

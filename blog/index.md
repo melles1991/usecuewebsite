@@ -7,4 +7,4 @@ order: 22
 ---
 
 
-Dit blog beschrijft onze technische bevindingen. Het gaat vaak om een 'best-practise' of een andersoortige ontdekking die we de moeite van het delen waard vinden.
+Dit blog beschrijft mijn technische bevindingen, nieuwtjes en meningen over web development. Het gaat vaak om een 'best-practise' of ontdekking die ik de moeite van het delen waard vind.

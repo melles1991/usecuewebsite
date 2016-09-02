@@ -7,10 +7,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Blog.</title>
+<title>Blog. | Usecue web development</title>
 <meta charset="utf-8" /> 
+<link rel="shortcut icon" type="image/png" href="/img/icon-196x196.png" />
+<link rel="shortcut icon" sizes="196x196" href="/img/icon-196x196.png" />
+<link rel="apple-touch-icon" href="/img/icon-196x196.png" />
 <meta id="viewport" name="viewport" content="width=device-width">
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="/js/typed.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <script>
@@ -54,27 +58,6 @@ function menu() {
 	return false;
 }
 $(document).ready( function() {
-    /* $('#innerpage').draggable({ 
-        axis: 'x', 
-        revert: true,
-        revertDuration: 100,
-        axis: 'x',
-        drag: function (e, ui){
-            y2 = ui.position.top;
-            x2 = ui.position.left;
-            if(x2>150){prev();}
-                    if(x2<-150){next();}
-                   
-        },
-        start: function(e, ui) {
-            y1 = ui.position.top;
-            x1 = ui.position.left;
-            
-        },
-        stop: function(e, ui) {
-            
-        }        
-    }); */
     setInterval(function () {
         $("#loading span").toggle();
     },500);
@@ -83,9 +66,16 @@ $(document).ready( function() {
             endloading();
         }, 300)
     });
+
+    if($(window).width()>600) $(".element").typed({
+    	strings: ["Ik ben ^100Linux fan.^1000", "Ik ben ^200UX expert.^2000", "Ik ben ^200programmeur.^1000", "Ik ben ^200web developer."],
+        typeSpeed: 20
+    });
+
     $(window).resize();
 
     
+
 });
 
 $(document).keydown(function(e) {
@@ -142,9 +132,9 @@ $(window).resize( function() {
 </head>
 
 <body id="body">
-<div id="page" class="blog">
-<div id="particles-js"></div>
+<div id="page" class="blog blog">
 	<div id="innerpage" style="background-color: #ffffff;">
+	<div id="particles-js" style="z-index:0;"></div>
     <div id="border"></div>
 	
 		<table cellpadding="0" cellspacing="0"><tr><td><div id="content">
@@ -158,7 +148,7 @@ $(window).resize( function() {
 <h1>Blog.</h1>
 
 <div>
-Dit blog beschrijft onze technische bevindingen. Het gaat vaak om een 'best-practise' of een andersoortige ontdekking die we de moeite van het delen waard vinden.
+Dit blog beschrijft mijn technische bevindingen, nieuwtjes en meningen over web development. Het gaat vaak om een 'best-practise' of ontdekking die ik de moeite van het delen waard vind.
 <br /><br />
 <p><span class="showdesktop">17.08.2016 - </span><a href="/2016/08/17/jekyll-against-the-rest-of-the-world.html">Jekyll against the rest of the world</a><br /><span class="showdesktop">07.08.2016 - </span><a href="/2016/08/07/hover-is-dead.html">Hover is dead</a><br /><span class="showdesktop">23.07.2016 - </span><a href="/2016/07/23/de-uitdagingen-in-interface-design.html">De uitdaging&shy;en in inter&shy;face design</a><br /><span class="showdesktop">03.07.2016 - </span><a href="/2016/07/03/from-wordpress-to-cloudcannon.html">From Wordpress to Cloud&shy;Cannon</a><br /><span class="showdesktop">21.04.2016 - </span><a href="/2016/04/21/two-viewports-to-rule-them-all.html">Two viewports to rule them all</a><br /><span class="showdesktop">18.04.2016 - </span><a href="/2016/04/18/may-1st-reboot.html">May 1st Reboot</a><br /><span class="showdesktop">04.01.2016 - </span><a href="/2016/01/04/no-javascript-please.html">No Java&shy;script Please!</a><br /><span class="showdesktop">04.11.2015 - </span><a href="/2015/11/04/why-static-website-generators-are-the-next-big-thing.html">Why Static Website Generators Are The Next Big Thing</a><br /><span class="showdesktop">14.08.2015 - </span><a href="/2015/08/14/the-race-to-zero-in-webhosting.html">The race to zero in web&shy;hosting</a><br /><span class="showdesktop">30.05.2015 - </span><a href="/2015/05/30/the-viewport-meta-tag-on-desktop.html">The viewport meta tag on desktop</a><br /><span class="showdesktop">30.05.2015 - </span><a href="/2015/05/30/flash-scaling-in-html.html">Flash scaling in HTML</a><br /><span class="showdesktop">05.05.2015 - </span><a href="/2015/05/05/the-web-notifications-api.html">The Web Notifica&shy;tions API</a><br /><span class="showdesktop">03.05.2015 - </span><a href="/2015/05/03/developing-web-applications-on-a-chromebook.html">Develop&shy;ing web applica&shy;tions on a Chrome&shy;book</a><br /><span class="showdesktop">09.04.2015 - </span><a href="/2015/04/09/usecues-also-known-as-affordances.html">About 'usecues', also known as affordan&shy;ces</a><br /></p>
 </div>
@@ -171,7 +161,7 @@ Dit blog beschrijft onze technische bevindingen. Het gaat vaak om een 'best-prac
 	
 	<div id="menu"><table cellpadding="0" cellspacing="0"><tr><td><div id="content">
 		    <a href="/">home.</a><br />
-		    <a href="/over-ons/">over ons.</a><br />
+		    <a href="/over-mij/">over mij.</a><br />
 		    <a href="/portfolio/">portfolio.</a><br />
 		    <a href="/blog/">blog.</a><br />
 		    <a href="/contact/">contact.</a><br />		
@@ -206,7 +196,7 @@ Dit blog beschrijft onze technische bevindingen. Het gaat vaak om een 'best-prac
   ga('send', 'pageview');
 
 </script>
-
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 </body>
 

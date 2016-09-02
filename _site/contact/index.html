@@ -7,10 +7,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Contact.</title>
+<title>Contact. | Usecue web development</title>
 <meta charset="utf-8" /> 
+<link rel="shortcut icon" type="image/png" href="/img/icon-196x196.png" />
+<link rel="shortcut icon" sizes="196x196" href="/img/icon-196x196.png" />
+<link rel="apple-touch-icon" href="/img/icon-196x196.png" />
 <meta id="viewport" name="viewport" content="width=device-width">
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="/js/typed.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <script>
@@ -54,27 +58,6 @@ function menu() {
 	return false;
 }
 $(document).ready( function() {
-    /* $('#innerpage').draggable({ 
-        axis: 'x', 
-        revert: true,
-        revertDuration: 100,
-        axis: 'x',
-        drag: function (e, ui){
-            y2 = ui.position.top;
-            x2 = ui.position.left;
-            if(x2>150){prev();}
-                    if(x2<-150){next();}
-                   
-        },
-        start: function(e, ui) {
-            y1 = ui.position.top;
-            x1 = ui.position.left;
-            
-        },
-        stop: function(e, ui) {
-            
-        }        
-    }); */
     setInterval(function () {
         $("#loading span").toggle();
     },500);
@@ -83,9 +66,16 @@ $(document).ready( function() {
             endloading();
         }, 300)
     });
+
+    if($(window).width()>600) $(".element").typed({
+    	strings: ["Ik ben ^100Linux fan.^1000", "Ik ben ^200UX expert.^2000", "Ik ben ^200programmeur.^1000", "Ik ben ^200web developer."],
+        typeSpeed: 20
+    });
+
     $(window).resize();
 
     
+
 });
 
 $(document).keydown(function(e) {
@@ -142,9 +132,9 @@ $(window).resize( function() {
 </head>
 
 <body id="body">
-<div id="page" class="text">
-<div id="particles-js"></div>
+<div id="page" class="text contact">
 	<div id="innerpage" style="background-color: #ffffff;">
+	<div id="particles-js" style="z-index:0;"></div>
     <div id="border"></div>
 	
 		<table cellpadding="0" cellspacing="0"><tr><td><div id="content">
@@ -158,9 +148,9 @@ $(window).resize( function() {
 <h1>Contact.</h1>
 
 <div>
-<p>Wil je meer weten over het bouwen van een website of een webapplicatie? Schroom dan niet om contact op te nemen. Wij werken in een bedrijvenverzamelgebouw met allerlei leuke en creatieve ondernemers. Er is altijd tijd voor een kennismakingsgesprek. De koffie staat klaar. Ons bezoekadres is de Rapenburgerstraat 109, 1011VL in Amsterdam.</p>
+<p>Mijn kantoor zit op de Rapenburgerstraat 109, 1011VL in Amsterdam. Heb je een vraag, wil je een prijsschatting of juist een volledig uitgewerkte offerte? Twijfel niet. Neem gerust contact op en mail naar <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#106;&#111;&#111;&#115;&#116;&#064;&#117;&#115;&#101;&#099;&#117;&#101;&#046;&#099;&#111;&#109;">&#106;&#111;&#111;&#115;&#116;&#064;&#117;&#115;&#101;&#099;&#117;&#101;&#046;&#099;&#111;&#109;</a> of bel +31 (0)6 185 189 28.</p>
 
-<p>Heb je een korte vraag, wil je een prijsschatting of een volledige offerte? Ook dan kun je gerust contact opnemen. Mail naar joost@usecue.com of bel +31 (0)6 185 189 28. Hopelijk tot snel!</p>
+<p>Je kunt mij uiteraard ook online vinden op de diverse sociale media:</p>
 
 <p><a href="https://github.com/jhvanderschee">Github</a> - <a href="https://www.facebook.com/usecue">Facebook</a> - <a href="https://plus.google.com/101345401648717866709/about">Google Plus</a> - <a href="http://stackoverflow.com/users/2397550/joosts">Stack Overflow</a></p>
 
@@ -174,7 +164,7 @@ $(window).resize( function() {
 	
 	<div id="menu"><table cellpadding="0" cellspacing="0"><tr><td><div id="content">
 		    <a href="/">home.</a><br />
-		    <a href="/over-ons/">over ons.</a><br />
+		    <a href="/over-mij/">over mij.</a><br />
 		    <a href="/portfolio/">portfolio.</a><br />
 		    <a href="/blog/">blog.</a><br />
 		    <a href="/contact/">contact.</a><br />		
@@ -209,7 +199,7 @@ $(window).resize( function() {
   ga('send', 'pageview');
 
 </script>
-
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 </body>
 
