@@ -12,7 +12,6 @@
 {% endfor %}
 
 {% for item in sorted_pages %}
-{{ item.url }}
     {% if item.url == page.url %}
     	{% assign this_i = forloop.index0 %}
     	{% assign num_of_pages = forloop.length %}
