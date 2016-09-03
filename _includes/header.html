@@ -6,7 +6,7 @@
 
 {% assign sorted_pages = "" | split: ""  %}
 {% for item in sorted_pages2 %}
-	{% unless item.url == "/biggie-smalls.json" and unless item.url == "/404.html %}	
+	{% unless item.url == "/biggie-smalls.json" and item.url == "/404.html %}	
 		{% assign sorted_pages = sorted_pages | push: item %}
 	{% endunless %}	
 {% endfor %}
