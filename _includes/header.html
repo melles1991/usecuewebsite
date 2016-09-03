@@ -84,8 +84,9 @@ $(document).ready( function() {
     });
 
     if($(window).width()>600) $(".element").typed({
-    	strings: ["Ik ben ^100Linux fan.^1000", "Ik ben ^200UX expert.^2000", "Ik ben ^200programmeur.^1000", "Ik ben ^200web developer."],
-        typeSpeed: 20
+    	strings: ["Ik ben ^100Linux fan.^1000", "Ik ben ^200UX expert.^2000", "Ik ben ^200programmeur.^1000", "Ik ben ^200web developer.^500"],
+        typeSpeed: 20,
+        callback: function(){ $(".typed-cursor").css('visibility','hidden');}
     });
 
     $(window).resize();
