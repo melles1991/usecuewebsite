@@ -342,7 +342,7 @@ table table, table table td, table table tbody, table table tr {height: auto; di
 .home h1 {font-size: 62px; font-weight: 900; letter-spacing: 1px; line-height: 1em;}
 .home p {text-align: left;}
 #content {padding: 0 15px; display: block;}
-#content div {text-align: left;}
+#content div {text-align: left!important;}
 .showmobile {display: initial;}
 .showdesktop {display: none;}
 #title {
