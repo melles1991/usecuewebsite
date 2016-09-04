@@ -326,9 +326,7 @@ a {color: black;}
     max-width: 300px;
     margin-left: 0px;
   }
-  #title {position: relative;}
   table, td, #innerpage {min-height: 100vh;}
-
    #content {padding: 0 110px 0 120px;}
    .post #content > div > * {max-width: 100%;}
    #page.portfolio #innerpage table td #content {margin-right: 0px;}
@@ -336,6 +334,7 @@ a {color: black;}
 
 
 @media screen and (max-width: 600px) {
+
 #page.portfolio #innerpage table td #content h1,
 #page.portfolio #innerpage table td .col50 {max-width: 100%!important; width: 100%!important;}
 table table, table table td, table table tbody, table table tr {height: auto; display: block;}
@@ -346,7 +345,8 @@ table table, table table td, table table tbody, table table tr {height: auto; di
 .showmobile {display: initial;}
 .showdesktop {display: none;}
 #title {
-    -ms-transform: rotate(-0deg); /* IE 9 */
+  position: relative;
+  -ms-transform: rotate(-0deg); /* IE 9 */
     -webkit-transform: rotate(-0deg); /* Chrome, Safari, Opera */
     transform: rotate(-0deg);
     bottom: auto;
