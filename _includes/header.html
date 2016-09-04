@@ -151,7 +151,7 @@ $(window).resize( function() {
 </head>
 
 <body id="body">
-<div id="page" class="{{ page.layout }}">
+<div id="page" class="{{ page.layout }}" {% if page.url = '/404.html' %}style="-webkit-column-count: 1; -moz-column-count: 1; column-count: 1; text-align: center;"{% endif %}>
 	<div id="innerpage" style="background-color: {{ page.color }};">
 	<div id="particles-js" style="z-index:0;"></div>
     <div id="border"></div>
