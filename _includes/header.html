@@ -152,7 +152,7 @@ $(window).resize( function() {
 
 <body id="body">
 <div id="page" class="{{ page.layout }}" {% if page.url == '/404.html' %}style="-webkit-column-count: 1; -moz-column-count: 1; column-count: 1; text-align: center;"{% endif %}>
-	<div id="innerpage" style="background-color: {{ page.color }};">{{ page.url }}
+	<div id="innerpage" style="background-color: {{ page.color }};">
 	<div id="particles-js" style="z-index:0;"></div>
     <div id="border"></div>
 	{% if page.layout == 'portfolio' %}<div id="backgroundtriangle" style="background-image: url(//images.weserv.nl/?url=www.usecue.com{{ page.image }}&w=500&h=1000&t=squaredown);"><div id="triangle-topleft" style="border-top-color: {{ page.color }};"></div></div>{% endif %}
