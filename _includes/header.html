@@ -148,6 +148,7 @@ $(window).resize( function() {
         $('#title').css('margin-top','45px');
         var extramargin = $('body').height() - ($('#content').height()-35);
         if (extramargin>0) $('#title').css('margin-top',extramargin+'px');
+        else $('#title').css('margin-top','45px');
     }
     
 });
