@@ -371,7 +371,7 @@ table table, table table td, table table tbody, table table tr {height: auto; di
 .portfolio #innercontrols a:nth-child(3),
 .portfolio #innercontrols a:nth-child(4) {display: inline-block; position: relative; bottom: 3px;}
 #innercontrols a:nth-child(2) {position: absolute; z-index: 999;}
-table td {vertical-align: top; padding: 10px 0 27px 0;}
+table td {vertical-align: top; padding: 10px 0 19px 0;}
 #page #menu table td {vertical-align: middle;}
 h1 {text-align: left;}
 .blog h1:after, .post h1:after, .text h1:after {margin-left: 0;}
