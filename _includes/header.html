@@ -147,7 +147,7 @@ $(window).resize( function() {
     if($(window).width()<600) {
         $('#title').css('margin-top','45px');
         var extramargin = $('body').height() - ($('#content').height()-28);
-        if (extramargin>0) $('#title').css('margin-top',extramargin+'px');
+        if (extramargin>45) $('#title').css('margin-top',extramargin+'px');
         else $('#title').css('margin-top','45px');
     }
     
