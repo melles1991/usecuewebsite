@@ -44,7 +44,7 @@ function next() {
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
 		document.location.href='{% if num_of_pages > next_i %}{{ sorted_pages[next_i].url }}{% else %}{{ sorted_pages[0].url }}{% endif %}';
-	}, 500);
+	}, 300);
 	return false;
 }
 function prev() {
@@ -57,7 +57,7 @@ function prev() {
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
 		document.location.href='{% if prev_i < 0 %}{{ sorted_pages[last_i].url }}{% else %}{{ sorted_pages[prev_i].url }}{% endif %}';
-	}, 500);
+	}, 300);
 	return false;
 }
 var timeout;
