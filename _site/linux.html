@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Jekyll against the rest of the world | Usecue web development</title>
+<title>usecue web development | Usecue web development</title>
 <meta charset="utf-8" /> 
 <link rel="shortcut icon" type="image/png" href="/img/icon-196x196.png" />
 <link rel="shortcut icon" sizes="196x196" href="/img/icon-196x196.png" />
@@ -27,7 +27,7 @@ function next() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
-		document.location.href='/2016/08/07/hover-is-dead.html';
+		document.location.href='/over-mij/';
 	}, 350);
 	return false;
 }
@@ -40,7 +40,7 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='/2015/04/09/usecues-also-known-as-affordances.html';
+		document.location.href='/firefox.html';
 	}, 350);
 	return false;
 }
@@ -69,11 +69,19 @@ $(document).ready( function() {
     });
 
     
+    if($(window).width()>600) $(".element").typed({
+    	strings: ["Ik ben ^100Linux fan.^1000", "Ik ben ^200UX expert.^2000", "Ik ben ^200programmeur.^1000", "Ik ben ^200web developer.^500"],
+        typeSpeed: 20,
+        callback: function(){ $(".typed-cursor").css('visibility','hidden');}
+    });
+    
     
 
     $(window).resize();
 
     
+particlesJS("particles-js", {"particles":{"number":{"value":400,"density":{"enable":true,"value_area":800}},"color":{"value":"#fff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":10,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":500,"color":"#ffffff","opacity":0.4,"width":2},"move":{"enable":true,"speed":6,"direction":"bottom","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"bubble"},"onclick":{"enable":false,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":0.5}},"bubble":{"distance":400,"size":4,"duration":0.3,"opacity":1,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+	
 
 });
 
@@ -137,8 +145,8 @@ $(window).resize( function() {
 </head>
 
 <body id="body">
-<div id="page" class="post">
-	<div id="innerpage" style="background-color: ;">
+<div id="page" class="home">
+	<div id="innerpage" style="background-color: #ffffff;">
 	<div id="particles-js" style="z-index:0;"></div>
     <div id="border"></div>
 	
@@ -150,23 +158,10 @@ $(window).resize( function() {
         <a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
     </div>
 
-<h3>17.08.2016</h3>
-<h1>Jekyll against the rest of the world</h1>
+<h1><span class="element">Ik ben web developer.</span></h1>
 
-<div>
-<p>I’m stood in the center of a room, confident my choice to go all static had been a good one. It’s a serene scene—nothing can touch me.</p>
+<p>Ik maak elegante, zelfgeprogrammeerde websites voor mijn klanten. <a href="/over-mij">Meer weten?</a></p>
 
-<p>There are website owners running around wildly, chasing WordPress security vulnerabilities, while at the same time trying to plug holes, which the dubious free plug-ins they downloaded had ripped into their sites.</p>
-
-<p>I see a man standing at the window, bashing his head against it in a slow rhythmic pace. It’s not a medical condition. He’s simply repeating the rate at which his PHP-based, database-driven publishing solution, accepts new requests.</p>
-
-<p>From the corner of my eye I can make out a woman who was frantically flailing her arms about. She was trying to get into the room. Unfortunately, no one would let her in; her website had been infected with malware and whenever someone tried to visit it, there was a warning, urging users to run away as fast as they could.</p>
-
-<p>Static publishing, oh blissful serenity. Why do I like you so much?</p>
-
-<p><a href="http://tobyx.com/2015/jekyll-vs-world">Read more…</a></p>
-
-</div>
 
 
 
@@ -182,7 +177,7 @@ $(window).resize( function() {
 		    <a href="/contact/">contact.</a><br />		
 	</div></td></tr></table></div>
 </div>
-<div id="controls" class="showdesktop post">
+<div id="controls" class="showdesktop home">
 	<div id="innercontrols">
 		<a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
 		<a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>

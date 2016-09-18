@@ -28,7 +28,7 @@ function next() {
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
 		document.location.href='/portfolio/';
-	}, 900);
+	}, 350);
 	return false;
 }
 function prev() {
@@ -40,8 +40,8 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='/';
-	}, 900);
+		document.location.href='/linux.html';
+	}, 350);
 	return false;
 }
 var timeout;
@@ -58,6 +58,7 @@ function menu() {
 	return false;
 }
 $(document).ready( function() {
+    $("#page").addClass("loaded");
     setInterval(function () {
         $("#loading span").toggle();
     },500);
@@ -67,11 +68,8 @@ $(document).ready( function() {
         }, 300)
     });
 
-    if($(window).width()>600) $(".element").typed({
-    	strings: ["Ik ben ^100Linux fan.^1000", "Ik ben ^200UX expert.^2000", "Ik ben ^200programmeur.^1000", "Ik ben ^200web developer.^500"],
-        typeSpeed: 20,
-        callback: function(){ $(".typed-cursor").css('visibility','hidden');}
-    });
+    
+    
 
     $(window).resize();
 
@@ -126,14 +124,20 @@ $(window).resize( function() {
     else { 
       document.getElementById("viewport").setAttribute("content", "width=device-width");
     }
-
+    if($(window).width()<600) {
+        $('#title').css('margin-top','45px');
+        var extramargin = $('body').height() - ($('#content').height()-35);
+        if (extramargin>45) $('#title').css('margin-top',extramargin+'px');
+        else $('#title').css('margin-top','45px');
+    }
+    
 });
 
 </script>
 </head>
 
 <body id="body">
-<div id="page" class="text over-mij">
+<div id="page" class="text">
 	<div id="innerpage" style="background-color: #ffffff;">
 	<div id="particles-js" style="z-index:0;"></div>
     <div id="border"></div>
@@ -148,7 +152,7 @@ $(window).resize( function() {
 
 <h1>Over mij.</h1>
 
-<div>
+<div >
 <p>Mijn naam is Joost van der Schee. In 2007 heb ik Usecue BV opgericht. Samen met mijn collega’s en klanten ontwikkel ik websites en webapplicaties, waarbij de focus ligt op efficiëntie en kwaliteit in het ontwerp- en ontwikkelproces. Usecue is gespecialiseerd in het bouwen van maatwerkoplossingen en werkt voornamelijk voor reclamebureau’s en grafisch vormgevers.</p>
 
 <p>Ik heb industrieel ontwerpen gestudeerd aan de TUDelft en heb daarom een analytische kijk op het ontwerpproces en de mens-computer interactie.</p>

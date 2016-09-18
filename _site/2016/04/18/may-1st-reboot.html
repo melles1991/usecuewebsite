@@ -28,7 +28,7 @@ function next() {
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
 		document.location.href='/2016/01/04/no-javascript-please.html';
-	}, 900);
+	}, 350);
 	return false;
 }
 function prev() {
@@ -41,7 +41,7 @@ function prev() {
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
 		document.location.href='/2016/04/21/two-viewports-to-rule-them-all.html';
-	}, 900);
+	}, 350);
 	return false;
 }
 var timeout;
@@ -58,6 +58,7 @@ function menu() {
 	return false;
 }
 $(document).ready( function() {
+    $("#page").addClass("loaded");
     setInterval(function () {
         $("#loading span").toggle();
     },500);
@@ -67,11 +68,8 @@ $(document).ready( function() {
         }, 300)
     });
 
-    if($(window).width()>600) $(".element").typed({
-    	strings: ["Ik ben ^100Linux fan.^1000", "Ik ben ^200UX expert.^2000", "Ik ben ^200programmeur.^1000", "Ik ben ^200web developer.^500"],
-        typeSpeed: 20,
-        callback: function(){ $(".typed-cursor").css('visibility','hidden');}
-    });
+    
+    
 
     $(window).resize();
 
@@ -126,14 +124,20 @@ $(window).resize( function() {
     else { 
       document.getElementById("viewport").setAttribute("content", "width=device-width");
     }
-
+    if($(window).width()<600) {
+        $('#title').css('margin-top','45px');
+        var extramargin = $('body').height() - ($('#content').height()-35);
+        if (extramargin>45) $('#title').css('margin-top',extramargin+'px');
+        else $('#title').css('margin-top','45px');
+    }
+    
 });
 
 </script>
 </head>
 
 <body id="body">
-<div id="page" class="post 20160418may-1st-reboot.html">
+<div id="page" class="post">
 	<div id="innerpage" style="background-color: ;">
 	<div id="particles-js" style="z-index:0;"></div>
     <div id="border"></div>

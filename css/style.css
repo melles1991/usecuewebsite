@@ -23,7 +23,8 @@ body #menu, #innerpage {
     transition: opacity 0.4s ease, left 0s ease;
 }
 
-body .home #particles-js {background: url('../img/penguin.png') 90% center !important; background-size: cover!important;}
+body [class^='home'] #particles-js {background: url('../img/penguin.png') 90% center !important; background-size: cover!important;}
+body .home2 #particles-js {background: url('../img/fox.jpg') 40% center !important; background-size: cover!important;}
 
 body.menu #menu {opacity: 1;}
 body #menu #content {text-align: center;}
@@ -34,7 +35,7 @@ body #menu #content a {color: white; text-decoration: none;}
 }
 .post #innerpage table td,
 .blog #innerpage table td {background: white;}
-.home p {text-align: center; font-size: 19px; line-height: 1.5em; font-weight: 300;}
+[class^='home'] p {text-align: center; font-size: 19px; line-height: 1.5em; font-weight: 300;}
 #page {height: 100%; opacity: 0;
     -webkit-transition: opacity 0.4s ease;                  
     -moz-transition: opacity 0.4s ease;                 
@@ -145,12 +146,14 @@ table, td {width: 100%; height: 100%;
 #page.post #innerpage,
 #page.blog #innerpage,
 #page.text #innerpage,
-#page.home #innerpage {color: black;}
+#page[class^='home'] #innerpage {color: black;}
+#page.home2 #innerpage,
+#page.home2 #innerpage a {color: white;}
 #content {display: block; margin: 0 auto; text-align: left; max-width: 1050px; padding: 0 100px 0 100px;}
 h1 {text-align: center; font-weight: 900; font-size: 62px; line-height: 1em; padding-bottom: 20px; text-transform: lowercase;}
 h3 {text-align: left; padding-bottom: 10px; line-height: 1.5em;}
 h2 {font-size: 110%; line-height: 1.5em; margin-top: 2em!important;}
-.home h1 {text-transform: none; font-size: 82px; margin-bottom: 2px; line-height: 1em;}
+[class^='home'] h1 {text-transform: none; font-size: 82px; margin-bottom: 2px; line-height: 1em;}
 .blog h1:after,
 .post h1:after,
 .text h1:after {display: block; content: ""; width: 40px; height: 3px; background: black; margin: 25px auto 10px; }
@@ -207,7 +210,9 @@ p {margin-bottom: 1.5em;}
 .menu #innercontrols a#openmenu {display: none;}
 
 img.white {display: none;}
+.home2 img.white,
 .portfolio img.white {display: inline;}
+.home2 img.black,
 .portfolio img.black {display: none;}
 body.menu img.white {display: inline;}
 body.menu img.black {display: none;}
@@ -232,6 +237,7 @@ body.menu img.black {display: none;}
     font-size: 23px!important;
 }
 #title span {font-weight: 300; font-size: 22px;}
+.home2 #title,
 .portfolio #title {color: white;}
 body.menu #title {color: white;}
 #pagenumber {display: none; position: absolute; bottom: 40px;}
@@ -248,7 +254,7 @@ a {color: black;}
     pointer-events: none;
     position:absolute; top: 0; left: 0; 
     width: 100%; 
-    height: calc(100% - 4px);
+    height: 100%;
     background-color: transparent; 
     background-image: url(""); background-repeat: no-repeat; background-size: cover; 
     background-position: 50% 50%;
@@ -347,8 +353,8 @@ a {color: black;}
 #page.portfolio #innerpage table td #content h1,
 #page.portfolio #innerpage table td .col50 {max-width: 100%!important; width: 100%!important;}
 table table, table table td, table table tbody, table table tr {height: auto; display: block;}
-.home h1 {font-size: 62px; font-weight: 900; letter-spacing: 1px; line-height: 1em;}
-.home p {text-align: left;}
+[class^='home'] h1 {font-size: 62px; font-weight: 900; letter-spacing: 1px; line-height: 1em;}
+[class^='home'] p {text-align: left;}
 #content {padding: 0 15px; display: block;}
 #content > div {text-align: left!important;}
 .showmobile {display: initial;}
@@ -373,6 +379,8 @@ table table, table table td, table table tbody, table table tr {height: auto; di
     display: block;
 }
 .post #innercontrols {padding-bottom: 20px;}
+.home2 img.white {display: none;}
+.home2 img.black {display: inline;}
 #innercontrols a#openmenu, 
 #innercontrols a {display: inline-block; margin-right: 20px!important;}
 #innercontrols a:nth-child(3),
@@ -384,10 +392,10 @@ table td {vertical-align: top; padding: 10px 0 20px 0;}
 #page #menu table td {vertical-align: middle;}
 h1 {text-align: left;}
 .blog h1:after, .post h1:after, .text h1:after {margin-left: 0;}
-body .home #innerpage {background: white!important;}
-.home h1:after {display: block; content: ""; width: 40px; height: 3px; background: black; margin: 25px 0 10px;}
+body [class^='home'] #innerpage {background: white!important; color: black!important;}
+[class^='home'] h1:after {display: block; content: ""; width: 40px; height: 3px; background: black; margin: 25px 0 10px;}
 #particles-js{ display: none;}
-.home p {
+[class^='home'] p {
     font-size: 15px;
     line-height: 1.6em;
     font-weight: 300;
