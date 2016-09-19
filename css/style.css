@@ -23,8 +23,8 @@ body #menu, #innerpage {
     transition: opacity 0.4s ease, left 0s ease;
 }
 
-body [class^='home'] #particles-js {background: url('../img/penguin.png') 90% center !important; background-size: cover!important;}
-body .home2 #particles-js {background: url('../img/fox.jpg') 40% center !important; background-size: cover!important;}
+body [class^='home'] #particles-js {background: url('../img/penguin.png') 90% center !important; background-size: cover!important; height: calc(100% - 4px);}
+body .home2 #particles-js {background: url('../img/fox2.jpg') 40% center !important; background-size: cover!important; height: 100%;}
 
 body.menu #menu {opacity: 1;}
 body #menu #content {text-align: center;}
@@ -33,6 +33,8 @@ body #menu #content a {color: white; text-decoration: none;}
     padding: 40px 0 40px 0; vertical-align: middle;
     text-align: center;
 }
+
+
 .post #innerpage table td,
 .blog #innerpage table td {background: white;}
 [class^='home'] p {text-align: center; font-size: 19px; line-height: 1.5em; font-weight: 300;}
