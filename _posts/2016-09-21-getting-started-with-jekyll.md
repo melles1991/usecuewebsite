@@ -9,4 +9,4 @@ What is Jekyll? Jekyll is the most popular static site generator available. A lo
 
 Why should you use Jekyll/a static site generator? Static sites are quick to develop, simple to adjust, hosting is cheaper and they can be easily optimized for SEO and speed. As a bonus, static websites are extremely stable and they can handle a huge amount of visitors.
 
-So do you want a next-generation website? Get to know Jekyll and follow the&nbsp;[Geting Started](http://jekyllcodex.org/getting-started/)&nbsp;guide! Your first Jekyll site is only minutes away!
+So do you want a next-generation website? Follow the&nbsp;[Geting Started manual for Jekyll](http://jekyllcodex.org/getting-started/)! Your first Jekyll site is only minutes away!
