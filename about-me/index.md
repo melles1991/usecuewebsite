@@ -15,4 +15,4 @@ I have studied Industrial Design Engeneering at the Technical University in Delf
 
 I am a big fan of CloudCannon, an online CMS system for Jekyll. CloudCannon recently mentioned me on their 'featured developers page'. I love to do things thoroughly. Going slow is not really my style. Apart from CloudCannon websites I also develop WordPress, Issuu, MailChimp and Shopify solutions. Finally, I have also build my own platform for producing online magazines, called 'without coding'.
 
-Gotten curious? Do you want quality for a decent price? Please&nbsp;[contact](/contact)&nbsp;me! I would love to get to know you and hear about your project.
+Interested? Do you want quality for a decent price? Please&nbsp;[contact](/contact)&nbsp;me! I would love to get to know you and hear about your project.
