@@ -9,4 +9,4 @@ order: 4
 ---
 
 
-For the 'Reclamefabriek' I have transferred their WordPress website to Jekyll. At the same time I optimized the site, making it a factor 10 quicker to load. This has been done by reducing the amount of requests, splitting pages and optimizing files and images.
+For the 'Reclamefabriek' I transferred their WordPress site to Jekyll. At the same time I optimized it, making it a factor 10 quicker to load. This has been done by reducing the amount of requests, splitting pages and optimizing files and images.
