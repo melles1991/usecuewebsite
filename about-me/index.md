@@ -1,5 +1,5 @@
 ---
-title: Over mij.
+title: About me.
 subtitle:
 layout: text
 image:
@@ -9,10 +9,10 @@ order: 2
 ---
 
 
-Mijn naam is Joost van der Schee. In 2007 heb ik Usecue BV opgericht. Samen met mijn collega's en klanten ontwikkel ik websites en webapplicaties, waarbij de focus ligt op effici&euml;ntie en kwaliteit in het ontwerp- en ontwikkelproces. Usecue is gespecialiseerd in het bouwen van maatwerkoplossingen en werkt voornamelijk voor reclamebureau's en grafisch vormgevers. 
+I am Joost van der Schee and I have founded Usecue BV (LLC) in 2007. I develop websites and web applications, together with my colleagues and clients. My focus lies on efficiency and quality in the design and development process. Usecue specializes in building custom solutions and mainly works for advertising agencies and graphical designers.
 
-Ik heb industrieel ontwerpen gestudeerd aan de TUDelft en heb daarom een analytische kijk op het ontwerpproces en de mens-computer interactie.
+I studies Industrial Design Engeneering at the Technical University in Delft. Therefore, I have an analytical view of design processes and human-computer interaction.
 
-Ik ben Linux fan, maar ben ik ook groot fan van CloudCannon, een online CMS systeem. CloudCannon heeft mij onlangs 'featured developer' gemaakt. Dingen half doen is namelijk niet echt mijn stijl. Naast CloudCannon websites ontwikkel ik o.a. WordPress-, Issuu-, MailChimp- en Shopify oplossingen. Tenslotte heb ik ook een eigen platform ontwikkeld voor het produceren van online magazines, genaamd 'without coding'. 
+I am a Linux fan and big fan of CloudCannon, an online CMS system for Jekyll. CloudCannon recently promoted me as 'featured developer'. Dingen half doen is namelijk niet echt mijn stijl. Naast CloudCannon websites ontwikkel ik o.a. WordPress-, Issuu-, MailChimp- en Shopify oplossingen. Tenslotte heb ik ook een eigen platform ontwikkeld voor het produceren van online magazines, genaamd 'without coding'.
 
 Ben je nieuwsgierig geworden? Wil jij kwaliteit en een scherpe prijs? Neem dan [contact](/contact) op! Ik vertel je graag wat ik voor je kan betekenen.
