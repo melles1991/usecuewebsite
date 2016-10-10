@@ -9,4 +9,4 @@ order: 4
 ---
 
 
-Dit is een website voor Dirk Ihmer, die velgen restaureert 'als nieuw' door ze te schuren, poedercoaten en af te werken. De site is minder dan 1 MB groot en heeft een mooie subtiele Ken Burns slider. Voor de techniek is gekozen voor Jekyll i.c.m. het CMS van CloudCannon.
+This is a website for Dirk Ihmer, who restores rims 'as new' by sanding them down, coating them and finishing them. The website is less than 1 MB in size and has a beautiful subtle Ken Burns slider. This site is powered by Jekyll in combination with the CloudCannon CMS.
