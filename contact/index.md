@@ -8,7 +8,8 @@ color: '#ffffff'
 order: 22
 ---
 
-My office is located on the Rapenburgerstraat 109, 1011VL in Amsterdam (The Netherlands). Have you got a question, or do you need a quote or a fully specified offer? Feel free to contact me by sending an email to [joost@usecue.com](mailto:joost@usecue.com) or call +31 (0)6 185 189 28.
+
+My office is located on the Rapenburgerstraat 109, 1011VL in Amsterdam (the Netherlands). Have you got a question, or do you need a quote or a fully specified offer? Feel free to contact me by sending an email to [joost@usecue.com](mailto:joost@usecue.com) or call +31 (0)6 185 189 28.
 
 I am also present on several social media:
 
