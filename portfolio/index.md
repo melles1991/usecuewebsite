@@ -8,4 +8,4 @@ order: 3
 ---
 
 
-De nieuwe website van dit bedrijf is sterk door zijn eenvoud. De site is uiteraard responsive en heeft een simpele consequent doorgevoerde vormgeving. Voor de techniek is gekozen voor Jekyll i.c.m. het CMS van CloudCannon.
+The new website of this company is 'less and more'. The site is responsive and has a simple yet consistent design. The site is powered by Jekyll in combination with the CloudCannon CMS.
