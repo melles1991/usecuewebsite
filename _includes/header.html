@@ -86,14 +86,14 @@ $(document).ready( function() {
 
     {% if page.layout == 'home' %}
     if($(window).width()>600) $(".element").typed({
-    	strings: ["I am^100 a Linux fan.^1000", "I am^200 an UX expert.^2000", "I am a programmer.^1000", "I am a web developer.^500"],
+    	strings: ["I am^100 a Linux fan.^1000", "I am an ^200UX expert.^2000", "I am a programmer.^1000", "I am a web developer.^500"],
         typeSpeed: 20,
         callback: function(){ $(".typed-cursor").css('visibility','hidden');}
     });
     {% endif %}
     {% if page.layout == 'home2' %}
     if($(window).width()>600) $(".element").typed({
-    	strings: ["I am^100 a Firefox fan.^1000", "I am^200 an UX expert.^2000", "I am a programmer.^1000", "I am a web developer.^500"],
+    	strings: ["I am^100 a Firefox fan.^1000", "I am an ^200UX expert.^2000", "I am a programmer.^1000", "I am a web developer.^500"],
         typeSpeed: 20,
         callback: function(){ $(".typed-cursor").css('visibility','hidden');}
     });
