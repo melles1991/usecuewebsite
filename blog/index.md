@@ -7,4 +7,4 @@ order: 22
 ---
 
 
-Dit blog beschrijft mijn technische bevindingen, nieuwtjes en meningen over web development. Het gaat vaak om een 'best-practise' of ontdekking die ik de moeite van het delen waard vind.
+In this blog I write about technical innovations, news items and opinions in web development. It can be a 'best-practise' or a personal discovery I think is worth sharing.
