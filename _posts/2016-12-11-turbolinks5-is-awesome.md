@@ -3,7 +3,7 @@ title: Turbolinks5 is awesome
 ---
 
 
-I have the strong conviction that I will not build the same interface twice. Therefore I always chose to develop for the web ONLY (and not for native). I have seen 'native applications' as an old-fashioned concept from the start. Installing software was a thing of the past, in my opinion.
+I have the strong conviction that I will not build the same interface twice. Therefore I always chose to develop for the web ONLY (and not for native). I have seen 'native applications' as an old-fashioned concept from the start. Installing software is a thing of the past, in my opinion.
 
 So if you know Turbolinks, you understand why I got enthousiastic. If you don't, let me explain… Turbolinks enabels you to re-use all screens from your webapplication in your native app. You simple load a 'web view' (which basically is a browser) with Turbolinks enabled and it becomes a single page application.
 
