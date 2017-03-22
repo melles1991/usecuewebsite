@@ -3,7 +3,7 @@ title: Smashing new technology
 ---
 
 
-Today marks an important milestone. Over the last 18 months the people from Smashing Magazine have been working together with the Netlify team on a complete overhaul of there website, both technical and visual.
+Today marks an important milestone. Over the last 18 months the people from Smashing Magazine have been working together with the Netlify team on a complete overhaul of there website, both technical and visual... and they are [almost ready to launch](https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/).
 
 What’s different? Well, everything.
 
@@ -17,6 +17,6 @@ Quite simple, actually. Content is stored in Markdown files. HTML is pre-baked u
 
 Impressive!
 
-Sure... but Smashing Magazine is a big player with lots of money to spent. They can pull of everything. But what if I told you that you could have a static website too? And that the cost would be even lower than a regular WordPress website? I know... you would not believe me.
+Sure… but Smashing Magazine is a big player with lots of money to spent. They can pull of everything. But what if I told you that you could have a static website too? And that the cost would be even lower than a regular WordPress website? I know… you would not believe me.
 
 Want to know more? [Just ask!](/contact/)
