@@ -1,0 +1,3 @@
+---
+title: Smashing new technology
+---
