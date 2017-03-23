@@ -16,4 +16,4 @@ They now use static HTML with advanced JavaScript APIs, running as a progressive
 **Impressive!**
 <br>Sure… but Smashing Magazine is a big player. They can pull off everything. But what if I told you that your website could use this blazingly fast new technology too? And that the cost would be even lower than a regular WordPress website?
 
-Want to know more? [Just ask!](/contact/)
+Want to know more? [I would love to talk to you!](/contact/)
