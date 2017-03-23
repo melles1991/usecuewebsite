@@ -14,6 +14,6 @@ They now use static HTML with advanced JavaScript APIs, running as a progressive
 <br>Quite simple, actually. Content is stored in Markdown files. HTML is pre-baked using the static site generator, combined with a modern asset pipeline built with Gulp and webpack. They have spiced it all up with a handful of fancy APIs, including ones by Stripe for payments, Algolia for search, Cloudinary for responsive images, and Netlify’s open-source APIs GoCommerce (a headless e-commerce API), GoTrue for authentication, and GoTell for our more than 150,000 comments.
 
 **Impressive!**
-<br>Sure… but Smashing Magazine is a big player. They can pull of everything. But what if I told you that your website could use this blazingly fast new technology too? And that the cost would be even lower than a regular WordPress website?
+<br>Sure… but Smashing Magazine is a big player. They can pull off everything. But what if I told you that your website could use this blazingly fast new technology too? And that the cost would be even lower than a regular WordPress website?
 
 Want to know more? [Just ask!](/contact/)
