@@ -17,4 +17,4 @@ SSL or Secure Socket Layer is better known as the S in HTTPS. It stands for an e
 ![](/uploads/versions/secure2---x----565-116x---.png)
 
 **So… you want SSL?**
-<br>If you are a hosting client of Usecue BV, than you are in luck! We will give you a free upgrade on your current billing period. After that you will only pay 60 euro per year extra for SSL on our already very low hosting prices. Just send an email to finance@usecue.com and with the code INEEDSSL and tell us which website you want to upgrade to SSL.
+<br>If you are a hosting client of Usecue BV, than you are in luck! We will give you a free upgrade on your current billing period. After that you will only pay 60 euro per year extra for SSL (per domain name) on our already very low hosting prices. Just send an email to finance@usecue.com and with the code INEEDSSL and tell us which website you want to upgrade to SSL.
