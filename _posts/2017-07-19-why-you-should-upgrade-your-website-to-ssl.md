@@ -12,7 +12,7 @@ SSL or Secure Socket Layer is better known as the S in HTTPS. It stands for an e
 <br>Google will rank websites with SSL higher then website without SSL. This is Googles way of promoting a safer internet.
 
 **3. Authenticity**
-<br>Give clients and extra reason to trust your company by having that green icon and the word 'Secure' before your domain name.
+<br>Give clients and extra reason to trust your company by having that green icon and the word 'Secure' before your domain name. In the near future [Google will shame you](https://blog.chromium.org/2017/04/next-steps-toward-more-connection.html), by showing 'Not Secure' on non-SSL pages in Chrome.
 
 ![](/uploads/versions/secure2---x----565-116x---.png)
 
