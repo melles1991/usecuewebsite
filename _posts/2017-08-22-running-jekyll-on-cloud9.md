@@ -5,7 +5,7 @@ title: Running Jekyll on Cloud9
 
 If you start with Jekyll and not run Linux as an operating system you might have some difficulties setting things up. If everything else fails (or you want a quick solution) you can try Cloud9.
 
-Cloud9 offers a full development environment in the cloud (running Linux). Their IDE is also quite good and their environments are also very useful for collaboration. Setting up Git is really simple (using the 'git clone' command). With Cloud9 you will be able to work from any computer with a browser, without installing anything.
+Cloud9 offers a full development environment in the cloud (running Linux). Their IDE is also quite good and their environments are also very useful for collaboration. Setting up Git is really simple, using the 'git clone' command from the Cloud9 command line. With Cloud9 you will be able to work from any computer with a browser, without installing anything.
 
 Here is how it works:
 
