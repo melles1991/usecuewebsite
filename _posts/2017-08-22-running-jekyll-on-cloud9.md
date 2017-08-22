@@ -14,16 +14,7 @@ Here is how it works:
 3. type on the command line: gem install jekyll
 4. create an empty _config.yml file in the root
 5. create a index.md file in the root
-6. type on the command line: jekyll serve --host $IP --port $PORT --baseurl ''
+6. type on the command line: jekyll serve –host $IP –port $PORT –baseurl ''
 7. your website is now running 'locally' on Cloud9
-
-The content of your index.md file:
-
-~~~
----
-title: Home
----
-Hello world!
-~~~
 
 With Cloud9 you can develop on Linux and feel like a pro. Try it! You will love it.
