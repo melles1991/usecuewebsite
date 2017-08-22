@@ -9,7 +9,7 @@ Cloud9 offers a full development environment in the cloud (running Linux). Their
 
 Here is how it works:
 
-1. create a free account on Cloud9 (https://c9.io)
+1. create a free account on Cloud9
 2. create an empty project (Ubuntu) and follow these steps:
 3. type on the command line: gem install jekyll
 4. create an empty _config.yml file in the root
