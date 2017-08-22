@@ -17,4 +17,4 @@ Here is how it works:
 6. type on the command line: jekyll serve –host $IP –port $PORT –baseurl ''
 7. your website is now running 'locally' on Cloud9
 
-With Cloud9 you can create Jekyll websites on Linux and feel like a pro. Try it!&nbsp; You will love it.
+With Cloud9 you can create Jekyll websites on Linux and feel like a pro. Try it! You will love it.
