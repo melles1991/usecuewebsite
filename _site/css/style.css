@@ -371,7 +371,7 @@ table table, table table td, table table tbody, table table tr {height: auto; di
     margin-left: 0;
     margin-top: 45px;
     display: block!important;
-    color: black
+    color: black;
 }
 #title.showdesktop {display: none;}
 #innercontrols {
