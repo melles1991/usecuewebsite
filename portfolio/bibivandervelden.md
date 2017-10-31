@@ -3,10 +3,10 @@ title: bibi.
 layout: portfolio
 image: /uploads/homepage_hero_image4.jpg
 color: '#746d61'
-address: 'http://bibivandervelden.com'
+address: 'https://bibivandervelden.com'
 mobile: 450
 order: 4
 ---
 
 
-Usecue ontwikkelde een Shopify winkel voor Bibi van der Velden (high-end sieraden). Het thema is gebaseerd op het Pipeline thema, maar volledig op maat gemaakt. Daarbij is alle functionaliteit uit het Pipeline thema behouden.
+Usecue developed a Shopify store for Bibi van der Velden (high-end jewelry). The theme is based on the Pipeline theme, but is fully customized for Bibi. While doing so, all functionality from the Pipeline theme has been preserved.

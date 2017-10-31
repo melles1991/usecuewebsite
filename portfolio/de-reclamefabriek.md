@@ -1,12 +1,12 @@
 ---
-title: reclame die werkt.
+title: advertising that works.
 layout: portfolio
 image: /uploads/clouds.jpg
 color: '#008fc5'
-address: 'http://www.de-reclamefabriek.nl/#overons'
+address: '//tangerine-mushroom.cloudvent.net/#overons'
 mobile: 450
 order: 4
 ---
 
 
-Voor de reclamefabriek hebben we de website omgebouwd van WordPress naar Jekyll. Tegelijkertijd hebben we de site een factor 10 keer zo snel gemaakt. Dit is gedaan door het aantal requests te verminderen, pagina's op te delen en files en afbeelding te optimaliseren.
+For the 'Reclamefabriek' I transferred their WordPress site to Jekyll. At the same time I optimized it, making it a factor 10 quicker to load. This has been done by reducing the amount of requests, splitting pages and optimizing files and images.

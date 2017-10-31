@@ -8,6 +8,6 @@ order: 1
 ---
 
 
-<h1><span class="element">Ik ben web developer.</span></h1>
+<h1><span class="element">I am a web developer.</span></h1>
 
-Ik maak elegante, zelfgeprogrammeerde websites voor mijn klanten. [Meer weten?](/over-mij)
+I create elegant, hand-coded websites and web applications for my clients. [Interested?](/about-me)
