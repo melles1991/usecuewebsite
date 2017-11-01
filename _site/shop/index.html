@@ -5,19 +5,24 @@
 
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>May 1st Reboot | Usecue web development</title>
+<title>Shop | Usecue web development</title>
 <meta charset="utf-8" /> 
 <link rel="shortcut icon" type="image/png" href="/img/icon-196x196.png" />
 <link rel="shortcut icon" sizes="196x196" href="/img/icon-196x196.png" />
 <link rel="apple-touch-icon" href="/img/icon-196x196.png" />
 <meta id="viewport" name="viewport" content="width=device-width">
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="//code.jquery.com/jquery-1.7.2.min.js"></script>
 <script src="/js/typed.js"></script>
-<link rel="stylesheet" type="text/css" href="/css/style.css">
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <script>
+
+if (location.protocol != 'https:') {
+ location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+}
+
 function next() {
 	if(document.getElementById('body').className == 'menu') {
 		document.getElementById('body').className = '';
@@ -27,7 +32,7 @@ function next() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'next'; 
 	setTimeout(function(){
-		document.location.href='/2016/01/04/no-javascript-please.html';
+		document.location.href='/firefox.html';
 	}, 350);
 	return false;
 }
@@ -40,7 +45,7 @@ function prev() {
 	document.getElementById('controls').style.display = 'none'; 
 	document.getElementById('innerpage').className = 'prev'; 
 	setTimeout(function(){
-		document.location.href='/2016/04/21/two-viewports-to-rule-them-all.html';
+		document.location.href='/contact/';
 	}, 350);
 	return false;
 }
@@ -68,6 +73,7 @@ $(document).ready( function() {
         }, 300)
     });
 
+    
     
     
 
@@ -137,7 +143,7 @@ $(window).resize( function() {
 </head>
 
 <body id="body">
-<div id="page" class="post">
+<div id="page" class="shop">
 	<div id="innerpage" style="background-color: ;">
 	<div id="particles-js" style="z-index:0;"></div>
     <div id="border"></div>
@@ -147,29 +153,19 @@ $(window).resize( function() {
         <a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
         <a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
         
-        <a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
-        <a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
-        
     </div>
 
-<h3>18.04.2016</h3>
-<h1>May 1st Reboot</h1>
-
+<h1>Shop</h1>
 <div>
-<p>“Every year, on May 1st something magical happens. Thousands of designers relaunch or update their website at the same time. One global deadline for all of us, one we can stick to.”</p>
+<p>testshop</p>
 
-<p>Ik lever elke maand wel 1 of 2 websites op aan klanten. Aan mijn eigen website kom ik echter nooit toe. Tot nu dan. Duizenden nieuwe websites, allemaal gelanceerd op dezelfde dag! Dat is toch fantastisch? En precies het zetje dat ik nodig had. Ik heb nog 12 dagen en er is veel werk aan de winkel. </p>
-
-<p>Wat ik allemaal wil veranderen? Allereerst gaat het ontwerp op de schop. Het wordt een soort magazine-achtige website waar je lineair doorheen kunt scrollen. Daarnaast zal de site zal niet langer in het Engels zijn. Ik had om SEO redenen al een parallelle website opgezet voor mijn Nederlandse artikelen, maar deze twee sites zullen nu volledig worden samengevoegd. Tenslotte wordt de techniek omgegooid. Van WordPress stap ik nu over naar Jekyll. Jekyll is een static site generator, waarbij ik gebruik kan maken van het online CloudCannon als CMS.</p>
-
-<p><strong>UPDATE: 3 mei 2016</strong>
-<br />De site is live! Je kijkt er nu naar.</p>
-
-<p>Natuurlijk dacht ik op het ‘moment suprême’ dat ik de site niet kon lanceren. De site was namelijk nog niet af. En lanceren was mijn eigen doodvonnis tekenen. De onaffe site zou het bewijs zijn dat ik een slechte programmeur was. Nooit meer zou iemand mij vragen een website voor hem/haar te maken.</p>
-
-<p>De realiteit was anders. Ik lanceerde mijn site precies op tijd en meldde dat netjes op de <a href="http://www.may1reboot.com">May 1st Reboot website</a>. En toen… gebeurde er (natuurlijk) helemaal NIETS. Teleurstellend aan de ene kant… maar ook een enorme opluchting. Nu kan ik namelijk naar hartelust, tot in het oneindige, deze site perfectioneren.</p>
-
+<div id="my-store-12301051"></div>
+<div>
+<script type="text/javascript" src="https://app.ecwid.com/script.js?12301051&data_platform=code&data_date=2017-09-28" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-12301051");</script>
 </div>
+</div>
+
+
 
 
 
@@ -179,20 +175,17 @@ $(window).resize( function() {
 	
 	<div id="menu"><table cellpadding="0" cellspacing="0"><tr><td><div id="content">
 		    <a href="/">home.</a><br />
-		    <a href="/over-mij/">over mij.</a><br />
+		    <a href="/about-me/">about me.</a><br />
 		    <a href="/portfolio/">portfolio.</a><br />
 		    <a href="/blog/">blog.</a><br />
 		    <a href="/contact/">contact.</a><br />		
 	</div></td></tr></table></div>
 </div>
-<div id="controls" class="showdesktop post">
+<div id="controls" class="showdesktop shop">
 	<div id="innercontrols">
 		<a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" /><img src="/img/menu.png" class="white" /></a>
 		<a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" /><img src="/img/close.png" class="white" /></a>
 		
-    <a href="#" onclick="prev();"><img src="/img/back2.png" class="black" /><img src="/img/back.png" class="white" /></a>
-		<a href="#" onclick="next();"><img src="/img/next2.png" class="black" /><img src="/img/next.png" class="white" /></a>
-    
 	</div>
 	<div id="title" class="showdesktop">Usecue <span>&nbsp;web development</span></div>
 </div>
@@ -210,14 +203,15 @@ $(window).resize( function() {
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-1168883-1', 'auto');
   ga('send', 'pageview');
 
 </script>
-<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 </body>
 
 </html>
+

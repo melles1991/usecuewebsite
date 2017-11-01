@@ -103,6 +103,13 @@ $(document).ready( function() {
         callback: function(){ $(".typed-cursor").css('visibility','hidden');}
     });
     {% endif %}
+    {% if page.layout == 'home3' %}
+    if($(window).width()>600) $(".element").typed({
+    	strings: ["I am a ^100Stack Overflow fan.^1000", "I am an UX expert.^2000", "I am a ^200programmer.^1000", "I am a ^200web developer.^500"],
+        typeSpeed: 20,
+        callback: function(){ $(".typed-cursor").css('visibility','hidden');}
+    });
+    {% endif %}
 
     $(window).resize();
 

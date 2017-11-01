@@ -25,6 +25,7 @@ body #menu, #innerpage {
 
 body [class^='home'] #particles-js {background: url('../img/penguin.png') 90% center !important; background-size: cover!important; height: calc(100% - 4px);}
 body .home2 #particles-js {background: url('../img/fox2.jpg') 40% center !important; background-size: cover!important; height: 100%;}
+body .home3 #particles-js {background: url('../img/sobg.png') 40% center !important; background-size: cover!important; height: 100%;}
 
 body.menu #menu {opacity: 1;}
 body #menu #content {text-align: center;}
@@ -150,6 +151,8 @@ table, td {width: 100%; height: 100%;
 #page.blog #innerpage,
 #page.text #innerpage,
 #page[class^='home'] #innerpage {color: black;}
+#page.home3 #innerpage,
+#page.home3 #innerpage a {color: white;}
 #page.home2 #innerpage,
 #page.home2 #innerpage a {color: white;}
 #content {display: block; margin: 0 auto; text-align: left; max-width: 1050px; padding: 0 100px 0 100px;}
@@ -211,8 +214,10 @@ p {margin-bottom: 1.5em;}
 .menu #innercontrols a#openmenu {display: none;}
 
 img.white {display: none;}
+.home3 img.white,
 .home2 img.white,
 .portfolio img.white {display: inline;}
+.home3 img.black,
 .home2 img.black,
 .portfolio img.black {display: none;}
 body.menu img.white {display: inline;}
@@ -238,6 +243,7 @@ body.menu img.black {display: none;}
     font-size: 23px!important;
 }
 #title span {font-weight: 300; font-size: 22px;}
+.home3 #title,
 .home2 #title,
 .portfolio #title {color: white;}
 body.menu #title {color: white;}
