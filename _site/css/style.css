@@ -366,6 +366,7 @@ table table, table table td, table table tbody, table table tr {height: auto; di
 #content > div {text-align: left!important;}
 .showmobile {display: initial;}
 .showdesktop {display: none;}
+.home3 #title,
 .home2 #title,
 #title {
   position: relative;
@@ -388,6 +389,8 @@ table table, table table td, table table tbody, table table tr {height: auto; di
     display: block;
 }
 .post #innercontrols {padding-bottom: 20px;}
+.home3 img.white {display: none;}
+.home3 img.black {display: inline;}
 .home2 img.white {display: none;}
 .home2 img.black {display: inline;}
 #innercontrols a#openmenu, 
