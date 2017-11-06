@@ -7,7 +7,7 @@ Let's face it: Modern smartphones make you dumb, anti-social and they steel your
 
 ![](/uploads/versions/3310---x----830-467x---.jpeg)*The old Nokia 3310 accompanied by two 2017 models.*
 
-But you need your smartphone, you say. But what is it that you actually need? You want to take an occasional picture, look up something on the internet, find a location or route, see if you got new email and access to the social channels your friends are on. That is it. Well the Nokia 3310 comes really close, providing a camera, a basic internet browser, Google Maps, Gmail, Twitter and Facebook.
+But you need your smartphone, you say. But what is it that you actually need? You want to take an occasional picture, look up something on the internet, find a location or route, lookup something in your email and communicate on&nbsp; social channels with your friends. That is it. Well the Nokia 3310 comes really close, providing a camera, a basic internet browser, Google Maps, Gmail, Twitter and Facebook.
 
 **Lack of Whatsapp**<br>Whatsapp can not be accessed on the Nokia 3310. If you can convince your friends to use Facebook Groups to communicate, instead of Whatsapp, you are done. However, I am afraid most people can not. The reason that there is no solution for Whatsapp is because Whatsapp does not cooperate. Simple solutions, like converting Whatsapp messages to email, using an automation service, like IFTT, could solve this problem. But Whatsapp has chosen not to provide an API, which makes this route impossible. If your friends all use Telegram, IFTT works. True friends use Telegram ;-), but yours might not.
 
