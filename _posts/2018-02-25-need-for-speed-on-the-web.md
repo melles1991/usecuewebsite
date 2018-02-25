@@ -2,7 +2,7 @@
 title: Need for Speed on the web
 ---
 
-This is not a post about a web-version of the popular racing game title '[Need for Speed](https://en.wikipedia.org/wiki/Need_for_Speed)' by EA. I love that game and I have wasted too many hours racing through dark cities and endless highways, followed by a squadron of police cars. This article is about something else: The speed of the internet and specifically **the speed at which your website loads**. 
+This is not a post about a web-version of the popular racing game title '[Need for Speed](https://en.wikipedia.org/wiki/Need_for_Speed)' by EA. I love that game and I have wasted too many hours racing through dark cities and endless highways, followed by a squadron of police cars. This article is about something else: The speed of the internet and specifically the speed at which your website loads.
 
 Equally exciting, but far more important, as website speed is a big success factor. More than 20 years after Neilson Norman Group posted an article with [the same title](https://www.nngroup.com/articles/the-need-for-speed/) as this one, this is still relevant. Allow me to explain why.
 
@@ -16,11 +16,11 @@ A slow website has another problem: It might not reach that first page or positi
 
 ## More conversion
 
-Examples [show](https://blog.hubspot.com/marketing/page-load-time-conversion-rates) that speedy websites have more conversion than slow websites. Visitors will be [significantly more likely](https://blog.radware.com/applicationdelivery/wpo/2014/04/web-page-speed-affect-conversions-infographic/) to fill out an order form, enter contact details or subscribe to an email newsletter on a fast loading website. Making your website faster can easily result in a [20% conversion increase](http://www.webperformancetoday.com/2010/07/01/the-best-graphs-of-velocity/). 
+Examples [show](https://blog.hubspot.com/marketing/page-load-time-conversion-rates) that speedy websites have more conversion than slow websites. Visitors will be [significantly more likely](https://blog.radware.com/applicationdelivery/wpo/2014/04/web-page-speed-affect-conversions-infographic/) to fill out an order form, enter contact details or subscribe to an email newsletter on a fast loading website. Making your website faster can easily result in a [20% conversion increase](http://www.webperformancetoday.com/2010/07/01/the-best-graphs-of-velocity/).
 
 ## Better UX
 
-Slow websites makes visitors frustrated and angry. That negative feeling is [associated](https://velocitize.com/2017/03/27/how-site-speed-impacts-your-seo-and-ux/) with your brand. People will [remember](https://www.nngroup.com/articles/website-response-times/) a slow website. A quick websites, however, means a better experience, thus [more engagement](https://www.nngroup.com/articles/website-response-times/). Quicker page loads mean better UX. 
+Slow websites makes visitors frustrated and angry. That negative feeling is [associated](https://velocitize.com/2017/03/27/how-site-speed-impacts-your-seo-and-ux/) with your brand. People will [remember](https://www.nngroup.com/articles/website-response-times/) a slow website. A quick websites, however, means a better experience, thus [more engagement](https://www.nngroup.com/articles/website-response-times/). Quicker page loads mean better UX.
 
 ## Speed matters
 
