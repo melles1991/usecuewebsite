@@ -12,7 +12,7 @@ Research on e-commerce websites shows that [40 percent](https://blog.kissmetrics
 
 ## Better ranking
 
-A slow website has another problem: It might not reach that first page or position in Google. Google [penalizes](https://yoast.com/site-speed-tools-suggestions/) slow websites. They have been doing this [since 2010](https://searchengineland.com/google-says-page-speed-ranking-factor-use-mobile-page-speed-mobile-sites-upcoming-months-250874). From [July 2018](https://searchengineland.com/google-speed-update-page-speed-will-become-ranking-factor-mobile-search-289904) speed will actually be a ranking factor in mobile search too. This makes improving the speed of your website an important search engine optimization for all platforms. Google simply favors fast websites over slow ones, and has been doing so since 2010.
+A slow website has another problem: It might not reach that first page or position in Google. Google [penalizes](https://yoast.com/site-speed-tools-suggestions/) slow websites. They have been doing this [since 2010](https://searchengineland.com/google-says-page-speed-ranking-factor-use-mobile-page-speed-mobile-sites-upcoming-months-250874). From [July 2018](https://searchengineland.com/google-speed-update-page-speed-will-become-ranking-factor-mobile-search-289904) speed will actually be a ranking factor in mobile search too. This makes improving the speed of your website an important search engine optimization for all platforms. Google simply favors fast websites over slow ones, and has been doing so for a long time.
 
 ## Improved conversion
 
