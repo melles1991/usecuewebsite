@@ -34,6 +34,6 @@ Let us look at at a responsive retina-ready one-page website, with custom fonts,
 
 This page is only 1 megabyte large and load in [0.6 seconds](https://gtmetrix.com/reports/pink-fjord.cloudvent.net/trXljyaE), as reported by [GT Metrix](https://gtmetrix.com/). Note that this means it still requires 5 seconds on 3G, according to the [Google mobile speed tester for 3G](https://testmysite.withgoogle.com/intl/gb-int). Luckily, most people surf on 4G today. But it shows that websites are not easily speedy enough.
 
-## Doing it yourself
+## Anlyzing and optimzing speed
 
 You can get some valuable advice from independent speed analysis tools like [GT Metrix](https://gtmetrix.com/), [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and the [Google mobile speed tester for 3G](https://testmysite.withgoogle.com/intl/gb-int). They will give you the numbers and tell you exactly how to make your web page faster. Still need help? Do not hesitate to [ask](/contact).
