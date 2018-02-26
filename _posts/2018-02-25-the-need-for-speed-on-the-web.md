@@ -4,7 +4,7 @@ title: The need for speed on the web
 
 This is not a post about a web-version of the popular racing game title '[Need for Speed](https://en.wikipedia.org/wiki/Need_for_Speed)' by EA. I love that game and I have wasted too many hours racing through dark cities and endless highways, followed by a squadron of police cars. This article is about something else: The speed of the internet and specifically the speed at which your website loads.
 
-Equally exciting, but far more important, as website speed is a big success factor. More than 20 years after Neilson Norman Group posted an article with [a similar title](https://www.nngroup.com/articles/the-need-for-speed/) as this one, this is still relevant. Allow me to explain why.
+Equally exciting, but far more important, as website speed is a big success factor. More than 20 years after Neilson Norman Group posted an article with [a similar title](https://www.nngroup.com/articles/the-need-for-speed/), this is still relevant. Allow me to explain why.
 
 ## Impatient visitors
 
@@ -32,7 +32,7 @@ Let us look at at a responsive retina-ready one-page website, with custom fonts,
 
 ![](/uploads/speedexample.jpg)
 
-This page is only 1 megabyte large and load in [0.6 seconds](https://gtmetrix.com/reports/pink-fjord.cloudvent.net/trXljyaE), as reported by [GT Metrix](https://gtmetrix.com/). Note that this means it still requires 5 seconds on 3G, according to the [Google mobile speed tester for 3G](https://testmysite.withgoogle.com/intl/gb-int). Luckily, most people surf on 4G today. But it shows that websites are not easily speedy enough.
+This page is only 1 megabyte large and load in [0.6 seconds](https://gtmetrix.com/reports/pink-fjord.cloudvent.net/trXljyaE), as reported by [GT Metrix](https://gtmetrix.com/). Note that this means it still requires 5 seconds on 3G, according to the [Google mobile speed tester for 3G](https://testmysite.withgoogle.com/intl/gb-int). Luckily, most people surf on 4G today. It shows that websites are not easily speedy enough.
 
 ## Anlyzing and optimzing speed
 
