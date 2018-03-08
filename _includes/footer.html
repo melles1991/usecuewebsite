@@ -1,17 +1,18 @@
 
 
 <div id="title" class="showmobile">Usecue <span>&nbsp;web development</span></div>
-</div></td></tr></table>
-	</div>
+
+</div></div></div>
 	
-	<div id="menu"><table cellpadding="0" cellspacing="0"><tr><td><div id="content">
+	<div id="menu"><div class="outercontent"><div class="content">
 		    <a href="/">home.</a><br />
 		    <a href="/about-me/">about me.</a><br />
 		    <a href="/portfolio/">portfolio.</a><br />
 		    <a href="/blog/">blog.</a><br />
 		    <a href="/contact/">contact.</a><br />		
-	</div></td></tr></table></div>
-</div>
+  </div></div></div>
+
+
 <div id="controls" class="showdesktop {{ page.layout }}">
 	<div id="innercontrols">
 		<a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" alt="menu" /><img src="/img/menu.png" class="white" alt="menu" /></a>
@@ -43,7 +44,8 @@
   ga('send', 'pageview');
 
 </script>
-<script src="/js/particles.min.js"></script>
+{% if page.layout == 'home' %}<script src="/js/particles.min.js"></script>{% endif %}
+
 </body>
 
 </html>

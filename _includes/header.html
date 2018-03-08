@@ -58,49 +58,42 @@
 <script src="/js/jquery-1.7.2.min.js"></script>
 {% if page.layout == 'home' %}<script src="/js/typed.min.js"></script>{% endif %}
 <link rel="stylesheet" type="text/css" href="/css/style.css">
-<script>
 
+<script>
 function next() {
-	if(document.getElementById('body').className == 'menu') {
-		document.getElementById('body').className = '';
-		setTimeout(function(){next()}, 400);
-		return false;
-	}
-	document.getElementById('controls').style.display = 'none'; 
-	document.getElementById('innerpage').className = 'next'; 
-	setTimeout(function(){
-		document.location.href='{% if num_of_pages > next_i %}{{ sorted_pages[next_i].url }}{% else %}{{ sorted_pages[0].url }}{% endif %}';
-	}, 350);
-	return false;
+    if($('body').hasClass('menu')) {
+        $('body').removeClass('menu');
+        setTimeout(function(){next()}, 400);
+        return false;
+    }
+    document.location.href='{% if num_of_pages > next_i %}{{ sorted_pages[next_i].url }}{% else %}{{ sorted_pages[0].url }}{% endif %}';
+    return false;
 }
 function prev() {
-	if(document.getElementById('body').className == 'menu') {
-		document.getElementById('body').className = '';
-		setTimeout(function(){prev()}, 400);
-		return false;
-	}
-	document.getElementById('controls').style.display = 'none'; 
-	document.getElementById('innerpage').className = 'prev'; 
-	setTimeout(function(){
-		document.location.href='{% if prev_i < 0 %}{{ sorted_pages[last_i].url }}{% else %}{{ sorted_pages[prev_i].url }}{% endif %}';
-	}, 350);
-	return false;
+    if($('body').hasClass('menu')) {
+        $('body').removeClass('menu');
+        setTimeout(function(){prev()}, 400);
+        return false;
+    }
+    document.location.href='{% if prev_i < 0 %}{{ sorted_pages[last_i].url }}{% else %}{{ sorted_pages[prev_i].url }}{% endif %}';
+    return false;
 }
 var timeout;
 function menu() {
-	clearTimeout(timeout);
-	if(document.getElementById('body').className == 'menu') {
-		document.getElementById('body').className = '';
-		timeout = setTimeout(function(){document.getElementById('menu').style.zIndex = '-5'}, 600);
-	}
-	else {
-		document.getElementById('menu').style.zIndex = '5'
-		document.getElementById('body').className = 'menu'; 
-	}
-	return false;
+    clearTimeout(timeout);
+    if($('body').hasClass('menu')) {
+        $('body').removeClass('menu'); 
+        timeout = setTimeout(function(){$('#menu').css('z-index','-5');}, 600);
+    }
+    else {
+        $('#menu').css('z-index','5')
+        $('body').addClass('menu'); 
+    }
+    return false;
 }
 $(document).ready( function() {
     $("#page").addClass("loaded");
+    {% if page.layout == 'portfolio' %}
     setInterval(function () {
         $("#loading span").toggle();
     },500);
@@ -109,24 +102,17 @@ $(document).ready( function() {
             endloading();
         }, 300)
     });
-
+    {% endif %}
     {% if page.layout == 'home' %}
     if($(window).width()>600) $(".element").typed({
-    	strings: ["I am a ^100Linux fan.^1000", "I am an UX expert.^2000", "I am a ^200programmer.^1000", "I am a ^200web developer.^500"],
+        strings: ["Ik ben ^100Linux fan.^1000", "Ik ben ^200UX expert.^2000", "Ik ben ^200programmeur.^1000", "Ik ben ^200web developer.^500"],
         typeSpeed: 20,
         callback: function(){ $(".typed-cursor").css('visibility','hidden');}
     });
     {% endif %}
     {% if page.layout == 'home2' %}
     if($(window).width()>600) $(".element").typed({
-    	strings: ["I am a ^100Firefox fan.^1000", "I am an UX expert.^2000", "I am a ^200programmer.^1000", "I am a ^200web developer.^500"],
-        typeSpeed: 20,
-        callback: function(){ $(".typed-cursor").css('visibility','hidden');}
-    });
-    {% endif %}
-    {% if page.layout == 'home3' %}
-    if($(window).width()>600) $(".element").typed({
-    	strings: ["I am a ^100Stack Overflow fan.^1000", "I am an UX expert.^2000", "I am a ^200programmer.^1000", "I am a ^200web developer.^500"],
+        strings: ["Ik ben ^100Firefox fan.^1000", "Ik ben ^200UX expert.^2000", "Ik ben ^200programmeur.^1000", "Ik ben ^200web developer.^500"],
         typeSpeed: 20,
         callback: function(){ $(".typed-cursor").css('visibility','hidden');}
     });
@@ -189,9 +175,9 @@ $(window).resize( function() {
     }
     if($(window).width()<600) {
         $('#title').css('margin-top','45px');
-        var extramargin = $('body').height() - ($('#content').height()-35);
-        if (extramargin>45) $('#title').css('margin-top',extramargin+'px');
-        else $('#title').css('margin-top','45px');
+        //var extramargin = $('body').height() - ($('#content').height()-35);
+        //if (extramargin>45) $('#title').css('margin-top',extramargin+'px');
+        //else $('#title').css('margin-top','45px');
     }
     
 });
@@ -199,13 +185,12 @@ $(window).resize( function() {
 </script>
 </head>
 
-<body id="body">
-<div id="page" class="{{ page.layout }}">
-	<div id="innerpage" style="background-color: {{ page.color }};">
-	<div id="particles-js" style="z-index:0;"></div>
-    <div id="border"></div>
+<body id="body" style="background-color: {{ page.color }};" class="{{ page.layout }}">
+	<div id="particles-js"></div>
 	{% if page.layout == 'portfolio' %}<div id="backgroundtriangle" style="background-image: url(//images.weserv.nl/?url=www.usecue.com{{ page.image }}&w=500&h=1000&t=squaredown);"><div id="triangle-topleft" style="border-top-color: {{ page.color }};"></div></div>{% endif %}
-		<table cellpadding="0" cellspacing="0"><tr><td><div id="content">
+    
+    <div class="outercontent"><div class="content">
+        
     <div id="innercontrols" class="showmobile">
         <a href="#" onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" alt="menu" /><img src="/img/menu.png" class="white" alt="menu" /></a>
         <a href="#" onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" alt="close" /><img src="/img/close.png" class="white" alt="close" /></a>
@@ -214,3 +199,5 @@ $(window).resize( function() {
         <a href="#" onclick="next();"><img src="/img/next2.png" class="black" alt="next" /><img src="/img/next.png" class="white" alt="next" /></a>
         {% endif %}
     </div>
+
+    <div class="innercontent">
