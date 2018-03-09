@@ -13,6 +13,6 @@ I am Joost van der Schee and I have founded Usecue BV (LLC) in 2007. I create el
 
 I have studied Industrial Design Engeneering at the Technical University in Delft. This has provided me with an analytical view of the design process and human-computer interaction.
 
-I love [CloudCannon](https://cloudcannon.com/), an online CMS system for Jekyll. CloudCannon recently mentioned me on their '[experts page](https://cloudcannon.com/experts/)'. I launched [jekyllcodex.org](http://jekyllcodex.org) and I reached over 50k people by answering Jekyll-related questions on Stack Overflow. Apart from Jekyll/CloudCannon websites I also develop WordPress, Issuu, MailChimp and Shopify solutions. Finally, I have also build my own platform for producing online magazines, called '[Without Coding](https://withoutcoding.com)'.
+I am a Linux fan, but I am also a big fan of [CloudCannon](https://cloudcannon.com/), an online CMS system for Jekyll. CloudCannon recently mentioned me on their '[experts page](https://cloudcannon.com/experts/)'. I launched [jekyllcodex.org](http://jekyllcodex.org) and I reached over 50k people by answering Jekyll-related questions on Stack Overflow. Apart from Jekyll/CloudCannon websites I also develop WordPress, Issuu, MailChimp and Shopify solutions. Finally, I have also build my own platform for producing online magazines, called '[Without Coding](https://withoutcoding.com)'.
 
 Interested? Do you want quality for a decent price? Please&nbsp;[contact](/contact)&nbsp;me! I would love to get to know you and hear about your project.
