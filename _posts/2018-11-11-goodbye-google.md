@@ -6,7 +6,7 @@ Today I found out that Google Maps on my website showed a dark 'for development 
 
 I soon found out that I was in good company. The website of the Communal Transportation Company of the capital of the Netherlands, used by half a million people a day, was broken too. You can see this here:
 
-[![GVB.nl](/uploads/gvb.png)](/uploads/gvb.png)
+<a href="/uploads/gvb.png" style="display: block;">![GVB.nl](/uploads/gvb.png)</a>
 
 My browsers development console showed red errors and a pop-up was shown. It were messages from Google for the owner of the website, and they read: 'The request is missing an API key, billing has not been enabled on your account, the provided billing method is invalid (for example an expired credit card) or a self-imposed daily limit has been exceeded'. Googling for 'Google Maps API billing' led to a page headed 'Pricing that scale to fit your needs'. I read that I could continue to use Google Maps if I entered my billing information. 
 
