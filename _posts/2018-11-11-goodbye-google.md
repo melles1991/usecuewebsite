@@ -18,4 +18,4 @@ I was angry. I did not want my websites to stop working, but could not ask my cl
 
 I did the only thing I could do: I replaced Google Maps on every single website I hosted. It costed me thousands of dollars in lost income. I replaced Google Maps by [the open-source Leaflet library](https://leafletjs.com/) and Open Street Maps or by a self-rolled SVG maps solution (see: [beukenbuurt.amsterdam](https://beukenbuurt.amsterdam/)). It has an up-side: Leaflet has much better documentation than Google Maps and my self-rolled SVG solution is fully GDPR complaint.
 
-Google as a partner in web development? Never again! Google, you can stick your over-priced data-leaking Compute Engine and all its API's in a place where the sun does not shine... Yes... I mean an unused data center. Goodbye Google.
+Google as a partner in web development? Never again! Google, you can stick your over-priced Compute Engine and all its API's in a place where the sun does not shine... Yes... I mean one of those unused data centers you own. Goodbye Google.
