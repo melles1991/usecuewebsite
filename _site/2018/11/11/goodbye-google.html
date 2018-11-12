@@ -8,9 +8,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" /> 
-<title>Turbolinks5 is awesome | Usecue web development</title>
+<title>Goodbye Google | Usecue web development</title>
 
-<meta name="description" content="I have the strong conviction that I will not build the same interface twice. Therefore I always chose to develop for the web ONLY (and not for native). I hav...">
+<meta name="description" content="Today I found out that Google Maps on my website showed a dark ‘for development purposes only’ overlay. As a website developer and host I am responsible for ...">
 
 <link rel="shortcut icon" type="image/png" href="/img/icon-196x196.png" />
 <link rel="shortcut icon" sizes="196x196" href="/img/icon-196x196.png" />
@@ -19,24 +19,24 @@
 <meta id="viewport" name="viewport" content="width=device-width">
 
 <!-- Facebook and Twitter integration -->
-<meta property="og:title" content="Turbolinks5 is awesome"/>
+<meta property="og:title" content="Goodbye Google"/>
 
-<meta property="og:url" content="http://localhost:4000/2016/12/11/turbolinks5-is-awesome.html"/>
+<meta property="og:url" content="http://localhost:4000/2018/11/11/goodbye-google.html"/>
 <meta property="og:type" content="article">
 <meta property="og:image" content="http://localhost:4000"/>
 <meta property="og:site_name" content="Usecue web development"/>
-<meta property="og:description" content="I have the strong conviction that I will not build the same interface twice. Therefore I always chose to develop for the web ONLY (and not for native). I hav..."/>
+<meta property="og:description" content="Today I found out that Google Maps on my website showed a dark ‘for development purposes only’ overlay. As a website developer and host I am responsible for ..."/>
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@jhvanderschee">
-<meta name="twitter:title" content="Turbolinks5 is awesome" />
+<meta name="twitter:title" content="Goodbye Google" />
 
-<meta name="twitter:url" content="http://localhost:4000/2016/12/11/turbolinks5-is-awesome.html" />
-<meta name="twitter:description" content="I have the strong conviction that I will not build the same interface twice. Therefore I always chose to develop for the web ONLY (and not for native). I hav..." />
+<meta name="twitter:url" content="http://localhost:4000/2018/11/11/goodbye-google.html" />
+<meta name="twitter:description" content="Today I found out that Google Maps on my website showed a dark ‘for development purposes only’ overlay. As a website developer and host I am responsible for ..." />
 
 <link rel="publisher" href="https://plus.google.com/+UseCuewebdevelopmentAmsterdam">
 
-<link rel="canonical" href="http://localhost:4000/2016/12/11/turbolinks5-is-awesome.html">
+<link rel="canonical" href="http://localhost:4000/2018/11/11/goodbye-google.html">
 <link rel="sitemap" type="application/xml" title="Sitemap" href="http://localhost:4000/sitemap.xml" />
 
 <script src="/js/jquery-1.7.2.min.js"></script>
@@ -50,7 +50,7 @@ function next() {
         setTimeout(function(){next()}, 400);
         return false;
     }
-    document.location.href='/2016/09/21/getting-started-with-jekyll.html';
+    document.location.href='/2018/02/25/the-need-for-speed-on-the-web.html';
     return false;
 }
 function prev() {
@@ -59,7 +59,7 @@ function prev() {
         setTimeout(function(){prev()}, 400);
         return false;
     }
-    document.location.href='/2017/03/23/smashing-new-technology.html';
+    document.location.href='/2015/04/09/usecues-also-known-as-affordances.html';
     return false;
 }
 var timeout;
@@ -164,15 +164,25 @@ $(window).resize( function() {
     <div class="innercontent">
 
 
-<h3>11.12.2016</h3>
-<h1>Turbolinks5 is awesome</h1>
+<h3>11.11.2018</h3>
+<h1>Goodbye Google</h1>
 
 <div>
-<p>I have the strong conviction that I will not build the same interface twice. Therefore I always chose to develop for the web ONLY (and not for native). I have seen ‘native applications’ as an old-fashioned concept from the start. Installing software is a thing of the past, in my opinion.</p>
+<p>Today I found out that Google Maps on my website showed a dark ‘for development purposes only’ overlay. As a website developer and host I am responsible for hundreds of websites, so, as you can understand, I panicked.</p>
 
-<p>So if you know Turbolinks, you understand why I got enthousiastic. If you don’t, let me explain… Turbolinks enabels you to re-use all screens from your webapplication in your native app. You simple load a ‘web view’ (which basically is a browser) with Turbolinks enabled and it becomes a single page application.</p>
+<p>I soon found out that I had good company. The website of the Communal Transportation Company of the capital of the Netherlands, used by half a million people daily, was broken too. You can see this here:</p>
 
-<p>Turbolinks is a very simple concept. It basically swaps page loads for Ajax calls. The nice thing is that it works in any HTML document. I immediately written a simple demo, showcasing how it works. You can find it here: <a href="http://apps.usecue.com/turbolinks5">http://apps.usecue.com/turbolinks5</a>. I invite you to look at the source of this page and be amazed at the simplicity.</p>
+<p><img src="/uploads/gvb.png" alt="GVB.nl" /></p>
+
+<p>My browsers development console showed red errors. It were messages from Google for the owner of the website, and they read: ‘The request is missing an API key, billing has not been enabled on your account, the provided billing method is invalid (for example an expired credit card) or a self-imposed daily limit has been exceeded’. Googling for ‘Google Maps API billing’ led to a page headed ‘Pricing that scales to fit your needs’. I read that I could continue to use Google Maps if I entered my billing information.</p>
+
+<p>It basically came down to this: “We broke your website without warning, and we will hold it hostage until you give us a credit card number”. What to do? Send my client an email? Begging for money? And for how much? Or worse… ask them for their credit card number?</p>
+
+<p>I was mad. I did not want my websites to stop working, but could not ask my clients for money as a result of my poor judgement. And with ‘poor judgement’ I mean ‘choosing Google as a partner when it comes to software development’. Google had stabbed me in the back. I had not expected them to be this unreliable, but here I was, facing the ugly truth. I had read that Google was losing ground (search, thus ad-income) to Amazon and Facebook, but I never thought that that would influence Google Maps. The once so popular company had became so greedy and irresponsible it broke millions of website at once.</p>
+
+<p>I did the only thing I could do. I replaced Google Maps on every single website I hosted. It costed me thousands of dollars in lost income, but it was worth it. I replaced Google Maps by <a href="https://leafletjs.com/">the open-source Leaflet library</a> and Open Street Maps or by a self-rolled SVG maps solution (see: <a href="https://beukenbuurt.amsterdam/">beukenbuurt.amsterdam</a>). It has an up-side: Leaflet has much better documentation than Google Maps and my self-rolled SVG solution is fully GDPR complaint.</p>
+
+<p>Google as a partner in web development? Never ever again! You know what Google? You can stick your over priced data leaking Compute Engine and all its API’s and services in a place where the sun does not shine… Yes… I mean an unused data center. That will stop you from breaking our websites for good. Goodbye Google.</p>
 
 </div>
 
