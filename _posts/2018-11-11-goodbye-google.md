@@ -4,7 +4,7 @@ title: 'Goodbye Google'
 
 Today I found out that Google Maps on my website showed a dark 'for development purposes only' overlay. As a website developer and host I am responsible for hundreds of websites, so, as you can understand, I panicked. 
 
-I soon found out that I had good company. The website of the Communal Transportation Company of the capital of the Netherlands, used by half a million people daily, was broken too. You can see this here:
+I soon found out that I was in good company. The website of the Communal Transportation Company of the capital of the Netherlands, used by half a million people daily, was broken too. You can see this here:
 
 ![GVB.nl](/uploads/gvb.png)
 
