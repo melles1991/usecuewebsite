@@ -8,7 +8,7 @@ I soon found out that I was in good company. The website of the Communal Transpo
 
 ![GVB.nl](/uploads/gvb.png)
 
-My browsers development console showed red errors and a popup was shown. It were messages from Google for the owner of the website, and they read: 'The request is missing an API key, billing has not been enabled on your account, the provided billing method is invalid (for example an expired credit card) or a self-imposed daily limit has been exceeded'. Googling for 'Google Maps API billing' led to a page headed 'Pricing that scales to fit your needs'. I read that I could continue to use Google Maps if I entered my billing information. 
+My browsers development console showed red errors and a pop-up was shown. It were messages from Google for the owner of the website, and they read: 'The request is missing an API key, billing has not been enabled on your account, the provided billing method is invalid (for example an expired credit card) or a self-imposed daily limit has been exceeded'. Googling for 'Google Maps API billing' led to a page headed 'Pricing that scales to fit your needs'. I read that I could continue to use Google Maps if I entered my billing information. 
 
 It basically came down to this: "We broke your website without warning, and we will hold it hostage until you give us a credit card number". What to do? Send my client an email? Begging for money? And for how much? Or worse... ask them for their credit card number?
 
