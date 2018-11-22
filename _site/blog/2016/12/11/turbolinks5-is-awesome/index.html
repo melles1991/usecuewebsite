@@ -5,9 +5,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" /> 
-<title>Luca's services. | Usecue web development</title>
+<title>Turbolinks5 is awesome | Usecue web development</title>
 
-<meta name="description" content="The new website of this company is ‘less and more’. The site is responsive and has a simple yet consistent design. The site is powered by Jekyll and the Clou...">
+<meta name="description" content="I have the strong conviction that I will not build the same interface twice. Therefore I always chose to develop for the web ONLY (and not for native). I hav...">
 
 <link rel="shortcut icon" type="image/png" href="/img/icon-196x196.png" />
 <link rel="shortcut icon" sizes="196x196" href="/img/icon-196x196.png" />
@@ -16,24 +16,24 @@
 <meta id="viewport" name="viewport" content="width=device-width">
 
 <!-- Facebook and Twitter integration -->
-<meta property="og:title" content="Luca's services."/>
-<meta property="og:image" content="/uploads/lucass.jpg"/>
-<meta property="og:url" content="http://localhost:4000/portfolio/lucass-amsterdam/"/>
+<meta property="og:title" content="Turbolinks5 is awesome"/>
+
+<meta property="og:url" content="http://localhost:4000/blog/2016/12/11/turbolinks5-is-awesome/"/>
 <meta property="og:type" content="article">
-<meta property="og:image" content="http://localhost:4000/uploads/lucass.jpg"/>
+<meta property="og:image" content="http://localhost:4000"/>
 <meta property="og:site_name" content="Usecue web development"/>
-<meta property="og:description" content="The new website of this company is ‘less and more’. The site is responsive and has a simple yet consistent design. The site is powered by Jekyll and the Clou..."/>
+<meta property="og:description" content="I have the strong conviction that I will not build the same interface twice. Therefore I always chose to develop for the web ONLY (and not for native). I hav..."/>
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@jhvanderschee">
-<meta name="twitter:title" content="Luca's services." />
-<meta name="twitter:image" content="http://localhost:4000/uploads/lucass.jpg" />
-<meta name="twitter:url" content="http://localhost:4000/portfolio/lucass-amsterdam/" />
-<meta name="twitter:description" content="The new website of this company is ‘less and more’. The site is responsive and has a simple yet consistent design. The site is powered by Jekyll and the Clou..." />
+<meta name="twitter:title" content="Turbolinks5 is awesome" />
+
+<meta name="twitter:url" content="http://localhost:4000/blog/2016/12/11/turbolinks5-is-awesome/" />
+<meta name="twitter:description" content="I have the strong conviction that I will not build the same interface twice. Therefore I always chose to develop for the web ONLY (and not for native). I hav..." />
 
 <link rel="publisher" href="https://plus.google.com/+UseCuewebdevelopmentAmsterdam">
 
-<link rel="canonical" href="http://localhost:4000/portfolio/lucass-amsterdam/">
+<link rel="canonical" href="http://localhost:4000/blog/2016/12/11/turbolinks5-is-awesome/">
 <link rel="sitemap" type="application/xml" title="Sitemap" href="http://localhost:4000/sitemap.xml" />
 
 <script src="/js/jquery-1.7.2.min.js"></script>
@@ -47,7 +47,7 @@ function next() {
         setTimeout(function(){next()}, 400);
         return false;
     }
-    document.location.href='/portfolio/bibivandervelden/';
+    document.location.href='/blog/2016/09/21/getting-started-with-jekyll/';
     return false;
 }
 function prev() {
@@ -56,7 +56,7 @@ function prev() {
         setTimeout(function(){prev()}, 400);
         return false;
     }
-    document.location.href='/portfolio/felgen-wie-neu/';
+    document.location.href='/blog/2017/03/23/smashing-new-technology/';
     return false;
 }
 var timeout;
@@ -78,15 +78,6 @@ function choose(choices) {
 }
 $(document).ready( function() {
     $("#page").addClass("loaded");
-    
-    setInterval(function () {
-        $("#loading span").toggle();
-    },500);
-    $('iframe').load(function(){
-        setTimeout(function () {
-            endloading();
-        }, 300)
-    });
     
     
     
@@ -150,9 +141,9 @@ $(window).resize( function() {
 </script>
 </head>
 
-<body id="body" style="background: #46906b;" class="portfolio">
+<body id="body"  class="post">
 	
-	<div id="backgroundtriangle" style="background-image: url(//images.weserv.nl/?url=www.usecue.com/uploads/lucass.jpg&w=500&h=1000&t=squaredown);"><div id="triangle-topleft" style="border-top-color: #46906b;"></div></div>
+	
     
     <div class="outercontent"><div class="content">
         
@@ -168,19 +159,18 @@ $(window).resize( function() {
     <div class="innercontent">
 
 
-<div class="col50">
-<div class="desktop"><iframe src="//whispering-wallaby.cloudvent.net" scrolling="no" style="background-color: #46906b;"></iframe></div>
-<div class="mobile" style="background-color: #46906b;"><iframe src="//whispering-wallaby.cloudvent.net" scrolling="no" style="background-color: #46906b;"></iframe></div>
-<div id="bezel" style="background-color: #46906b;"></div>
-<img id="imgoverlay" src="/img/devices.png" alt="devices" />
-<div id="loading">Loading..<span>.</span></div>
-</div><div class="col50" id="textcell">
-<h1>Luca's services.</h1>
-<p>The new website of this company is ‘less and more’. The site is responsive and has a simple yet consistent design. The site is powered by Jekyll and the CloudCannon CMS.</p>
+<h3>11.12.2016</h3>
+<h1>Turbolinks5 is awesome</h1>
 
-<br />
-<a href="//whispering-wallaby.cloudvent.net" target="_blank" class="btn">View website</a>
+<div>
+<p>I have the strong conviction that I will not build the same interface twice. Therefore I always chose to develop for the web ONLY (and not for native). I have seen ‘native applications’ as an old-fashioned concept from the start. Installing software is a thing of the past, in my opinion.</p>
+
+<p>So if you know Turbolinks, you understand why I got enthousiastic. If you don’t, let me explain… Turbolinks enabels you to re-use all screens from your webapplication in your native app. You simple load a ‘web view’ (which basically is a browser) with Turbolinks enabled and it becomes a single page application.</p>
+
+<p>Turbolinks is a very simple concept. It basically swaps page loads for Ajax calls. The nice thing is that it works in any HTML document. I immediately written a simple demo, showcasing how it works. You can find it here: <a href="http://apps.usecue.com/turbolinks5">http://apps.usecue.com/turbolinks5</a>. I invite you to look at the source of this page and be amazed at the simplicity.</p>
+
 </div>
+
 
 
 <div id="title" class="showmobile">Usecue <span>&nbsp;web development</span></div>
@@ -196,7 +186,7 @@ $(window).resize( function() {
   </div></div></div>
 
 
-<div id="controls" class="showdesktop portfolio">
+<div id="controls" class="showdesktop post">
 	<div id="innercontrols">
 		<a onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" alt="menu" /><img src="/img/menu.png" class="white" alt="menu" /></a>
 		<a onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" alt="close" /><img src="/img/close.png" class="white" alt="close" /></a>

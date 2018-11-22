@@ -5,9 +5,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" /> 
-<title>Luca's services. | Usecue web development</title>
+<title>The Web Notifications API | Usecue web development</title>
 
-<meta name="description" content="The new website of this company is ‘less and more’. The site is responsive and has a simple yet consistent design. The site is powered by Jekyll and the Clou...">
+<meta name="description" content="Web apps were said to replace native apps for years, but never really have. Recently, Chrome has implemented the Web Notifications API, making this replaceme...">
 
 <link rel="shortcut icon" type="image/png" href="/img/icon-196x196.png" />
 <link rel="shortcut icon" sizes="196x196" href="/img/icon-196x196.png" />
@@ -16,24 +16,24 @@
 <meta id="viewport" name="viewport" content="width=device-width">
 
 <!-- Facebook and Twitter integration -->
-<meta property="og:title" content="Luca's services."/>
-<meta property="og:image" content="/uploads/lucass.jpg"/>
-<meta property="og:url" content="http://localhost:4000/portfolio/lucass-amsterdam/"/>
+<meta property="og:title" content="The Web Notifications API"/>
+
+<meta property="og:url" content="http://localhost:4000/blog/2015/05/05/the-web-notifications-api/"/>
 <meta property="og:type" content="article">
-<meta property="og:image" content="http://localhost:4000/uploads/lucass.jpg"/>
+<meta property="og:image" content="http://localhost:4000"/>
 <meta property="og:site_name" content="Usecue web development"/>
-<meta property="og:description" content="The new website of this company is ‘less and more’. The site is responsive and has a simple yet consistent design. The site is powered by Jekyll and the Clou..."/>
+<meta property="og:description" content="Web apps were said to replace native apps for years, but never really have. Recently, Chrome has implemented the Web Notifications API, making this replaceme..."/>
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@jhvanderschee">
-<meta name="twitter:title" content="Luca's services." />
-<meta name="twitter:image" content="http://localhost:4000/uploads/lucass.jpg" />
-<meta name="twitter:url" content="http://localhost:4000/portfolio/lucass-amsterdam/" />
-<meta name="twitter:description" content="The new website of this company is ‘less and more’. The site is responsive and has a simple yet consistent design. The site is powered by Jekyll and the Clou..." />
+<meta name="twitter:title" content="The Web Notifications API" />
+
+<meta name="twitter:url" content="http://localhost:4000/blog/2015/05/05/the-web-notifications-api/" />
+<meta name="twitter:description" content="Web apps were said to replace native apps for years, but never really have. Recently, Chrome has implemented the Web Notifications API, making this replaceme..." />
 
 <link rel="publisher" href="https://plus.google.com/+UseCuewebdevelopmentAmsterdam">
 
-<link rel="canonical" href="http://localhost:4000/portfolio/lucass-amsterdam/">
+<link rel="canonical" href="http://localhost:4000/blog/2015/05/05/the-web-notifications-api/">
 <link rel="sitemap" type="application/xml" title="Sitemap" href="http://localhost:4000/sitemap.xml" />
 
 <script src="/js/jquery-1.7.2.min.js"></script>
@@ -47,7 +47,7 @@ function next() {
         setTimeout(function(){next()}, 400);
         return false;
     }
-    document.location.href='/portfolio/bibivandervelden/';
+    document.location.href='/blog/2015/05/03/developing-web-applications-on-a-chromebook/';
     return false;
 }
 function prev() {
@@ -56,7 +56,7 @@ function prev() {
         setTimeout(function(){prev()}, 400);
         return false;
     }
-    document.location.href='/portfolio/felgen-wie-neu/';
+    document.location.href='/blog/2015/05/30/flash-scaling-in-html/';
     return false;
 }
 var timeout;
@@ -78,15 +78,6 @@ function choose(choices) {
 }
 $(document).ready( function() {
     $("#page").addClass("loaded");
-    
-    setInterval(function () {
-        $("#loading span").toggle();
-    },500);
-    $('iframe').load(function(){
-        setTimeout(function () {
-            endloading();
-        }, 300)
-    });
     
     
     
@@ -150,9 +141,9 @@ $(window).resize( function() {
 </script>
 </head>
 
-<body id="body" style="background: #46906b;" class="portfolio">
+<body id="body"  class="post">
 	
-	<div id="backgroundtriangle" style="background-image: url(//images.weserv.nl/?url=www.usecue.com/uploads/lucass.jpg&w=500&h=1000&t=squaredown);"><div id="triangle-topleft" style="border-top-color: #46906b;"></div></div>
+	
     
     <div class="outercontent"><div class="content">
         
@@ -168,19 +159,17 @@ $(window).resize( function() {
     <div class="innercontent">
 
 
-<div class="col50">
-<div class="desktop"><iframe src="//whispering-wallaby.cloudvent.net" scrolling="no" style="background-color: #46906b;"></iframe></div>
-<div class="mobile" style="background-color: #46906b;"><iframe src="//whispering-wallaby.cloudvent.net" scrolling="no" style="background-color: #46906b;"></iframe></div>
-<div id="bezel" style="background-color: #46906b;"></div>
-<img id="imgoverlay" src="/img/devices.png" alt="devices" />
-<div id="loading">Loading..<span>.</span></div>
-</div><div class="col50" id="textcell">
-<h1>Luca's services.</h1>
-<p>The new website of this company is ‘less and more’. The site is responsive and has a simple yet consistent design. The site is powered by Jekyll and the CloudCannon CMS.</p>
+<h3>05.05.2015</h3>
+<h1>The Web Notifications API</h1>
 
-<br />
-<a href="//whispering-wallaby.cloudvent.net" target="_blank" class="btn">View website</a>
+<div>
+<p>Web apps were said to replace native apps for years, but never really have. Recently, Chrome has implemented the Web Notifications API, making this replacement more likely. I cannot wait to implement this on my first project.</p>
+
+<p>See te following URL for more details and a nice demo:
+<br />http://www.sitepoint.com/introduction-web-notifications-api/ </p>
+
 </div>
+
 
 
 <div id="title" class="showmobile">Usecue <span>&nbsp;web development</span></div>
@@ -196,7 +185,7 @@ $(window).resize( function() {
   </div></div></div>
 
 
-<div id="controls" class="showdesktop portfolio">
+<div id="controls" class="showdesktop post">
 	<div id="innercontrols">
 		<a onclick="menu();" id="openmenu"><img src="/img/menu2.png" class="black" alt="menu" /><img src="/img/menu.png" class="white" alt="menu" /></a>
 		<a onclick="menu();" id="closemenu"><img src="/img/close2.png" class="black" alt="close" /><img src="/img/close.png" class="white" alt="close" /></a>
