@@ -12,6 +12,4 @@ Soetendaal 7
 1081BL Amsterdam  
 The Netherlands
 
-I am also present on several social media:
-
 [Github](https://github.com/jhvanderschee) - [Stack Overflow](http://stackoverflow.com/users/2397550/joosts) -  [Linkedin](https://www.linkedin.com/in/joost-van-der-schee-4b26682/)
