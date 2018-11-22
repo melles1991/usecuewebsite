@@ -3,7 +3,7 @@ title: Contact.
 parmalink: "/contact/"
 
 ---
-My office is located on Amsterdam (the Netherlands). I especially love to work for design agencies. I do not out-source my work, nor do I hire interns. If you hire me, I will be the one that does the job. Keep in mind that a decent planning is required.
+My office is located on Amsterdam (the Netherlands). I especially love to work for design agencies. I do not out-source my work, nor do I hire interns. If you hire me, I will be the one that does the job.
 
 My address is:  
 Soetendaal 7  
