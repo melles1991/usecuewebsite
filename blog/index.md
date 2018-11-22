@@ -1,9 +1,6 @@
 ---
 title: Blog.
 layout: blog
-image:
-color: '#ffffff'
-order: 22
 ---
 
 

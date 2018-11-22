@@ -1,13 +1,7 @@
 ---
 title: About me.
-subtitle: 
-layout: text
-image: 
-thumbnail: ''
-color: "#ffffff"
-order: 2
-
 ---
+
 I am Joost van der Schee and I have founded Usecue BV (LLC) in 2007. I create elegant hand-coded websites and web applications for my clients. My focus lies on efficiency and quality in the design and development process. Usecue specializes in building custom solutions and mainly works for advertising agencies and graphical designers.
 
 I have studied Industrial Design Engeneering at the Technical University in Delft. This has provided me with an analytical view of the design process and human-computer interaction.
