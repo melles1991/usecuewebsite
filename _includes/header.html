@@ -49,7 +49,7 @@
 <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
 <script src="/js/jquery-1.7.2.min.js"></script>
-{% if page.layout contains 'home' %}<script src="/js/typed.min.js"></script>{% endif %}
+<script src="/js/typed.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 
 <script>
@@ -84,6 +84,10 @@ function menu() {
     }
     return false;
 }
+function choose(choices) {
+    var index = Math.floor(Math.random() * choices.length);
+    return choices[index];
+}
 $(document).ready( function() {
     $("#page").addClass("loaded");
     {% if page.layout == 'portfolio' %}
@@ -96,27 +100,32 @@ $(document).ready( function() {
         }, 300)
     });
     {% endif %}
+    
+    
     {% if page.layout == 'home' %}
-    if($(window).width()>600) $(".element").typed({
-        strings: ["I am a ^100Linux fan.^1000", "I am an ^200UX expert.^2000", "I am a ^200programmer.^1000", "I am a ^200web developer.^500"],
-        typeSpeed: 20,
-        callback: function(){ $(".typed-cursor").css('visibility','hidden');}
-    });
+    var choice = choose(['linux.html','firefox.html']) ;
+    if (choice == 'linux.html') {
+    	if($(window).width()>600) $(".element").typed({
+        	strings: ["I am a ^100Linux fan.^1000", "I am an ^200UX expert.^2000", "I am a ^200programmer.^1000", "I am a ^200web developer.^500"],
+        	typeSpeed: 20,
+        	callback: function(){ $(".typed-cursor").css('visibility','hidden');}
+    	});
+    } else {
+	if($(window).width()>600) $(".element").typed({
+        	strings: ["I am a ^100Firefox fan.^1000", "I am an ^200UX expert.^2000", "I am a ^200programmer.^1000", "I am a ^200web developer.^500"],
+        	typeSpeed: 20,
+        	callback: function(){ $(".typed-cursor").css('visibility','hidden');}
+    	});
+    }
     {% endif %}
-    {% if page.layout == 'home2' %}
-    if($(window).width()>600) $(".element").typed({
-        strings: ["I am a ^100Firefox fan.^1000", "I am an ^200UX expert.^2000", "I am a ^200programmer.^1000", "I am a ^200web developer.^500"],
-        typeSpeed: 20,
-        callback: function(){ $(".typed-cursor").css('visibility','hidden');}
-    });
-    {% endif %}
-
+    
     $(window).resize();
 
     {% if page.layout == 'home' %}
-particlesJS("particles-js", {"particles":{"number":{"value":400,"density":{"enable":true,"value_area":800}},"color":{"value":"#fff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":10,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":500,"color":"#ffffff","opacity":0.4,"width":2},"move":{"enable":true,"speed":6,"direction":"bottom","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"bubble"},"onclick":{"enable":false,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":0.5}},"bubble":{"distance":400,"size":4,"duration":0.3,"opacity":1,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
-	{% endif %}
-
+    	if (choice == 'linux.html') {
+		particlesJS("particles-js", {"particles":{"number":{"value":400,"density":{"enable":true,"value_area":800}},"color":{"value":"#fff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":10,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":500,"color":"#ffffff","opacity":0.4,"width":2},"move":{"enable":true,"speed":6,"direction":"bottom","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"bubble"},"onclick":{"enable":false,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":0.5}},"bubble":{"distance":400,"size":4,"duration":0.3,"opacity":1,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+	}
+     {% endif %}
 });
 
 $(document).keydown(function(e) {
@@ -173,7 +182,7 @@ $(window).resize( function() {
 </head>
 
 <body id="body" {% if page.color %}style="background: {{ page.color }};"{% endif %} class="{{ page.layout }}">
-	<div id="particles-js"></div>
+	{% if page.layout == 'home' %}<div id="particles-js"></div>{% endif %}
 	{% if page.layout == 'portfolio' %}<div id="backgroundtriangle" style="background-image: url(//images.weserv.nl/?url=www.usecue.com{{ page.image }}&w=500&h=1000&t=squaredown);"><div id="triangle-topleft" style="border-top-color: {{ page.color }};"></div></div>{% endif %}
     
     <div class="outercontent"><div class="content">
