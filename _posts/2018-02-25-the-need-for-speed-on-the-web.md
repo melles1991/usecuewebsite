@@ -1,7 +1,7 @@
 ---
 title: The need for speed on the web
----
 
+---
 This is not a post about a web-version of the popular racing game title '[Need for Speed](https://en.wikipedia.org/wiki/Need_for_Speed)' by EA, although I love that game and I have wasted too many hours racing through dark cities and endless highways, followed by a police squadron. This article is about something else: The speed of the internet and specifically the speed at which your website loads.
 
 Equally exciting, but far more important, as website speed is a big success factor. More than 20 years after Neilson Norman Group posted an article with [a similar title](https://www.nngroup.com/articles/the-need-for-speed/) and similar content. Althought the online world has changed significantly in the meantime, this subject is still relevant. Allow me to explain why.
@@ -34,6 +34,6 @@ Let us look at at a responsive retina-ready one-page website, with custom fonts,
 
 This page is only 1 megabyte large and load in 0.6 seconds, as reported by [GT Metrix](https://gtmetrix.com/). Note that this means it still requires 4 seconds on 3G, according to the [Google mobile speed tester for 3G](https://testmysite.withgoogle.com/intl/gb-int). Luckily, most people surf on 4G today, but is shows that websites are not easily fast enough.
 
-## Anlyzing and optimzing speed
+## Anlyzing and optimizing speed
 
 You can get some valuable advice from independent speed analysis tools like [GT Metrix](https://gtmetrix.com/), [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and the [Google mobile speed tester for 3G](https://testmysite.withgoogle.com/intl/gb-int). They will give you the numbers and tell you exactly how to make your web page faster. Need more help? Do not hesitate to [ask](/contact).
