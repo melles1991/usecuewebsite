@@ -21,9 +21,12 @@ title: Usecue web development
 description: Website development and hosting
 url: https://www.usecue.com
 twitter: jhvanderschee
-permalink: /blog/:title/
 
 collections:
   portfolio:
     output: true
     permalink: /portfolio/:name/
+  pages:
+    permalink: /:title/
+  posts:
+    permalink: /blog/:title/
