@@ -12,6 +12,5 @@ The Netherlands
 
 Have you got a question, or do you need a quote or a fully specified offer? Feel free to contact me by sending an email to [joost@usecue.com](mailto:joost@usecue.com) or call +31 (0)6 185 189 28.
 
-I can also be found on social media:
-
+I can also be found on social media:  
 [Github](https://github.com/jhvanderschee) - [Stack Overflow](http://stackoverflow.com/users/2397550/joosts) -  [Linkedin](https://www.linkedin.com/in/joost-van-der-schee-4b26682/)
