@@ -3,23 +3,23 @@ title: Arguments for the JAMstack
 date: 2018-11-23 23:12:18 +0000
 
 ---
-I have built more than 100 JAMstack websites in the past few years and I am a big fan. I hear a lot of unnuanced opinions about the JAMstack from people around me. Time to set that straight by creating a fair comparison between the JAMstack and WordPress.
+I have built more than 100 JAMstack websites in the past few years and I am a big fan. I hear a lot of unnuanced opinions about the JAMstack from the people around me. To set that straight I will try to make a fair comparison between the JAMstack and WordPress.
 
-First of all: [What are JAMstack websites?](https://jamstack.org/ "https://jamstack.org/") Het is eigenlijk makkelijker uit te leggen wat het NIET is. Het zijn sites die NIET real-time hun eigen database uitlezen om hun pagina's samen te stellen. JAMstack websites serveren voorgegenereerde pagina's die eventueel worden verrijkt door Javascript met uit API's vekregen content. WordPress websites genereren hun pagina's real-time uit hun eigen database en zijn dus GEEN JAMstack websites.
+First of all: [What are JAMstack websites?](https://jamstack.org/ "https://jamstack.org/") It is easier to explain what it is NOT. JAMstack websites are website that typically do NOT fetch real-time data from a database to assemble the content on the page. JAMstack websites serve pre-generated pages that can be enriched by data from API's fetched by Javascript. WordPress websites fetch their content real-time from their own database and are thus NO JAMstack websites.
 
-Argumenten voor de JAMstack die je vaak hoort zijn:
+Popular arguments in favor of the JAMstack are:
 
-* betere prestaties
+* better performance
 
-* veiliger
+* safer
 
-* makkelijker schaalbaar
+* easily scalable
 
-* goedkoper
+* cheaper
 
-* betere developer ervaring
+* better developer experience
 
-## Betere prestaties
+## Better performance
 
 Met betere prestaties wordt de snelheid van het laden van de site bedoeld. Een gewone WordPress website is trager dan een gewone JAMstack website, omdat WordPress zijn pagina's real-time moet samen stellen. Wanneer je WordPress echter voorziet caching en een CDN, dan liggen de prestaties ineens veel dichter bij elkaar, omdat een WordPress website met cache in feite een statische/JAMstack website is. Het genereren van een voorbeeld van je wijzigingen is overigens veel trager bij een JAMstack website (meestal ongeveer een factor 10, dus 2 seconde versus 20).
 
