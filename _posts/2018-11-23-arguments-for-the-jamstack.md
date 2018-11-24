@@ -29,7 +29,7 @@ JAMstack website are typically being served by a CDN. CDN's can cope with lots o
 
 ## Cheaper
 
-Regular JAMstack websites have no moving parts, which causes a lower load for the server, as compared to regular WordPress websites. This makes hosting a JAMstack website a lot cheaper. Although there is a catch. When you want to extend your JAMstack website with a good CMS, automatic image scaling or sending contact forms, you need a third party. This third party will more often than not ask a fee for its service. These costs might completely deminish your initial financial advantage.
+Regular JAMstack websites have no moving parts, which causes a lower load for the server, as compared to regular WordPress websites. This makes hosting a JAMstack website a lot cheaper. There is a catch though... When you want to extend your JAMstack website with a good CMS, automatic image scaling or sending contact forms, you need a third party. This third party will more often than not ask a fee for its service. These costs might completely deminish your initial financial advantage.
 
 ## Better developer experience
 
