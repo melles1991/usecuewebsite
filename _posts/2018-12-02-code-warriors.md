@@ -2,7 +2,7 @@
 title: Code warriors
 ---
 
-A true warrior masters his sword and his mind. A 'code warrior' masters his framework and his system. Mastering your framework is not the most difficult part. Mastering the system that makes your framework function, however, can take a lifetime. 
+A true warrior masters his sword and his mind. A 'code warrior' masters his software and his system. Mastering your software is not the most difficult part, just read the quick-start and off you go. Mastering the system that makes your software function, however, can take a lifetime. 
 
 Most developers aspire to master only their software/sword and not also their system/mind. They agree to a solution where software executes 'unknown code'. It seems that the more unknown code is being executed, the more popular a solution will be. Plugins are a great way of hiding code. The most popular blogging platform has millions of plugins. Newfangled (popular) strategies like 'containers' and 'serverless' are even better at hiding code. It is clearly the direction we are heading. 
 
