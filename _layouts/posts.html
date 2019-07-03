@@ -4,6 +4,6 @@
 
 {{ content }}
 
-<p>{% for post in site.posts %}<span class="showdesktop">{{ post.date | date: "%d.%m.%Y" }} - </span><a href="{{ post.url }}">{{ post.title }}</a><br />{% endfor %}</p>
+<p style="text-align: center;">{% for post in site.posts %}{% unless forloop.index == 1 %}<br /><br />~<br />{% endunless %}<br /><em>{{ post.date | date: "%B %d, %Y" }}</em><br /><a href="{{ post.url }}">{{ post.title }}</a>{% endfor %}</p>
 
 {% include footer.html %}
