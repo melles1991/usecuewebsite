@@ -22,6 +22,7 @@ function doScroll(element) {
 }
 
 function documentReady() {
+
     if(window.location.hash) {
     	var id = window.location.hash.substring(1);
     	if(id) element = document.getElementById(id);
@@ -40,6 +41,11 @@ function documentReady() {
         element.addEventListener("click", function(event) {
             scrollPageTo(event);
         });
+    });
+
+    var elements = document.querySelectorAll('.fullscreen');
+    elements.forEach(element => {
+        element.style.minHeight = element.offsetHeight + 'px';
     });
 }
 

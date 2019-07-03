@@ -7,8 +7,6 @@ function windowScroll() {
     } else {
         document.body.classList.remove('scrolled');
     }
-    console.log(window.innerHeight + top );
-    console.log(document.documentElement.scrollHeight);
     if (window.innerHeight + top >= document.documentElement.scrollHeight) {
         document.body.classList.add('scrolledend');
     } else {
