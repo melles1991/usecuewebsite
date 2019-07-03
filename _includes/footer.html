@@ -19,7 +19,7 @@
                     {% if prev_i < 0 %}{% assign prev_i = last_i %}{% endif %}
                 {% endif %}
             {% endfor %}
-            <a id="nextlink" href="{{ sitepages[next_i].url }}">next<span class="desktop">: {{ sitepages[next_i].title }}</span><span style="mobile"> {% if page.layout == 'post' %}article{% else %}portfolio item{% endif %}</span></a>
+            <a id="nextlink" href="{{ sitepages[next_i].url }}">next<span class="desktop">: {{ sitepages[next_i].title }}</span><span style="mobile"> {% if page.layout == 'post' %}blog post{% else %}portfolio item{% endif %}</span></a>
         {% endif %}
         <a id="scrolltotop" href="#top">Scroll to top</a>
     </div>
