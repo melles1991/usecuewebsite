@@ -16,9 +16,12 @@ defaults:
       type: "portfolio" # previously `post` in Jekyll 2.2.
     values:
       layout: "portfolio"
+      _comments: 
+        image: desktop 1236 x 782
+        mobile_image: mobile 419 x 703,5
 
 title: Usecue web development
-description: Website development and hosting
+description: Website development and web hosting
 url: https://www.usecue.com
 twitter: jhvanderschee
 permalink: /blog/:title/

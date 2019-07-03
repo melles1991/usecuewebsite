@@ -1,10 +1,9 @@
 ---
-title: rims like new.
-layout: portfolio
-image: /uploads/fwn.jpg
+title: Rims like new.
+image: /uploads/fwn1.png
+mobile_image: /uploads/fwn2.png
 color: '#5b6669'
-address: '//swift-goldfish.cloudvent.net/'
-mobile: 450
+portfolio_url: '//swift-goldfish.cloudvent.net/'
 order: 4
 ---
 

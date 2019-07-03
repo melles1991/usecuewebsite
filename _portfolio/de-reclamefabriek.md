@@ -1,10 +1,9 @@
 ---
-title: advertising that works.
-layout: portfolio
-image: /uploads/clouds.jpg
-color: '#008fc5'
-address: '//tangerine-mushroom.cloudvent.net/#overons'
-mobile: 450
+title: Advertising that works.
+image: /uploads/reclamefabriek1.png
+mobile_image: /uploads/reclamefabriek2.png
+color: '#017ec1'
+portfolio_url: '//tangerine-mushroom.cloudvent.net/#overons'
 order: 4
 ---
 

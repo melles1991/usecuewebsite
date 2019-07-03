@@ -1,18 +1,3 @@
-{% if page.layout != 'post' %}
-    {% assign sorted_pages = site.portfolio | sort: 'order' %}
-{% else %}
-    {% assign sorted_pages = site.posts reversed %}
-{% endif %}
-
-{% for item in sorted_pages %}
-    {% if item.url == page.url %}
-    	{% assign this_i = forloop.index0 %}
-    	{% assign num_of_pages = forloop.length %}
-    	{% assign last_i = forloop.length | minus: 1 %}
-    	{% assign next_i = forloop.index0 | plus: 1 %}
-    	{% assign prev_i = forloop.index0 | minus: 1 %}
-	{% endif %}
-{% endfor %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,19 +34,15 @@
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 
-<body id="body" {% if page.color %}style="background{% if page.layout == '404' %}-color{% endif %}: {{ page.color }};"{% endif %} class="{{ page.layout }}">
-	{% if page.layout == 'home' %}<div id="particles-js"></div>{% endif %}
-	{% if page.layout == 'portfolio' %}<div id="backgroundtriangle" style="background-image: url(//images.weserv.nl/?url=www.usecue.com{{ page.image }}&w=500&h=1000&t=squaredown);"><div id="triangle-topleft" style="border-top-color: {{ page.color }};"></div></div>{% endif %}
-    
-    <div class="outercontent"><div class="content">
-        
-    <div class="innercontrols showmobile">
-        <a onclick="menu();" class="openmenu"><img src="/img/menu2.png" class="black" alt="menu" /><img src="/img/menu.png" class="white" alt="menu" /></a>
-        <a onclick="menu();" class="closemenu"><img src="/img/close2.png" class="black" alt="close" /><img src="/img/close.png" class="white" alt="close" /></a>
-        {% if page.layout == 'portfolio' or page.layout == 'post' %}
-        <a onclick="prev();"><img src="/img/back2.png" class="black"  alt="previous" /><img src="/img/back.png" class="white" alt="previous" /></a>
-        <a onclick="next();"><img src="/img/next2.png" class="black" alt="next" /><img src="/img/next.png" class="white" alt="next" /></a>
-        {% endif %}
-    </div>
+<body id="top" class="{{ page.layout }}" style="{% if page.color %}background-color: {{ page.color }};{% endif %}">
+    <a id="logo" href="/" class="medium underline">u</a>
 
-    <div class="innercontent">
+    <ul id="menu">
+        <li><a href="/about/">About</a></li>
+        <li><a href="{% assign siteportfolio = site.portfolio | sort: 'order' %}{{ siteportfolio[0].url }}">Portfolio</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/contact/">Contact</a></li>
+    </ul>
+    <div id="innerbody">
+        <div id="content">
+

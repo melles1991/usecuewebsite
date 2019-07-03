@@ -1,9 +1,9 @@
 ---
 title: "Jeugd bij ZonMW."
-image: /uploads/home.jpg
+image: /uploads/zonmw1.png
+mobile_image: /uploads/zonmw2.png
 color: '#968D86'
-address: '//polite-coal.cloudvent.net/'
-mobile:
+portfolio_url: '//polite-coal.cloudvent.net/'
 order: 0
 ---
 

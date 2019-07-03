@@ -1,8 +1,6 @@
 ---
-title: home
+title: I am a web developer based in Amsterdam
 layout: home
 ---
 
-<h1><span class="element">I am a web developer.</span></h1>
-
-I create and host elegant, hand-coded websites and web applications for my clients. [Interested?](/about-me)
+I create and host elegant, hand-coded websites and web applications for my clients. [Interested?](/about/)

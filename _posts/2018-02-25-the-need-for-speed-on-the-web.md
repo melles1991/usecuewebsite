@@ -30,7 +30,7 @@ As you can see, speed is a big factor in the success of your website. Your websi
 
 Let us look at at a responsive retina-ready one-page website, with custom fonts, a lot of imagery and javascript, that looks like this:
 
-![](/uploads/speedexample.jpg)
+<a href="/uploads/speedexample.jpg" style="display: block;"><img src="/uploads/speedexample_pattern.png" style="display: block;" /></a>
 
 This page is only 1 megabyte large and load in 0.6 seconds, as reported by [GT Metrix](https://gtmetrix.com/). Note that this means it still requires 4 seconds on 3G, according to the [Google mobile speed tester for 3G](https://testmysite.withgoogle.com/intl/gb-int). Luckily, most people surf on 4G today, but is shows that websites are not easily fast enough.
 
