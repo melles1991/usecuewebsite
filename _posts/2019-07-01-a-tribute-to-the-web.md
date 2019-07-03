@@ -4,7 +4,7 @@ title: A tribute to the web.
 
 Take a good look at this aggressive blue color. Does it remind you of [Yves Klein](https://nl.wikipedia.org/wiki/Yves_Klein)? It is the native color of an unstyled HTML link. The exact color is #0000ee and is worth [17 million dollar](https://www.widewalls.ch/yves-klein-paintings-top-auction/ikb-1/). 
 
-Does the font look familiar too? You are right... that is the [famous default serif](https://en.wikipedia.org/wiki/Times_New_Roman) of the web. You may have even noticed that all links are underlined, like they naturally are in HTML. So why did I make this? I wanted to create a tribute to the web.
+Does the font look familiar too? You are right... that is [Times New Roman](https://en.wikipedia.org/wiki/Times_New_Roman). You may have even noticed that all links are underlined, like they naturally are in HTML. So why did I make this? I wanted to create a tribute to the web.
 
 Unfortunately most web developers don't embrace, but fight the web. The avarage ([median](https://www.igvita.com/2016/01/12/the-average-page-is-a-myth/)) page load is [almost 2Mb and still growing](https://httparchive.org/reports/page-weight). And to make matters worse, web developers have even became incapable of solving their self created problems. A clear example is AMP from Google, which became a popular solution for lightweight mobile pages. However, Google does not have some sort of super light HTML... nor does it have super quick servers (seriously... they are even kind of slow). They just know how to build a proper website. A skill that most web developers seem to have lost.
 
