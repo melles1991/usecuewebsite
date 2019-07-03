@@ -1,5 +1,5 @@
 ---
-title: "Jeugd bij ZonMW."
+title: Jeugd bij ZonMW
 image: /uploads/zonmw1.png
 mobile_image: /uploads/zonmw2.png
 color: '#968D86'

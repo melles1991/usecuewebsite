@@ -1,5 +1,5 @@
 ---
-title: "Luca's services."
+title: "Luca's services"
 image: /uploads/lucass1.png
 mobile_image: /uploads/lucass2.png
 color: '#46906b'

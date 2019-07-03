@@ -1,5 +1,5 @@
 ---
-title: "de Vos."
+title: de Vos
 image: /uploads/devos1.png
 mobile_image: /uploads/devos2.png
 color: '#95a8a4'
