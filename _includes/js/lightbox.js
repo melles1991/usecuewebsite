@@ -14,80 +14,112 @@
           success: function(response) {
             if(response.video_id) {
               id = response.video_id;
-              $(el).addClass('lightbox-vimeo').attr('data-id',id);
+              el.classList.add('lightbox-vimeo').setAttribute('data-id',id);
             }
           }
         });
     }
-    
-    $(document).ready(function() {
+    function setGallery(el) {
+        var link_elements = el.parentNode.querySelectorAll("a[class*='lightbox-']");
+        link_elements.forEach(link_element => {
+            link_element.classList.remove('current');
+        });
+        link_elements.forEach(link_element => {
+            if(el.getAttribute('href') == link_element.getAttribute('href')) {
+                link_element.classList.add('current');
+            }
+        });
+        if(link_elements.length>1) {
+            document.getElementById('lightbox').classList.add('gallery');
+            link_elements.forEach(link_element => {
+                link_element.classList.add('gallery');
+            });
+        }
+        var currentkey;
+        var gallery_elements = document.querySelectorAll('a.gallery');
+        Object.keys(gallery_elements).forEach(function (k) {
+            if(gallery_elements[k].classList.contains('current')) currentkey = k;
+        });
+        if(currentkey==(gallery_elements.length-1)) var nextkey = 0;
+        else var nextkey = parseInt(currentkey+1);
+        if(currentkey==0) var prevkey = (gallery_elements.length-1);
+        else var prevkey = parseInt(currentkey-1);
+
+        document.getElementById('next').addEventListener("click", function() {
+            gallery_elements[nextkey].click();
+        });
+        document.getElementById('prev').addEventListener("click", function() {
+             gallery_elements[prevkey].click();
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        
         //add classes to links to be able to initiate lightboxes
-        $("a").each(function(){
-            var url = $(this).attr('href');
+        var elements = document.querySelectorAll('a');
+        elements.forEach(element => {
+            var url = element.getAttribute('href');
             if(url) {
-                if(url.indexOf('vimeo') !== -1 && !$(this).hasClass('no-lightbox')) is_vimeolink(url,$(this));
-                if(is_youtubelink(url) && !$(this).hasClass('no-lightbox')) $(this).addClass('lightbox-youtube').attr('data-id',is_youtubelink(url));
-                if(is_imagelink(url) && !$(this).hasClass('no-lightbox')) {
-                    $(this).addClass('lightbox-image');
-                    var href = $(this).attr('href');
+                if(url.indexOf('vimeo') !== -1 && !element.classList.contains('no-lightbox')) {
+                    is_vimeolink(url,$(this));
+                }
+                if(is_youtubelink(url) && !element.classList.contains('no-lightbox')) {
+                    element.classList.add('lightbox-youtube');
+                    element.setAttribute('data-id',is_youtubelink(url));
+                }
+                if(is_imagelink(url) && !element.classList.contains('no-lightbox')) {
+                    element.classList.add('lightbox-image');
+                    var href = element.getAttribute('href');
                     var filename = href.split('/').pop();
                     var split = filename.split(".");
                     var name = split[0];
-                    $(this).attr('title',name);
+                    element.setAttribute('title',name);
                 }
             }
         });
+
+
+
         //remove the clicked lightbox
-        $("body").on("click", ".lightbox", function(event){
-            if($(this).hasClass('gallery')) {
-                $(this).remove();
-                if($(event.target).attr('id')=='next') {
-                    //next item
-                    if($("a.gallery.current").nextAll("a.gallery:first").length) $("a.gallery.current").nextAll("a.gallery:first").click();
-                    else $("a.gallery.current").parent().find("a.gallery").first().click();
-                }
-                else if ($(event.target).attr('id')=='prev') {
-                    //prev item
-                    if($("a.gallery.current").prevAll("a.gallery:first").length) $("a.gallery.current").prevAll("a.gallery:first").click();
-                    else $("a.gallery.current").parent().find("a.gallery").last().click();
-                }
-                else {
-                    $("a.gallery").removeClass('gallery');
-                }
+        document.getElementById('lightbox').addEventListener("click", function(event) {
+            if(event.target.id != 'next' && event.target.id != 'prev'){
+                this.innerHTML = '';
+                document.getElementById('lightbox').style.display = 'none';
             }
-            else $(this).remove();
         });
-        //prevent image from being draggable (for swipe)
-        $("body").on('dragstart', ".lightbox img", function(event) { event.preventDefault(); });
+      
         //add the youtube lightbox on click
-        $("a.lightbox-youtube").click(function(event){
-            event.preventDefault();
-            $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://www.youtube.com/embed/'+$(this).attr('data-id')+'?autoplay=1&showinfo=0&rel=0"></iframe></div></div></div>').appendTo('body');
+        var elements = document.querySelectorAll('a.lightbox-youtube');
+        elements.forEach(element => {
+            element.addEventListener("click", function(event) {
+                event.preventDefault();
+                document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://www.youtube.com/embed/'+this.getAttribute('data-id')+'?autoplay=1&showinfo=0&rel=0"></iframe></div>';
+                document.getElementById('lightbox').style.display = 'block';
+
+                setGallery(this);
+            });
         });
+
         //add the image lightbox on click
-        $("a.lightbox-image").click(function(event){
-            event.preventDefault();
-            $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+$(this).attr('href')+'\') center center / contain no-repeat;" title="'+$(this).attr('title')+'" ><img src="'+$(this).attr('href')+'" alt="'+$(this).attr('title')+'" /></div><span>'+$(this).attr('title')+'</span></div>').appendTo('body');
+        var elements = document.querySelectorAll('a.lightbox-image');
+        elements.forEach(element => {
+            element.addEventListener("click", function(event) {
+                event.preventDefault();
+                document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" ><img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" /></div><span>'+this.getAttribute('title')+'</span>';
+                
+                document.getElementById('lightbox').style.display = 'block';
+            });
         });
+
         //add the vimeo lightbox on click
-        $("body").on("click", "a.lightbox-vimeo", function(event){
-            event.preventDefault();
-            $('<div class="lightbox"><a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://player.vimeo.com/video/'+$(this).attr('data-id')+'/?autoplay=1&byline=0&title=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div></div>').appendTo('body');
+        var elements = document.querySelectorAll('a.lightbox-vimeo');
+        elements.forEach(element => {
+            element.addEventListener("click", function(event) {
+                event.preventDefault();
+                document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://player.vimeo.com/video/'+this.getAttribute('data-id')+'/?autoplay=1&byline=0&title=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>';
+                document.getElementById('lightbox').style.display = 'block';
+            });
         });
-    
-        $("body").on("click", "a[class*='lightbox-']", function(){
-            var link_elements = $(this).parent().find("a[class*='lightbox-']");
-            $(link_elements).removeClass('current');
-            for (var i=0; i<link_elements.length; i++) {
-                if($(this).attr('href') == $(link_elements[i]).attr('href')) {
-                    $(link_elements[i]).addClass('current');
-                }
-            }
-            if(link_elements.length>1) {
-                $('.lightbox').addClass('gallery');
-                $(link_elements).addClass('gallery');
-            }
-        });
-    
         
+
     });
