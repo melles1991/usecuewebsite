@@ -1,5 +1,5 @@
 ---
-title: Studio inHout
+title: studio inHout
 image: /uploads/studioinhout1.png
 mobile_image: /uploads/studioinhout2.png
 color: '#691f66'
