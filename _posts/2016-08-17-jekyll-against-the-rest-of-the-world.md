@@ -3,7 +3,7 @@ title: Jekyll against the rest of the world
 ---
 
 
-I’m stood in the center of a room, confident my choice to go all static had been a good one. It’s a serene scene—nothing can touch me.
+I’m stood in the center of a room, confident my choice to go all static had been a good one. It’s a serene scene — nothing can touch me.
 
 There are website owners running around wildly, chasing WordPress security vulnerabilities, while at the same time trying to plug holes, which the dubious free plug-ins they downloaded had ripped into their sites.
 
