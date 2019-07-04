@@ -4,7 +4,7 @@ title: A redesign that was long overdue
 
 After twelve years of using the same logo, it was time for a redesign. An opportunity to do it right.
 
-When I started Usecue in 2007 I needed a logo. I already loved typography so I chose for a typographic Swiss approach. Instead of choosing for Helvetica, I chose for the Open Sans, bacause it was open source. I experimented with font weights and finally came to a logo that consisted of the lowercase words 'usecue web development', where 'usecue' was bold (weight: 700) and 'web development' thin (weight: 300). Although it was visually pleasing, there was no real philosophy behind it. So, finally, after twelve years of using this logo, it was time for a redesign. 
+When I started Usecue in 2007 I needed a logo. I already loved typography so I chose for a typographic Swiss approach. Instead of choosing for Helvetica, I chose for the Open Sans, bacause it was open source. I experimented with font weights and finally came to a logo that consisted of the lowercase words 'usecue web development', where 'usecue' was bold (weight: 700) and 'web development' thin (weight: 300). Although it was visually pleasing, there was no real philosophy behind it. Finally, after twelve years of using this logo, it was time for a redesign. 
 
 ## The new brand
 
