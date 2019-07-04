@@ -1,5 +1,5 @@
 ---
-title: Blog posts
+title: blog
 layout: posts
 ---
 
