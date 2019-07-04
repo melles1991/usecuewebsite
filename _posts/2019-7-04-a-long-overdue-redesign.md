@@ -16,4 +16,4 @@ The underlined lowercase 'u' is often seen on underline buttons in a WYSIWYG edi
 
 ## Times New Roman
 
-Any font choice would be a design statement. An implicit expression of form instead of meaning. There was only one font I could think of that had more meaning than form (in this context): Times New Roman, the ultimate default serif of the web. The 'absence of form' is not something you would expect to fit a web development company. However, I mostly work for and with graphical designers, where I build their designs. So in my case it makes perfect sense. It even reflects my work process.
+Any font choice would be a design statement. An implicit expression of form instead of meaning. There was only one font I could think of that had more meaning than form (in this context): Times New Roman, the ultimate default serif of the web. The 'absence of form' is not something you would expect to fit a web development company. However, I mostly work for and with graphic designers, where I build their designs. So in my case it makes perfect sense. It even reflects my work process.
