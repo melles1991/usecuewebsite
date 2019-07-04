@@ -3,7 +3,7 @@ title: Arguments for the JAMstack
 date: 2018-11-23 23:12:18 +0000
 
 ---
-I have built more than 100 JAMstack websites in the past few years and I am a [big](https://www.usecue.com/blog/jekyll-against-the-rest-of-the-world/) [fan](https://www.usecue.com/blog/from-wordpress-to-cloudcannon/). However, I hear a lot of unnuanced opinions about the JAMstack from people around me. To set that straight I will try to make an honest comparison between the JAMstack and WordPress.
+I have built more than 100 [JAMstack](https://jamstack.org/) websites in the past few years and I am a [big](https://www.usecue.com/blog/jekyll-against-the-rest-of-the-world/) [fan](https://www.usecue.com/blog/from-wordpress-to-cloudcannon/). However, I hear a lot of unnuanced opinions about the JAMstack from people around me. To set that straight I will try to make an honest comparison between the JAMstack and WordPress.
 
 First of all: [What are JAMstack websites?](https://jamstack.org/ "https://jamstack.org/") It is easier to explain what they are NOT. JAMstack websites are website that typically do NOT fetch real-time data from a database to assemble the content on the page. JAMstack websites serve pre-generated pages that can be enriched by data from API's fetched by Javascript. WordPress websites fetch their page content real-time from their own database and are therefore NOT JAMstack websites.
 
