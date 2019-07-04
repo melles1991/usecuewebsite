@@ -8,7 +8,7 @@ When I started Usecue I needed a logo. I love typography so I chose for a typogr
 
 ## The new brand
 
-I wrote an article called '[A tribute to the web](/blog/a-tribute-to-the-web/)'. It outlines what the redesign/new brand aims to communicate. The new brand consists of three principles: the underlined u, the color blue and the font Times New Roman. The first two represent the term 'usecue' and the latter represents the absence of form. Let me explain...
+I wrote an article called '[A tribute to the web](/blog/a-tribute-to-the-web/)'. It outlines what the redesign/new brand aims to communicate: respect for the web. The new brand consists of three principles: the underlined u, the color blue and the font Times New Roman. The first two represent the term 'usecue' and the latter represents the absence of form. Let me explain...
 
 ## The underlined 'u' and the color blue
 
