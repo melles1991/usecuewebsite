@@ -3,7 +3,7 @@ title: "About 'usecues', also known as affordan&shy;ces"
 ---
 
 
-Affordance is a term originally coined by a psychologist, J.J. Gibson, in the 1970s. He defined it as the relationship between an environment and an actor. Today, affordance extends beyond behavioral or cognitive psychology and into the design of digital interfaces [test](/uploads/3310_pattern.png) [test](/uploads/featured20_pattern.png).
+Affordance is a term originally coined by a psychologist, J.J. Gibson, in the 1970s. He defined it as the relationship between an environment and an actor. Today, affordance extends beyond behavioral or cognitive psychology and into the design of digital interfaces.
 
 ![](/uploads/featured20_pattern.png)
 
@@ -13,7 +13,7 @@ Crowdcube’s layman’s term definition is spot on. All of the objects around u
 
 ## Physical objects
 
-Take a step back to the physical world, where you see that objects have physical properties like size, shape or weight that provide hints as to what you could do with them. Here are a few classic examples. Let’s start with a teacup; it’s small and has a handle, which affords holding. Its dipped bowl-like shape, indicating that it can hold something too. When it’s holding tea, the affordance is that you can hold the teacup and drink out of it. Another example is a toothbrush: it has a long-but-thin handle, which affords gripping, and so on [test](/uploads/gvb_pattern.png) [test](/uploads/buttons_pattern.png).
+Take a step back to the physical world, where you see that objects have physical properties like size, shape or weight that provide hints as to what you could do with them. Here are a few classic examples. Let’s start with a teacup; it’s small and has a handle, which affords holding. Its dipped bowl-like shape, indicating that it can hold something too. When it’s holding tea, the affordance is that you can hold the teacup and drink out of it. Another example is a toothbrush: it has a long-but-thin handle, which affords gripping, and so on.
 
 ## Affordance in digital spaces
 
