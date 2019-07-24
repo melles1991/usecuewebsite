@@ -7,6 +7,4 @@ portfolio_url: 'https://www.studioinhout.nl/collectie/notenhouten-tafel/'
 order: 0
 ---
 
-
-
-A 100% score in Google Lighthouse and less than 150 lines of CSS. A blazing fast, simple and elegant website that does what it is supposed to do. Beautiful, quick and user friendly at any screen size.
+A 100% score in Google Lighthouse and less than 150 lines of CSS. A lightweight, blazing fast, simple and elegant website that does what it is supposed to do. Full-featured, responsive and CMS driven, without using jQuery!
