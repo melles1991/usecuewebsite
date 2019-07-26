@@ -10,4 +10,4 @@ order: 4
 
 This is a website for Dirk Ihmer, who restores rims 'like new' by sanding them down, coating them and finishing them. This impecable one-pager is less than 1Mb in size and has a beautiful subtle Ken Burns slider. This site is powered by Jekyll and the CloudCannon CMS.
 
-[view project](//swift-goldfish.cloudvent.net/)
+[view project &rarr;](//swift-goldfish.cloudvent.net/)
