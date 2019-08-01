@@ -1,5 +1,5 @@
 ---
-title:
+title: The speed of Chrome
 ---
 
 In 2010 Google promised us websites that would load as quick as shooting a potato through a slicer with explosives. In other words, in one or two tenths of a second. The speed of Chrome turned out to be a game changer. Chrome became the most used browser world wide. 
