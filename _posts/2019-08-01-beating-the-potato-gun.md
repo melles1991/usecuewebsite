@@ -1,0 +1,17 @@
+---
+title: Beating the potato gun
+---
+
+In 2008 Google promised us websites that would load as quick as shooting a potato through a slicer with explosives. In other words, in one or two tenths of a second. 
+
+Their campaign revolved around the introduction of v8, a much faster JavaScript engine. This turned out to be a game changer and made Chrome significantly faster than any other browser (at the time). The campaign was a big hit and Chrome (eventually) became the most used browser world wide, mostly due to this competitive advantage: speed.
+
+In their campaign video they used the website allrecipes.com. I was curious to see how fast it loads today. We could ask Lighthouse, but Lighthouse simulates a slow 3G connection, so I asked Pingdom. Pingdom told me that the current website of allrecipes.com loads in 3.6 seconds. This website has either became MUCH slower in the past 11 years OR we were looking at a preloaded website.
+
+From the video description we can read it was preloaded (a local version of the site). However, with Googles current focus on speed, I was wondering: Can a website actually load in under 0.2 seconds over the internet? Could a website beat the potato gun speed? The answer is a definitive YES. This website loads in 0.16 seconds. Don't believe me? Ask Pingdom. 
+
+What it requires? First of all you need a really low TTFB (time to first byte). This can be achieved by serving static code (using a site generator or cache plugin) in combination with a server that is geographically close to you (a CDN could help). Preferrably this server should be able to serve the static code from its RAM. If that is not possible it should read from a fast SSD disk. Ofcourse you also need a small page (with heavily compressed images and no jQuery). To get the best performance, you should use very little to no JavaScript. This will make sure your site has a low TTI (time to interactive) and FID (first input delay).
+
+But why would you want this? I am writing this post, while having a very spotty internet connection. A fast website loads here in a few seconds, a slow website takes forever, or does not load at all. Fast websites are more accesible. Google acknowledges this problem too and prefers to show fast loading websites in its search result. Fast websites rank higher. Finally it is proven that fast websites have a higher conversion rate. Fast websites are more effectieve.
+
+Do you want a website that beats the potato gun, is more accesible, ranks higher and is more effective? No problem. Just give me a call.
