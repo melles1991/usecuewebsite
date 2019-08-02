@@ -4,7 +4,7 @@ title: Websites that load instantly
 
 In 2008 Google promised us websites that would load as quick as shooting a potato through a slicer with explosives. In other words, in one or two tenths of a second, or as I like to call it: 'instantly'.
 
-[Video of Chrome loading instantly and beating the potato gun](https://youtu.be/nCgQDjiotG0)
+[Video of Chrome loading instantly and beating the potato gun.](https://youtu.be/nCgQDjiotG0)
 
 Their campaign revolved around the introduction of v8, a much faster Javascript engine. This turned out to be a game changer and made Chrome significantly faster than any other browser at the time. The campaign was a big hit and Chrome (eventually) became the most used browser world wide, mostly due to this competitive advantage.
 
