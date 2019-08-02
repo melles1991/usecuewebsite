@@ -16,4 +16,4 @@ What it requires? First of all you need a really low TTFB (time to first byte). 
 
 But why would you want all this? What is the use of beating the potato gun? I am writing this post on a mobile phone with a spotty internet connection. A fast website loads here in a few seconds, a slow website takes forever or does not load at all. Fast websites are more accesible. Google acknowledges this too and prefers to show fast loading websites in its search result. Fast websites rank higher. It has been proven that fast websites have a higher conversion rate as well. Fast websites are simply more effective.
 
-Do you want a website that beats the potato gun too? No problem. Just give me a call.
+Do you want a website that is more effective and beats the potato gun? No problem. Just give me a call.
