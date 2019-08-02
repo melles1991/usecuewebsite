@@ -4,11 +4,11 @@ title: Websites that load instantly
 
 In 2008 Google promised us websites that would load as quick as shooting a potato through a slicer with explosives. In other words, in one or two tenths of a second, or as I like to call it: 'instantly'.
 
-[Video of Chrome beating the potato gun](https://youtu.be/nCgQDjiotG0)
+[Video of Chrome loading instantly and beating the potato gun](https://youtu.be/nCgQDjiotG0)
 
 Their campaign revolved around the introduction of v8, a much faster Javascript engine. This turned out to be a game changer and made Chrome significantly faster than any other browser at the time. The campaign was a big hit and Chrome (eventually) became the most used browser world wide, mostly due to this competitive advantage.
 
-In their campaign video they used the website allrecipes.com. I was curious to see how fast it loads today. We could ask [Lighthouse](https://web.dev), but Lighthouse simulates a slow 3G connection, so I asked [Pingdom](https://pingdom.com). Pingdom [reported](/uploads/Screenshot_20190801-100756.png) that the current website of allrecipes.com loads in 4.85 seconds. That is far from instantly. Their website has either become MUCH slower in the past 11 years or we were looking at a preloaded website or both.
+In their campaign video they used the website [allrecipes.com](https://www.allrecipes.com). I was curious to see how fast it loads today. We could ask [Lighthouse](https://web.dev), but Lighthouse simulates a slow 3G connection, so I asked [Pingdom](https://www.pingdom.com). Pingdom [reported](/uploads/Screenshot_20190801-100756.png) that the current website of allrecipes.com loads in 4.85 seconds. That is far from instantly. Their website has either become MUCH slower in the past 11 years or we were looking at a preloaded website or both.
 
 From the video description we can read the website was preloaded (it used a local version). However, with Googles current focus on speed, I was wondering: can a website load in under 0.2 seconds over the internet? Could a website load instantly and beat the potato gun? The answer is YES. This website loads in 0.16 seconds. Don't believe me? [Ask Pingdom.](/uploads/Screenshot_20190801-112656.png) 
 
