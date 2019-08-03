@@ -6,7 +6,7 @@ In 2008 Google promised us websites that would load as quick as shooting a potat
 
 [Video of Chrome loading instantly and beating the potato gun.](https://youtu.be/nCgQDjiotG0)
 
-Their campaign revolved around the introduction of v8, a much faster Javascript engine. This turned out to be a game changer and made Chrome significantly faster than any other browser at the time. The campaign was a big hit and Chrome (eventually) became the most used browser world wide, mostly due to this competitive advantage.
+Their campaign revolved around the introduction of v8, a new Javascript engine. This turned out to be a game changer and made Chrome significantly faster than any other browser at the time. The campaign was a big hit and Chrome (eventually) became the most used browser world wide, mostly due to this competitive advantage.
 
 In their campaign video they used the website [allrecipes.com](https://www.allrecipes.com). I was curious to see how fast it loads today. We could ask [Lighthouse](https://web.dev), but Lighthouse simulates a slow 3G connection, so I asked [Pingdom](https://www.pingdom.com). Pingdom reported that the current website of allrecipes.com loads in [4.85 seconds](/uploads/Screenshot_20190801-100756.png). That is far from instantly. Their website has either become MUCH slower in the past 11 years or we were looking at a preloaded website or both.
 
@@ -16,4 +16,4 @@ What it requires? First of all you need a really low TTFB (time to first byte). 
 
 But why would you want all this? What is the use of beating the potato gun? I am writing this post on a mobile phone with a spotty internet connection. A fast website loads here in a few seconds, a slow website takes forever or does not load at all. Fast websites are more accesible. Google acknowledges this too and [prefers](https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html?m=1) to show fast loading websites in its search result. Fast websites rank higher. It [has been proven](https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/) that fast websites have a higher conversion rate as well. Fast websites are simply more effective.
 
-Do you want your website to be more effective and beat the potato gun? No problem. Just give me a call.
+Do you want your website to be more effective and beat the potato gun? Make it load instantly. Don't know how? No problem. Just give me a call.
