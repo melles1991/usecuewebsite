@@ -17,4 +17,4 @@ This means that the CSS for the desktop version does not need to have any respon
 
 I found the above quote on Twitter. Do you feel the same? Try this technique! 'Fixed viewports' makes building responsive websites very easy. In my experience it allows you to make ANY website responsive in less than 3 hours.
 
-PRO TIP: Feeling fancy? Add an in-between version for portrait tablets or enable [the viewport meta tag on desktop](/blog/the-viewport-meta-tag-on-desktop.html).
+PRO TIP: Feeling fancy? Add an in-between version for portrait tablets or enable [the viewport meta tag on desktop](/blog/the-viewport-meta-tag-on-desktop/).
