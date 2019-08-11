@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'times_new_romanregular';
-    src: local('Times'),
-         url('/fonts/Times Roman.woff2') format('woff2'),
+    src: url('/fonts/Times Roman.woff2') format('woff2'),
          url('/fonts/Times Roman.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -14,7 +13,7 @@
 }
 
 * {margin: 0; padding: 0; font-weight: normal;}
-body {background: #0000ee; color: white; font-family: 'times_new_romanregular', 'Times New Roman', 'Times', serif;}
+body {background: #0000ee; color: white; font-family: 'times_new_romanregular', 'Times New Roman','Times',serif;}
 body, html {height: 100%;}
 img {max-width: 100%;}
 html {overflow-y: scroll;}
@@ -112,15 +111,6 @@ blockquote {margin-top: 0.5em; border-left: 2px solid white; margin-bottom: 1.35
     .home #content {width: 1250px;} /*  0.6*2000  */
     #content ul {margin-left: 28px;}
     #logo img {width: 67px;}
-    /*
-    .line1 {left: 2vw;}
-    .line2 {left: 18%;}
-    .line3 {left: 34%;}
-    .line4 {left: 50%;}
-    .line5 {right: 34%;}
-    .line6 {display: block; right: 18%;}
-    .line7 {display: block; right: 2vw;}
-    */
 }
 
 @media screen and (max-width: 1600px) {
@@ -129,7 +119,7 @@ blockquote {margin-top: 0.5em; border-left: 2px solid white; margin-bottom: 1.35
     .post #content p:first-of-type, blockquote, .smallmedium {font-size: 34px;} /*  0.021*1600  */
     blockquote {padding-left: 34px;}
     .medium, h1 {font-size: 80px;} /*  0.05*1600  */
-    .large {font-size: 10vw;} /*  0.1*1600  */
+    .large {font-size: 160px;} /*  0.1*1600  */
     .portfolio #content .svg {width: calc(100vw - 75px); max-width: 800px;}
     #content {width: 768px;} /*  0.48*1600  */
     .home #content {width: 960px; padding-bottom: 192px;} /*  0.6*1600  */
@@ -163,7 +153,13 @@ blockquote {margin-top: 0.5em; border-left: 2px solid white; margin-bottom: 1.35
     #nextlink .desktop {display: none;}
 }
 
-
+@media screen and (max-width: 500px) {
+    body, .small {font-size: 18px;} /*  0.015*1600  */
+    .post #content p:first-of-type, blockquote, .smallmedium {font-size: 24px;} /*  0.021*1600  */
+    blockquote {padding-left: 24px;}
+    .medium, h1 {font-size: 55px;} /*  0.05*1600  */
+    .large {font-size: 55px;} /*  0.1*1600  */
+}
 
 
 
