@@ -29,14 +29,6 @@
   
   
       <url>
-        <loc>http://localhost:4000/google-lighthouse-score/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-  
-      <url>
         <loc>http://localhost:4000/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -53,6 +45,18 @@
   
   
   
+  
+      <url>
+        <loc>http://localhost:4000/blog/speed-index-explained/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+      <url>
+        <loc>http://localhost:4000/blog/google-lighthouse-score/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
   
       <url>
         <loc>http://localhost:4000/blog/websites-that-load-instantly/</loc>
