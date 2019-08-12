@@ -14,7 +14,7 @@ Lighthouse returns a Performance score between 0 and 100. 0 is the lowest possib
 
 ## Accessibility
 
-The Accessibility score is a weighted average of all the accessibility audits. See Scoring Details for a full list of how each audit is weighted. The heavier-weighted audits have a bigger impact on your score. 
+The Accessibility score is a weighted average of all the accessibility audits. See [Scoring Details](https://developers.google.com/web/tools/lighthouse/v3/scoring) for a full list of how each audit is weighted. The heavier-weighted audits have a bigger impact on your score. 
 
 ## Best practices
 
