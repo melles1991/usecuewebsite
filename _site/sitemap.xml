@@ -252,6 +252,12 @@
        </url>
   
       <url>
+        <loc>http://localhost:4000/portfolio/usecue/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+      <url>
         <loc>http://localhost:4000/portfolio/zonmw/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
