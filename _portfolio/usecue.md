@@ -2,7 +2,7 @@
 title: this very website
 image: /uploads/usecue1.jpg
 mobile_image: /uploads/usecue2.jpg
-color: '#1111bb'
+color: '#1111aa'
 portfolio_url: 'https://www.usecue.com/'
 google_score: 100%
 speed_index: 1.7s
