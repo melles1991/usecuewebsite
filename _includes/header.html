@@ -36,7 +36,7 @@
 
 </head>
 
-<body id="top" class="{{ page.layout }}{% if page.layout == 'error' %} home{% endif %}{% if page.color %} bgcolor{% endif %}" style="{% if page.color %}background: {{ page.color }} url(/img/pattern1.png) left top;{% endif %}">
+<body id="top" class="{{ page.layout }}{% if page.layout == 'error' %} home{% endif %}{% if page.color %} bgcolor{% endif %}" style="{% if page.color %}background: {{ page.color }} url(/img/pattern1.png) left top; background-attachment: fixed;{% endif %}">
   <div id="pattern"></div>
   {% if page.layout == 'home' %}
     <div id="splash">
