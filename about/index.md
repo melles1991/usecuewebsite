@@ -1,5 +1,5 @@
 ---
-title: about
+title: About me
 ---
 
 My name is Joost van der Schee and I am a web developer based in Amsterdam. I have studied Industrial Design Engineering at the Technical University in Delft and founded 'Usecue' in 2007. My first priority is my family, but my work is absolutely number two. I love what I do, which is building beautiful websites and web applications. 
