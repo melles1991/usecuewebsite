@@ -3,7 +3,7 @@ title: A green website
 color: green
 ---
 
-Green is not only good for your brand, but also more important then ever. ICT is already responsible for more than 4.5% of the energy use worldwide and I expect that number to rise every year. We have to take action... but how? It seems simple: Make sure that your website uses less energy and make sure that that energy comes from sustainable resources. But how do you realize that in real life?
+Green is not only good for your brand, but also more important then ever. ICT is already responsible for more than 4.5% of the energy use worldwide. We have to take action... but how? It seems simple: Make sure that your website uses less energy and make sure that that energy comes from sustainable resources. But how do you realize that in real life?
 
 Let us take at the energy usage. What is the energy usage of a website? First of all by the energy usage of the server, but also by the energy usage of the devices of the visitors.
 
