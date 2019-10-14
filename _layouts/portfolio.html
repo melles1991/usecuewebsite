@@ -1,7 +1,7 @@
 {% include header.html %}
 
 <div class="fullscreen">
-    <a href="{{ page.portfolio_url }}" style="background: {{ page.color }};" title="View the website of {{ page.title }}" aria-label="View the website of {{ page.title }}">
+    <a href="{{ page.portfolio_url }}" title="View the website of {{ page.title }}" aria-label="View the website of {{ page.title }}">
         <div class="svg">
         <svg  version="1.1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="490.63" height="302.779" viewBox="0 0 490.63 302.779" overflow="visible" enable-background="new 0 0 490.63 302.779" xml:space="preserve" style="background: url('{{ page.mobile_image }}') 97.5% 48.6% / 28.5% auto no-repeat, url('{{ page.image }}') 47% 48% / 63% auto no-repeat;">
             <g id="Layer_2">
@@ -58,10 +58,27 @@
         </div>
     </a>
 </div>
-<div id="scrolldown">^</div>
+<div id="scrolldown"></div>
 
 <h1 class="large">{{ page.title }}</h1>
 
 {{ content }}
+
+<div class="threecols" style="padding-top: 1.1em;">
+    <div>
+        <h3 class="small">Google score</h3>
+        <div class="medium">{{ page.google_score }}</div>
+    </div>
+    <div>
+        <h3 class="small">Speed index</h3>
+        <div class="medium">{{ page.speed_index }}</div>
+    </div>
+    <div>
+        <h3 class="small">Page weight</h3>
+        <div class="medium">{{ page.page_weight }}</div>
+    </div>
+</div>
+
+<p style="padding-top: 1.4em;"><br /><a href="{{ page.portfolio_url }}" rel="noopener" target="_blank" class="btn" style="{% if page.color %}background: {{ page.color }};{% endif %}">view project</a></p>
 
 {% include footer.html %}

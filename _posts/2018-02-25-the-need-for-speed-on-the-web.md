@@ -8,7 +8,7 @@ Equally exciting, but far more important, as website speed is a big success fact
 
 ## Impatient visitors
 
-Research on e-commerce websites shows that [40 percent](https://blog.kissmetrics.com/seo-for-ecommerce-websites/) of consumers will wait no more than three seconds for a web page to render before abandoning the site. The avarage loading time of websites is currently [3.7 seconds](https://research.hubspot.com/reports/does-your-website-make-the-grade). Mobile traffic has an increased [latency](https://www.techopedia.com/definition/8553/network-latency) of [about 200ms](https://phabricator.wikimedia.org/phame/live/7/post/83/measuring_wikipedia_page_load_times/), making your website even slower. We also know that the percentage mobile traffic is growing steadily. This means that already OVER 50% of the websites fails to render within three seconds (and is losing visitors). As a consequence of the rising percentage of mobile traffic this number is expected to only increase.
+Research on e-commerce websites shows that [40 percent](https://blog.kissmetrics.com/seo-for-ecommerce-websites/) of consumers will wait no more than three seconds for a web page to render before abandoning the site. The avarage loading time of websites is currently [3.7 seconds](https://research.hubspot.com/reports/does-your-website-make-the-grade). Mobile traffic has an increased [latency](https://www.techopedia.com/definition/8553/network-latency) of [about 200ms](https://phabricator.wikimedia.org/phame/live/7/post/83/measuring_wikipedia_page_load_times/), making your website even slower. We also know that the percentage mobile traffic is growing steadily. This means that already OVER 50% of the websites fail to render within three seconds (and are losing visitors). As a consequence of the rising percentage of mobile traffic this number is expected to only increase.
 
 ## Better ranking
 
@@ -16,7 +16,7 @@ A slow website has another problem: It might not reach that first page or positi
 
 ## Improved conversion
 
-Examples [show](https://blog.hubspot.com/marketing/page-load-time-conversion-rates) that speedy websites have more conversion than slow websites. On a fast website visitors will be [more likely](https://blog.radware.com/applicationdelivery/wpo/2014/04/web-page-speed-affect-conversions-infographic/) to fill out an order form, enter contact details or subscribe to an email newsletter. Making your website faster can easily result in a [20% conversion increase](http://www.webperformancetoday.com/2010/07/01/the-best-graphs-of-velocity/).
+Examples [show](https://blog.hubspot.com/marketing/page-load-time-conversion-rates) that speedy websites have more conversion than slow websites. On a fast website visitors will be [more likely](https://blog.radware.com/applicationdelivery/wpo/2014/04/web-page-speed-affect-conversions-infographic/) to fill out an order form, enter contact details or subscribe to an email newsletter. Making your website faster can easily result in a 20% conversion increase.
 
 ## Improved UX
 

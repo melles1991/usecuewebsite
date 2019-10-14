@@ -1,8 +1,8 @@
 @font-face {
-	font-family: 'Conv_times';
-	src: url('/fonts/times.eot');
-	src: local("Times New Roman"), url('/fonts/times.woff') format('woff'), url('/fonts/times.ttf') format('truetype'), url('/fonts/times.svg') format('svg');
-	font-weight: normal;
+    font-family: 'times_new_romanregular';
+    src: url('/fonts/Times Roman.woff2') format('woff2'),
+         url('/fonts/Times Roman.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -13,25 +13,27 @@
 }
 
 * {margin: 0; padding: 0; font-weight: normal;}
-body {background: #0000ee; color: white; font-family: 'Conv_times',serif;}
+body {background: #0000ee; color: white; font-family: 'times_new_romanregular', 'Times New Roman','Times',serif;}
 body, html {height: 100%;}
 img {max-width: 100%;}
 html {overflow-y: scroll;}
-a {color: white;}
+a {color: white; text-decoration-style: solid; /*solid dotted, dashed, and wavy*/ text-decoration-color: rgba(255,255,255,0.5);}
+#splash a {text-decoration-color: rgba(255,255,255,1);}
 body.black a {color: black;}
 #innerbody {position: relative;}
 #innerbody, #content .fullscreen, #splash {align-items: center; display: flex; justify-content: center; min-height: 100%;}
+#darkmodeoverlay {background: #fff2; position: fixed; top: 0; left: 0; z-index: 8; width: 100%; pointer-events: none; opacity: 0; height: 100vh;}
 #splash {background: #0000ee; position: fixed; top: 0; left: 0; z-index: 9; width: 100%; pointer-events: none;
     animation-name: fadeout; 
-    animation-delay: 2s; 
+    animation-delay: 1.3s; 
     animation-duration: 0.3s; 
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }
-#splash > div {padding: 0 30px 2em;
+#splash > div:not(.line) {padding: 0 30px 2em;
     animation-name: fadeout; 
-    animation-delay: 1.7s; 
+    animation-delay: 1s; 
     animation-duration: 0.3s; 
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
@@ -45,6 +47,9 @@ body.black a {color: black;}
     #splash > div {text-align: center;}
 }
 
+
+
+
 /* FONT SIZES */
 body, .small {font-size: 1.5vw; line-height: 1.25;}
 .post #content p:first-of-type, blockquote, .smallmedium {font-size: 2.1vw;}
@@ -55,22 +60,33 @@ h2 {padding-bottom: 0.6em; padding-top: 0.6em;}
 .large {font-size: 10vw;}
 
 
-#scrolltotop, #logo, #menu, #nextlink {position: fixed; top: 1.5vw; z-index: 2;}
-#scrolltotop, #logo, #menu {text-transform: lowercase;}
+#scrolltotop, #logo, #menu, #nextlink, #darkmode {position: fixed; top: 1.5vw; z-index: 2;}
+#scrolltotop, #logo, #menu, #darkmode {text-transform: lowercase;}
 #menu {right: 2vw; position: absolute;}
 #menu li {list-style: none; display: inline;}
 #menu li a {display: inline-block; margin: 0 0 0 1.5vw;}
-#logo {left: 2vw; top: 1.5vw; line-height: 1; display: block; border: 1px dotted rgb(255, 255, 255);}
+#logo {left: 2vw; top: 1.5vw; line-height: 1; display: block; border: 1px solid rgba(255, 255, 255,0.5);}
 #logo img {width: 3.35vw; vertical-align: top; display: block;}
-.bgcolor #logo {background: url(/img/icon-196x196-transparent.png) center center / contain no-repeat;}
+.bgcolor #logo {border: 1px solid rgba(255, 255, 255,0.4);}
 .bgcolor #logo img {opacity: 0;}
+.bgcolor #logo:before {content: ""; width: 100%; height: 100%; background: url(/img/icon-196x196-transparent.png) center center / contain no-repeat; position: absolute;}
 #scrolltotop {top: auto; bottom: 1.7vw; right: 2vw; opacity: 0; pointer-events: none; transition: opacity 0.3s ease-in-out; max-width: calc(35% - 30px);}
+#darkmode {top: auto; bottom: 1.7vw; right: 2vw; position: fixed; transition: opacity 0.3s ease-in-out;}
 #nextlink {top: auto; bottom: 1.7vw; left: 2vw; right: auto; position: absolute; max-width: calc(65% - 30px); text-transform: lowercase;}
+#nextlinktop, #prevlinktop {top:50vh; left: 2vw; position: fixed; transition: opacity 0.3s ease-in-out; opacity: 1; transform: rotate(-90deg) translateX(-50%); transform-origin: 0% 0%;}
+#nextlinktop {left: auto; right: 2vw; transform-origin: 100% 0%; transform: rotate(90deg) translateX(50%);}
+.scrolled #darkmode,
+.scrolled #nextlinktop,
+.scrolled #prevlinktop {opacity: 0; pointer-events: none;}
 .scrolled #scrolltotop {opacity: 1; pointer-events: all;}
-#content {width: 50vw; text-align: left; margin: 0 auto; padding: 12vw 2vw 17vw;}
+@media screen and (max-width: 1100px) {
+    #nextlinktop, #prevlinktop {opacity: 0; pointer-events: none;}
+}
+.scrolled #scrolltotop {opacity: 1; pointer-events: all;}
+#content {width: 48%; text-align: left; margin: 0 auto; padding: 12vw 2vw 17vw;}
 #content h1 {text-align: center;}
 body:not(.home) #content h1 {padding-bottom: .7em;}
-.home #content {width: 60vw; text-align: center; padding-bottom: 12vw;}
+.home #content {width: 60%; text-align: center; padding-bottom: 12vw;}
 #content p, #content ol, #content ul {padding-bottom: 1.25em;}
 blockquote {margin-top: 0.5em; border-left: 2px solid white; margin-bottom: 1.35em; padding-left: 2.1vw;}
 #content img {width: 100%; max-width: 100%; margin-bottom: 0.2em;}
@@ -86,8 +102,16 @@ blockquote {margin-top: 0.5em; border-left: 2px solid white; margin-bottom: 1.35
 .portfolio #content {padding-top: 0;}
 .portfolio #content .svg {width: 50vw;}
 .portfolio #content .svg svg {width: 100%; height: 100%; position: relative; right: 2vw;}
-#scrolldown {position: absolute; transform: rotate(180deg) scaleX(1.75) scale(2); left: 50%; margin-top: -15vh;}
+#scrolldown {position: absolute; left: 50%; margin-top: -15vh; margin-left: -0.2em;}
+#scrolldown:before, #scrolldown:after {content: ""; position: absolute; height: 1.6vw; width: 0.65vw; background: white;}
+#scrolldown:before {transform: skewX(45deg); transform-origin: 100% 100%;}
+#scrolldown:after {transform: skewX(-45deg); transform-origin: 0% 100%;}
 #postdate {font-style: italic; padding-bottom: 1em;}
+.btn {display: inline-block; padding: 0.35em 1em 0.45em; text-decoration: none; border: 1px solid rgba(255, 255, 255,0.4);}
+
+.threecols {display: flex;}
+.threecols > div {flex: 1 33.3%;}
+
 
 @media screen and (min-width: 2000px) {
     /* FONT SIZES */
@@ -97,12 +121,12 @@ blockquote {margin-top: 0.5em; border-left: 2px solid white; margin-bottom: 1.35
     .medium, h1 {font-size: 100px;} /*  0.05*2000  */
     .large {font-size: 200px;} /*  0.1*2000  */
     .portfolio #content .svg,
-    #content {width: 1000px;} /*  0.5*2000  */
+    #content {width: 960px;} /*  0.48*2000  */
     .home #content {width: 1250px;} /*  0.6*2000  */
     #content ul {margin-left: 28px;}
     #logo img {width: 67px;}
+    #scrolldown:before, #scrolldown:after {height: 32px; width: 13px;}
 }
-
 
 @media screen and (max-width: 1600px) {
     /* FONT SIZES */
@@ -110,9 +134,9 @@ blockquote {margin-top: 0.5em; border-left: 2px solid white; margin-bottom: 1.35
     .post #content p:first-of-type, blockquote, .smallmedium {font-size: 34px;} /*  0.021*1600  */
     blockquote {padding-left: 34px;}
     .medium, h1 {font-size: 80px;} /*  0.05*1600  */
-    .large {font-size: 10vw;} /*  0.1*1600  */
+    .large {font-size: 160px;} /*  0.1*1600  */
     .portfolio #content .svg {width: calc(100vw - 75px); max-width: 800px;}
-    #content {width: 800px;} /*  0.5*1600  */
+    #content {width: 768px;} /*  0.48*1600  */
     .home #content {width: 960px; padding-bottom: 192px;} /*  0.6*1600  */
     .portfolio h1, .post .fullscreen h1 {margin: 0 -11vw;}
 
@@ -120,23 +144,44 @@ blockquote {margin-top: 0.5em; border-left: 2px solid white; margin-bottom: 1.35
     #logo {top: 25px;}
     #logo img {width: 54px;}
     #logo, #nextlink {left: 30px;}
-    #scrolltotop {right: 30px;}
+    #scrolltotop, #darkmode {right: 30px;}
     #content {padding: 192px 30px 272px;}
-    #scrolltotop, #nextlink {bottom: 25px;}
+    #scrolltotop, #nextlink, #darkmode {bottom: 25px;}
     #content ul {margin-left: 22px;}
+    #scrolldown:before, #scrolldown:after {height: 24px; width: 10px;}
 }
 
 .mobile {display: none;}
-@media screen and (max-width: 1100px) {
-    #logo, #scrolltotop {position: absolute;}
+@media screen and (max-width: 1150px) {
+    #logo, #scrolltotop, #darkmode {position: absolute;}
+    .scrolled:not(.post) #darkmode {left: 30px; right: auto; opacity: 1; pointer-events: all;}
     .large {font-size: 80px;} /*  0.10*1600  */
     .portfolio h1 {margin: 0;}
     .post .fullscreen h1 {margin: 0; padding: 2.5em 0 2.7em!important;}
     #nextlink .mobile {display: inline;}
     #nextlink .desktop {display: none;}
+    #scrolldown:before, #scrolldown:after {height: 18px; width: 7px;}
+}
+@media screen and (max-width: 750px) {
+    .threecols > div .medium {font-size: 60px!important;}
 }
 
+@media screen and (max-width: 500px) {
+    body, .small {font-size: 18px;} /*  0.015*1600  */
+    .post #content p:first-of-type, blockquote, .smallmedium {font-size: 24px;} /*  0.021*1600  */
+    blockquote {padding-left: 24px;}
+    .medium, h1 {font-size: 55px;} /*  0.05*1600  */
+    .large {font-size: 55px;} /*  0.1*1600  */
+    .threecols > div .medium {font-size: 40px!important;}
 
+    #content {padding-left: 15px; padding-right: 15px;}
+    #logo, #nextlink {left: 15px;}
+    #scrolltotop, #darkmode {right: 15px;}
+    .scrolled:not(.post) #darkmode {left: 15px; right: auto;}
+    #menu {right: 15px;}
+
+    #scrolldown:before, #scrolldown:after {height: 12px; width: 5px;}
+}
 
 
 
@@ -240,4 +285,21 @@ transform-origin: 50% 50%;
     -moz-user-select: none;    
     -ms-user-select: none;      
     user-select: none;
+}
+
+
+
+.bgcolor #darkmode {pointer-events: none!important; opacity: 0!important;}
+#darkmode.selected::before {content: "feeling blue?";}
+#darkmode::before {content: "ouch, my eyes!";}
+body.darkmode:not(.bgcolor) img {filter: grayscale(100%);}
+body.darkmode:not(.bgcolor) #logo img {filter: grayscale(100%);}
+body.darkmode:not(.bgcolor) {background: #101010;}
+body.darkmode:not(.bgcolor) #darkmodeoverlay {opacity: 1;}
+@media (prefers-color-scheme: dark) {
+    #darkmode {pointer-events: none; opacity: 0;}
+    body:not(.bgcolor) img {filter: grayscale(100%);}
+    body:not(.bgcolor) #logo img {filter: grayscale(100%);}
+    body:not(.bgcolor) {background: #101010;}
+    #darkmodeoverlay {opacity: 1;}
 }

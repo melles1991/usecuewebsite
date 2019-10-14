@@ -30,3 +30,4 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:name/
+    

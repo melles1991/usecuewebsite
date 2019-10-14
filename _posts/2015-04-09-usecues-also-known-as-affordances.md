@@ -1,7 +1,6 @@
 ---
-title: "About 'usecues', also known as affordan&shy;ces"
+title: "About 'usecues', also known as affordances"
 ---
-
 
 Affordance is a term originally coined by a psychologist, J.J. Gibson, in the 1970s. He defined it as the relationship between an environment and an actor. Today, affordance extends beyond behavioral or cognitive psychology and into the design of digital interfaces.
 

@@ -25,7 +25,7 @@ A JAMstack has no 'moving parts'. This means that a JAMstack website requires no
 
 ## Better scalability
 
-JAMstack website are typically being served by a CDN. CDN's can cope with lots of visitors at the same time. A huge amount of visitors will not take down your server. As argued before, a CDN can also be added to a WordPress website, marginalising the performance differnce in this field. Additionally, when you really need to, you can easily migrate your WordPress website to a bigger/faster/better server.
+JAMstack website are typically being served by a CDN. CDN's can cope with lots of visitors at the same time. A huge amount of visitors will not take down your server. As argued before, a CDN can also be added to a WordPress website, marginalising the performance difference in this field. Additionally, when you really need to, you can easily migrate your WordPress website to a bigger/faster/better server.
 
 ## Cheaper
 

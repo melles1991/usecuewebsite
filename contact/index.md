@@ -1,5 +1,5 @@
 ---
-title: contact
+title: Contact
 ---
 
 My office is located in Amsterdam (the Netherlands). I especially love to work for graphic designers and advertising agencies. I do not out-source my work, nor do I hire interns. If you hire me, I will be the one that does the job.
