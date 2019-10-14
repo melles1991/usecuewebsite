@@ -13,7 +13,7 @@ Website owners want their website to load instantly from all around the world. T
 
 To get [extremely high speeds](https://www.usecue.com/blog/websites-that-load-instantly/) you see that website owners reserve capacity. This means that a server will be doing nothing in order for it to be able to react instantly when required. This absolutely NOT green. We see this principle in VPS and dedicated servers. So, when your website is running on a VPS or dedicated server, it may be quick, but it is not green.
 
-Finally the origin of the energy for the servers is important. Are they sustainable? Is it truely green energy? Or is it green energy based on certificates? Because [green hosting is not always as green as it seems](https://www.zaailingen.com/webhost-niet-zo-groen-als-lijkt/).
+Finally the origin of the energy for the servers is important. Are they sustainable? Is it truly green energy? Or is it green energy based on certificates? Because [green hosting is not always as green as it seems](https://www.zaailingen.com/webhost-niet-zo-groen-als-lijkt/).
 
 I always build light (and thus green) websites, because I want my website to have a high [Google score](https://www.usecue.com/blog/google-lighthouse-score/). A nice side-effect is that a light website uses less battery from the device of the visitor, which makes it also greener on that front.
 
