@@ -21,4 +21,4 @@ When you choose for a light website, hosted on shared hosting (so no VPS or dedi
 
 Less relevant, but nice to know: I build my websites on a passively cooled computer with a mobile i5 processor (less energy usage than a desktop i7), which runs on [very green energy](https://www.zaailingen.com/grijze-sjoemelstroom-groene-stroom/) provided by Qurrent.
 
-Is a green website something for you? I would love to help you!
+Is a green website something for you? I would love to help!
