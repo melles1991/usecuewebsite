@@ -4,9 +4,9 @@ title: Building a website in under 20 minutes
 
 It has been an enormous honor to speak at JekyllConf2019. This was my first conference talk ever. Fortunately, I could speak live from my own home-based studio, so it involved no flying around the world.
 
-After my talk I got a nice reaction from the JekyllConf team, which made me happy. They figured out what I wanted to show: You can build a professional website with a CMS in under 20 minutes by using nothing but a browser. Want to know more? You can find my talk by clicking on [this link](https://jekyllconf.com).
+After my talk I got a nice reaction from the JekyllConf team, which made me happy. They figured out what I wanted to show: You can build a professional website with a CMS in under 20 minutes by using nothing but a browser. Spoiler: I used Jekyll and Github. Want to know more? You can find my talk by clicking on [this link](https://jekyllconf.com).
 
-> You can build a professional website with a CMS in under 20 minutes by using nothing but a browser
+> You can build a professional website with a CMS in under 20 minutes by using nothing but a browser.
 
 I was accompanied by some great speakers. The message of Chris Ferdinandy really resonated with me. His statement was that the web is a mess and that we should fix it by using less frameworks. You can find his talk [here](https://jekyllconf.com).
 
