@@ -1,5 +1,5 @@
 ---
-title: Rims like new
+title: rims like new
 image: /uploads/fwn1.jpg
 mobile_image: /uploads/fwn2.jpg
 color: '#5b6669'

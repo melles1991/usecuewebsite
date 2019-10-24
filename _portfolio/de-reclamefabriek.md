@@ -1,5 +1,5 @@
 ---
-title: Advertising that works
+title: advertising that works
 image: /uploads/reclamefabriek1.jpg
 mobile_image: /uploads/reclamefabriek2.jpg
 color: '#016faa'

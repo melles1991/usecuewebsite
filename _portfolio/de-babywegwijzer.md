@@ -1,5 +1,5 @@
 ---
-title: the Baby Signpost
+title: the baby signpost
 image: /uploads/debabywegwijzer1.jpg
 mobile_image: /uploads/debabywegwijzer2.jpg
 color: '#6a918c'
