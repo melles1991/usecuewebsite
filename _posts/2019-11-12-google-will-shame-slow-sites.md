@@ -8,7 +8,7 @@ They shared some early explorations which surface speed signals in the Chrome’
 
 ## The SSL approach
 
-It sounds nice, but do not be fooled by the words 'reward' and 'badging'. When I heard this I immediately recalled the way Google approached SSL. First they awarded all secure websites with a green badge and later they made the green badge gray and actively shamed non-SSL websites by displaying 'Not secure' in front of their URL. Additionally, they promoted SSL websites in their search results and demoted non-SSL websites. I expect them to go for an identical approach here as their SSL approach was highly effective.
+It sounds nice, but do not be fooled by the words 'reward' and 'badging'. When I heard this I immediately recalled the way Google approached SSL. First they awarded all secure websites with a green badge. Later they made the green badge gray and actively shamed non-SSL websites by displaying 'Not secure' in front of their URL. Additionally, they promoted SSL websites in their search results and demoted non-SSL websites. I expect them to go for an identical approach here as their SSL approach was highly effective.
 
 ## Speed is very important
 
