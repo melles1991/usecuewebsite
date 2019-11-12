@@ -1,5 +1,5 @@
 ---
-title: Google will shame slow sites
+title: Google will shame slow websites
 ---
 
 At Chrome Dev Summit Google [announced](https://blog.chromium.org/2019/11/chrome-dev-summit-2019-elevating-web.html) that it "is looking at ways to reward developers for going the extra mile when it comes to website performance". 
