@@ -2,7 +2,7 @@
 title: Google will shame slow sites
 ---
 
-At Chrome Dev Summit Google announced that it "is looking at ways to reward developers for going the extra mile when it comes to website performance". 
+At Chrome Dev Summit Google [announced](https://blog.chromium.org/2019/11/chrome-dev-summit-2019-elevating-web.html) that it "is looking at ways to reward developers for going the extra mile when it comes to website performance". 
 
 They shared some early explorations which surface speed signals in the Chrome’s UI, like a preloading screen warning you for the slow experience or a colored loading bar. Google will identify sites that typically load fast or slow for users with clear badging, according to [the Crome blog](https://blog.chromium.org/2019/11/moving-towards-faster-web.html).
 
