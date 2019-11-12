@@ -22,4 +22,4 @@ However, with SSL and their focus on website performance, Google seems to be on 
 
 ## Invest in speed
 
-Either way, we have no choice but to invest in speed. Google owns most searches and therefore makes the rules. If we want our websites to perform well in Google, we will have to invest in website performance and build [faster websites](/blog/websites-that-load-instantly/). Fortunately, I know a thing or two about that. If you do not: this is your time to start learning.
+Either way, we have no choice but to invest in speed. Google owns most searches and therefore makes the rules. If we want our websites to perform well in Google, we will have to invest in website performance and build [faster websites](/blog/websites-that-load-instantly/). Fortunately, I know a thing or two about that. If you do not: this is your time to start catching up.
