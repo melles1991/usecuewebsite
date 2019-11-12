@@ -6,8 +6,6 @@ At Chrome Dev Summit Google announced that it "is looking at ways to reward deve
 
 They shared some early explorations which surface speed signals in the Chrome’s UI, like a preloading screen warning you for the slow experience or a colored loading bar. Google said it will identify sites that typically load fast or slow for users with clear badging. This may take a number of forms and they plan to experiment with different options, to determine which provides the most value to their users, according to [the Crome blog](https://blog.chromium.org/2019/11/moving-towards-faster-web.html).
 
-> Google will identify sites that typically load fast or slow for users with clear badging.
-
 ## The SSL approach
 
 It sounds nice, but do not be fooled by the words 'reward' and 'badging'. When I heard this I immediately recalled the way Google approached SSL. First they awarded all secure websites with a green badge and later they made the green badge gray, and actively shamed non-SSL websites by displaying 'Not secure' in front of their URL. Additionally they promoted SSL websites in their search results and demoted non-SSL websites. I expect them to go for an identical approach here. They are talking about 'badging', but they used the same rethoric when they discussed their SSL approach.
