@@ -6,7 +6,7 @@ Although I can almost build a website in my sleep (or in [20 minutes](/blog/spea
 
 You may still build your websites in pixels, but I have chosen to only use 'em', and the be more specific 'root em'. 
 
-The 'em' is a fascinating measurement. It originates from the height of the metal body of a letter in a letterpress and its name comes from its relation to the width of the captial letter 'M'. In this digital era these relations have blurred. According to [Wikipedia](https://en.wikipedia.org/wiki/Em_(typography)), an average font might have a cap height of 70% of the em, and an x-height of 48% of the em.
+The 'em' is a fascinating measurement. It originates from the height of the metal body of a letter in a letterpress and its name comes from its relation to the width of the captial letter 'M'. In this digital era this relation has blurred. According to [Wikipedia](https://en.wikipedia.org/wiki/Em_(typography)), an average font might have a cap height of 70% of the em, and an x-height of 48% of the em.
 
 If the font, declared on the root of your HTML element, has a font-size of 20px, 1 root em equals 20 pixels. A pixel in your site is then 1/20th by 1/20th root ems big. Knowing this, you can now build your website the way you used to be. Even media queries can be defined in root ems. A larger font could have a font-size of 2 root ems (40px) and your body text could be 0.8 root em (16px).
 
