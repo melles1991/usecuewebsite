@@ -4,7 +4,7 @@ title: Building websites in rem
 
 Although I can almost build a website in my sleep (or in [20 minutes](/blog/speaking-at-jekyllconf2019/)), I am not talking about REM sleep or 'Rapid Eye Movement', but about 'root ems'. 
 
-You may still build your websites in pixels, but I have chosen to only use 'ems' from now on, and the be more specific 'root ems'. 
+You may still build your websites in pixels, but I have chosen to only use 'ems', and the be more specific 'root ems'. 
 
 The 'em' is a fascinating measurement. It originates from the height of the metal body of a letter in a letterpress and its name comes from its relation to the width of the captial letter 'M'. In this digital era these relations have blurred. According to [Wikipedia](https://en.wikipedia.org/wiki/Em_(typography)), an average font might have a cap height of 70% of the em, and an x-height of 48% of the em.
 
