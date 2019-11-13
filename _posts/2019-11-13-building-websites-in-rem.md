@@ -2,7 +2,7 @@
 title: Building websites in rem
 ---
 
-Although I can almost build a website in my sleep (or in [20 minutes](/blog/speaking-at-jekyllconf2019/)), I am not talking about 'Rapid Eye Movement', but about 'Root Em'. 
+Although I can almost build a website in my sleep (or in [20 minutes](/blog/speaking-at-jekyllconf2019/)), I am not talking about REM sleep or 'Rapid Eye Movement', but about 'root ems'. 
 
 You may still build your websites in pixels, but I have chosen to only use 'ems' from now on, and the be more specific 'root ems'. 
 
