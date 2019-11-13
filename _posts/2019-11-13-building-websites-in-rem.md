@@ -4,7 +4,9 @@ title: Building websites in rem
 
 Although I can almost build a website in my sleep (or in [20 minutes](/blog/speaking-at-jekyllconf2019/)), I am not talking about 'Rapid Eye Movement', but about 'Root Em'. 
 
-You may still build your websites in pixels, but I have chosen to only use 'ems' from now on, and the be more specific 'root ems'. The 'em' is a fascinating measurement. It originates from the height of the metal body of a letter in a letterpress and its name comes from its relation to the width of the captial letter 'M'. In this digital era these relations have blurred. According to [Wikipedia](https://en.wikipedia.org/wiki/Em_(typography)), an average font might have a cap height of 70% of the em, and an x-height of 48% of the em.
+You may still build your websites in pixels, but I have chosen to only use 'ems' from now on, and the be more specific 'root ems'. 
+
+The 'em' is a fascinating measurement. It originates from the height of the metal body of a letter in a letterpress and its name comes from its relation to the width of the captial letter 'M'. In this digital era these relations have blurred. According to [Wikipedia](https://en.wikipedia.org/wiki/Em_(typography)), an average font might have a cap height of 70% of the em, and an x-height of 48% of the em.
 
 If the font, declared on the root of your HTML element, has a font-size of 20px, a pixel in your site is 0.05 by 0.05 root ems big. Knowing this, you can now build your website the way you used to be. Even media queries can be defined in root ems. A larger font could have a font-size of 2 root ems (40px) and your body text could be 0.8 root em (16px).
 
