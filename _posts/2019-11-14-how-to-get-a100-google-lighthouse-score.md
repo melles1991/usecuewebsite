@@ -47,7 +47,7 @@ Lets start by looking at some websites that score (nearly) 100% on all four cate
 - Loading time: 363ms
 - Hosted at: a Leaseweb VM in Amsterdam
 - Built by: Usecue BV
-- Score: 97,100,100,100
+- Score: 100,100,100,100
 
 [jekyllcodex.org](https://jekyllcodex.org/)
 
@@ -60,20 +60,20 @@ Lets start by looking at some websites that score (nearly) 100% on all four cate
 - Loading time: 756ms
 - Hosted on: CloudFlare (CDN)
 - Built by: Usecue BV
-- Score: 97,100,100,100
+- Score: 99,92,100,100
 
 [lamanzanilla.es](https://lamanzanilla.es/)
 
 - Javascript: 1kb
 - CSS: 7kb
-- Total size: 1.08Mb
+- Total size: 974kb
 - Number of requests: 17
 - TTFB: 166ms
 - DOMContentLoaded: 401ms
 - Loading time: 777ms
 - Hosted at: CloudFlare (CDN)
 - Built by: Usecue BV
-- Score: 99,93,100,100
+- Score: 100,93,100,100
 
 [deleteagency.com](https://www.deleteagency.com/)
 
@@ -86,25 +86,25 @@ Lets start by looking at some websites that score (nearly) 100% on all four cate
 - Loading time: 1.05s
 - Hosted at: unknown
 - Built by: Delete Agency
-- Score: 97,100,100,100
+- Score: 98,100,100,100
 
-## The essential steps
+## The easy steps
 
-First of all you need a low Time To First Byte. In other words: the server needs to respond fast. I use CloudFlare for most of my websites, but using a well configured VM works too (as you can see). I am not sure what hosting Delete Agency uses, but they got a nice low TTFB. You can test the TTFB with tools like Pingdom and GTMetrix.
+First of all you need a low Time To First Byte. All websites have a TTFB of less than 200ms. This means that the server needs to respond fast. I use CloudFlare for most of my websites, but using a well configured VM works too (as you can see). I am not sure what hosting Delete Agency uses, but they got a nice low TTFB. Getting a low TTFB is just a matter of chosing the right hosting. You can test this metric with a tool like Pingdom or GTMetrix.
 
-Secondly, you need to optimize your images. Note that using WebP is not required at all to get a good score. Using strong JPG compression is often more than enough.
+Secondly, you need to optimize your images. Use SVG where possible and heavily compressed JPG for the rest. If you have to use PNG, make sure you use TinyPNG to compress them. Use 'loading="lazy"' where possible. Note that using WebP is not required at all to get a good score.
 
-Finally, you need to address all the small issues in Google Lighthouse. 
+Finally, you need to address all the small issues Google Lighthouse throws at you. These could be accessibility things, but also SEO or performance issues. Note that you are not required to fix all Performance issues, as the score correlates to the speed at which the site loads, not to the checklist.
 
 ## The blocking code issue
 
-When you have done all the above, you are left with the blocking code issue. Google suggests to move all CSS to the footer. Although this works, you get an ugly Flash Of Unstyled Text (FOUT). The website is also only usable after the CSS has loaded. To fix this blocking issue there are two options.
+When you have done all the above, you are probably left with some hard to solve 'blocking code' issues. Google will suggest to move the CSS to the footer, but that does not really solve it. You will get an ugly Flash Of Unstyled Text (FOUT) and your website will only be usable after the CSS has loaded. Here is where I got stuck in the beginning. Fortunately, there are two solutions to fix this blocking issue.
 
-The first approach is perfectly outlined by Delete Agency (the last website in the list). They use a lot of Javascript and CSS, which is typically blocking, so they split and/or inlined parts of this code. They [documented](https://www.deleteagency.com/blog/how-to-get-a-100-percents-lighthouse-performance-score) this process in great detail. Although the end-result is impressive, it is also an awful lot of work.
+The first approach is perfectly outlined by Delete Agency (the last website in the list). They use a lot of Javascript and CSS, which is typically blocking, so they split and/or inlined parts of this code. They [documented](https://www.deleteagency.com/blog/how-to-get-a-100-percents-lighthouse-performance-score) this process in great detail. The end-result is impressive, but it is also an awful lot of work.
 
-However, there is a much simpler and more logical approach. I found out that you can build perfectly functional website with A LOT less Javascript and CSS. And I just had to do ONE thing: stop using (Javascript and CSS) frameworks. That was all! This reduces the amount of Javascript and CSS dramatically. I do not think that I need to explain that there is no need for inlining or splitting when you reduce the amount of Javascript and CSS by a factor 6 to 10. 
+Fortunately, there is a much simpler approach. As you can see in the statistics, you can build perfectly functional websites with A LOT less Javascript and CSS. I just had to do ONE thing to get to my perfect score: stop using (Javascript and CSS) frameworks. That was all! This reduces the amount of loaded Javascript and CSS dramatically. Obviously, there is no need for inlining or splitting when you reduce the amount of Javascript and CSS by a factor 10 or more. 
 
-### The right stack
+Note that you can perfectly load a LOT of large images. A homepage twice as big as the one from Delete Agency can still get a nearly perfect score. The problem is the blocking CSS and Javascript. Nothing else.
 
-Fortunately, there is a much simpler method. Just make your website 5 times smaller. How to do that?
+## The right stack
 
