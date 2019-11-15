@@ -47,7 +47,7 @@ Before we look at the actual steps we need to take, let us look at some websites
 |TTFB: |15ms|
 |DOM loaded: &nbsp; &nbsp;|231ms|
 |Loading time: |363ms|
-|Hosted at: |Leaseweb VM|
+|Hosted at: |Leaseweb (VM)|
 |Built by: |Usecue BV|
 |Score: |100,100,100,100|
 
