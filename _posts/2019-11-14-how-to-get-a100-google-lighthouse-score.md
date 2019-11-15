@@ -2,7 +2,7 @@
 title: How to get a 100% Google Lighthouse score
 ---
 
-Google will soon [shame slow websites](/blog/google-will-shame-slow-websites). A good reason to take a good look at your Google Lighthouse score right [now](https://web.dev/). 
+Google will soon [shame slow websites](/blog/google-will-shame-slow-websites). A good reason to take a good look at your Google Lighthouse score [right now](https://web.dev/). 
 
 You might feel that it is nearly impossible to get to a perfect 100% score. You minified your Javascript, properly scaled your images and even combined some requests, but that did not help nearly enough. The problem is: You might be looking at it from the wrong angle. I build 100% scoring websites on a daily basis, so obviously it is very well possible to get a perfect score on all your websites with little effort. Let me tell you how...
 
