@@ -2,11 +2,11 @@
 title: How to get a 100% Google Lighthouse score
 ---
 
-You might have heard that soon [Google will shame slow websites](/blog/google-will-shame-slow-websites). A good reason to take a good look at your Google Lighthouse score. 
+Google will soon [shame slow websites](/blog/google-will-shame-slow-websites). A good reason to take a good look at your Google Lighthouse score right [now](https://web.dev/). 
 
-When you do, I bet you wonder how get to a perfect 100%. Well.. I have built many websites that score perfectly, or nearly perfect on these Googles charts. So, I obviously got the answer. And if I can built 100% scoring websites on a daily basis, you already guessed that it is a lot easier than you think.
+When you look at your score, you might feel that it is nearly impossible to get to a perfect 100% score. However, I build 100% scoring websites on a daily basis, so obviously it is not. Let me explain how I do this. It is a lot easier than you think.
 
-## Some sample websites
+## What to aim for
 
 Lets start by looking at some websites that score (nearly) 100% on all four categories, to determine what the end-result looks like. For each site I have listed the weights: the Javascript, CSS and the total page weight. You can also see the number of requests (although they do not matter much over HTTP/2), as well as the time it takes the server to respond (TTFB) and the site to load. Finally, I listed the host, the company that built the website and the [Google Lighthouse score](/blog/google-lighthouse-score). Note that the comma seperated numbers stand for Performance, Accessibility, Best Practises and SEO.
 
@@ -98,14 +98,16 @@ Finally, you need to address all the small issues Google Lighthouse throws at yo
 
 ## The blocking code issue
 
-When you have done all the above, you are probably left with some hard to solve 'blocking code' issues. Google will suggest to move the CSS to the footer, but that does not really solve it. You will get an ugly Flash Of Unstyled Text (FOUT) and your website will only be usable after the CSS has loaded. Here is where I got stuck in the beginning. Fortunately, there are two solutions to fix this blocking issue.
+When you have done all the above, you are probably left with some hard to solve 'blocking code' issues. Google will suggest to move the Javascript and CSS to the footer, but that does not really solve it. You will get an ugly Flash Of Unstyled Text (FOUT) and your website will only be usable after your code has loaded. Here is where I got stuck in the beginning. Fortunately, there are two solutions to fix this blocking issue.
 
 The first approach is perfectly outlined by Delete Agency (the last website in the list). They use a lot of Javascript and CSS, which is typically blocking. Therefore they had to split and/or inline parts of this code. They [documented](https://www.deleteagency.com/blog/how-to-get-a-100-percents-lighthouse-performance-score) this process in great detail. The end-result is impressive, but it is also an awful lot of work.
 
-Fortunately, there is a much simpler approach. You should simply use less Javascript and CSS. When you compare the websites built by Usecue (me) to the website built by Delete Agency you see that I used way less Javascript and CSS. The difference is a factor 10. This obviously completely removes the need for inlining and splitting code. When you look at all websites worldwide, the difference is actually more than a factor 20. The 'average website' is has [400kb Javascript](https://httparchive.org/reports/state-of-javascript#bytesJs) and [60kb CSS](https://httparchive.org/reports/page-weight#bytesCss). To get these numbers down so drastically I only had to do ONE relatively simple thing: stop using (Javascript and CSS) frameworks. Ofcourse it required a learning curve, but I got the hang of it really quickly.
+Fortunately, there is a much simpler approach. You should simply use less Javascript and CSS. When you compare the websites built by Usecue (me) to the website built by Delete Agency you see that I used way less Javascript and CSS. The difference is a factor 10. This obviously completely removes the need for inlining and splitting code. When you look at all websites worldwide, the difference is actually more of a factor 20. The 'average website' is has [400kb Javascript](https://httparchive.org/reports/state-of-javascript#bytesJs) and [60kb CSS](https://httparchive.org/reports/page-weight#bytesCss). To get these numbers down so drastically I only had to do ONE thing: stop using (Javascript and CSS) frameworks. Ofcourse this required a learning curve, but I got the hang of it really quickly.
 
-A misconception is that your total page size should be small. You can perfectly load a LOT of large images. A homepage twice as big as the one from Delete Agency can still get a perfect score. The problem is only in the blocking CSS and Javascript.
+A misconception is that your total page size should be small. You can perfectly load a LOT of large images. A homepage twice as big as the one from Delete Agency can still get a perfect score. The problem lies only in the blocking CSS and Javascript.
 
 ## Some closing words...
 
-Not using Javascript and CSS frameworks might seem scary at first. But Javascript and CSS have come a long way. Things like Flexbox, CSS columns and CSS grid handle most of your more complex CSS problems with ease. You should simply stick to writing lean CSS and lean Javascript. If you feel insecure about programming non-jQuery stuff, please let [Chris Ferdinandy](https://gomakethings.com/) help you. He is an advocate for a simpler World Wide Web and loves to teach you [Vanilla Javascript](https://gomakethings.com/). 
+Not using Javascript and CSS frameworks might seem scary at first. But Javascript and CSS have come a long way. Things like Flexbox, CSS columns and CSS grid handle most of your more complex CSS problems with ease. You should simply stick to writing lean CSS and lean Javascript. It might feel like going back to the nineties or the zero's, so feel free to listen to Michael Jackson and sing along, while programming this way. Heal the world! CSS and Javascript without dependencies is a happy place. 
+
+If you feel insecure about programming non-jQuery stuff, please let [Chris Ferdinandy](https://gomakethings.com/) help you. He is an advocate for a simpler World Wide Web and loves to teach you [Vanilla Javascript](https://gomakethings.com/). 
