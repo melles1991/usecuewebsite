@@ -4,7 +4,9 @@ title: How to get a 100% Google Lighthouse score
 
 Google will soon [shame slow websites](/blog/google-will-shame-slow-websites). A good reason to take a good look at your Google Lighthouse score right [now](https://web.dev/). 
 
-When you look at your score, you might feel that it is nearly impossible to get to a perfect 100% score. However, I build 100% scoring websites on a daily basis, so obviously it is not. Let me explain how I do this. It is a lot easier than you think.
+You might feel that it is nearly impossible to get to a perfect 100% score. You already optimized so much: you minified your Javascript, properly scaled your images and even combined some requests. Unfortunately, that did not help enough. I build 100% scoring websites on a daily basis, so obviously it is not impossible at all. Let me explain to you how I do this.
+
+First of all there are some things you need to know when it comes to speed or performance. Minifying does not beat gzipping, image scaling does not beat JPG compression and combining requests actually counter-effective (over HTTP/2). Another important thing is that Google Lighthouse simulates a slow connection. This emphasizes the importance of a low 'page weight' or 'total size', as a small page is delivered significantly faster over such a narrow connection than a large page.
 
 ## What to aim for
 
