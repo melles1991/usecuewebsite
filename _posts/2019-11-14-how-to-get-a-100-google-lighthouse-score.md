@@ -100,7 +100,7 @@ Finally, you need to address all the small issues Google Lighthouse throws at yo
 
 ## The blocking code issue
 
-When you have done all the above, you are probably left with some hard to solve 'blocking code' issues. Google will suggest to move the Javascript and CSS to the footer, but that does not really solve it. You will get an ugly Flash Of Unstyled Text (FOUT) and your website will only be usable after your code has fully loaded. Here is where I got stuck. Fortunately, there are two solutions to fix this blocking issue.
+When you have done all the above, you are probably left with some hard to solve 'blocking code' issues. Google will suggest to move the Javascript and CSS to the footer, but that does not really solve it. You will get an ugly Flash Of Unstyled Text (FOUT) and your website will only be usable after your code has fully loaded. Here is where I initially got stuck. Fortunately, there are two solutions to fix this blocking issue.
 
 The first approach is perfectly outlined by Delete Agency (the last website in the list). They use a lot of Javascript and CSS, which is typically blocking. Therefore they had to split and/or inline parts of this code. They [documented](https://www.deleteagency.com/blog/how-to-get-a-100-percents-lighthouse-performance-score) this process in great detail. The end-result (and the process) is impressive, but it is also an awful lot of work.
 
