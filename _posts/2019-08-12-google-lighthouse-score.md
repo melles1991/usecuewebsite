@@ -14,7 +14,7 @@ Performance is the speed at which a website loads. Lighthouse returns a Performa
 
 ## Accessibility
 
-Accessibility is the design of products, devices, services, or environments for people with disabilities. The Accessibility score is a weighted average of all the accessibility audits. See [Scoring Details](https://developers.google.com/web/tools/lighthouse/v3/scoring) for a full list of how each audit is weighted. The heavier-weighted audits have a bigger impact on your score. 
+Accessibility is the design of products, devices, services, or environments for people with disabilities. The Accessibility score is a weighted average of all the accessibility audits. See the [scoring details](https://developers.google.com/web/tools/lighthouse/v3/scoring) for a full list of how each audit is weighted. The heavier-weighted audits have a bigger impact on your score. 
 
 ## Best Practices
 
