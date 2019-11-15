@@ -108,4 +108,4 @@ Note that you can perfectly load a LOT of large images. A homepage twice as big 
 
 ## Some closing words...
 
-Not using Javascript and CSS frameworks might seem scary... but trust me: it is not. Javascript and CSS have come a long way. Things like Flexbox, CSS columns and CSS grid handle most of your more complex CSS problems with ease. And if you feel insecure about programming non-jQuery stuff, please let [Chris Ferdinandy](https://gomakethings.com/) help you. He is an advocate for a simpler world wide web and loves to teach you [Vanilla Javascript](https://gomakethings.com/). It is worth the investment.
+Not using Javascript and CSS frameworks might seem scary... but trust me, it is not. Javascript and CSS have come a long way. Things like Flexbox, CSS columns and CSS grid handle most of your more complex CSS problems with ease. And if you feel insecure about programming non-jQuery stuff, please let [Chris Ferdinandy](https://gomakethings.com/) help you. He is an advocate for a simpler world wide web and loves to teach you [Vanilla Javascript](https://gomakethings.com/). It is worth the investment.
