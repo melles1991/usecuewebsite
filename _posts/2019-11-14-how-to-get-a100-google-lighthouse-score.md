@@ -96,7 +96,7 @@ First of all you need a low Time To First Byte. All websites in the list above h
 
 Secondly, you need to optimize your images. Use SVG where possible and heavily compressed JPG for the rest. If you have to use PNG, make sure you use TinyPNG to compress them and use loading="lazy" on all image tags. Note that using WebP is not required at all to get a good score. The total page size to aim for is under a 1000kb.
 
-Finally, you need to address all the small issues Google Lighthouse throws at you. These could be accessibility things, but also SEO or performance issues. Note that Performance issues correlates to the speed at which the site loads, not to the checklist, so fixing these issues is optional.
+Finally, you need to address all the small issues Google Lighthouse throws at you. These could be accessibility things, but also SEO or performance issues. Note that Performance issues correlate to the speed at which the site loads, not to the checklist, so fixing these issues is optional.
 
 ## The blocking code issue
 
