@@ -8,85 +8,85 @@ When you do, I bet you wonder how get to a perfect 100%. Well.. I have built man
 
 ## Some sample websites
 
-Lets start by looking at some websites that score (nearly) 100% on all four categories, to determine what the end-result looks like. For each site I have listed the weights: the Javascript, CSS and the total page weight. You can also see the number of requests (although they do not matter much over HTTP/2), as well as the time it takes the server to respond (TTFB) and the site to load. Finally, I listed the host the company that built the website and the [Google Lighthouse score](/blog/google-lighthouse-score), where the first number is the performance.
+Lets start by looking at some websites that score (nearly) 100% on all four categories, to determine what the end-result looks like. For each site I have listed the weights: the Javascript, CSS and the total page weight. You can also see the number of requests (although they do not matter much over HTTP/2), as well as the time it takes the server to respond (TTFB) and the site to load. Finally, I listed the host, the company that built the website and the [Google Lighthouse score](/blog/google-lighthouse-score). Note that the comma seperated numbers stand for Performance, Accessibility, Best Practises and SEO.
 
-[debabywegwijzer.nl](https://www.debabywegwijzer.nl/)
+### [debabywegwijzer.nl](https://www.debabywegwijzer.nl/)
 
-- Javascript: 0kb
-- CSS: 9kb
-- Total size: 120kb
-- Number of requests: 9
-- TTFB: 22ms
-- DOMContentLoaded: 274ms
-- Loading time: 596ms
-- Hosted on: CloudFlare (CDN)
-- Built by: Usecue BV
-- Score: 99,100,100,100
+|Javascript: |0kb|
+|CSS: |9kb|
+|Total size: |120kb|
+|Requests: |9|
+|TTFB: |22ms|
+|DOM loaded: &nbsp; &nbsp;|274ms|
+|Loading time: |596ms|
+|Hosted on: |CloudFlare (CDN)|
+|Built by: |Usecue BV|
+|Score: |99,100,100,100|
 
-[studioinhout.nl](https://www.studioinhout.nl/)
+### [studioinhout.nl](https://www.studioinhout.nl/)
 
-- Javascript: 1kb
-- CSS: 14kb
-- Total size: 115kb
-- Number of requests: 9
-- TTFB: 16ms
-- DOMContentLoaded: 307ms
-- Loading time: 564ms
-- Hosted at: CloudFlare (CDN)
-- Built by: Usecue BV
-- Score: 100,100,100,100
+|Javascript: |1kb|
+|CSS: |14kb|
+|Total size: |115kb|
+|Requests: |9|
+|TTFB: |16ms|
+|DOM loaded: &nbsp; &nbsp;|307ms|
+|Loading time: |564ms|
+|Hosted at: |CloudFlare (CDN)|
+|Built by: |Usecue BV|
+|Score: |100,100,100,100|
 
-[usecue.com](https://www.usecue.com/)
+### [usecue.com](https://www.usecue.com/)
 
-- Javascript: 10kb
-- CSS: 12kb
-- Total size: 44kb
-- Number of requests: 7
-- TTFB: 15ms
-- DOMContentLoaded: 231ms
-- Loading time: 363ms
-- Hosted at: a Leaseweb VM in Amsterdam
-- Built by: Usecue BV
-- Score: 100,100,100,100
+|Javascript: |10kb|
+|CSS: |12kb|
+|Total size: |44kb|
+|Requests: |7|
+|TTFB: |15ms|
+|DOM loaded: &nbsp; &nbsp;|231ms|
+|Loading time: |363ms|
+|Hosted at: |Leaseweb VM|
+|Built by: |Usecue BV|
+|Score: |100,100,100,100|
 
-[jekyllcodex.org](https://jekyllcodex.org/)
+### [jekyllcodex.org](https://jekyllcodex.org/)
 
-- Javascript: 13kb
-- CSS: 13kb
-- Total size: 130kb
-- Number of requests: 15
-- TTFB: 172ms
-- DOMContentLoaded: 386ms
-- Loading time: 756ms
-- Hosted on: CloudFlare (CDN)
-- Built by: Usecue BV
-- Score: 99,92,100,100
+|Javascript: |13kb|
+|CSS: |13kb|
+|Total size: |130kb|
+|Requests: |15|
+|TTFB: |172ms|
+|DOM loaded: &nbsp; &nbsp;|386ms|
+|Loading time: |756ms|
+|Hosted on: |CloudFlare (CDN)|
+|Built by: |Usecue BV|
+|Score: |99,92,100,100|
 
-[lamanzanilla.es](https://lamanzanilla.es/)
+### [lamanzanilla.es](https://lamanzanilla.es/)
 
-- Javascript: 1kb
-- CSS: 7kb
-- Total size: 974kb
-- Number of requests: 17
-- TTFB: 166ms
-- DOMContentLoaded: 601ms
-- Loading time: 1s
-- Hosted at: CloudFlare (CDN)
-- Built by: Usecue BV
-- Score: 100,93,100,100
+|Javascript: |1kb|
+|CSS: |7kb|
+|Total size: |974kb|
+|Requests: |17|
+|TTFB: |166ms|
+|DOM loaded: &nbsp; &nbsp;|601ms|
+|Loading time: |1s|
+|Hosted at: |CloudFlare (CDN)|
+|Built by: |Usecue BV|
+|Score: |100,93,100,100|
 
-[deleteagency.com](https://www.deleteagency.com/)
+### [deleteagency.com](https://www.deleteagency.com/)
 
-- Javascript: 140kb
-- CSS: 80kb
-- Total size: 561kb
-- Number of requests: 30
-- TTFB: 52ms
-- DOMContentLoaded: 528ms
-- Loading time: 1.05s
-- Hosted at: unknown
-- Built by: Delete Agency
-- Score: 98,100,100,100
+|Javascript: |140kb|
+|CSS: |80kb|
+|Total size: |561kb|
+|Requests: |30|
+|TTFB: |52ms|
+|DOM loaded: &nbsp; &nbsp;|528ms|
+|Loading time: |1.05s|
+|Hosted at: |unknown|
+|Built by: |Delete Agency|
+|Score: |98,100,100,100|
 
 ## The easy steps
 
