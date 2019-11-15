@@ -8,72 +8,101 @@ When you do, I bet you wonder how get to a perfect 100%. Well.. I have built man
 
 ## Some sample websites
 
-Lets start by looking at some websites that score the so much desired 100% on all four categories, to determine what the end-results can look like.
+Lets start by looking at some websites that score (nearly) 100% on all four categories, to determine what the end-result looks like.
 
-### De Baby Wegwijzer (by Usecue BV)
+[debabywegwijzer.nl](https://www.debabywegwijzer.nl/)
 
-- [jekyllcodex.org](https://jekyllcodex.org/)
-- Total size: 130Kb
-- Number of requests: 15
-- TTFB: 172ms
-- DOMContentLoaded: 386ms
-- Loading time: 756ms
-- Hosted on: CloudFlare (CDN)
-
-
-### De Baby Wegwijzer (by Usecue BV)
-
-- [www.debabywegwijzer.nl](https://www.debabywegwijzer.nl/)
-- Total size: 120Kb
+- Javascript: 0kb
+- CSS: 9kb
+- Total size: 120kb
 - Number of requests: 9
 - TTFB: 22ms
 - DOMContentLoaded: 274ms
 - Loading time: 596ms
 - Hosted on: CloudFlare (CDN)
+- Built by: Usecue BV
+- Score: 99,100,100,100
 
-### Studio InHout (by Usecue BV)
+[studioinhout.nl](https://www.studioinhout.nl/)
 
-- Total size: 115Kb
+- Javascript: 1kb
+- CSS: 14kb
+- Total size: 115kb
 - Number of requests: 9
 - TTFB: 16ms
 - DOMContentLoaded: 307ms
 - Loading time: 564ms
 - Hosted at: CloudFlare (CDN)
+- Built by: Usecue BV
+- Score: 100,100,100,100
 
-### Usecue BV (by Usecue BV)
+[usecue.com](https://www.usecue.com/)
 
-- Total size: 44Kb
+- Javascript: 10kb
+- CSS: 12kb
+- Total size: 44kb
 - Number of requests: 7
 - TTFB: 15ms
 - DOMContentLoaded: 231ms
 - Loading time: 363ms
 - Hosted at: a Leaseweb VM in Amsterdam
+- Built by: Usecue BV
+- Score: 97,100,100,100
 
-### Delete Agency (by Delete Agency)
+[jekyllcodex.org](https://jekyllcodex.org/)
 
-- Total size: 561Kb
+- Javascript: 13kb
+- CSS: 13kb
+- Total size: 130kb
+- Number of requests: 15
+- TTFB: 172ms
+- DOMContentLoaded: 386ms
+- Loading time: 756ms
+- Hosted on: CloudFlare (CDN)
+- Built by: Usecue BV
+- Score: 97,100,100,100
+
+[lamanzanilla.es](https://lamanzanilla.es/)
+
+- Javascript: 1kb
+- CSS: 7kb
+- Total size: 1.08Mb
+- Number of requests: 17
+- TTFB: 166ms
+- DOMContentLoaded: 401ms
+- Loading time: 777ms
+- Hosted at: CloudFlare (CDN)
+- Built by: Usecue BV
+- Score: 99,93,100,100
+
+[deleteagency.com](https://www.deleteagency.com/)
+
+- Javascript: 140kb
+- CSS: 80kb
+- Total size: 561kb
 - Number of requests: 30
 - TTFB: 52ms
 - DOMContentLoaded: 528ms
 - Loading time: 1.05s
 - Hosted at: unknown
-
-We need a very low page weight, a very low number of requests and a low TTFB. 
-
-
+- Built by: Delete Agency
+- Score: 97,100,100,100
 
 ## The essential steps
 
+First of all you need a low Time To First Byte. In other words: the server needs to respond fast. I use CloudFlare for most of my websites, but using a well configured VM works too (as you can see). I am not sure what hosting Delete Agency uses, but they got a nice low TTFB. You can test the TTFB with tools like Pingdom and GTMetrix.
 
+Secondly, you need to optimize your images. Note that using WebP is not required at all to get a good score. Using strong JPG compression is often more than enough.
 
-There are basically two approaches possible. 
+Finally, you need to address all the small issues in Google Lighthouse. 
 
-## Approach 1. The painfull approach
+## The blocking code issue
 
-Delete Agency improved their website until it reached a 100% score. A great achievement, but also [an awful lot of work](https://www.deleteagency.com/blog/how-to-get-a-100-percents-lighthouse-performance-score).
+When you have done all the above, you are left with the blocking code issue. Google suggests to move all CSS to the footer. Although this works, you get an ugly Flash Of Unstyled Text (FOUT). The website is also only usable after the CSS has loaded. To fix this blocking issue there are two options.
 
-## Approach 2. The simple approach
+The first approach is perfectly outlined by Delete Agency (the last website in the list). They use a lot of Javascript and CSS, which is typically blocking, so they split and/or inlined parts of this code. They [documented](https://www.deleteagency.com/blog/how-to-get-a-100-percents-lighthouse-performance-score) this process in great detail. Although the end-result is impressive, it is also an awful lot of work.
 
+However, there is a much simpler and more logical approach. I found out that you can build perfectly functional website with A LOT less Javascript and CSS. And I just had to do ONE thing: stop using (Javascript and CSS) frameworks. That was all! This reduces the amount of Javascript and CSS dramatically. I do not think that I need to explain that there is no need for inlining or splitting when you reduce the amount of Javascript and CSS by a factor 6 to 10. 
 
 ### The right stack
 
