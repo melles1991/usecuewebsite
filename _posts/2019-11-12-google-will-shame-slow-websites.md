@@ -22,4 +22,4 @@ However, by promoting SSL and with their focus on website performance, Google se
 
 ## Invest in speed
 
-Either way, we have no choice but to invest in speed. Google owns most searches and therefore makes the rules. If we want our websites to be found, we will have to invest in website performance and build faster websites. Fortunately, I know [how to get a 100% Google Lighthouse score](/blog/how-to-get-a100-google-lighthouse-score/). If you do not, then this is your wake-up call.
+Either way, we have no choice but to invest in speed. Google owns most searches and therefore makes the rules. If we want our websites to be found, we will have to invest in website performance and build faster websites. Fortunately, I know [how to get a 100% Google Lighthouse score](/blog/how-to-get-a-100-google-lighthouse-score/). If you do not, then this is your wake-up call.
