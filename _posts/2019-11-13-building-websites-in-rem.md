@@ -2,7 +2,7 @@
 title: Building websites in rem
 ---
 
-Although I can almost build a website in my sleep (or in [20 minutes](/blog/speaking-at-jekyllconf2019/)), I am not talking about REM sleep or 'Rapid Eye Movement', but about 'root em'. 
+Although I can almost build a website in my sleep (or in [20 minutes](/blog/speaking-at-jekyllconf2019/)), I am not talking about REM sleep or Rapid Eye Movement, but about *root em*. 
 
 I used to build websites in pixels, but I have chosen to abandon pixels and to completely swap to *em*, and the be more specific *root em*. Forty percent of all pages use *root em* in some way, according to the [HTTP Archive Almanac](https://almanac.httparchive.org/en/2019/css#units), so you are probably familiar with the abbreviation 'rem'.
 
