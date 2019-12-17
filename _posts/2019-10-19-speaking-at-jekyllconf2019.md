@@ -1,5 +1,5 @@
 ---
-title: Speaking at JekyllConf2019
+title: Speaking at JekyllConf&shy;2019
 ---
 
 It has been an enormous honor to speak at JekyllConf2019. This was my first conference talk ever. Fortunately, I could speak live from my own home-based studio, so it involved no flying around the world.
