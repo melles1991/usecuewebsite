@@ -14,9 +14,7 @@ Still, we keep dreaming that there is some magic solution that gives content cre
 
 ## No-code platforms for designers
 
-Note that I have my fair share of experience with no-code platforms. I have built and own [Without Coding](https://withoutcoding.com/). A platform where designers can build digital productions (like magazines and landing pages). The output is static HTML, so it is basically an static site generator (SSG). 
-
-No-code platforms work for designers that do not know how to (or want to) hand-off a final design. However, I have not met a lot of professional designers that actually want to build their own websites on a no-code platform. Most designer only want to do what they are really good at: design. They want to out-source the coding part. I get that and it is smart from a business point of view. As a designer it is very valuable to know a good developer. So my advice to developers is: invest in relations with designers. It will pay off. 
+I have my fair share of experience with no-code platforms, as I have built [Without Coding](https://withoutcoding.com/), a no-cde platform where designers can build digital productions (like magazines and landing pages). The output is static HTML, so it is basically an static site generator (SSG). I found that no-code platforms work for designers that do not know how to (or want to) hand-off a final design. However, I have not met a lot of professional designers that actually want to build their own websites on a no-code platform. Most designer only want to do what they are really good at: design. They want to out-source the coding part. I get that and it is smart from a business point of view. As a designer it is very valuable to know a good developer. So my advice to developers is: invest in relations with designers. It will pay off. 
 
 ## No-code platforms for developers
 
