@@ -10,7 +10,7 @@ The output of these no-code platforms is often horrible from a developer and art
 
 Gutenberg, for example, loads a 40kb blocking CSS in your WordPress website, while it can only create a handful of different blocks. That is twice the size of my complete homepage. Avada is even worse and loads a 700kb(!) blocking CSS file. There is no need to explain why that is unacceptable. Wix has even worse performance... and this is all just from a technical point of view. Because we know what happens when content creators freely influence design. Noting good...
 
-Still, we keep dreaming that there is some magic solution that gives content creators design and development powers, but why? Creating low quality stuff without designers and developers is an option. OK, I get it. It is the reason Google AMP exists. Let's move on...
+Still, we keep dreaming that there is some magic solution that gives content creators design and development powers, but why? Creating low quality stuff without designers and developers is an option. OK, I get it. It is the reason the average webpage is 3MB large and the reason why Google AMP exists. Let's move on...
 
 ## No-code platforms for designers
 
@@ -20,7 +20,7 @@ No-code platforms work for designers that do not know how to (or want to) hand-o
 
 ## No-code platforms for developers
 
-Because most designers rather have a developer build their website then doing it themselves on a no-code platform, no-code platforms are more of a tool for (inexperienced) developers. I think Webflow could be just that. However, I think it might be smarter for developers to learn HTML and CSS than to learn how to work with Webflow. In the end code will always beat no-code. To illustrate this, I have built a website in the browser during my talk at [JekyllConf2019](https://jekyllconf.com/). It included version control (git), a bootswatch theme, a form builder and a CMS. I did the whole thing live in under 20 minutes. Can those development times be beaten with browser-based no-code tools (like Webflow)? I think not.
+Because most designers rather have a developer build their website than doing it themselves on a no-code platform, no-code platforms are more of a tool for (inexperienced) developers. I think Webflow could be just that. However, I think it might be smarter for developers to learn HTML and CSS then to learn how to work with Webflow. In the end code will always beat no-code. To illustrate this, I have built a website in the browser during my talk at [JekyllConf2019](https://jekyllconf.com/). It included version control (git), a bootswatch theme, a form builder and a CMS. I did the whole thing live in under 20 minutes. Can those development times be beaten with browser-based no-code tools (like Webflow)? I think not.
 
 ## Conclusion
 
