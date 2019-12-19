@@ -18,7 +18,7 @@ I have my fair share of experience with no-code platforms, as I have built [With
 
 ## No-code platforms for developers
 
-Because most designers rather have a developer build their website than doing it themselves on a no-code platform, no-code platforms are more of a tool for (inexperienced) developers. I think Webflow could be just that. However, I think it might be smarter for developers to learn HTML and CSS then to learn how to work with Webflow. In the end code will always beat no-code. To illustrate this, I have built a website in the browser during my talk at [JekyllConf2019](https://jekyllconf.com/). It included version control (git), a bootswatch theme, a form builder and a CMS. I did the whole thing live in under 20 minutes. Can those development times be beaten with browser-based no-code tools (like Webflow)? I think not.
+Most designers rather have a developer build their website than doing it themselves on a no-code platform. Therefore, no-code platforms are more of a tool for (inexperienced) developers. I think Webflow could be just that. However, I think it might be smarter for developers to learn HTML and CSS then to learn how to work with Webflow, because in the end code will always beat no-code. To illustrate this, I have built a website in the browser during my talk at [JekyllConf2019](https://jekyllconf.com/). It included version control (git), a bootswatch theme, a form builder and a CMS. I did the whole thing live in under 20 minutes. Can those development times be beaten with browser-based no-code tools (like Webflow)? I think not.
 
 ## Conclusion
 
