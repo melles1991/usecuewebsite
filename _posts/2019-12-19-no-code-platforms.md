@@ -2,13 +2,13 @@
 title: No-code platforms
 ---
 
-No-code platforms promise the content creator that he/she does not need a designer or developer. We have seen very big players try this for many many years, like Adobe with Muse, Wix, WordPress with all kinds of page builders and recently with Gutenberg. What makes anyone think that the new kids, like Webflow or Squarespace are going to succeed?
+No-code platforms promise the content creator that he/she does not need a designer or developer. We have seen very big players try this for many many years with mixed results. I am talking about Adobe with Muse, Wix, Webflow, Squarespace and WordPress with all kinds of page builders and recently with Gutenberg.
 
 ## No-code platforms for content creators
 
-There is SO MUCH capital wasted on these platforms, while the output is often horrible from a developer and art director point of view. I have to admit that creating themes works on a large scale, but on a small scale it is quite expensive. We have seen that in WordPress. Visual editing obviously works too. However, efficient and good quality 'no-code' solutions do not exist. 
+The output of these no-code platforms is often horrible from a developer and art director point of view. I have to admit that creating a theme works when you sell it in large numbers, but for unique designs it is quite expensive. We see that in WordPress. Visual editing, like Gutenberg, obviously works too. However, there are always draw-backs and efficient and quality 'no-code' solutions do not exist (yet). 
 
-Let's take Gutenberg for example. It loads a 40kb blocking CSS in my WordPress website, while it can only create a handful of different blocks. That is twice the size of my complete homepage while it is blocking and none of my own stuff has loaded yet. Wix is even worse. Their performance is extremely bad. I rebuild a Wix website and made it 10 times faster (and smaller)! The same is true for a lot of page builders in WordPress... and this is just from a technical point of view. Because we all know what happens when we let content creators freely influence design. Not much good...
+Let's look at Gutenberg. It loads a 40kb blocking CSS in my WordPress website, while it can only create a handful of different blocks. That is twice the size of my complete homepage while it is blocking and none of my own stuff has loaded yet. Wix is even worse. Their performance is extremely bad. I rebuild a Wix website and made it 10 times faster (and smaller)! The same is true for a lot of page builders in WordPress... and this is just from a technical point of view. Because we all know what happens when we let content creators freely influence design. Not much good...
 
 Still, we keep dreaming that there is some magic solution that gives content creators design and development powers, but why? Creating low quality stuff without designers and developers is an option. OK, I get it. It is the reason Google AMP exists.
 
