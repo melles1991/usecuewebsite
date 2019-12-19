@@ -10,7 +10,7 @@ Let's take Gutenberg for example. It loads a 40kb blocking CSS in my WordPress w
 
 Still, we keep dreaming that there is some magic solution that makes our jobs obsolete. And why? Creating low quality stuff without designers and developers is an option. OK, I get it. It is the reason Google AMP exists... can we now please move on?
 
-Note that I have my fair share of experience with no-code platforms. I have built and own https://withoutcoding.com/. A platform for designers where they can build digital productions (like magazines and landing pages). The output is static HTML, so it is basically an SSG. 
+Note that I have my fair share of experience with no-code platforms. I have built and own [Without Coding](https://withoutcoding.com/). A platform for designers where they can build digital productions (like magazines and landing pages). The output is static HTML, so it is basically an SSG. 
 
 No-code platforms work for designers that do not know how to (or want to) hand-off a final design. However, I have not met a lot of professional designers that actually want to build their own websites on a no-code platform. Most designer only want to do what they are really good at: design. They want to out-source the coding part. I get that and it is also smart from a business point of view. As a designer you just need to know a good developer. So my advice to you is: invest in relations with designers. It pays off. 
 
