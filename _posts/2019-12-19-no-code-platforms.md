@@ -22,4 +22,4 @@ Most designers rather have a developer build their website than doing it themsel
 
 ## Conclusion
 
-There is not really a good market fit for no-code platforms. Designers want to focus on designing. Developers are slower and produce worse results with no-code platforms. The only fit would be: content creators on do-it-yourself projects. However, we should not take those DIY projects too seriously. A gardner is not very concerned about people gardening 'on their own', so neither should we. We need to see these DIY projects in the right perspective. This right perpective defines a mature(d) and professional field of work.
+There is not really a good market fit for no-code platforms. Designers want to focus on designing. Developers are slower and produce worse results with no-code platforms. The only fit would be: content creators on do-it-yourself projects. However, we should not take those DIY projects too seriously. A gardner is not very concerned about people gardening 'on their own', so neither should we. We need to see these DIY projects in the right perspective. This (broadly shared) perspective defines a matured and professional field of work.
