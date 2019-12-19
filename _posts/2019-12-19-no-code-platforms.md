@@ -10,7 +10,7 @@ The output of these no-code platforms is often horrible from a developer and art
 
 Let's look at Gutenberg, for example. It loads a 40kb blocking CSS in your WordPress website, while it can only create a handful of different blocks. That is twice the size of my complete homepage while it is blocking and none of your own stuff has loaded yet. Avada is even worse and loads a 700kb(!) blocking CSS file. Wix is even worse... and this is all just from a technical point of view. Because we all know what happens when we let content creators freely influence design. Noting good...
 
-Still, we keep dreaming that there is some magic solution that gives content creators design and development powers, but why? Creating low quality stuff without designers and developers is an option. OK, I get it. It is the reason Google AMP exists.
+Still, we keep dreaming that there is some magic solution that gives content creators design and development powers, but why? Creating low quality stuff without designers and developers is an option. OK, I get it. It is the reason Google AMP exists. Let's move on...
 
 ## No-code platforms for designers
 
