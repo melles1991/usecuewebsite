@@ -10,7 +10,7 @@ There is SO MUCH capital wasted on these platforms, while the output is often ho
 
 Let's take Gutenberg for example. It loads a 40kb blocking CSS in my WordPress website, while it can only create a handful of different blocks. That is twice the size of my complete homepage while it is blocking and none of my own stuff has loaded yet. Wix is even worse. Their performance is extremely bad. I rebuild a Wix website and made it 10 times faster (and smaller)! The same is true for a lot of page builders in WordPress... and this is just the technical perspective. Because we all know what happens when we let content creators freely influence design: horror! 
 
-Still, we keep dreaming that there is some magic solution that gives content creators design and development powers, but why? Creating low quality stuff without designers and developers is an option. OK, I get it. It is the reason Google AMP exists... can we now please move on?
+Still, we keep dreaming that there is some magic solution that gives content creators design and development powers, but why? Creating low quality stuff without designers and developers is an option. OK, I get it. It is the reason Google AMP exists.
 
 ## No-code platforms for designers
 
