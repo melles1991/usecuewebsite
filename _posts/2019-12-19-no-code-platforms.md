@@ -10,7 +10,7 @@ The things content creators create with these no-code platforms is often not ver
 
 Gutenberg, for example, loads a 40kb blocking CSS in your WordPress website, while it can only create a handful of different blocks. That is twice the size of my complete homepage. Avada has much more options, but loads a 700kb(!) blocking CSS file. There is no need to explain why that is unacceptable. Note that these are just complaints from a technical point of view. We know what happens when content creators freely influence design: mediocrity or worse...
 
-Nevertheless, we keep dreaming that there is some magic solution that gives content creators design and development powers. Why? Creating low quality stuff without designers and developers is an option, we get it... It is the reason the average webpage is 3MB and why Comic Sans and Google AMP are popular. Now let's move on!
+Nevertheless, we keep dreaming that there is some magic solution that gives content creators design and development powers. Why? Creating low quality stuff without designers and developers is an option, we get it... It is the reason the average webpage is 3MB and Comic Sans and Google AMP are popular. Now let's move on!
 
 ## No-code platforms for designers
 
