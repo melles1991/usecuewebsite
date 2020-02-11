@@ -6,7 +6,7 @@ Google will soon [shame slow websites](/blog/google-will-shame-slow-websites). A
 
 You might feel that it is nearly impossible to get to a perfect 100% score. You minified your Javascript, properly scaled your images and even combined some requests, but that did not help nearly enough. The problem is: you might be looking at it from the wrong angle. 
 
-I build 100% scoring websites on a daily basis, so obviously it is very well possible to get a perfect score on all your websites with little effort. I will try to explain what we want to achieve and how we can achieve that.
+I build [100% scoring websites](/uploads/100procentscore.jpg) on a daily basis, so obviously it is very well possible to get a perfect score on all your websites with little effort. I will try to explain what we want to achieve and how we can achieve that.
 
 There are some basic facts that a lot of people get wrong when it comes to speed and performance. Minifying [does not beat](https://css-tricks.com/the-difference-between-minification-and-gzipping/) gzipping, image scaling [does not beat](http://users.wfu.edu/matthews/misc/graphics/ResVsComp/JpgResVsComp.html) JPG compression and combining requests is actually [counter-effective](https://designsystem.digital.gov/performance/http2/) over HTTP/2. These are probably the reasons why your earlier efforts had so little effect. Another important thing to know is that Google Lighthouse simulates a slow connection. This emphasizes the importance of a low 'page weight' or 'total size' over fast infrastructure, as a small page is delivered significantly faster over such a narrow connection than a large page.
 
