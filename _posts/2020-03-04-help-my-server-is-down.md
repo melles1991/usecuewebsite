@@ -4,7 +4,7 @@ title: Help, my server is down!
 
 I do not just build websites, I host them too. Hosting can be tricky, as databases get overloaded, certificates expire, servers run out of memory, open-source software gets hacked and hard disks crash. Yes, the internet is a fragile place. 
 
-But what exactly happens when your server goes down? Is your website unavailable, and for how long? Do you lose data, or source code? I think about these questions on a daily basis, as it is my job to prevent this from happening and limit the consequences. 
+But what exactly happens when your server goes down? Is your website unavailable, and for how long? Do you lose data, or source code? I think about these questions on a daily basis, as it is my job to prevent this from happening and to limit the consequences. 
 
 ## Multiple backups
 
