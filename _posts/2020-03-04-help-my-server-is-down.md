@@ -24,6 +24,6 @@ Nevertheless, yesterday the (un)expected happened: There was significant down-ti
 
 ## Lesson learned
 
-My client was positively suprised. I had added a lot of value to my hosting product. I realized my client would have never known about this without the unfortunate down-time. Therefore I wrote this post. I want to let you know that I am prepared for things that should not happen. I expect the unexpected and I have good security habits to minimize risks.
+My client was positively suprised. I had added a lot of value to my hosting product, but I realized that was only due to the unfortunate down-time. Therefore I decided to write this post. I want to let you know that I am prepared for things that should not happen. I expect the unexpected and I have good security habits to minimize risks.
 
 What I am basically trying to say is: You can trust me ([I am an engineer](/about/)).
