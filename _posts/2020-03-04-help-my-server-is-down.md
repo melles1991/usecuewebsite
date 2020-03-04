@@ -20,7 +20,7 @@ Having good security habits and a solid backup strategy is not enough. I also wa
 
 ## When it hits the fan
 
-Yesterday the (un)expected happened: There was significant down-time on one of the origin-servers from Cloudcannon at the middle of the day. The CDN was unable to prevent certain pages from going down, which lead to more than an hour of 'reduced service' (down-time). The most important thing when that happens is: have a plan. When a worried client called and said: 'Help, my website is down! Will you be able to recover?', I could answer her that I could migrate her website to another server with just a few clicks. A few minutes(!) later I had re-deployed the website to Netlify infrastructure. She was relieved.
+Nevertheless, yesterday the (un)expected happened: There was significant down-time on one of the origin-servers from Cloudcannon at the middle of the day. The CDN was unable to prevent certain pages from going down, which lead to more than an hour of 'reduced service' (down-time). The most important thing when that happens is: have a plan. When a worried client called and said: 'Help, my website is down! Will you be able to recover?', I could answer her that I could migrate her website to another server with just a few clicks. A few minutes(!) later I had re-deployed the website to Netlify infrastructure. She was relieved.
 
 ## Lesson learned
 
