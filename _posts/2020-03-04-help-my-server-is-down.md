@@ -16,7 +16,7 @@ Having a solid backup strategy is not enough. I also want to prevent as much dow
 
 ## When it hits the fan
 
-The most important thing is: have a plan. Yesterday the (un)expected happened: There was significant down-time on one of the origin servers at the middle of the day. The CDN was unable to prevent certain pages from going down, which lead to more than an hour of 'reduced service' (down-time). A worried client called me and said: 'Help, my website is down! Will you be able to recover?' I said I could migrate her website by simply re-deploying the Git repository to another server. A few minutes(!) later the website ran perfectly on Netlify infrastructure. She was relieved. If one of my premium hosting clients would have gone down, I would have grabbed a backup and recovered it (after a quick assessment of the problem).
+The most important thing is: have a plan. Yesterday the (un)expected happened: There was significant down-time on one of the origin servers from Cloudcannon at the middle of the day. The CDN was unable to prevent certain pages from going down, which lead to more than an hour of 'reduced service' (down-time). A worried client called me and said: 'Help, my website is down! Will you be able to recover?' I said I could migrate her website by simply re-deploying the Git repository to another server. A few minutes(!) later the website ran perfectly on Netlify infrastructure. She was relieved. If one of my premium hosting clients would have gone down, I would have grabbed a backup and recovered it (after a quick assessment of the problem).
 
 ## Lesson learned
 
