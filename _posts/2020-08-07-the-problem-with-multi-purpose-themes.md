@@ -2,7 +2,7 @@
 title: The problem with multi-purpose themes
 ---
 
-Envato is filled with very popular multi-purpose themes. The popular ones are sold thousands of times. You can virtually build any site with these themes without writing a single line of code. They offer a variety of different pre-made layouts. They seem like value for money… but there is a catch.
+Envato is filled with very popular multi-purpose themes. The popular ones are sold almost a million times. You can virtually build any site with these themes without writing a single line of code. They offer a variety of different pre-made layouts. They seem like value for money… but there is a catch.
 
 ## High maintenance costs
 
