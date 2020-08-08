@@ -10,7 +10,7 @@ Multi-purpose themes (often) have no strict separation between content and desig
 
 ## Design suffers
 
-Because of the aforementioned lack of separation between design and content, the design of your website is at best 'as intended'. Not very original, but on par with current design trends. At worst, however, it becomes a showcase of bad design decisions (of your client), unique in its awfulness. Most of the time it is somewhere in between.
+Because of the aforementioned lack of separation between design and content, the design of your website is at best 'as intended'. Not very original, but on par with current design trends. At worst, however, it becomes a showcase of (your clients) bad design decisions, unique in its awfulness. Most of the time it is somewhere in between.
 
 ## SEO suffers
 
