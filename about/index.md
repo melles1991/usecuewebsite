@@ -2,7 +2,9 @@
 title: About me
 ---
 
-My name is Joost van der Schee and I am a web developer based in Amsterdam. I have studied Industrial Design Engineering at the [Technical University in Delft](/uploads/tudelft.jpg) and founded 'Usecue' in 2007. My first priority is my family, but my work is absolutely number two. I love what I do, which is building beautiful websites and web applications. 
+My name is Joost van der Schee and I am a web developer based in Amsterdam. This harsh looking website is actually [a tribute to the web](/blog/a-tribute-to-the-web). 
+
+I have studied Industrial Design Engineering at the [Technical University in Delft](/uploads/tudelft.jpg) and founded 'Usecue' in 2007. My first priority is my family, but my work is absolutely number two. I love what I do, which is building beautiful websites and web applications. 
 
 All websites I build are well-coded and have good SEO. This is reflected by their excellent [Google score](/blog/google-lighthouse-score/), an objective quality measurement of a website. Quality is very important to me. I strongly believe that each job worth doing is worth doing well. Therefore I do not just build these websites, but host them as well. This supply chain integration is the reason I can deliver such high quality.
 
