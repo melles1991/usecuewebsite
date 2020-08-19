@@ -6,7 +6,7 @@ What is the 'Google score' in your portfolio exactly, you ask? The short answer 
 
 To generate this score Google renders the website in Chrome. While doing so, Google analyzes the code and performance of your website in a series of audits. These audits are seperated into four categories: Performance, Accessibility, Best Practices and SEO. Each category scores between 0 and 100, where 100 is the best and 0 is the worst score. If you want to check the score or the audits yourself, you can do so at the [web.dev website](https://web.dev).
 
-Note that on my portfolio I refer to the average of these four categories as the 'Google score' for simplicity reasons. These numbers are typically very high, because I know [how to get a 100% Google Lighthouse score](/blog/how-to-get-a-100-google-lighthouse-score/).
+Note that on my portfolio I refer to the average of these four categories as the 'Google score' for simplicity reasons. These numbers are typically very high, because I know [how to get a 100% Google Lighthouse score](/blog/how-to-get-a-100-google-lighthouse-score).
 
 ## Performance
 
