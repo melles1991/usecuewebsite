@@ -10,4 +10,4 @@ page_weight: 135kb
 order: 0
 ---
 
-[A 100% score in Google Lighthouse](/blog/how-to-get-a100-google-lighthouse-score/) and less than 150 lines of CSS. A lightweight, blazing fast, simple and elegant website that does what it is supposed to do. Full-featured, responsive and CMS driven, without using a single line of jQuery!
+[A 100% score in Google Lighthouse](/blog/how-to-get-a-100-google-lighthouse-score/) and less than 150 lines of CSS. A lightweight, blazing fast, simple and elegant website that does what it is supposed to do. Full-featured, responsive and CMS driven, without using a single line of jQuery!
