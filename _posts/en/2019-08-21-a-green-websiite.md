@@ -11,11 +11,11 @@ Let us start with the server, the computer that is hosting your website. Website
 
 Website owners want their website to load instantly from all around the world. This is partly due to Google, that ranks fast loading websites higher in its search engine. A good thing, as it stimulates lighter (and thus greener) websites, but it also has a negative side effect. A common solution to shorten the loading time of a website is to use a CDN (a Content Delivery Network). A CDN is a network of server, positioned at strategical locations all around the world, containing a copy of your website. This is obviously not very green, but because we are talking about distributed load more servers fit on a single server. This mitigates the negative effect of the (added) extra machines.
 
-To get [extremely high speeds](https://www.usecue.com/blog/websites-that-load-instantly/) you see that website owners reserve capacity. This means that a server will be doing nothing in order for it to be able to react instantly when required. This absolutely NOT green. We see this principle in VPS and dedicated servers. So, when your website is running on a VPS or dedicated server, it may be quick, but it is not green.
+To get [extremely high speeds](/blog/websites-that-load-instantly/) you see that website owners reserve capacity. This means that a server will be doing nothing in order for it to be able to react instantly when required. This absolutely NOT green. We see this principle in VPS and dedicated servers. So, when your website is running on a VPS or dedicated server, it may be quick, but it is not green.
 
 Finally the origin of the energy for the servers is important. Are they sustainable? Is it truly green energy? Or is it green energy based on certificates? Because [green hosting is not always as green as it seems](https://www.zaailingen.com/webhost-niet-zo-groen-als-lijkt/).
 
-I always build light (and thus green) websites, because I want my website to have a high [Google score](https://www.usecue.com/blog/google-lighthouse-score/). A nice side-effect is that a light website uses less battery from the device of the visitor, which makes it also greener on that front.
+I always build light (and thus green) websites, because I want my website to have a high [Google score](/blog/google-lighthouse-score/). A nice side-effect is that a light website uses less battery from the device of the visitor, which makes it also greener on that front.
 
 When you choose for a light website, hosted on shared hosting (so no VPS or dedicated server), without a CDN, in a green datacenter, you have a very green website. When you use a CDN it depends mainly on the environmental impact of the datacenters used by the CDN.
 
