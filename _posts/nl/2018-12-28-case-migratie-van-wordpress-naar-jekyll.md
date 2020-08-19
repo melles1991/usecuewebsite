@@ -22,4 +22,4 @@ SEO: 100%
 
 De site presteert nu optimaal. Hij laadt lekker snel en is goed te gebruiken op mobiele telefoons. Niets staat deze site nog in de weg om hoog in de zoekmachine te eindigen. Brechje was uiteraard verguld met zoveel mooie cijfers... maar ik nog niet. Ik ben pas tevreden als over een half jaar blijkt dat deze site haar bedrijf ook echt verder heeft geholpen. Ik heb er alle vertrouwen in.
 
-[Bekijk de nieuwe website](/portfolio/studio-inhout/)
+[Bekijk de nieuwe website](/nl/portfolio/studio-inhout/)
