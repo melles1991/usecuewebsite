@@ -18,7 +18,7 @@ defaults:
     values:
       layout: "post"
       language: en
-      permalink: blog/:title
+      permalink: blog/:title/
   -
     scope:
       path: "_posts/nl" # an empty string here means all files in the project
@@ -26,7 +26,7 @@ defaults:
     values:
       layout: "post"
       language: nl
-      permalink: nl/blog/:title
+      permalink: nl/blog/:title/
   -
     scope:
       path: "_portfolio/en" # an empty string here means all files in the project
