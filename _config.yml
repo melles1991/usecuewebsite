@@ -34,7 +34,7 @@ defaults:
     values:
       layout: "portfolio"
       language: en
-      permalink: portfolio/:title
+      permalink: portfolio/:title/
       _comments: 
         image: desktop 1236 x 782
         mobile_image: mobile 419 x 703,5
@@ -45,7 +45,7 @@ defaults:
     values:
       layout: "portfolio"
       language: nl
-      permalink: nl/portfolio/:title
+      permalink: nl/portfolio/:title/
       _comments: 
         image: desktop 1236 x 782
         mobile_image: mobile 419 x 703,5
