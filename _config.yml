@@ -4,18 +4,48 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "page"
+      language: en
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "nl" # an empty string here means all files in the project
+    values:
+      layout: "page"
+      language: nl
+  -
+    scope:
+      path: "_posts/en" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
+      language: en
+      permalink: blog/:title
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "_posts/nl" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      language: nl
+      permalink: nl/blog/:title
+  -
+    scope:
+      path: "_portfolio/en" # an empty string here means all files in the project
       type: "portfolio" # previously `post` in Jekyll 2.2.
     values:
       layout: "portfolio"
+      language: en
+      permalink: portfolio/:title
+      _comments: 
+        image: desktop 1236 x 782
+        mobile_image: mobile 419 x 703,5
+  -
+    scope:
+      path: "_portfolio/nl" # an empty string here means all files in the project
+      type: "portfolio" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "portfolio"
+      language: nl
+      permalink: nl/portfolio/:title
       _comments: 
         image: desktop 1236 x 782
         mobile_image: mobile 419 x 703,5
@@ -24,10 +54,7 @@ title: Usecue web development
 description: Website development and web hosting
 url: https://www.usecue.com
 twitter: jhvanderschee
-permalink: /blog/:title/
 
 collections:
   portfolio:
-    output: true
-    permalink: /portfolio/:name/
-    
+    output: true    

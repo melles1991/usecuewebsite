@@ -2,7 +2,7 @@
 title: A tribute to the web
 ---
 
-I have redesigned my website. The new design is loud and blue. It looks like [Yves Kleins](https://nl.wikipedia.org/wiki/Yves_Klein) [17 million dollar blue](https://www.widewalls.ch/yves-klein-paintings-top-auction/ikb-1/), but it is actually the native color of an unstyled HTML link. The exact color in RGB (hex) is #0000ee. 
+I have redesigned my website. The [last redesign](/nl/blog/may-1st-reboot) was from 2016. The new design is loud and blue. It looks like [Yves Kleins](https://nl.wikipedia.org/wiki/Yves_Klein) [17 million dollar blue](https://www.widewalls.ch/yves-klein-paintings-top-auction/ikb-1/), but it is actually the native color of an unstyled HTML link. The exact color in RGB (hex) is #0000ee. 
 
 Does the font look familiar too? It is [Times New Roman](https://en.wikipedia.org/wiki/Times_New_Roman), the default serif of the web (on Mac and Windows). I have even taken the effort to embed it, so it will also show on devices that lack this historical font. Additionally, all links are underlined, like they are supposed to in HTML. 
 

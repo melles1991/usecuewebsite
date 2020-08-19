@@ -37,4 +37,4 @@ Regular JAMstack websites have no moving parts, which causes a lower load for th
 
 ## Conclusion
 
-The nuanced story is: the JAMstack is a logical and efficient choice for a simple website, as in that case, it is often cheaper and less complex. However, as soon as you have more advanced wishes, JAMstack websites become easily more expensive and more complex than their WordPress counterparts. The JAMstack is not the best solution for any project. Do you want to know if a JAMstack website is a good choice for your project? [Contact me!](https://www.usecue.com/contact/) I would love to give you some free advice.
+The nuanced story is: the JAMstack is a logical and efficient choice for a simple website, as in that case, it is often cheaper and less complex. However, as soon as you have more advanced wishes, JAMstack websites become easily more expensive and more complex than their WordPress counterparts. The JAMstack is not the best solution for any project. Do you want to know if a JAMstack website is a good choice for your project? [Contact me!](/contact/) I would love to give you some free advice.
