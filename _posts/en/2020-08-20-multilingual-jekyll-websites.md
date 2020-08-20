@@ -46,4 +46,4 @@ The layout files should loop over the content like:
 {% endfor %}{% endraw %}
 ```
 
-Sure... your code base (layout files) will get polluted by if-else statements requesting the correct language, but it is very manageable. I immediately put my money where my mouth was and refactored this website into a single code base. It worked like a charm. Additionally, I got rid of the .nl domain name. I redirected all URL's to the .com domain in a 'nl' directory. I expect my Dutch pages to benefit from the higher page rank on the .com domain.
+Sure... your code base (layout files) will get polluted by if-else statements requesting the correct language, but it is very manageable. I immediately put my money where my mouth was and refactored this website into a single code base. It worked like a charm. Additionally, I got rid of the .nl domain name. I redirected all URL's to the .com domain in a 'nl' directory. I expect my [Dutch pages](/nl/) to benefit from the higher page rank on the .com domain.
