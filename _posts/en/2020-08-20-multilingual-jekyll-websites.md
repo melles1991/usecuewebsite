@@ -43,7 +43,15 @@ The layout files should loop over the content like:
 {% raw %}{% assign siteposts = site.posts | where_exp: 'page','page.path contains languageurl' %}
 {% for item in siteposts %}
   ...
-{% endfor %}{% endraw %}
+{% endfor %}
+
+{% if page.language == 'en' %}...{% endif %}
+{% if page.language == 'nl' %}...{% endif %}
+{% endraw %}
 ```
 
-Sure... your code base (layout files) will get polluted by if-else statements requesting the correct language, but it is very manageable. I immediately put my money where my mouth was and refactored this website into a single code base. It worked like a charm. Additionally, I got rid of the .nl domain name. I redirected all URL's to the .com domain in a 'nl' directory. I expect my [Dutch pages](/nl/) to benefit from the higher page rank on the .com domain.
+Sure... your code base (layout files) will get polluted by if-else statements requesting the correct language, but it is very manageable. 
+
+## Proof of the pudding
+
+I immediately put my money where my mouth was and refactored this website into a single code base. It worked like a charm. Additionally, I got rid of the .nl domain name. I redirected all URL's to the .com domain in a 'nl' directory. I expect my [Dutch pages](/nl/) to benefit from the higher page rank on the .com domain.
