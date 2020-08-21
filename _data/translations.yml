@@ -7,3 +7,18 @@ google_score:
 page_weight:
   en: Page weight
   nl: Paginagrootte
+view_project:
+  en: view project
+  nl: bekijk project
+next:
+  en: next
+  nl: volgende
+previous:
+  en: previous
+  nl: vorige
+scroll_to_top:
+  en: Scroll to top
+  nl: Scroll naar boven
+change_color:
+  en: change color
+  nl: verander kleur

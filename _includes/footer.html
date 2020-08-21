@@ -19,12 +19,12 @@
                     {% if prev_i < 0 %}{% assign prev_i = last_i %}{% endif %}
                 {% endif %}
             {% endfor %}
-            <a id="nextlink" href="{{ sitepages[next_i].url }}">{% if page.language == 'nl' %}volgende{% else %}next{% endif %}<span class="desktop">: {{ sitepages[next_i].title }}</span><span class="mobile"> {% if page.layout == 'post' %}blog post{% else %}portfolio item{% endif %}</span></a>
-            <a id="nextlinktop" href="{{ sitepages[next_i].url }}">{% if page.language == 'nl' %}volgende{% else %}next{% endif %} {% if page.layout == 'post' %}post{% else %}item{% endif %}</a>
-            <a id="prevlinktop" href="{{ sitepages[prev_i].url }}">{% if page.language == 'nl' %}vorige{% else %}previous{% endif %} {% if page.layout == 'post' %}post{% else %}item{% endif %}</a>
+            <a id="nextlink" href="{{ sitepages[next_i].url }}">{{ translations.next[page.language] }}<span class="desktop">: {{ sitepages[next_i].title }}</span><span class="mobile"> {% if page.layout == 'post' %}blog post{% else %}portfolio item{% endif %}</span></a>
+            <a id="nextlinktop" href="{{ sitepages[next_i].url }}">{{ translations.next[page.language] }} {% if page.layout == 'post' %}post{% else %}item{% endif %}</a>
+            <a id="prevlinktop" href="{{ sitepages[prev_i].url }}">{{ translations.previous[page.language] }} {% if page.layout == 'post' %}post{% else %}item{% endif %}</a>
         {% endif %}
-        <a id="scrolltotop" href="#top">{% if page.language == 'nl' %}Scroll naar boven{% else %}Scroll to top{% endif %}</a>
-        <a id="lightmode" href="#" onclick="toggleLightmode()" title="{% if page.language == 'nl' %}verander kleur{% else %}change color{% endif %}"></a>
+        <a id="scrolltotop" href="#top">{{ translations.scroll_to_top[page.language] }}</a>
+        <a id="lightmode" href="#" onclick="toggleLightmode()" title="{{ translations.change_color[page.language] }}"></a>
     </div>
     
     <div id="darkmodeoverlay"></div>
