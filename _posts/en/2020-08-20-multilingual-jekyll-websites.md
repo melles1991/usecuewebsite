@@ -62,7 +62,7 @@ Step 5. To shorten the code in your layout files, place the following code in yo
 {% raw %}{% assign translations = site.data.translations %}{% endraw %}
 ```
 
-Step 6. Finally, you must replace each English string with something like this:
+Step 6. Finally, replace each English string with something like this:
 ```
 {% raw %}{{ translations.speed_index[page.language] }}{% endraw %}
 ```
