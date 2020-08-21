@@ -5,8 +5,8 @@
 
 
         </div>
-        {% if page.layout == 'portfolio' %}{% assign sitepages = site.portfolio | where_exp: 'page','page.path contains languageurl' | sort: 'order' %}{% endif %}
-        {% if page.layout == 'post' %}{% assign sitepages = site.posts | where_exp: 'page','page.path contains languageurl' | sort: 'order' %}{% endif %}
+        {% if page.layout == 'portfolio' %}{% assign sitepages = site.portfolio | where: 'language',page.language | sort: 'order' %}{% endif %}
+        {% if page.layout == 'post' %}{% assign sitepages = site.posts | where: 'language',page.language | sort: 'order' %}{% endif %}
         {% if page.layout == 'portfolio' or page.layout == 'post' %}
             {% for item in sitepages %}
                 {% if item.url == page.url %}

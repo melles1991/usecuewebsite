@@ -34,13 +34,9 @@ defaults:
     permalink: 'nieuws/:title'
     language: nl
 ```
-The 'header.html' file should start with:
-```
-{% raw %}{% assign languageurl = page.language | append: '/' | prepend: '/' %}{% endraw %}
-```
 The layout files should loop over the content like:
 ```
-{% raw %}{% assign siteposts = site.posts | where_exp: 'page','page.path contains languageurl' %}
+{% raw %}{% assign siteposts = site.posts | where: 'language',page.language %}
 {% for item in siteposts %}
   ...
 {% endfor %}

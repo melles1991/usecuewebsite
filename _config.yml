@@ -14,7 +14,6 @@ defaults:
   -
     scope:
       path: "_posts/en" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
       language: en
@@ -22,7 +21,6 @@ defaults:
   -
     scope:
       path: "_posts/nl" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
       language: nl
@@ -30,7 +28,6 @@ defaults:
   -
     scope:
       path: "_portfolio/en" # an empty string here means all files in the project
-      type: "portfolio" # previously `post` in Jekyll 2.2.
     values:
       layout: "portfolio"
       language: en
@@ -41,7 +38,6 @@ defaults:
   -
     scope:
       path: "_portfolio/nl" # an empty string here means all files in the project
-      type: "portfolio" # previously `post` in Jekyll 2.2.
     values:
       layout: "portfolio"
       language: nl

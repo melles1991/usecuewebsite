@@ -4,6 +4,6 @@
 
 {{ content }}
 
-<p style="text-align: center;">{% assign siteposts = site.posts | where: 'language','page.language' %}{% for post in siteposts %}{% unless forloop.index == 1 %}<br /><br />{% endunless %}<span class="smallmedium" style="position: relative; bottom: 0.5em;">{% unless forloop.index == 1 %}~{% endunless %}</span><br /><em style="display: inline-block; transform: scale(0.85); position: relative; bottom: 0.05em;">{{ post.date | date: "%B %e, %Y" }}</em><br /><a href="{{ post.url }}" class="smallmedium">{{ post.title }}</a>{% endfor %}</p>
+<p style="text-align: center;">{% assign siteposts = site.posts | where: 'language',page.language %}{% for post in siteposts %}{% unless forloop.index == 1 %}<br /><br />{% endunless %}<span class="smallmedium" style="position: relative; bottom: 0.5em;">{% unless forloop.index == 1 %}~{% endunless %}</span><br /><em style="display: inline-block; transform: scale(0.85); position: relative; bottom: 0.05em;">{{ post.date | date: "%B %e, %Y" }}</em><br /><a href="{{ post.url }}" class="smallmedium">{{ post.title }}</a>{% endfor %}</p>
 
 {% include footer.html %}

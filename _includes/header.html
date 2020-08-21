@@ -1,4 +1,5 @@
-{% assign languageurl = page.language | append: '/' | prepend: '/' %}<!DOCTYPE html>
+{% assign translations = site.data.translations %}
+<!DOCTYPE html>
 <html lang="{{ page.language }}">
 <head>
 <meta charset="utf-8" /> 
@@ -99,12 +100,12 @@
     <ul id="menu">
         {% if page.language == 'nl' %}
           <li><a href="/nl/over/">Over</a></li>
-          <li><a href="{% assign siteportfolio = site.portfolio | where_exp: 'page','page.path contains languageurl' | sort: 'order' %}{{ siteportfolio[0].url }}">Portfolio</a></li>
+          <li><a href="{% assign siteportfolio = site.portfolio | where: 'language',page.language | sort: 'order' %}{{ siteportfolio[0].url }}">Portfolio</a></li>
           <li><a href="/nl/blog/">Blog</a></li>
           <li><a href="/nl/contact/">Contact</a></li>
         {% else %}
           <li><a href="/about/">About</a></li>
-          <li><a href="{% assign siteportfolio = site.portfolio | where_exp: 'page','page.path contains languageurl' | sort: 'order' %}{{ siteportfolio[0].url }}">Portfolio</a></li>
+          <li><a href="{% assign siteportfolio = site.portfolio | where: 'language',page.language | sort: 'order' %}{{ siteportfolio[0].url }}">Portfolio</a></li>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/contact/">Contact</a></li>
         {% endif %}
