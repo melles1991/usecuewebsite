@@ -8,7 +8,7 @@ Dit betekent feitelijk dat het Privacy Shield niet langer geldig is. Dit heeft n
 
 De reden dat het Privacy Shield niet meer geldig is, is dat alle data die door transatlantische kabels gaat, bekeken kan en mag worden door de NSA (Amerikaanse veiligheidsdienst). Dit gaat in tegen de Europese wetgeving. Sinds Assange weten we bovendien dat dit ook op grote schaal gebeurt.
 
-Het hof laat nog wel een achterdeur open in de vorm van een SCC (standard contractual clause). Deze overeenkomst is in theorie nog geldig, maar aangezien het hof stelt dat de (niet geringe) onderzoeksplicht bij de data-eigenaar ligt en vooraf moet gebeuren, is deze in de praktijk niet tot nauwelijks toepasbaar en/of geldig.
+Het hof laat nog wel een achterdeur open in de vorm van een SCC (standard contractual clause). Deze overeenkomst is in theorie nog geldig, maar aangezien het hof stelt dat de (niet geringe) onderzoeksplicht bij de data-eigenaar ligt en vooraf moet gebeuren, is deze in de praktijk niet tot nauwelijks toepasbaar en/of conform de AVG.
 
 Goed nieuws voor de privacy maar slecht nieuws voor je portemonnee. Het internet was al een tijdje [niet meer gratis](https://www.usecue.com/nl/blog/het-internet-is-niet-meer-gratis/), maar dit lijkt te betekenen dat je een heleboel Amerikaanse diensten, die geen geld kosten, niet meer zakelijk kunt gebruiken. Denk hierbij aan Google Documenten, Gmail en natuurlijk Google Analytics… want, zelfs met expliciete toestemming van de gebruiker, voldoen deze diensten niet aan de Europese wet. De Europese waarborgen voor de privacy blijven namelijk altijd van kracht en deze zijn niet realiseerbaar binnen de Amerikaanse wet (waar de autoriteiten altijd mogen meekijken).
 
