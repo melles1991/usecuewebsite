@@ -2,7 +2,7 @@
 title: Privacy Shield ongeldig, hoe nu verder?
 ---
 
-Het Europese hof heeft een uitspraak gedaan in de tweede zaak van Max Schrems tegen Facebook. In deze zaak heeft het Europese hof aangegeven dat Facebook, ondanks het Privacy Shield, toch niet voldoet aan de Europese wetgeving. 
+Het Europese hof heeft [een uitspraak gedaan](https://www.twobirds.com/en/news/articles/2020/global/schrems-ii-judgment-privacy-shield-invalid-sccs-survive-but-what-happens-now) in de tweede zaak van Max Schrems tegen Facebook. In deze zaak heeft het Europese hof aangegeven dat Facebook, ondanks het Privacy Shield, toch niet voldoet aan de Europese wetgeving. 
 
 Dit betekent feitelijk dat het Privacy Shield niet langer geldig is. Dit heeft niet alleen effect op Facebook, maar op alle bedrijven die het Privacy Shield gebruiken. Hieronder vallen een aantal grote namen, zoals Google, Facebook en MailChimp (Rocket Genius).
 
