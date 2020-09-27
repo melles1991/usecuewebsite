@@ -1,0 +1,13 @@
+---
+title: Pagespeed Insights
+---
+
+Met een grote glimlach las ik het artikel van Kinsta over 'Pagespeed Insights' en niet omdat het zo goed was. Google Pagespeed Insights is een tool die je een score geeft tussen de 0 en 100 die staat voor de 'Performance' van de website. De snelle servers van Kinsta zorgen ervoor dat je significant beter scoort in de Pagespeed Insights tool van Google. Waarom vond ik het dan grappig?
+
+Het artikel stelde dat (ik quote) 'veel website-eigenaren en ontwikkelaars geobsedeerd raken door het behalen van een perfecte PageSpeed Insights-score'. Ik heb geen idee of dat waar is, maar door het woordje geobsedeerd krijg ik het gevoel dat ze daar een stevige mening over hebben... en dat vind ik opvallend. Allereerst omdat het een ranglijst is en geen perfecte score. Een 100/100 score betekent dat je bij de beste 2% hoort. Iets dat vandaag 99 scoort kan morgen 100 scoren en andersom. Daarnaast lijkt het me niet gek om bij de beste 2% (van miljarden websites) te willen horen.
+
+Ze gaan echter verder, want volgens hen (ik qoute) 'heeft deze groep mensen de neiging om het belangrijkste onderdeel van de testresultaten over het hoofd te zien: de aanbevelingen.' Ook En dat is opvallend, want in tegenstelling tot alle andere Google Lighthouse categorieën is Performance namelijk geen checklist. Het is niet zo dat je de aanbevelingen volgt en dan automatisch een 100/100 score haalt. Natuurlijk wordt je site sneller van de aanbevelingen, maar zonder het volgen van de aanbevelingen kan je nog steeds een 100/100 score halen. Dat is bij alle andere categorieën van Google Lighthouse niet zo. Heb je daar aan alle voorwaarden voldaan (de checklist), dan heb je een perfecte score. Opvallende uitspraak, zeker als je je realiseert dat Kinsta dus alleen maar een website heel snel op het scherm hoeft te toveren om een 'perfecte score' te krijgen. Daarbij maakt het niet uit of ze nou aan die aanbevelingen hebben voldaan of niet. 
+
+Waarom vinden ze die aanbevelingen dan TOCH zo belangrijk? En nu komen we bij de kern van de zaak en de reden van mijn glimlach: omdat ze buiten hun macht liggen. Kinsta host WordPress websites. Zowel door de techniek van WordPress zelf, als door de matige kwaliteit van de code van de thema's en de plugins zijn deze vaak heel traag. Dan kun je als host doen wat je wil, maar door het teveel aan CSS en Javascript van deze websites kun je, zelfs met caching, gzippen, NVMe schijven, gereserveerd CPU en RAM, geen 100/100 score halen. 
+
+Dat moet frustrerend zijn. Het gekronkel vind ik grappig, temeer omdat ik zonder moeite WEL die een 100% Google Lighthouse Score haal. Niet met WordPress, maar met handgeschreven code en vakmanschap. Kom er maar eens om...
