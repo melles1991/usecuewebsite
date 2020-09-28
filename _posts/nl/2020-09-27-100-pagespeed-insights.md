@@ -2,7 +2,7 @@
 title: 100/100 Pagespeed Insights
 ---
 
-Met een grote glimlach las ik het [artikel van Kinsta](https://kinsta.com/nl/blog/google-pagespeed-insights) over 'Pagespeed Insights', ironisch genoeg getiteld: 'de waarheid over de 100/100 score'. Daarin verwijten ze de klant van alles, maar vertellen ze niet hoe het werkelijk zit. Hierbij alsnog een poging.
+Met een grote glimlach las ik het [artikel van Kinsta](https://kinsta.com/nl/blog/google-pagespeed-insights) over 'Pagespeed Insights', ironisch genoeg getiteld: 'de waarheid over de 100/100 score'. Daarin verwijten ze de klant allerlei dingen, maar ze vertellen niet hoe het werkelijk zit.
 
 Allereerst: Wat is [Google Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/)? Dit is een tool die je een score geeft tussen de 0 en 100 die staat voor de 'Performance' van de website. Deze waarde is gelijk aan je score in de Performance categorie van de [Google Lighthouse score](/blog/google-lighthouse-score). Kinsta is een bedrijf dat snelle Wordpress hosting aanbiedt, waardoor je significant beter scoort in deze categorie. Een goede reden voor een positief artikel, zou je zeggen.
 
