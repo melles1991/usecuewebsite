@@ -2,7 +2,7 @@
 title: Multilingual Jekyll websites
 ---
 
-There are many guides for making multilingual Jekyll websites. Most of them involve plugins, and [I do not really like plugins](https://jekyllcodex.org/without-plugins). After trying several approaches, I found a way that is as easy as it is elegant.
+There are many guides for making multilingual Jekyll websites. Most of them involve plugins, and [I do not really like plugins](https://jekyllcodex.org/without-plugins), because they execute [unknown code](https://www.usecue.com/blog/code-warriors/). Fortunately, I did not need them. After trying several approaches, I found a way that is as easy as it is elegant.
 
 Whenever I needed a multilingual Jekyll website in the past, I always copied my complete project and translated it. This is relatively easy and keeps the codebase simple, but it made maintenance and adjustments a tedious job. The logical alternative, besides using a plugin, was to use themes. However, I do not like the added complexity of themes either. I like to keep things simple.
 
