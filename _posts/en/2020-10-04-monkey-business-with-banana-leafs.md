@@ -12,6 +12,8 @@ All I had to do is to put a listener on touch, scroll and click events. Performa
 
 Is this cheating? Yes and no. Yes, because we provide the test tool with different content than humans. No, because initially the page is fully interactive after loading the smaller version and the additions are only decorative and loaded asynchronous. You could look at it as a form of progressive enhancement. Because we load the images directly on subsequent page loads, these pages may actually be slower. However, we can be pretty certain that we are loading cached images in that case, which minimizes this slowdown to almost none/zero. 
 
+Google does not just use [synthetic testing](https://raygun.com/blog/synthetic-testing/) (also known as lab data) to score your website, but is using more and more field data. This data is collected in the [Chrome User Experience Report (CrUX)](https://developers.google.com/web/tools/chrome-user-experience-report/) and provides metrics showing how real-world Chrome users (in other words: humans) experience popular destinations on the web. The question arises how this strategy holds up in CrUX report. First of all, not all websites are scored by field data, but those that are will most likely not score noticably worse. Even in a real-world situation (an actual 'human' visit) the website will report a 'fully loaded' state before the additional images are loaded. The extra load after human interaction will probably not be reported. On subsequent pages these images have already been cached, as argued before. Therefore, they will not lead to significantly slower loading times.
+
 So, are we cheating? Maybe a little. But is it smart? I do think so... 
 
 What do you think?
