@@ -4,7 +4,7 @@ title: Monkey business with banana leafs
 
 My website is 40kb large and [loads instantly](/blog/websites-that-load-instantly/). That is great, but it used to be pretty spartan looking. 
 
-To fix this, I added some images of banana leafs. But even when I converted them to SVG, they were still many times larger than my full website. That was very bad for page load times and did not fit my (relatively new) reputation as a performance expert. As I recently got international attention for creating fast loading websites, I did not want to compromise on the performance. So, if I wanted to keep these images, I had to come up with a plan.
+To fix this, I added some images of banana leafs (on desktop only). But, even when I converted them to SVG, they were still many times larger than my full website. That was very bad for page load times and did not fit my (relatively new) reputation as a performance expert. As I recently got international attention for creating fast loading websites, I did not want to compromise on the performance. So, if I wanted to keep these images, I had to come up with a plan.
 
 I needed some sort of lazy loading. Lazy loading can be a huge boost to your [performance score](/blog/google-lighthouse-score/). Unfortunately, lazy loading only affects images that are off-screen. These images need to be on-screen. Therefore, lazy loading has no effect. But what if I could tell the difference between a human visit and a visit by a performance bot? Then I could load these images only for human visitors. A plan that resembles [Volkswagen's diesel cars that can detect an emission test](https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal). This plan turned out to be relatively easy to execute.
 
