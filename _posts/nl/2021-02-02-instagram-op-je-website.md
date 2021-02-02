@@ -16,7 +16,7 @@ Samenvattend was ik er dus achter gekomen dat Firefox met zijn 'Facebook contain
 
 ## Dan maar zelf bouwen
 
-Aangezien ik geen goede AVG/GDPR compliant oplossing kon vinden voor het inladen van een paar simpele Instagram plaatjes, besloot ik het heft in eigen hand te nemen en zelf iets te bouwen. Na wat technische omzwervingen kwam ik erop uit dat dit (helaas) toch echt via de Facebook/Instagram API moest. Zo gezegd, zo gedaan. Samen met mijn tweelingbroer heb ik het hele authorisatie en token-inwissel-dansje geprogrammeerd en geautomatiseerd. Daardoor konden we met onze nieuwe webapplicatie, die we uiteindelijk [PPI Loader](https://profilepageimages.usecue.com/) hebben genoemd, eenvoudig afbeeldingen downloaden en opslaan op onze server. Een mooie oplossing voor onze eigen klanten, die daardoor geen nieuwe verwerkersovereenkomst hoefden te tekenen. 
+Aangezien ik geen goede AVG/GDPR compliant oplossing kon vinden voor het inladen van een paar simpele Instagram plaatjes, besloot ik het heft in eigen hand te nemen en zelf iets te bouwen. Na wat technische omzwervingen kwam ik erop uit dat dit (helaas) toch echt via de Facebook/Instagram API moest. Zo gezegd, zo gedaan. Samen met mijn tweelingbroer heb ik het hele authorisatie en token-inwissel-dansje geprogrammeerd en geautomatiseerd. Daardoor konden we met onze nieuwe webapplicatie, die we uiteindelijk [PPI Loader](https://profilepageimages.usecue.com/) hebben genoemd, eenvoudig afbeeldingen downloaden en opslaan op onze server. Een mooie oplossing voor onze eigen klanten, die daardoor geen nieuwe verwerkersovereenkomst hoeven te tekenen. 
 
 ## Voor Jekyll en WordPress
 
