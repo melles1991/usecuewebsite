@@ -2,7 +2,7 @@
 title: Instagram op je website
 ---
 
-Dus je wilt de meest recente post van je Instagram account op je website laten zien? Geen probleem zou je denken... Dat dacht ik ook toen een klant het vroeg, maar het bleek (zoals altijd) ingewikkelder dan gedacht.
+Dus je wilt de meest recente post van je Instagram account op je website laten zien? Geen probleem zou je denken... Dat dacht ik ook toen een klant het vroeg, maar niets bleek minder waar.
 
 Allereerst leken de meeste oplossingen en plugins die ik online vond het niet (meer) te doen. 
 
