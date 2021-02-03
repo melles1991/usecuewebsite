@@ -2,7 +2,7 @@
 title: Instagram on your website
 ---
 
-So you want to show your latest Instagram posts on your website? No problem, you would think... That is what I thought, when a client asked me to do that. Reality was quite different.
+So you want to show your latest Instagram posts on your website? No problem, you would think... At least that was what I thought, when a client asked me this. Reality turned out to be quite different.
 
 First of all I noticed that most solutions and plugins were not or no longer working.
 
