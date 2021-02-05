@@ -6,15 +6,7 @@ Een privacyvriendelijke website of iets specifieker 'een website conform de AVG'
 
 ## De AVG in het kort
 
-Persoonsgegevens mogen niet zonder toestemming bij derden terecht komen. Met iedere derde moet een verwerkersovereenkomst afgesloten worden.
-
-De term 'persoonsgegevens' moeten hierin breed worden gezien. Een [IP-adres is ook een persoonsgegeven](https://ciberjuristen.nl/ip-adres-is-persoonsgegeven/), zeker in combinatie met andere gegevens, zoals browsertype, besturingssysteem, tijdstip, etc.
-
-Deze 'toestemming' moet expliciet zijn en aantoonbaar. Dat eerste betekent dat iemand een handeling moet hebben gedaan om akkoord te gaan met deze verspreiden van zijn persoonsgegevens. Het tweede betekent dat je het 'akkoord' moet opslaan, inclusief tijdstip.
-
-'Derden' zijn alle partijen behalve uzelf. In het geval van deze website: het bedrijf Usecue BV.
-
-De 'verwerkersovereenkomst' beschrijft met welk doel de gegevens gedeeld zijn en hoe ze beschermt worden. Deze overeenkomst voorkomt dat gegevens worden misbruikt of lekken en beschrijft de verplichtingen wanneer zoiets zich toch voordoet.
+Persoonsgegevens mogen niet zonder toestemming bij derden terecht komen. Met iedere derde moet een verwerkersovereenkomst afgesloten worden. De term 'persoonsgegevens' moeten hierin breed worden gezien. Een [IP-adres is ook een persoonsgegeven](https://ciberjuristen.nl/ip-adres-is-persoonsgegeven/), zeker in combinatie met andere gegevens, zoals browsertype, besturingssysteem, tijdstip, etc. Deze 'toestemming' moet expliciet zijn en aantoonbaar. Dat eerste betekent dat iemand een handeling moet hebben gedaan om akkoord te gaan met deze verspreiden van zijn persoonsgegevens. Het tweede betekent dat je het 'akkoord' moet opslaan, inclusief tijdstip. 'Derden' zijn alle partijen behalve uzelf. In het geval van deze website: het bedrijf Usecue BV. De 'verwerkersovereenkomst' beschrijft, tenslotte, met welk doel de gegevens gedeeld zijn en hoe ze beschermt worden. Deze overeenkomst voorkomt dat gegevens worden misbruikt of lekken en bevestigt de verplichtingen van beide partijen wanneer zoiets zich onverhoopt toch voordoet.
 
 ## Gegevens naar de VS
 
