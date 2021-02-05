@@ -16,7 +16,7 @@ In juni 2020 kwam daar nog een regel bij. Toen is namelijk het 'Privacy Shield' 
 
 Er zijn drie aanpakken denkbaar:
 
-1. Niets doen. Je weet wel dat je je niet aan de wet houdt, maar aangezien er vrijwel niet gehandhaafd wordt hoop je dat je er met een waarschuwing vanaf komt. Aangezien de boetes zo hoog zijn, hangt er bij 'niets doen' continu een [zwaard van Damocles](https://nl.wikipedia.org/wiki/Damocles) boven je hoofd. De kans is groot dat je uiteindelijk geconfronteerd wordt met torenhoge boetes, negatieve publiciteit en gezichtsverlies. Niets doen is een zeer onverstandige aanpak.
+1. Niets doen. Je weet wel dat je je niet aan de wet houdt, maar aangezien er vrijwel niet gehandhaafd wordt, hoop je dat je er met een waarschuwing vanaf komt. Aangezien de boetes zo hoog zijn, hangt er bij 'niets doen' continu een [zwaard van Damocles](https://nl.wikipedia.org/wiki/Damocles) boven je hoofd. De kans is groot dat je uiteindelijk geconfronteerd wordt met torenhoge boetes, negatieve publiciteit en gezichtsverlies. Niets doen is een zeer onverstandige aanpak.
 
 2. De norm volgen. Je negeert de uitspraak van het Europese Hof van 2020, want dat is wat de meeste mensen doen. De kans dat dit leidt tot een boete is klein, maar het kan wel tot klachten van klanten leiden en misschien uiteindelijk zelfs tot juridisch getouwtrek, met alle gevolgen vandien. Vroeg of laat zal deze uitspraak echter wel degelijk gevolgen gaan hebben en daar ben je dan niet op voorbereid, maar 'wie dan leeft, wie dan zorgt', zeggen ze.
 
