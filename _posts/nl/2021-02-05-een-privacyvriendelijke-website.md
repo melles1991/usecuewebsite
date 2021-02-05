@@ -35,7 +35,7 @@ Het klinkt simpel, maar wat houdt het precies in? Hieronder de oplossingen/opdra
 - Meet referrals op het ad-platform zelf (Facebook, Linkedin, Google)
 - Dubbelcheck referrals (eventueel) op basis van log files
 - Voer zelfrapportage in bij sales om conversie te meten (vraag: hoe kwam u bij ons?) 
-- Embed Youtube video's niet, maar open ze dynamisch in een lightbox of in een nieuw window
+- Open Youtube video's dynamisch in een lightbox of in een nieuw window in plaats van via een 'embed'
 - Laad Instagram afbeeldingen in vanaf je eigen server of met verwerkersovereenkomst via een Europese partij
 - Handel formulieren af op je eigen server of met verwerkersovereenkomst via een Europese partij
 
