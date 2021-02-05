@@ -38,6 +38,7 @@ Het klinkt simpel, maar wat houdt het precies in? Hieronder de oplossingen/opdra
 - Open Youtube video's dynamisch in een lightbox of in een nieuw window in plaats van via een 'embed'
 - Laad Instagram afbeeldingen (en andere social bronnen) in vanaf je eigen server of met verwerkersovereenkomst via een Europese partij
 - Handel formulieren af op je eigen server of met verwerkersovereenkomst via een Europese partij (geen MailChimp dus)
+- Vraag expliciet om toestemming bij het versturen van je formulieren (indien afgehandeld door derden)
 
 En wanneer je een webshop hebt:
 
