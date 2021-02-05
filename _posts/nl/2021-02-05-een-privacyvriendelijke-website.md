@@ -28,10 +28,10 @@ Hieronder de oplossingen/opdrachten voor jouw website, per aanpak. Om de norm te
 
 - Verwijder je cookie banner (die is niet meer nodig als je onderstaande zaken uitvoert)
 - Sluit een verwerkersovereenkomst af met je hostingpartij
-- Neem je hostingpartij op in je privacystatement
-- Vraag expliciet om toestemming bij het inschakelen van derden waarbij geen noodzakelijk belang geldt
+- Neem je hostingpartij op in je privacyverklaring
+- Vraag expliciet om toestemming bij het inschakelen van derden waarbij geen noodzakelijk belang geldt (formulierafhandeling bijvoorbeeld)
 - Voor webshops: Sluit een verwerkersovereenkomst af met je Europese webshopaanbieder en betalingsprovider
-- Voor webshops: Neem je webshopaanbieder en betalingsprovider op in je privacystatement
+- Voor webshops: Neem je webshopaanbieder en betalingsprovider op in je privacyverklaring
 
 Om de wet te volgen doe je dit:
 
