@@ -26,15 +26,15 @@ Er zijn drie aanpakken denkbaar:
 
 Hieronder de oplossingen/opdrachten voor jouw website, per aanpak. Om de norm te volgen doe je dit:
 
-- Verwijder je cookie banner (die is niet meer nodig als je onderstaande zaken uitvoert)
 - Sluit een verwerkersovereenkomst af met je hostingpartij
 - Neem je hostingpartij op in je privacyverklaring
-- Vraag expliciet om toestemming bij het inschakelen van derden waarbij geen noodzakelijk belang geldt (formulierafhandeling bijvoorbeeld)
-- Voor webshops: Sluit een verwerkersovereenkomst af met je Europese webshopaanbieder en betalingsprovider
+- Vraag expliciet om toestemming bij het inschakelen van derden waarbij geen noodzakelijk belang geldt
+- Voor webshops: Sluit een verwerkersovereenkomst af met je webshopaanbieder en betalingsprovider
 - Voor webshops: Neem je webshopaanbieder en betalingsprovider op in je privacyverklaring
 
 Om de wet te volgen doe je dit:
 
+- Verwijder je cookie banner (die is niet meer nodig als je onderstaande zaken uitvoert)
 - Verhuis je hosting naar een hostingpartij binnen de EU
 - Gebruik geen Google Analytics, maar gebruik Google Search Console om bezoekersaantallen te meten
 - Gebruik een zefgehoste meetmodule voor bezoekersaantallen
