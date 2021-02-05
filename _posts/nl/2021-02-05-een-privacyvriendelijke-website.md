@@ -28,7 +28,7 @@ Hieronder de oplossingen/opdrachten voor jouw website, per aanpak. Om de norm te
 
 - Sluit een verwerkersovereenkomst af met je hostingpartij
 - Neem je hostingpartij op in je privacyverklaring
-- Vraag expliciet om toestemming bij het inschakelen van derden waarbij geen noodzakelijk belang geldt
+- Vraag expliciet om toestemming bij het inschakelen van derden waarbij sprake is van profiling en/of geen noodzakelijk belang geldt
 - Voor webshops: Sluit een verwerkersovereenkomst af met je webshopaanbieder en betalingsprovider
 - Voor webshops: Neem je webshopaanbieder en betalingsprovider op in je privacyverklaring
 
