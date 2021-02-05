@@ -26,7 +26,7 @@ Er zijn drie aanpakken denkbaar:
 
 Het klinkt simpel, maar wat houdt het precies in? Hieronder de oplossingen/opdrachten voor jouw website:
 
-- Verwijder je cookie banner (die is niet meer nodig)
+- Verwijder je cookie banner (die is niet meer nodig als je onderstaande zaken uitvoert)
 - Verhuis je hosting naar een server in de EU
 - Gebruik geen (internationaal) CDN (failover binnen de EU kan wel)
 - Sluit verwerkersovereenkomst(en) af met je hostingpartij(en)
@@ -36,8 +36,8 @@ Het klinkt simpel, maar wat houdt het precies in? Hieronder de oplossingen/opdra
 - Dubbelcheck referrals (eventueel) op basis van log files
 - Voer zelfrapportage in bij sales om conversie te meten (vraag: hoe kwam u bij ons?) 
 - Open Youtube video's dynamisch in een lightbox of in een nieuw window in plaats van via een 'embed'
-- Laad Instagram afbeeldingen in vanaf je eigen server of met verwerkersovereenkomst via een Europese partij
-- Handel formulieren af op je eigen server of met verwerkersovereenkomst via een Europese partij
+- Laad Instagram afbeeldingen (en andere social bronnen) in vanaf je eigen server of met verwerkersovereenkomst via een Europese partij
+- Handel formulieren af op je eigen server of met verwerkersovereenkomst via een Europese partij (geen MailChimp dus)
 
 En wanneer je een webshop hebt:
 
@@ -45,7 +45,7 @@ En wanneer je een webshop hebt:
 - Sluit een verwerkersovereenkomst af met je Europese webshopaanbieder en betalingsprovider
 - Vraag expliciete toestemming aan je klanten om hun gegevens naar de webshopaanbieder en betalingsprovider te sturen
 
-Natuurlijk voldoet je website morgen nog niet aan de AVG, maar je kunt wel nu al de verandering in gang zetten. Deze verandering zal tijd en geld kosten, dat is niet anders, maar het kan stapje voor stapje. Ik help je graag. Je zult zien dat met de juiste uitleg en begeleiding het minder lastig is dan je denkt.
+Natuurlijk voldoet je website morgen nog niet aan de wet, maar je kunt wel nu al de verandering in gang zetten. Daarbij is het goed om eerst te voldoen aan de norm en daarna te kijken of je ook ECHT aan de wet kunt voldoen. Deze verandering zal tijd en geld kosten, dat is niet anders, maar het kan stapje voor stapje. Ik help je graag. Je zult zien dat met de juiste uitleg en begeleiding het minder lastig is dan je denkt.
 
 ## Meer weten?
 
