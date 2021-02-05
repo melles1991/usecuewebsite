@@ -52,4 +52,4 @@ Voldoen aan de wet kan door onderstaande opdrachten uit te voeren:
 
 ## Hulp nodig?
 
-Natuurlijk voldoet je website niet van de ene op de andere dag aan de wet, noch aan de norm, maar je kunt wel nu al de verandering in gang zetten. Deze verandering zal tijd en geld kosten. Dat is niet anders, maar het kan stapje voor stapje. Ik help je graag. Je zult zien dat met de juiste uitleg en begeleiding het minder lastig is dan je denkt. Heb je nou nog vragen over het bovenstaande, of wil je dat ik je help om je website 'AVG-proof' te maken? Neem [contact](/nl/contact) met me op!
+Natuurlijk voldoet je website niet van de ene op de andere dag aan de wet, noch aan de norm, maar je kunt wel nu al de verandering in gang zetten. Deze verandering zal tijd en geld kosten. Dat is niet anders, maar het kan stapje voor stapje. Je zult zien dat met de juiste uitleg en begeleiding het minder lastig is dan je denkt. Heb je nou nog vragen over het bovenstaande, of wil je dat ik je help om je website 'AVG-proof' te maken? Neem [contact](/nl/contact) met me op!
