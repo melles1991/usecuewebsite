@@ -24,9 +24,7 @@ Er zijn drie aanpakken denkbaar:
 
 ## Wat moet je doen
 
-Hieronder de oplossingen/opdrachten voor jouw website, per aanpak. 
-
-Om de norm te volgen doe je dit:
+Hieronder de oplossingen/opdrachten voor jouw website, per aanpak. Om de norm te volgen doe je dit:
 
 - Verwijder je cookie banner (die is niet meer nodig als je onderstaande zaken uitvoert)
 - Sluit een verwerkersovereenkomst af met je hostingpartij
@@ -49,8 +47,6 @@ Om de wet te volgen doe je dit:
 - Voor webshops: Gebruik geen Shopify, Snipcart of ander hosted platform (uit de VS of met uitsluitend servers in de VS)
 - Voor webshop: Voer zelfrapportage in bij sales om conversie te meten (vraag: hoe kwam u bij ons?) 
 
-Natuurlijk voldoet je website niet van de ene op de andere dag aan de wet, noch aan de norm, maar je kunt wel nu al de verandering in gang zetten. Deze verandering zal tijd en geld kosten, dat is niet anders, maar het kan stapje voor stapje. Ik help je graag. Je zult zien dat met de juiste uitleg en begeleiding het minder lastig is dan je denkt.
+## Hulp nodig?
 
-## Meer weten?
-
-Heb je nou nog vragen over het bovenstaande, of wil je dat ik je help om je website 'AVG-proof' te maken? Neem [contact](/nl/contact) met me op!
+Natuurlijk voldoet je website niet van de ene op de andere dag aan de wet, noch aan de norm, maar je kunt wel nu al de verandering in gang zetten. Deze verandering zal tijd en geld kosten, dat is niet anders, maar het kan stapje voor stapje. Ik help je graag. Je zult zien dat met de juiste uitleg en begeleiding het minder lastig is dan je denkt. Heb je nou nog vragen over het bovenstaande, of wil je dat ik je help om je website 'AVG-proof' te maken? Neem [contact](/nl/contact) met me op!
