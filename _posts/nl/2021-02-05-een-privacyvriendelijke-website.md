@@ -50,4 +50,4 @@ Natuurlijk voldoet je website morgen nog niet aan de wet, maar je kunt wel nu al
 
 ## Meer weten?
 
-Heb je nou nog vragen over het bovenstaande, of wil je dat ik je help om je website 'AVG-proof' te maken? Neem contact (/nl/contact) met me op!
+Heb je nou nog vragen over het bovenstaande, of wil je dat ik je help om je website 'AVG-proof' te maken? Neem [contact](/nl/contact) met me op!
