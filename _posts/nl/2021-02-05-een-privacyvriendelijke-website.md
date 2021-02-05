@@ -28,7 +28,8 @@ Voldoen aan de norm kan door onderstaande opdrachten uit te voeren:
 
 - Sluit een verwerkersovereenkomst af met je hostingpartij
 - Neem je hostingpartij op in je privacyverklaring
-- Vraag expliciet om toestemming bij het inschakelen van derden waarbij sprake is van profiling en/of geen noodzakelijk belang geldt
+- Vraag expliciet om toestemming bij het inschakelen van derden waarbij sprake is van profiling en/of waar geen noodzakelijk belang geldt
+- Neem deze derden ook op in je privacyverklaring
 - Voor webshops: Sluit een verwerkersovereenkomst af met je webshopaanbieder en betalingsprovider
 - Voor webshops: Neem je webshopaanbieder en betalingsprovider op in je privacyverklaring
 
