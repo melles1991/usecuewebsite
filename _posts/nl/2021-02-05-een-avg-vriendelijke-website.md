@@ -18,7 +18,7 @@ De 'verwerkersovereenkomst' beschrijft met welk doel de gegevens gedeeld zijn en
 
 ## Gegevens naar de VS
 
-In juni 2020 kwam daar nog een regel bij. Toen is namelijk het 'Privacy Shield' [ongeldig verklaard](https://autoriteitpersoonsgegevens.nl/nl/nieuws/privacy-shield-voor-doorgifte-naar-vs-ongeldig-verklaard) door het Europese Hof. Dit Privacy Shield werd gebruikt om gegevensuitwisseling tussen de EU en de VS te versimpelen. Het enige alternatief hiervoor is het gebruik van een Standard Contractual Clause, maar daar zijn bij voorbaat [al vraagtekens bij geplaatst](https://en.wikipedia.org/wiki/EU%E2%80%93US_Privacy_Shield). Wanneer je [de zaak bestudeert](/blog/privacy-shield-ongeldig-hoe-nu-verder) vind je daarvoor ook een onderbouwing: De Amerikaanse overheid is niet te vertrouwen wanneer het op privacy van Europese burgers aankomt. Aangezien je persoonlijk verantwoordelijk bent voor de juridische onderbouwing van de bescherming van de door jou verwerkte persoonsgegevens, is dat een zeer hoog risico. Dat betekent mijns inziens effectief dat organisaties in de EU geen persoonsgegevens aan de Verenigde Staten (VS) meer kunnen doorgeven.
+In juni 2020 kwam daar nog een regel bij. Toen is namelijk het 'Privacy Shield' [ongeldig verklaard](https://autoriteitpersoonsgegevens.nl/nl/nieuws/privacy-shield-voor-doorgifte-naar-vs-ongeldig-verklaard) door het Europese Hof. Dit Privacy Shield werd gebruikt om gegevensuitwisseling tussen de EU en de VS te versimpelen. Het enige alternatief hiervoor is het gebruik van een Standard Contractual Clause, maar daar zijn bij voorbaat [al vraagtekens bij geplaatst](https://en.wikipedia.org/wiki/EU%E2%80%93US_Privacy_Shield). Wanneer je [de zaak bestudeert](/blog/privacy-shield-ongeldig-hoe-nu-verder) vind je daarvoor ook een onderbouwing: De Amerikaanse overheid is niet te vertrouwen wanneer het op privacy van Europese burgers aankomt. Aangezien je persoonlijk verantwoordelijk bent voor de juridische onderbouwing van de bescherming van de door jou verwerkte persoonsgegevens, loop je met het gebruik van deze clausule een zeer hoog risico. Dat betekent mijns inziens effectief dat organisaties in de EU geen persoonsgegevens aan de Verenigde Staten (VS) meer kunnen doorgeven.
 
 ## Drie aanpakken
 
@@ -52,8 +52,8 @@ En wanneer je een webshop hebt moet je ook hieraan denken:
 - Verwerkersovereenkomst afsluiten met Europese webshopaanbieder en betalingsprovider
 - Expliciete toestemming vragen om gegevens naar de webshopaanbieder en betalingsprovider te sturen
 
-Natuurlijk voldoet je website morgen nog niet aan de AVG, maar je kunt nu wel de verandering in gang zetten. Dat zorgt ervoor dat jij geen risico loopt en niet in de problemen komt zodra de Autoriteit Persoonsgegevens deze wet ook daadwerkelijk gaat handhaven.
+Natuurlijk voldoet je website morgen nog niet aan de AVG, maar je kunt wel nu al de verandering in gang zetten. Uiteraard gaat deze verandering tijd en geld kosten. Het is dan ook zaak om de pijn te verdelen. Dat zorgt ervoor dat jij geen risico loopt en niet in de problemen komt zodra de Autoriteit Persoonsgegevens deze wet ook daadwerkelijk gaat handhaven.
 
 ## Meer weten?
 
-Heb je nou nog vragen op basis van het bovenstaande of wil je dat ik je help om AVG proof te worden? Dan help ik je uiteraard graag. Neem gerust contact (/nl/contact) met me op.
+Heb je nou nog vragen over het bovenstaande, of wil je dat ik je help om je website 'AVG-proof' te maken? Neem contact (/nl/contact) met me op!
