@@ -22,9 +22,9 @@ Er zijn drie aanpakken denkbaar:
 
 3. De wet volgen. Je leest en volgt de letter van de wet en de invulling die de Autoriteit Persoonsgegevens daaraan geeft. Hiermee houd je al het AVG gezeur buiten de deur EN respecteer je de privacy van je websitebezoekers. Dit kost uiteraard de nodige inspanning, maar het is, in tegentelling tot wat veel mensen denken, zeker niet onmogelijk. Ik licht deze aanpak hieronder toe.
 
-## Wat moet je doen
+## Voldoen aan de norm
 
-Hieronder de oplossingen/opdrachten voor jouw website, per aanpak. Om de norm te volgen doe je dit:
+Voldoen aan de norm kan door onderstaande opdrachten uit te voeren:
 
 - Sluit een verwerkersovereenkomst af met je hostingpartij
 - Neem je hostingpartij op in je privacyverklaring
@@ -32,7 +32,9 @@ Hieronder de oplossingen/opdrachten voor jouw website, per aanpak. Om de norm te
 - Voor webshops: Sluit een verwerkersovereenkomst af met je webshopaanbieder en betalingsprovider
 - Voor webshops: Neem je webshopaanbieder en betalingsprovider op in je privacyverklaring
 
-Om de wet te volgen doe je dit:
+## Voldoen aan de wet
+
+Voldoen aan de wet kan door onderstaande opdrachten uit te voeren:
 
 - Verwijder je cookie banner (die is niet meer nodig als je onderstaande zaken uitvoert)
 - Verhuis je hosting naar een hostingpartij binnen de EU
