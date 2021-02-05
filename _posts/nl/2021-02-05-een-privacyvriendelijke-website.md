@@ -1,5 +1,5 @@
 ---
-title: Een privacyvriendelijke website
+title: Een privacy&shy;vriendelijke website
 ---
 
 Een privacyvriendelijke website of iets specifieker 'een website conform de AVG', wat betekent dat precies? 
