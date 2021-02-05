@@ -41,7 +41,7 @@ Het klinkt simpel, maar wat houdt het precies in? Hieronder de oplossingen/opdra
 
 En wanneer je een webshop hebt:
 
-- Gebruik geen Shopify of ander hosted platform (uit de VS of met servers in de VS)
+- Gebruik geen Shopify, Snipcart of ander hosted platform (uit de VS of met servers in de VS)
 - Sluit een verwerkersovereenkomst af met je Europese webshopaanbieder en betalingsprovider
 - Vraag expliciete toestemming aan je klanten om hun gegevens naar de webshopaanbieder en betalingsprovider te sturen
 
