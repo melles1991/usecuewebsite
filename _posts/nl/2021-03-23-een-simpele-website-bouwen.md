@@ -2,9 +2,11 @@
 title: Een simpele website bouwen
 ---
 
-Bij het bouwen en live zetten van een simpele website komt vaak toch nog best veel kijken. Zo heb ik onlangs een website met een standaard WordPress thema van Envato geoptimaliseerd. De opdrachtgever was eigenlijk best tevreden met zijn website, maar de hosting was traag en duur/onderhoudsgevoelig. Ik heb de website technisch herbouwd in de Jamstack. Daardoor is hij ongeveer 3x zo snel geworden en meer dan 3x zo licht. De kosten voor het onderhoud zijn verminderd en de content is verbeterd. Bij deze optimalisatie is vrijwel alles herzien. 
+Onlangs heb ik een simpele website met een standaard WordPress thema van Envato geoptimaliseerd. Daar komt toch nog best veel bij kijken...
 
-Hieronder heb ik een lijstje gemaakt van de stappen:
+De opdrachtgever was eigenlijk best tevreden met zijn website, maar het (Envato) thema werd al tijden niet meer onderhouden en de hosting was traag, duur en onderhoudsgevoelig. Ik heb de website technisch herbouwd in de Jamstack. Daardoor is hij ongeveer 3x zo snel geworden en zijn de kosten voor het onderhoud drastisch verminderd. Tenslotte is en passant ook de content verbeterd. Technisch gezien is bij deze optimalisatie vrijwel alles herzien en is het eerder herbouw dan optimalisatie.
+
+Wil je weten wat ik allemaal heb gedaan? Hieronder zie je een lijstje van mijn stappen:
 
 ## Productie
 
