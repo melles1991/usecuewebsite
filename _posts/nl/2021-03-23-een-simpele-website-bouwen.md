@@ -8,7 +8,7 @@ De opdrachtgever was eigenlijk best tevreden met zijn website, maar het (Envato)
 
 Ik heb de website gemigreerd naar de Jamstack. In dat proces heb ik de website vrijwel volledig herbouwd. Daardoor is hij ongeveer drie keer zo snel geworden en zijn de kosten voor het onderhoud drastisch verminderd. 'En passant' hebben we ook de content verbeterd. Technisch gezien is er dus eigenlijk meer sprake van nieuwbouw dan van optimalisatie.
 
-De klant was heel erg tevreden met het resultaat. De website is mooier, sneller en gebruikersvriendelijker. De onderhoudskosten zijn lager geworden en de inhoudelijk is de website ook verbeterd.
+De klant was (net als ik) erg tevreden met het eindresultaat. De website is mooier, sneller en gebruikersvriendelijker. De onderhoudskosten zijn lager geworden en de inhoudelijk is de website ook verbeterd.
 
 Wil je weten wat er allemaal komt kijken bij zo'n project? Ik heb geprobeerd er een lijstje van te maken:
 
