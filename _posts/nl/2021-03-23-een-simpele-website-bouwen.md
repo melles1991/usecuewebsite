@@ -50,5 +50,3 @@ Wil je weten wat er allemaal komt kijken bij zo'n project? Ik heb geprobeerd er 
 - Google Search Console koppelen
 - zoekverkeer vergelijken (voor en na livegang)
 - klant ondersteunen bij CMS wijzigingen
-
-Ben ik iets vergeten (ongetwijfeld)? [Ik hoor het graag.](/nl/contact)
