@@ -1,5 +1,5 @@
 ---
-title: Een simpele website bouwen
+title: Een simpele website (her)bouwen
 ---
 
 Onlangs heb ik een simpele website met een standaard WordPress thema van Envato geoptimaliseerd. Daar komt toch nog best veel bij kijken.
