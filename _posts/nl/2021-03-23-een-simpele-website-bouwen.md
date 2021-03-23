@@ -26,7 +26,7 @@ Wil je weten wat er allemaal komt kijken bij zo'n project? Ik heb geprobeerd om 
 - lettertypes lokaal inladen
 - iconen omzetten naar svg (ipv icon font)
 - javascript verplaatsen naar de footer
-- contactformulier inregelen
+- formulieren inregelen
 
 ## Testen
 
