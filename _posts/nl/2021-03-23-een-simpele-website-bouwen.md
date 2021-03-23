@@ -37,6 +37,7 @@ Wil je weten wat er allemaal komt kijken bij zo'n project? Ik heb geprobeerd er 
 - testen van score op tools.pingdom.com (<2s)
 - testen van verschillende browsers
 - OG tags controleren
+- formulieren testen
 
 ## Opleveren
 
