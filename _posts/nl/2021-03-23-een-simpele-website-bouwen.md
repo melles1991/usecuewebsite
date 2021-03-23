@@ -4,13 +4,13 @@ title: Een simpele website bouwen
 
 Onlangs heb ik een simpele website met een standaard WordPress thema van Envato geoptimaliseerd. Daar komt toch nog best veel bij kijken.
 
-De opdrachtgever was eigenlijk best tevreden met zijn website, maar het (Envato) thema werd al tijden niet meer onderhouden en de hosting was traag, duur en onderhoudsgevoelig. De opdrachtgever vroeg mij wat hij hiermee aan moest en ik heb hem geadviseerd om over te stappen naar de Jamstack.
+De opdrachtgever was eigenlijk best tevreden met zijn website, maar het (Envato) thema werd al tijden niet meer onderhouden en de hosting was traag, duur en onderhoudsgevoelig. De opdrachtgever vroeg mij wat hij hiermee aan moest. Ik heb hem geadviseerd om over te stappen naar de Jamstack. Wij van WC-eend adviseren immers WC-eend.
 
-Ik heb de website gemigreerd naar de Jamstack. In dat proces heb ik de website vrijwel volledig herbouwd. Daardoor is hij ongeveer drie keer zo snel geworden en zijn de kosten voor het onderhoud drastisch verminderd. 'En passant' hebben we ook de content verbeterd. Technisch gezien is er dus eigenlijk meer sprake van nieuwbouw dan van optimalisatie.
+Gedurende deze migratie heb ik ik vrijwel de volledige website herbouwd. Daardoor is hij ongeveer drie keer zo snel geworden en zijn de kosten voor het onderhoud drastisch verminderd. 'En passant' hebben we ook de content verbeterd. Technisch gezien is er dus eigenlijk meer sprake van nieuwbouw dan van optimalisatie.
 
 De klant was (net als ik) erg tevreden met het eindresultaat. De website is mooier, sneller en gebruikersvriendelijker. De onderhoudskosten zijn lager geworden en de inhoudelijk is de website ook verbeterd.
 
-Wil je weten wat er allemaal komt kijken bij zo'n project? Ik heb geprobeerd er een lijstje van te maken:
+Wil je weten wat er allemaal komt kijken bij zo'n project? Ik heb geprobeerd er lijstjes van te maken:
 
 ## Productie
 
