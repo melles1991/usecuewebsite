@@ -6,7 +6,7 @@ Onlangs heb ik een simpele website met een standaard WordPress thema van Envato 
 
 De opdrachtgever was eigenlijk best tevreden met zijn website, maar het (Envato) thema werd al tijden niet meer onderhouden en de hosting was traag, duur en onderhoudsgevoelig. Ik heb de website technisch herbouwd in de Jamstack. Daardoor is hij ongeveer drie keer zo snel geworden en zijn de kosten voor het onderhoud drastisch verminderd. Tenslotte is 'en passant' ook de content verbeterd. Technisch gezien is bij deze optimalisatie vrijwel alles herzien en kunnen we meer spreken van nieuwbouw dan van optimalisatie.
 
-Wil je weten wat ik allemaal heb gedaan? Hieronder zie je een lijstje van mijn stappen:
+Wil je weten wat er allemaal komt kijken bij zo'n project? Ik heb geprobeerd er een lijstje van te maken:
 
 ## Productie
 
@@ -46,3 +46,5 @@ Wil je weten wat ik allemaal heb gedaan? Hieronder zie je een lijstje van mijn s
 - Google Search Console koppelen
 - zoekverkeer vergelijken (voor en na livegang)
 - klant ondersteunen bij CMS wijzigingen
+
+Ben ik iets vergeten (ongetwijfeld)? [Ik hoor het graag.](/nl/contact)
