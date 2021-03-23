@@ -4,7 +4,9 @@ title: Een simpele website bouwen
 
 Onlangs heb ik een simpele website met een standaard WordPress thema van Envato geoptimaliseerd. Daar komt toch nog best veel bij kijken.
 
-De opdrachtgever was eigenlijk best tevreden met zijn website, maar het (Envato) thema werd al tijden niet meer onderhouden en de hosting was traag, duur en onderhoudsgevoelig. Ik heb de website technisch herbouwd in de Jamstack. Daardoor is hij ongeveer drie keer zo snel geworden en zijn de kosten voor het onderhoud drastisch verminderd. Tenslotte is 'en passant' ook de content verbeterd. Technisch gezien is bij deze optimalisatie vrijwel alles herzien en kunnen we meer spreken van nieuwbouw dan van optimalisatie.
+De opdrachtgever was eigenlijk best tevreden met zijn website, maar het (Envato) thema werd al tijden niet meer onderhouden en de hosting was traag, duur en onderhoudsgevoelig. Hij kwam bij mij met de vraag wat hij hiermee aan moest. 
+
+Ik heb de website technisch herbouwd in de Jamstack. Daardoor is hij ongeveer drie keer zo snel geworden en zijn de kosten voor het onderhoud drastisch verminderd. 'En passant' hebben we ook de content verbeterd. Technisch gezien is bij deze optimalisatie vrijwel alles herzien en is er dus eigenlijk meer sprake van nieuwbouw dan van optimalisatie.
 
 Wil je weten wat er allemaal komt kijken bij zo'n project? Ik heb geprobeerd er een lijstje van te maken:
 
