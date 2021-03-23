@@ -39,10 +39,11 @@ Wil je weten wat er allemaal komt kijken bij zo'n project? Ik heb geprobeerd om 
 
 ## Opleveren
 
-- DNS omzetten
+- DNS omzetten van ontwikkel naar productie URL
 - SSL certificaat installeren
 - maken van 301/redirects
 - CMS uitleg geven
+- factuur maken/versturen
 
 ## Nazorg
 
@@ -50,3 +51,4 @@ Wil je weten wat er allemaal komt kijken bij zo'n project? Ik heb geprobeerd om 
 - Google Search Console koppelen
 - zoekverkeer vergelijken (voor en na livegang)
 - klant ondersteunen bij CMS wijzigingen
+- website toevoegen aan uptime monitor
