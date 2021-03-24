@@ -2,7 +2,7 @@
 title: Een simpele website (her)bouwen
 ---
 
-Onlangs heb ik een simpele website met een standaard WordPress thema van Envato herbouwd. Daar komt toch nog best veel bij kijken.
+Onlangs heb ik een simpele website met een Envato WordPress thema herbouwd. Daar komt toch nog best veel bij kijken.
 
 De opdrachtgever was eigenlijk best tevreden met zijn website, maar het (Envato) thema werd al tijden niet meer onderhouden en de hosting draaide nog op een oude PHP versie. Upgraden was uiteraard noodzakelijk vanuit security en performance oogpunt, maar dat kon het thema niet aan. Daarnaast was de hosting traag, duur en onderhoudsgevoelig. De opdrachtgever vroeg mij wat hij hiermee aan moest. Ik heb hem geadviseerd om over te stappen naar de Jamstack. Wij van WC-eend adviseren immers graag WC-eend.
 
