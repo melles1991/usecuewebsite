@@ -1,5 +1,5 @@
 ---
-title: 100/100 Pagespeed Insights
+title: De waarheid over de 100/100 score
 ---
 
 Verbaasd las ik het [artikel van Kinsta](https://kinsta.com/nl/blog/google-pagespeed-insights) over 'Pagespeed Insights', getiteld: 'de waarheid over de 100/100 score'. Daarin verwijten ze de klant allerlei dingen, maar vertellen ze niet hoe het werkelijk zit.
