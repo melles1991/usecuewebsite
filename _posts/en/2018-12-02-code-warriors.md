@@ -10,4 +10,6 @@ Why do people like 'unknown code' so much? The key word is 'efficiency'. People 
 
 Allowing too much unknown code can even be dangerous, especially when that unknown code is not vetted properly by others/the community. It can create situations that cost us lots of money and/or jeopardize our privacy and thus our freedom. 
 
-It is time for 'code warriors' to fight unknown code. Superheroes with angular weaponry, who can see sharp, react fast and hit like a meteor. Code warriors, unite!
+It is time for 'code warriors' to fight unknown code. Superheroes with angular weaponry, who can see sharp, react fast and hit like a meteor. 
+
+Code warriors, unite!
