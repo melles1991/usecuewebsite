@@ -16,7 +16,7 @@ So I found out that Firefox's 'Facebook container' was blocking the Instagram im
 
 ## Okay, I will build it myself
 
-I was unable to find a nice GDPR compliant solution to load these few simple Instagram images, so I decided to build a solution myself. After some technical detours I found out that I (unfortunately) had to use the Facebook/Instagram API. And that is what I did. Together with my twin brother I built the whole authorisation and token exchange dance and automated it. This new webapplication, we named [PPI Loader](https://profilepageimages.usecue.com/), enabled us to easily download images from Instagram profiles and store them on our server. A nice solution for our customers as it was GDPR compliant and did not require them to sign another DPA.
+I was unable to find a nice GDPR compliant solution to load these few simple Instagram images, so I decided to build a solution myself. After some technical detours I found out that I (unfortunately) had to use the Facebook/Instagram API. And that is what I did. Together with my twin brother I built the whole authorisation and token exchange dance and automated it. This new webapplication, we named [PPI Loader](https://profilepageimages.usecue.com/), enabled us to easily [download images from Instagram profiles](https://profilepageimages.usecue.com/) and store them on our server. A nice solution for our customers as it was GDPR compliant and did not require them to sign another DPA.
 
 ## For Jekyll and WordPress
 
