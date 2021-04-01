@@ -10,7 +10,7 @@ Alle websites die ik bouw hebben goede code en goede SEO. Dit is terug te zien i
 
 Ik ben fan van Jekyll (een website generator). Om mede Jekyll enthousiastelingen te helpen, heb ik [jekyllcodex.org](https://jekyllcodex.org) opgezet en beantwoord ik Jekyll-gerelateerde vragen op [Stack Overflow](http://stackoverflow.com/users/2397550/joosts). [CloudCannon](https://cloudcannon.com/) (een online CMS systeem voor Jekyll) heeft mij opgenomen als 'Jekyll expert' op zijn '[experts page](https://cloudcannon.com/experts/)'. Ik was bovendien één van de sprekers van [JekyllConf 2019](https://jekyllconf.com/).
 
-Naast Jekyll/CloudCannon websites ontwikkel ik o.a. WordPress-, Issuu-, MailChimp-, Shopify- en maatwerkoplossingen. Een paar van mijn laatste projecten zijn: een [open source online facturatiepakket](https://www.invoicelion.org/nl/), genaamd 'Invoice Lion', een progressieve web app (PWA) voor mijn bedrijf en een [platform voor het produceren van online magazines](https://www.onlinemagazinemaker.com/), genaamd 'Online Magazine Maker'.
+Naast Jekyll/CloudCannon websites ontwikkel ik o.a. WordPress-, Issuu-, MailChimp-, Shopify- en maatwerkoplossingen. Een paar van mijn laatste projecten zijn: een [open source online facturatiepakket](https://www.invoicelion.org/nl/), genaamd 'Invoice Lion', een tool om [je instagram feed te embedden](https://profilepageimages.usecue.com/) op je website, genaamd 'PPI Loader' en een [platform voor het produceren van online magazines](https://www.onlinemagazinemaker.com/), genaamd 'Online Magazine Maker'.
 
 &nbsp;
 
