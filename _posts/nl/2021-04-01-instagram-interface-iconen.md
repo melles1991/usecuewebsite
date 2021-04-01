@@ -14,6 +14,6 @@ Om te illustreren hoe deze tool werkt, heb ik een [demo](https://codepen.io/joos
 
 <img src="/img/carousel.svg" alt="Instagram interface carousel album" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Carousel
 
-Ze zijn ongeveer 1,5kb per stuk. Het intellectuele eigendom ligt uiteraard bij Instagram, maar wanneer je ze gebruikt voor het weergeven van je Instagram feed lijkt me dat geen probleem.
+Ze zijn ongeveer 1,5kb per stuk. Het intellectuele eigendom ligt uiteraard bij Instagram, maar wanneer je ze gebruikt voor het [weergeven van je Instagram feed](/nl/blog/instagram-op-je-website/) lijkt me dat geen probleem.
 
 Happy coding!
