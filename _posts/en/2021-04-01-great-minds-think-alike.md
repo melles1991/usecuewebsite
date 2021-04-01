@@ -8,4 +8,4 @@ A day later [I found a post](https://studioblanco.it/project/formafantasma) abou
 
 I do not know if this is another example of 'copying' or just another coincidence, but frankly, I do not really care. You know what they say about designers: The good ones copy and the great ones steal. I think that art should not be copied, but great design should.
 
-Design is not art. 'Great minds think alike', is a reassuring and helpful thought in tech and design.
+Design is not art. 'Great minds think alike', is a reassuring and helpful thought.
