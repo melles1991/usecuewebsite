@@ -6,7 +6,7 @@ Ik heb een webtool ontwikkelt waarmee je eenvoudig je [Instagram feed op je webs
 
 Om te illustreren hoe deze tool werkt, heb ik een [demo](https://codepen.io/joosts/pen/bGBByOo) gemaakt. Voor deze demo gebruikte ik de originele interface iconen van Instagram, maar deze waren tot mijn verbazing in PNG formaat en niet in SVG (vector). Online kon ik gek genoeg ook geen vectorvarianten van deze iconen vinden. Daarom heb ik wat van mijn tijd opgeofferd om ze voor jullie te maken.
 
-<img src="/img/heart.svg" alt="Instagram interface love like" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Like
+<img src="/img/heart.svg" alt="Instagram interface heart like" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Like
 
 <img src="/img/video.svg" alt="Instagram interface video" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Video
 
