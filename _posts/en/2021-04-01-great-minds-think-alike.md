@@ -2,7 +2,7 @@
 title: Great minds think alike
 ---
 
-'Good designers copy, great designers steal', so they say.
+'Good designers copy, great designers steal', they say.
 
 A few days ago I stumbled upon an article about [FCP monkey business](https://www.pdms.ca/improve-largest-contentful-paint-lcp-with-a-js-css-trick/) that was remarkably similar to [an article I had written](/blog/monkey-business-with-banana-leafs/) just five months ago. I confronted the author with this and he replied: 'Great minds think alike'. I truly (want to) believe him. 
 
