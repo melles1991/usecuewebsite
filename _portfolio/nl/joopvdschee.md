@@ -2,7 +2,7 @@
 title: joop van der schee
 image: /uploads/joopvdschee1.jpg
 mobile_image: /uploads/joopvdschee2.jpg
-color: '#8e8370'
+color: '#847b6c'
 portfolio_url: 'https://www.joop.vdschee.nl/'
 google_score: 100%
 speed_index: 0.8s
