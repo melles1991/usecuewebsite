@@ -14,6 +14,6 @@ To illustrate how this tool works I created a [demo](https://codepen.io/joosts/p
 
 <img src="/img/carousel.svg" alt="Instagram interface icon carousel album" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Carousel
 
-They weigh around 1.5kb each. Their intellectual property belongs to Instagram, but when you use them solely for [displaying your Instagram feed](https://profilepageimages.usecue.com/) this seems no problem to me.
+They weigh around 1.5kb each. They are the intellectual property of Instagram (copyrights), but when you use them solely for [displaying your Instagram feed](https://profilepageimages.usecue.com/) this seems no problem to me.
 
 Happy coding!
