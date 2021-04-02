@@ -4,7 +4,7 @@ title: A tribute to the web
 
 I have redesigned my website. The [last redesign](/nl/blog/may-1st-reboot) was from 2016. The new design is loud and blue. It looks like [Yves Kleins](https://nl.wikipedia.org/wiki/Yves_Klein) [17 million dollar blue](https://www.widewalls.ch/yves-klein-paintings-top-auction/ikb-1/), but it is actually the native color of an unstyled HTML link. The exact color in RGB (hex) is #0000ee. 
 
-Does the font look familiar too? It is [Times New Roman](https://en.wikipedia.org/wiki/Times_New_Roman), the default serif of the web (on Mac and Windows). I have even taken the effort to embed it, so it will also show on devices that lack this historical font. Additionally, all links are underlined, like they are supposed to in HTML. 
+Does the font look familiar too? It is [Times New Roman](https://en.wikipedia.org/wiki/Times_New_Roman), the default serif of the web (on Mac and Windows). I have even taken the effort to embed it, so it will also show on devices that lack this [historical font](/blog/a-long-overdue-redesign/). Additionally, all links are underlined, like they are supposed to in HTML. 
 
 So why did I chose for this bold and (slightly) ackward redesign? I have been building websites for the last 12 years, day in, day out. According to the 10.000 hours rule, I am officially an expert. As an expert I wanted to put the web development craft in perspective by creating a website that honors the web. This redesign is just that: a provoking tribute to the nature and history of the web.
 
