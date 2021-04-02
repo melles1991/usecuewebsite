@@ -10,4 +10,4 @@ page_weight: 77kb
 order: 0
 ---
 
-I designed and built this [instantly loading website](/blog/websites-that-load-instantly/) for my father. The website showcases his milestones and publications during his work at the VU University Amsterdam. Pages load in under 0.2 seconds from anywhere in the world, are only 77kb large and have a perfect Google score. The website is partly static and partly Jekyll and is available in two languages. He can update his website easily through the [CloudCannon CMS](https://cloudcannon.com/). It has been an honour to build this website for him.
+I designed and built this [instantly loading website](/blog/websites-that-load-instantly/) for my father. The website showcases his milestones and publications during his work at the VU University Amsterdam. Pages load in under 0.2 seconds from anywhere in the world, are only 77kb large and have a perfect Google score. The website is partly static and partly Jekyll and is available in two languages. He can update his website easily through the [CloudCannon CMS](https://cloudcannon.com/). It has been an honour to be able to build this website for him!
