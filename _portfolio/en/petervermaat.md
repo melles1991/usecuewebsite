@@ -10,4 +10,4 @@ page_weight: 450kb
 order: 0
 ---
 
-Peter Vermaat is a poet, storyteller, puppeteer and theatre maker. Five years after I installed [an Envato WordPress theme](/uploads/rockwell.jpg) for him, he asked me to update his website. I rebuild his (outdated) theme in Jekyll and connected the CloudCannon CMS. I also transformed his pixel logo into vectors, rewrote all javascript, made the theme responsive and added a webshop (including product presentations). Peter was very pleased with the end result and not unimportant: so was I! This website will easily last another five years.
+Peter Vermaat is a poet, storyteller, puppeteer and theatre maker. Five years after I installed [an Envato WordPress theme](/uploads/rockwell.jpg) for him, he asked me to update his website. I rebuild his (outdated) theme in Jekyll and connected the CloudCannon CMS. I also transformed his pixel logo into vectors, rewrote all javascript, made the theme responsive and added a webshop (including product presentations). Peter was very pleased with the end result. This website will easily last another five years.
