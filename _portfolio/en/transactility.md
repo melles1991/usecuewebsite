@@ -1,5 +1,5 @@
 ---
-title: transactility
+title: Transactility
 image: /uploads/transactility1.jpg
 mobile_image: /uploads/transactility2.jpg
 color: '#594c87'
