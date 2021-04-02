@@ -1,5 +1,5 @@
 ---
-title: joop van der schee
+title: Joop van der Schee
 image: /uploads/joopvdschee1.jpg
 mobile_image: /uploads/joopvdschee2.jpg
 color: '#847b6c'
