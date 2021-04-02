@@ -1,0 +1,19 @@
+---
+title: Instagram interface icons
+---
+
+I have created a web application that allows you to easily publish your [Instagram feed on your website](https://profilepageimages.usecue.com/), called 'PPI&nbsp;Loader'.
+
+To illustrate how this tool works I created a [demo](https://codepen.io/joosts/pen/bGBByOo). I used the original interface icons from Instagram for this demo, but to my surprise those were PNG images instead of SVG (vector). I could not find any vector variants online, so I dedicated some of my time to create them for you.
+
+<img src="/img/heart.svg" alt="Instagram interface icon heart like" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Like
+
+<img src="/img/video.svg" alt="Instagram interface icon video" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Video
+
+<img src="/img/comment.svg" alt="Instagram interface icon comment" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Comment
+
+<img src="/img/carousel.svg" alt="Instagram interface icon carousel album" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Carousel
+
+They weigh around 1.5kb each. Their intellectual property belongs to Instagram, but when you use them solely for [displaying your Instagram feed](https://profilepageimages.usecue.com/) this seems no problem to me.
+
+Happy coding!
