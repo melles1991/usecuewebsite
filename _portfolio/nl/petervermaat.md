@@ -1,5 +1,5 @@
 ---
-title: Peter Vermaat
+title: dichter Vermaat
 image: /uploads/petervermaat1.jpg
 mobile_image: /uploads/petervermaat2.jpg
 color: '#333'

@@ -1,5 +1,5 @@
 ---
-title: Joop van der Schee
+title: professor Joop
 image: /uploads/joopvdschee1.jpg
 mobile_image: /uploads/joopvdschee2.jpg
 color: '#847b6c'
