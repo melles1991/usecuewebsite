@@ -1,6 +1,6 @@
 ---
-title: I am a web developer based in Amsterdam.
+title: I am a web performance engineer from Amsterdam.
 layout: home
 ---
 
-I create and host elegant, hand-coded websites and web applications for my clients. [Interested?](/about/)
+I create and host fast, elegant websites and web applications for my clients. [Interested?](/about/)
