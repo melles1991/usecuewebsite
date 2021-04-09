@@ -14,6 +14,10 @@ To illustrate how this tool works I created a [demo](https://codepen.io/joosts/p
 
 <img src="/img/carousel.svg" alt="Instagram interface icon carousel album" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Carousel
 
+<img src="/img/play.svg" alt="Instagram interface icon carousel album" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Play button
+
+<img src="/img/igtv.svg" alt="Instagram interface icon carousel album" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> IGTV
+
 They weigh around 1.5kb each. From now on I will only use these! Note that they are the intellectual property of Instagram. When you use them solely to [display your Instagram feed](https://profilepageimages.usecue.com/) this seems no problem to me.
 
 Happy coding!

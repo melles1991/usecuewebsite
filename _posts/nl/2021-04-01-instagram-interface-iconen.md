@@ -14,6 +14,10 @@ Om te illustreren hoe deze tool werkt, heb ik een [demo](https://codepen.io/joos
 
 <img src="/img/carousel.svg" alt="Instagram interface icon carousel album" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Carousel
 
+<img src="/img/play.svg" alt="Instagram interface icon carousel album" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> Play button
+
+<img src="/img/igtv.svg" alt="Instagram interface icon carousel album" style="width: 5rem; vertical-align: middle; margin-right: 1rem;" /> IGTV
+
 Ze zijn ongeveer 1,5kb per stuk. Vanaf nu gebruik ik alleen nog deze! Het intellectuele eigendom ligt uiteraard bij Instagram, maar wanneer je ze alleen gebruikt voor het [weergeven van je Instagram feed](/nl/blog/instagram-op-je-website/) lijkt me dat geen probleem.
 
 Happy coding!
