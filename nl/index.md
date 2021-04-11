@@ -1,5 +1,5 @@
 ---
-title: Web performance expert uit Amsterdam
+title: Website performance expert uit Amsterdam
 layout: home
 ---
 
