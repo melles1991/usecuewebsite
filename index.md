@@ -1,6 +1,6 @@
 ---
-title: I am a web performance engineer from Amsterdam.
+title: Web performance expert from Amsterdam
 layout: home
 ---
 
-I build and host fast, elegant websites and web applications for my clients. [Interested?](/about/)
+I build and host blazingly fast, elegant websites and web applications for my clients. [Interested?](/about/)
