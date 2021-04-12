@@ -1,5 +1,5 @@
 ---
-title: How to get a 100% Google Lighthouse score?
+title: How to get a 100% Google Lighthouse score
 ---
 
 Google will soon [shame slow websites](/blog/google-will-shame-slow-websites). A good reason to take a good look at your Google Lighthouse score [right now](https://web.dev/). 
