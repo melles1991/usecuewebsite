@@ -10,7 +10,7 @@ All websites I build are well-coded and have good SEO. This is reflected by thei
 
 I am a big fan of Jekyll (a website generator). To help fellow Jekyll-enthusiasts, I have launched [jekyllcodex.org](http://jekyllcodex.org) and I answer Jekyll-related questions on [Stack Overflow](http://stackoverflow.com/users/2397550/joosts). [CloudCannon](https://cloudcannon.com/) (an online CMS for Jekyll) mentioned me as a Jekyll expert on their '[experts page](https://cloudcannon.com/experts/)'. I was also one of the speakers on [JekyllConf 2019](https://jekyllconf.com/).
 
-Apart from Jekyll/CloudCannon websites I also develop WordPress, Issuu, MailChimp, Shopify and custom web solutions. My latest projects include [open source invoicing software](https://www.invoicelion.org/), called 'Invoice Lion', a tool to publish your [Instagram feed on your website](https://profilepageimages.usecue.com/), called 'PPI Loader' and a [platform for creating online magazines](https://www.onlinemagazinemaker.com/), called 'Online Magazine Maker'.
+Apart from Jekyll/CloudCannon websites I also develop WordPress and custom web solutions. My latest projects include [open source invoicing software](https://www.invoicelion.org/), called 'Invoice Lion', a tool to publish your [Instagram feed on your website](https://profilepageimages.usecue.com/), called 'PPI Loader' and a [platform for creating online magazines](https://www.onlinemagazinemaker.com/), called 'Online Magazine Maker'.
 
 &nbsp;
 
