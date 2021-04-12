@@ -24,7 +24,7 @@ No, obviously not. Divi and Avada are sold almost a million times. These multi-p
 
 ## Conclusion
 
-These multi-purpose themes promise you they will save you time and money during development. However, as argued above, this might be a shortsighted strategy, as you will almost certainly make up for that time in maintenance/support and you will have to pay Google monthly (CPC) to get the same amount of organic traffic. In short: saving money on the short run might cost you, or your client, money on the long run.
+These multi-purpose themes promise you they will save you time and money during development. However, as argued above, this might be a shortsighted strategy, as you will almost certainly make up for that time in maintenance and support and you will have to pay Google monthly (CPC) to get the same amount of organic traffic. In short: saving money on the short run might cost you, or your client, money on the long run.
 
 ## Call to action
 
