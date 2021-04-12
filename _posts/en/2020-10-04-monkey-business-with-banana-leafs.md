@@ -2,7 +2,7 @@
 title: Monkey business with banana leafs
 ---
 
-My website is 40kb large and [loads instantly](/blog/websites-that-load-instantly/). That is great, but it used to be pretty spartan looking. 
+My website is 40kb large and is an [instantly loading website](/blog/websites-that-load-instantly/). That is great, but it used to be pretty spartan looking. 
 
 To fix this, I added some images of banana leafs (on desktop only). But, even when I converted them to SVG, they were still many times larger than my full website. That was very bad for page load times and did not fit my (relatively new) reputation as a performance expert. As I recently got international attention for creating fast loading websites, I did not want to compromise on the performance. So, if I wanted to keep these images, I had to come up with a plan.
 
