@@ -3,7 +3,7 @@ title: dichter Vermaat
 image: /uploads/petervermaat1.jpg
 mobile_image: /uploads/petervermaat2.jpg
 color: '#333'
-portfolio_url: 'https://www.joop.vdschee.nl/'
+portfolio_url: 'https://petervermaat.nl/'
 google_score: 97%
 speed_index: 2.2s
 page_weight: 450kb
