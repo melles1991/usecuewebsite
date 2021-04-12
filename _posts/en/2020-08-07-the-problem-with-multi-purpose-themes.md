@@ -20,11 +20,11 @@ Nevertheless these cached demo pages still have a mediocre performance score (re
 
 ## Is it all bad?
 
-No, obviously not. Divi and Avada are sold almost a million times. These multi-purpose themes are a good fit for people who do not want or know how to code but still want to develop websites. As long as you keep a close eye on these pitfalls (maintenance costs, design and SEO), you will be able to create good looking websites with decent performance. Some people even manage to get a 70/100 score on Google Lighthouse. That is quite a good score. However, it will probably not bring you a lot of organic traffic or put you on the first page of Google. 
+No, obviously not. Divi and Avada are sold almost a million times. These multi-purpose themes are a good fit for people who do not want or know how to code but still want to develop websites. As long as you keep a close eye on these pitfalls (maintenance costs, design and SEO), you will be able to create good looking websites with decent performance. Some people even manage to get a 70/100 score on Google Lighthouse. That is not brilliant, but it will not prevent you from scoring on the first page of Google either, as the industries standard/average is pretty low.
 
 ## Conclusion
 
-These multi-purpose themes promise you they will save you time and money during development. However, as argued above, this might be a shortsighted strategy, as you will almost certainly make up for that time in maintenance/support and you will have to pay Google monthly (CPC) to get the same amount of organic traffic. In short: saving money on the short run might cost you, or your client, money on the long run.
+These multi-purpose themes promise you they will save you time and money during development. However, as argued above, this might be a shortsighted strategy. You will almost certainly make up for that time in maintenance and support and you will have to pay Google monthly (CPC) to get the same amount of organic traffic. In short: saving money on the short run might cost you, or your client, money on the long run.
 
 ## Call to action
 
