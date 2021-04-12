@@ -20,7 +20,7 @@ Nevertheless these cached demo pages still have a mediocre performance score (re
 
 ## Is it all bad?
 
-No, obviously not. Divi and Avada are sold almost a million times. These multi-purpose themes are a good fit for people who do not want or know how to code but still want to develop websites. As long as you keep a close eye on these pitfalls (maintenance costs, design and SEO), you will be able to create good looking websites with decent performance. Some people even manage to get a 70/100 score on Google Lighthouse. That is quite a good score and should allow you to score on the first page of Google, as the industries standard/average is pretty low.
+No, obviously not. Divi and Avada are sold almost a million times. These multi-purpose themes are a good fit for people who do not want or know how to code but still want to develop websites. As long as you keep a close eye on these pitfalls (maintenance costs, design and SEO), you will be able to create good looking websites with decent performance. Some people even manage to get a 70/100 score on Google Lighthouse. That is not brilliant, but it will not prevent you from scoring on the first page of Google either, as the industries standard/average is pretty low.
 
 ## Conclusion
 
