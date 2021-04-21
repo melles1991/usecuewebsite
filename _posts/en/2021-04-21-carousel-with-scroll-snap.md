@@ -12,4 +12,4 @@ But what does this mean in the bigger scheme of things? Modern technology allows
 
 Although [instantly loading websites](/blog/websites-that-load-instantly) have better reach, better conversion and a better user experience, this is not the way things are moving on average. On average, websites are getting [bulkier every year](https://httparchive.org/reports/page-weight), allowed by the [increasing bandwidth](https://www.nngroup.com/articles/law-of-bandwidth/). But, as expected, [the variation](https://httparchive.org/reports/page-weight) is also getting larger, which means that you now have a choice. Do you want your next website to be slow and bulky or do you want it to a blazing fast and lightweight marvel of modern technology?
 
-[Contact me](/contact) for the latter.
+If you want the latter, feel free to [contact me](/contact).
