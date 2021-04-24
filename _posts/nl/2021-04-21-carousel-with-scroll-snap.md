@@ -2,7 +2,7 @@
 title: Carousel met scroll snap
 ---
 
-Scroll snap is een relatief nieuwe feature in CSS, die sindskort ook [behoorlijke goed ondersteund](https://caniuse.com/?search=scroll%20snap) wordt. Deze feature was 'good for nothing', aldus [een angry mob in 2016](https://css-tricks.com/introducing-css-scroll-snap-points/). Drie jaar later was men echter een stuk enthousiaster over de carousel met scroll snap van Nolan Lawsons.
+Scroll snap is een relatief nieuwe feature in CSS, die sindskort ook [behoorlijke goed ondersteund](https://caniuse.com/?search=scroll%20snap) wordt. Deze feature was 'good for nothing', aldus [een angry mob in 2016](https://css-tricks.com/introducing-css-scroll-snap-points/). Drie jaar later werd de carousel met scroll snap van Nolan Lawsons echter een stuk positiever ontvangen.
 
 Het was echter niet de carousel van Nolan, maar de [Google Scroll Survey](https://web.dev/2021-scroll-survey/) die mij inspireerde. Een standaard 'header carousel' is de perfecte 'use case' voor scroll snap. Ik liep tegen Nolans werk aan tijdens mijn onderzoek hiernaar. Nolan [beschrijft](https://nolanlawson.com/2019/02/10/building-a-modern-carousel-with-css-scroll-snap-smooth-scrolling-and-pinch-zoom/) drie componenten: 'scroll snap', 'smooth scroll' en 'pinch to zoom'. In onze carousel hebben we echter geen pinch to zoom nodig en smooth scroll werkt tegenwoordig met slechts 1 regel CSS. Ik hoefde dus alleen maar scroll snapping te bouwen. Nolan maakte zich nog druk om IE support, maar wij uiteraard niet meer. Daardoor kon ik anchor links gebruiken in plaats van javscript voor smooth scroll, wat resulteerde in betere prestaties en 'graceful degredation'.
 
