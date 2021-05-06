@@ -2,7 +2,7 @@
 title: "la Manzanilla"
 image: /uploads/lamanzanilla1.jpg
 mobile_image: /uploads/lamanzanilla2.jpg
-color: '#738a34'
+color: '#748642'
 portfolio_url: 'https://lamanzanilla.nl/'
 google_score: 97%
 speed_index: 1.6s
