@@ -2,7 +2,7 @@
 title: online voting
 image: /uploads/stemnjr1.jpg
 mobile_image: /uploads/stemnjr2.jpg
-color: '#6a918c'
+color: '#7a8c87'
 portfolio_url: 'https://stem.njr.nl/'
 google_score: 100%
 speed_index: 1.4s
