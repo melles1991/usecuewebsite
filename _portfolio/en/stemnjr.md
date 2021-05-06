@@ -1,7 +1,7 @@
 ---
 title: online voting
-image: /uploads/stemnjr1.png
-mobile_image: /uploads/stemnjr2.png
+image: /uploads/stemnjr1.jpg
+mobile_image: /uploads/stemnjr2.jpg
 color: '#6a918c'
 portfolio_url: 'https://stem.njr.nl/'
 google_score: 100%
