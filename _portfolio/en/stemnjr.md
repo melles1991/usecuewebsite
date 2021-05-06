@@ -10,4 +10,4 @@ page_weight: 578kb
 order: 0
 ---
 
-I have built this perfectly scoring voting website for the Nationale Jeugdraad, which allows you to cast votes for multiple kandidates. I made the voting very accessible by omitting SMS verification. Ofcourse that required some (extra) measurements to detect invalid votes. How that works? That is a secret.
+I have built this perfectly scoring voting website for the Dutch National Youth Council, which allows you to cast votes for multiple kandidates. I made the voting very accessible by omitting SMS verification. Ofcourse that required some (extra) measurements to detect invalid votes. How that works? That is a secret.
