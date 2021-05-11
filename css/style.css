@@ -6,12 +6,10 @@
     font-style: normal;
     font-display: swap;
 }
-
 @keyframes fadeout {
     0%   {opacity: 1;}
     100% {opacity: 0;}
 }
-
 * {margin: 0; padding: 0; font-weight: normal;}
 body {background-attachment: fixed; color: #dde; font-family: 'times_new_romanregular', 'Times New Roman','Times',serif;}
 #bananaleft, #bananaright {max-width: 650px; pointer-events: none; transition: transform 0.7s ease-in-out; transform: translateX(-100%); position: fixed; width: 24%; left: 0; top: calc(100px + 8%); height: calc(92% - 100px); opacity: 0.35; z-index: -1; object-fit: cover; object-position: 100% 0%;}
