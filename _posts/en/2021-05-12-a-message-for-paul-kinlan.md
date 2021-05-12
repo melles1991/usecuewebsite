@@ -24,7 +24,7 @@ I think that if you want to make the web better you should start supporting deve
 - Making search results 'personalized' should be reverted
 - The 8.8.8.8 DNS server should be discontinued
 
-It is not the services that are bad, but the revenue model. Google should ask money in return for its services, and not data. Most tools that Google creates are great for developers, but bad for visitors, like Google Analytics, Google Fonts, Recaptcha and AMP. Google consequently tries to make developers sell their visitors data in return for the next tool. However, that has become a very transparent approach and it makes the company look bad.
+It is not the services that are bad, but it is the revenue model. Google should ask money in return for its services, and not data. Most tools that Google creates are great for developers, but bad for visitors, like Google Analytics, Google Fonts, Recaptcha and AMP. Google consequently tries to make developers sell their visitors data in return for the next tool. However, that has become a very transparent approach and it makes the company look bad.
 
 So you want to know what I want? I want you to help me make the web safer, faster and more open. 
 
