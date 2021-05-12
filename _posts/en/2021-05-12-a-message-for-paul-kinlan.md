@@ -2,6 +2,8 @@
 title: A message for Paul Kinlan
 ---
 
+Paul Kinlan sent me a [video message](/uploads/paulkinlan.mp4) when I joined WebDev Insights. I took the time to answer his question. You can find my reply below.
+
 Hi Paul, 
 
 Thank you for your warm welcome. You say you want to make the web better (twice). 
