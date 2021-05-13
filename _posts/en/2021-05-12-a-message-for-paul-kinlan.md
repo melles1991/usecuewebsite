@@ -2,7 +2,7 @@
 title: A message for Paul Kinlan
 ---
 
-Paul Kinlan sent me a [video message](/uploads/paulkinlan.mp4) when I joined WebDev Insights. I took the time to answer his question. You can find my reply below.
+Paul Kinlan sent me a [video message](/uploads/paulkinlan.mp4) when I joined WebDev Insights. He is a Google employee working in the Chrome team. His question was: How can we make Chrome, web development and the web better? When you know me, you also know that I have quite a strong opinion when it comes to 'making the web better'. Therefore I took the time to answer his question. You can find my answer below.
 
 Hi Paul, 
 
