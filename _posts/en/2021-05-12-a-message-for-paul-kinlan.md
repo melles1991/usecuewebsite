@@ -31,7 +31,7 @@ Here are some (random) wild ideas to do so:
 - The 8.8.8.8 DNS server should be discontinued  
 (because it is leaking visitor data)
 
-It is not the above services that are bad, but it is their revenue model. Google should ask money in return for its services, and not data. Most tools that Google creates are great for developers, but bad for visitors, like Google Analytics, Google Fonts, Recaptcha and AMP. Google consequently tries to make developers sell their visitors data in return for the next tool. However, that has become a very transparent approach and it makes the company look bad.
+It is not the above services that are bad, but it is their revenue model. Google should ask money in return for its services, and not data. Most tools that Google creates are great for developers, but bad for visitors, like Google Analytics, Google Fonts, Recaptcha and AMP. Google consequently tries to make developers sell their visitors data in return for the next tool. However, that has become a very transparent approach and it makes the company (look) bad.
 
 So you want to know what I want? I think you got it... but let me repeat it one more time: I want you to help me make the web safer, faster and more open. 
 
