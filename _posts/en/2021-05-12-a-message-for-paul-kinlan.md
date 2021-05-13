@@ -20,11 +20,11 @@ I think that if you want to make the web better you should start supporting deve
 
 Here are some (random) wild ideas to do so: 
 
-- Google fonts should no longer be a hosted service
-- Cloudflare website should be penalized in the search results (for leaking visitor data)
-- AMP should be discontinued
-- Making search results 'personalized' should be reverted
-- The 8.8.8.8 DNS server should be discontinued
+- Google fonts should no longer be a hosted service (because its leaking visitor data)
+- Cloudflare website should be penalized in the search results (because its leaking visitor data)
+- AMP should be discontinued (because it is a silo)
+- Making search results 'personalized' should be reverted (because it creates a bubble/distorted world view)
+- The 8.8.8.8 DNS server should be discontinued (because its leaking visitor data)
 
 It is not the above services that are bad, but it is the revenue model. Google should ask money in return for its services, and not data. Most tools that Google creates are great for developers, but bad for visitors, like Google Analytics, Google Fonts, Recaptcha and AMP. Google consequently tries to make developers sell their visitors data in return for the next tool. However, that has become a very transparent approach and it makes the company look bad.
 
