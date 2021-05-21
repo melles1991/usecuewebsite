@@ -2,7 +2,7 @@
 title: eNovice.nl
 image: /uploads/enovice1.jpg
 mobile_image: /uploads/enovice2.jpg
-color: '#9d988d'
+color: '#95928c'
 portfolio_url: 'https://www.enovice.nl/'
 google_score: 90%
 speed_index: 4.2s
