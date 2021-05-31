@@ -53,7 +53,7 @@
 {% assign pagecontent_description = page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 160 %}
 <meta name="description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}">
 
-<link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml" sizes="any">
 <link rel="alternate icon" href="/img/icon-196x196.png" type="image/png">
 <link rel="apple-touch-icon" href="/img/icon-196x196.png">
 
