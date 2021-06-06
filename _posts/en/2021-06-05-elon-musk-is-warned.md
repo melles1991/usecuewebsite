@@ -2,7 +2,7 @@
 title: Elon Musk has been warned
 ---
 
-Anonymous has warned Elon Musk. Elon has been telling us that technology will save our planet, while he recently invested heavily in (and profitted from) the most polluting business on earth today: the bitcoin. That has infuriated quite some people.
+Anonymous has warned Elon Musk. Elon has been telling us that technology will save our planet, while he recently invested heavily in (and profitted from) the most polluting business on earth today: the bitcoin. That has infuriated quite a lot of people.
 
 ![Anonymous has warned Elon Musk](/uploads/anon.png)
 
