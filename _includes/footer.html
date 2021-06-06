@@ -4,6 +4,7 @@
 
 
 
+        {% assign translations = site.data.translations %}
         </div>
         {% if page.layout == 'portfolio' %}{% assign sitepages = site.portfolio | where: 'language',page.language | sort: 'order' %}{% endif %}
         {% if page.layout == 'post' %}{% assign sitepages = site.posts | where: 'language',page.language | sort: 'order' %}{% endif %}
