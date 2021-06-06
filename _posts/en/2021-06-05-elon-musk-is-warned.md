@@ -4,7 +4,7 @@ title: Elon Musk has been warned
 
 Anonymous has warned Elon Musk. Elon has been telling us that technology will save our planet, while he recently invested heavily in (and profitted from) the most polluting business on earth today: the bitcoin. That has infuriated quite a lot of people.
 
-![Anonymous has warned Elon Musk](/uploads/anon.png)
+[![Anonymous has warned Elon Musk](/uploads/anon.png)](https://www.youtube.com/watch?v=UG07x3aN3b0)
 
 Hypocrazy like that (and at this scale) is exactly what baffles Greta Tunberg. I just [watched her speak](https://www.ted.com/talks/greta_thunberg_the_disarming_case_to_act_right_now_on_climate_change) at TED and her words hit me like a hammer. 'There is no hope', she said. Not unless we change our behaviour and or our legislations RIGHT NOW. 
 
