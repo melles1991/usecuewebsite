@@ -14,4 +14,4 @@ Greta Tunberg reminds us that real wealth is created by honoring human rights, b
 
 > We are all part of the problem, as long as we are not part of the solution.
 
-I hope Anonymous will be easy on Elon. Revenge has never brought us anything. However, I hope they have scared him (and his fellow billionaires). Because as a clear message and a good portion of fear might do the job just as well.
+I hope Anonymous will be easy on Elon. Revenge has never brought us anything. However, I hope they have scared him (and his fellow billionaires). Because a clear message and a good portion of fear might do the job just as well.
