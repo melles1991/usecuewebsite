@@ -6,7 +6,7 @@ Anonymous has warned Elon Musk. Elon has been telling us that technology will sa
 
 [![Anonymous has warned Elon Musk](/uploads/anon.png)](https://www.youtube.com/watch?v=UG07x3aN3b0)
 
-Hypocrazy like that (and at this scale) is exactly what baffles Greta Tunberg. I just [watched her speak](https://www.ted.com/talks/greta_thunberg_the_disarming_case_to_act_right_now_on_climate_change) at TED and her words hit me like a hammer. 'There is no hope', she said. Not unless we change our behaviour and or our legislations RIGHT NOW. 
+Hypocracy like that (and at this scale) is exactly what baffles Greta Tunberg. I just [watched her speak](https://www.ted.com/talks/greta_thunberg_the_disarming_case_to_act_right_now_on_climate_change) at TED and her words hit me like a hammer. 'There is no hope', she said. Not unless we change our behaviour and or our legislations RIGHT NOW. 
 
 There are no rules against burning coal and oil and Elon Musk has taken advantage from that in a disgusting way. He inspired a bitcoin run so large, GPU processing power (the main ingredient for bitcoins, next to fossil fuels) have instantly tripled in price. Can you imagine the amount of fossil fuels that are wasted every second to acquire this virtual wealth? Even Elon himself supposedly [suddenly realized](https://www.ft.com/content/b917ec4f-8b57-45dc-82ba-960d82ad7974) that this was a bad thing, which is quite hard to believe. 
 
