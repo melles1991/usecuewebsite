@@ -24,4 +24,4 @@ In 2021 heb ik ook besloten om eindelijk (na een eerdere poging in 2017) over te
 
 ## Hoe verder?
 
-Mijn doel voor 2022 is om de 'next generation Jamstack' op te zetten, met lokale servers en een eigen CMS. Wij hebben momenteel een prototype draaien, waarin updates binnen een seconde live staan, terwijl de sites ook binnen 0,1 seconde laden en een perfecte Google Score krijgen. Wil je meer weten over deze nieuwe technologie of wil je graag een demo? Neem [contact](/nl/contact) op!
+Mijn doel voor 2022 is om de 'next generation Jamstack' op te zetten, met 'lokale' servers en een eigen CMS. Wij hebben momenteel een prototype draaien, waarin updates binnen een seconde live staan, terwijl de sites ook binnen 0,1 seconde laden en een perfecte Google Score krijgen. Wil je meer weten over deze nieuwe technologie of wil je graag een demo? Neem [contact](/nl/contact) op!
