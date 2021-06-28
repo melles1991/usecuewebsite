@@ -2,9 +2,9 @@
 title: Supersnelle websites met Hugo
 ---
 
-Sinds 2015 bouw ik bijna al mijn websites met Static Site Generators. Dat zijn systemen die nog het meeste doen denken aan de technologie die mijn broer en ik in 1998 al gebruikte om websites te bouwen. 
+Sinds 2015 bouw ik bijna al mijn websites met Static Site Generators. Dat zijn systemen die nog het meeste doen denken aan de technologie die mijn broer en ik in 2003 al gebruikte om websites te bouwen. 
 
-Destijds gebruikten we een zelfbedacht soort Markdown en lieten ons (zelfgebouwde) CMS HTML files maken, die we via FTP naar de webserver stuurden. Meer dan twintig jaar later is er ironisch genoeg niet veel veranderd. Frames hebben plaatsgemaakt voor 'grid layouts' en 'flexbox' en FTP hebben we verruild voor Git hooks, maar de essentie is gelijk gebleven.
+Destijds gebruikten we een zelfbedacht soort Markdown en lieten ons [zelfgebouwde CMS](http://www.joost.vdschee.nl/index.php?item=505) HTML files maken, die we via FTP naar de webserver stuurden. Twintig jaar later is er ironisch genoeg niet veel veranderd. Frames hebben plaatsgemaakt voor responsive 'grid layouts' en 'flexbox' en FTP hebben we verruild voor Git hooks, maar de essentie is gelijk gebleven.
 
 ## Focus op eenvoud
 
@@ -24,6 +24,6 @@ In 2021 heb ik ook besloten om eindelijk (na een eerdere poging in 2017) over te
 
 ## De toekomst
 
-Mijn doel voor 2022 is om 'next generation Jamstack websites' te gaan bouwen: 100% AVG vriendelijk, met 'lokale' servers en een eigen CMS. Wij hebben momenteel een prototype draaien, waarin updates binnen een seconde live staan, terwijl de sites ook binnen 0,1 seconde laden en een perfecte Google Score krijgen. Het absolute summum! 
+Mijn doel voor 2022 is om 'next generation Jamstack websites' te gaan bouwen: 100% AVG vriendelijk, met 'lokale' servers en een [eigen CMS](htpps://hugocms.usecue.nl). Wij hebben momenteel een prototype draaien, waarin updates binnen een seconde live staan, terwijl de sites ook binnen 0,1 seconde laden en een perfecte Google Score krijgen. Het absolute summum! 
 
 Wil je meer weten over deze supernieuwe en -toffe technologie of wil je graag een demo? Neem dan [contact](/nl/contact) met me op!
