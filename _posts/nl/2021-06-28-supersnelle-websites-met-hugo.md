@@ -12,7 +12,7 @@ Toen ik 6 jaar geleden met Static Site Generators in aanraking kwam herkende ik 
 
 ## Focus op snelheid
 
-Ik kwam er al doende achter dat mijn 'eenvoudige websites' een groot ander voordeel hadden: ze scoorden enorm goed in alle testen van Google. Google was in 2019 bezig om deze testen enorm te hypen, via een tool die ze Lighthouse noemden. Dat zag ik als mijn kans en ik sprong erop door een artikel te schrijven over hoe je een perfecte Lighthouse score krijgt en je website in 0,1 seconde laadt. Dit is niet alleen goed voor je Google Score, maar ook voor je conversie: een fijne combinatie. Dat leverde behoorlijk wat publiciteit en positieve aandacht van klanten op. Ik besloot vanaf toen bij iedere website die ik opleverde ook een Google rapport mee te sturen, als bewijs van de kwaliteit van mijn werk.
+Ik kwam er al doende achter dat mijn 'eenvoudige websites' een groot ander voordeel hadden: ze scoorden enorm goed in alle testen van Google. Google was in 2019 bezig om deze testen enorm te hypen, via een tool die ze Lighthouse noemden. Dat zag ik als mijn kans en ik sprong erop door een artikel te schrijven over hoe je een [perfecte Lighthouse score](/blog/how-to-get-a-100-google-lighthouse-score/) krijgt en je website in [0,1 seconde](/blog/websites-that-load-instantly/) laadt. Dit is ook goed voor je conversie: een fijne combinatie. Dat leverde behoorlijk wat publiciteit en positieve aandacht van klanten op. Ik besloot vanaf toen bij iedere website die ik opleverde ook een Google rapport mee te sturen, als bewijs van de kwaliteit van mijn werk.
 
 ## Focus op AVG
 
