@@ -4,7 +4,7 @@ title: Supersnelle websites met Hugo
 
 Sinds 2015 bouw ik bijna al mijn websites met Static Site Generators. Dat zijn systemen die nog het meeste doen denken aan de technologie die mijn broer en ik in 2003 al gebruikte om websites te bouwen. 
 
-Destijds gebruikten we een zelfbedacht soort Markdown en lieten ons [zelfgebouwde CMS](http://www.joost.vdschee.nl/index.php?item=505) HTML files maken, die we via FTP naar de webserver stuurden. Twintig jaar later is er ironisch genoeg niet veel veranderd. Frames hebben plaatsgemaakt voor responsive 'grid layouts' en 'flexbox' en FTP hebben we verruild voor Git hooks, maar de essentie is gelijk gebleven.
+Destijds gebruikten we een zelfbedacht soort Markdown en lieten ons [CMS](http://www.joost.vdschee.nl/index.php?item=505) HTML files maken, die we via FTP naar de webserver stuurden. Twintig jaar later is er ironisch genoeg niet veel veranderd. Frames hebben plaatsgemaakt voor responsive 'grid layouts' en 'flexbox' en FTP hebben we verruild voor Git hooks, maar de essentie is gelijk gebleven.
 
 ## Focus op eenvoud
 
