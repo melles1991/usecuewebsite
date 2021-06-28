@@ -24,6 +24,6 @@ In 2021 heb ik ook besloten om eindelijk (na een eerdere poging in 2017) over te
 
 ## De toekomst
 
-Mijn doel voor 2022 is om 'next generation Jamstack websites' te gaan bouwen, 100% AVG vriendelijk, met 'lokale' servers en een eigen CMS. Wij hebben momenteel een prototype draaien, waarin updates binnen een seconde live staan, terwijl de sites ook binnen 0,1 seconde laden en een perfecte Google Score krijgen. Het absolute summum! 
+Mijn doel voor 2022 is om 'next generation Jamstack websites' te gaan bouwen: 100% AVG vriendelijk, met 'lokale' servers en een eigen CMS. Wij hebben momenteel een prototype draaien, waarin updates binnen een seconde live staan, terwijl de sites ook binnen 0,1 seconde laden en een perfecte Google Score krijgen. Het absolute summum! 
 
 Wil je meer weten over deze nieuwe supernieuwe en -toffe technologie of wil je graag een demo? Neem dan [contact](/nl/contact) met me op!
