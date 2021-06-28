@@ -24,6 +24,6 @@ In 2021 heb ik ook besloten om eindelijk (na een eerdere poging in 2017) over te
 
 ## De toekomst
 
-Mijn doel voor 2022 is om het 'next generation Jamstack framework' te bouwen: 100% AVG vriendelijk, met 'lokale' servers, een [eigen CMS](https://hugocms.usecue.nl) en open source edge scripts. Wij hebben momenteel een prototype draaien op een server in Amsterdam met een fallback in Frankfurt. Klant-updates staan binnen een seconde live, de websites zijn volledig AVG proof en laden binnen 0,1 seconde laden met een perfecte Google Score. Dit framework is het absolute summum!
+Mijn doel voor 2022 is om het 'next generation Jamstack framework' te bouwen: 100% AVG vriendelijk, met 'lokale' servers, een [eigen CMS](https://hugocms.usecue.nl) en open source edge scripts. Wij hebben momenteel een prototype draaien op een server in Amsterdam met een fallback in Frankfurt. Updates via het CMS staan binnen een seconde live, de websites zijn volledig AVG proof en laden binnen 0,1 seconde laden met een perfecte Google Score. Dit framework is het absolute summum!
 
 Wil je meer weten over deze supernieuwe en -toffe technologie of wil je graag een demo? Neem dan [contact](/nl/contact) met me op!
