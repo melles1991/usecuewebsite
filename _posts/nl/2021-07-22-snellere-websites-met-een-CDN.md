@@ -2,11 +2,11 @@
 title: Snellere websites met een CDN?
 ---
 
-Goede websites laden razendsnel. Bijna iedereen die zijn website sneller wil laten laden gebruikt een CDN, ofwel content delivery network. Dat is een netwerk van servers die verdeeld staan over de hele wereld, waarbij iedere website op iedere server in het CDN staat, klaar om getoond te worden aan iemand die daar dichtbij woont. Een CDN doet vaak twee dingen: het cachen (statisch maken en in het geheugen houden) van je bestanden/verzoeken en deze aanbieden vanaf de dichtstbijzijnde server.
+Goede websites laden razendsnel. Bijna iedereen die zijn website sneller wil laten laden gebruikt een CDN, ofwel content delivery network. Dat is een netwerk van servers die verdeeld staan over de hele wereld, waarbij iedere website op iedere server in het CDN staat, klaar om getoond te worden aan iemand die daar dichtbij woont. Een CDN doet vaak twee dingen: het cachen van je bestanden/verzoeken en deze aanbieden vanaf de dichtstbijzijnde server.
 
 ## Statische websites
 
-Een CDN levert normaal gesproken tijdwinst op, maar bij statische websites is dat anders. Aangezien de verzoeken al statisch zijn en bij een goede webserver al uit het cache geleverd worden, valt er op dat vlak eigenlijk alleen maar tijd te verliezen. Daarnaast staat het CDN weliswaar over de hele wereld, maar daar heb je niet veel aan wanneer je een website in het Nederlands hebt. Dan wil je een server in Nederland en niet ergens ver in Duitsland. 
+Een CDN levert normaal gesproken tijdwinst op, maar bij statische websites is dat anders. Aangezien de verzoeken al volledig statisch zijn en bij een goede webserver al uit het cache geleverd worden, valt er op dat vlak eigenlijk alleen maar tijd te verliezen. Daarnaast staat het CDN weliswaar over de hele wereld, maar daar heb je niet veel aan wanneer je een website in het Nederlands hebt. Dan wil je een server in Nederland en niet ergens ver in Duitsland. 
 
 ## Hoeveel vertraagd een CDN?
 
