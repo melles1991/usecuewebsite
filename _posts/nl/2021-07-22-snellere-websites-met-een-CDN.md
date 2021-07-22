@@ -10,7 +10,7 @@ Een CDN doet vaak twee dingen: het cachen (statisch maken en in het geheugen hou
 
 ## Statische websites
 
-Bij statische websites is dat alleen anders. Aangezien de verzoeken al statisch zijn en bij een goede webserver al uit het cache geleverd worden, valt er op dat vlak alleen maar tijd te verliezen. Daarnaast staat het CDN weliswaar over de hele wereld, maar daar heb je niet veel aan wanneer je een website in het Nederlands hebt. Dan wil je een server in Nederland en niet ergens ver in Duitsland. 
+Bij statische websites is dat alleen anders. Aangezien de verzoeken al statisch zijn en bij een goede webserver al uit het cache geleverd worden, valt er op dat vlak alleen maar tijd te verliezen. Daarnaast staat het CDN weliswaar over de hele wereld, maar daar heb je niet veel aan wanneer je website in het Nederlands is of je doelgroep zich alleen in Nederland bevindt. Dan wil je een server in Nederland en niet eentje ver in Duitsland plus een paar 'over de hele wereld'. 
 
 ## Hoeveel vertraagd een CDN?
 
