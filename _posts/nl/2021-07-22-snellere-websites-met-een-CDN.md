@@ -14,7 +14,7 @@ Bij statische websites is dat alleen anders. Aangezien de verzoeken al statisch 
 
 ## Hoeveel vertraagd een CDN?
 
-De vertraging die wordt veroorzaakt door een CDN kan behoorlijk oplopen. Zo host ik Nederlandstalige sites voor klanten op het CDN van CloudCannon, waarbij ik laadtijden van soms wel 0,8 seconde zie, terwijl ze zonder CDN in 0,1 seconde laden. Diezelfde websites laden zonder CDN vanuit San Fransisco in 1,2 seconde, wat zeker niet snel is, maar wel acceptabel. Zonder CDN ben je dus vanuit Nederland 8 keer zo snel, terwijl je vanuit het (verre) buitenland niet eens zo heel veel trager bent.
+De vertraging die wordt veroorzaakt door een CDN kan behoorlijk oplopen. Zo host ik Nederlandstalige websites voor klanten op het CDN van CloudCannon, waarbij ik laadtijden van soms wel 0,8 seconde zie, terwijl ze zonder CDN in 0,1 seconde laden. Diezelfde websites laden zonder CDN vanuit San Fransisco in 1,2 seconde, wat zeker niet snel is, maar wel acceptabel. Zonder CDN ben je dus vanuit Nederland 8 keer zo snel, terwijl je vanuit het (verre) buitenland niet eens zo heel veel trager bent.
 
 ## Huh? Hoe kan dat?
 
