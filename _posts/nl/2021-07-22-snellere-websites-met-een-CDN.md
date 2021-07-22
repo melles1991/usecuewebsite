@@ -22,4 +22,4 @@ Daar geloof ik niets van!, hoor ik je denken. Waarom zou iemand dan nog zo’n C
 
 ## Razendsnelle websites
 
-Ik bouw websites met superlichte pagina’s, doordat ik vrijwel geen frameworks gebruik. Daarmee kun je razendsnelle laadtijden halen. Je moet echter wel kritisch zijn wanneer het aankomt op het gebruik van een CDN. Voor internationale websites is een CDN zeker het overwegen waard, maar voor lokale websites is het gebruik van een CDN vrijwel altijd een slecht idee en daar zie ik dus geen [toekomst](nl/blog/supersnelle-websites-met-hugo) in.
+Ik bouw websites met superlichte pagina’s, doordat ik vrijwel geen frameworks gebruik. Daarmee kun je razendsnelle laadtijden halen. Je moet echter wel kritisch zijn wanneer het aankomt op het gebruik van een CDN. Voor internationale websites is een CDN zeker het overwegen waard, maar voor lokale websites is het gebruik van een CDN vrijwel altijd een slecht idee en daar zie ik dus geen [toekomst](/nl/blog/supersnelle-websites-met-hugo) in.
