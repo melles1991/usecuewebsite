@@ -2,7 +2,7 @@
 title: Snellere websites met een CDN?
 ---
 
-Goede websites laden razendsnel. Bijna iedereen die zijn website sneller wil laten laden gebruikt een CDN, ofwel content delivery network. Dat is een netwerk van servers die verdeeld staan over de hele wereld, waarbij iedere website op iedere server in het CDN staat, klaar om getoond te worden aan iemand die daar dichtbij woont. 
+Goede websites laden razendsnel. Bijna iedereen die zijn website sneller wil laten laden gebruikt een CDN, ofwel content delivery network. Dat is een netwerk van servers die verdeeld staan over de wereld, waarbij iedere website op iedere server staat.
 
 ## Wat doet een CDN?
 
