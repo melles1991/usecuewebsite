@@ -6,7 +6,7 @@ Goede websites laden razendsnel. Bijna iedereen die zijn website sneller wil lat
 
 ## Wat doet een CDN?
 
-Een CDN doet vaak twee dingen: het cachen (statisch maken en in het geheugen houden) van je bestanden/verzoeken en deze aanbieden vanaf de dichtstbijzijnde server. Dat levert normaal gesproken tijdwinst op.
+Een CDN doet twee dingen: het cachen (statisch maken en in het geheugen houden) van je bestanden/verzoeken en deze aanbieden vanaf de dichtstbijzijnde server. Dat levert normaal gesproken tijdwinst op.
 
 ## Statische websites
 
