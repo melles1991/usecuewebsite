@@ -22,4 +22,4 @@ Waarom zou iemand dan nog zo’n CDN gebruiken? CDN’s zijn toch razend populai
 
 ## Razendsnelle websites
 
-Ik bouw websites met superlichte pagina’s, doordat ik vrijwel geen frameworks gebruik. Daarmee kun je razendsnelle laadtijden halen. Je moet echter wel kritisch zijn wanneer het aankomt op het gebruik van een CDN. Voor internationale websites is een CDN zeker het overwegen waard, maar voor lokale websites is het gebruik van een CDN vrijwel altijd een slecht idee. Ik zie daar dus geen [toekomst](/nl/blog/supersnelle-websites-met-hugo) in.
+Ik bouw websites met superlichte pagina’s, doordat ik vrijwel geen frameworks gebruik. Daarmee kun je razendsnelle laadtijden halen. Je moet echter wel kritisch zijn wanneer het aankomt op het gebruik van een CDN. Voor internationale websites is een CDN zeker het overwegen waard, maar voor lokale websites is het gebruik van een CDN vrijwel altijd een slecht idee. Ik zie daar (zeker voor Jamstack websites) geen [toekomst](/nl/blog/supersnelle-websites-met-hugo) in.
