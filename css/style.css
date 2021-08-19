@@ -39,7 +39,9 @@ body.black a {color: black;}
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
+    /*
     background: repeating-linear-gradient(-45deg, #0000ee, #0000ee 1.5rem, #2222f5 1.5rem, #2222f5 calc(1.5rem + 2px)),#0000ee;
+    */
 }
 #splash > div:not(.line) {
     padding: 0 2rem 1rem 1.25rem;
