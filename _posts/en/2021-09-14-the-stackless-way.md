@@ -14,7 +14,7 @@ Javascript without a framework is also referred to as Vanilla JS. I can explain 
 
 ## Plain CSS
 
-I use plain CSS. No postprocessors, no fancy alternative CSS flavours, like SCSS or SASS. The advantage? The same as for the above (HTML and JS). You only need to learn web standards, which change very slowly. Nothing more and nothing less (pun intended).
+I use plain CSS. No postprocessors, no fancy alternative CSS flavours, like SCSS or SASS. The advantage? The same as for the above (HTML and JS). You only need to learn web standards. Nothing more and nothing less (pun intended). these web standards evolve really slow.
 
 ## Remarks
 
