@@ -6,7 +6,7 @@ The Stackless Way wants to give beginners a gradual path from simple HTML into m
 
 ## Good old HTML
 
-Although Daniel Kehoe, who inspired me to write something about Stackless, disagrees, you should use standard HTML elements. Daniel proposes to use custom HTML elements that are enriched with javascript, but I am a purist: loading unknown code from a package manager is not plain and Stackless enough for me.
+Use standard HTML elements. Daniel Kehoe, who inspired me to write something about Stackless, proposes to use custom HTML elements that are enriched with javascript, but I am a purist: loading unknown code from a package manager is not plain and Stackless enough for me.
 
 ## Vanilla JS
 
