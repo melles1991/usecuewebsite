@@ -18,4 +18,4 @@ I use plain CSS. No postprocessors, no fancy alternative CSS flavours, like SCSS
 
 ## Remarks
 
-CSS might need help, [says Daniel Kehoe](https://tutorials.yax.com/articles/the-yax-way/2.html). I agree, but I also think that HTML needs help, JS needs help and CSS needs help. That is exactly what frameworks are for. Frameworks, however, come at a price we might not want to pay. The Stackless Way wants you to learn to work with the basics, instead of learning the newest hottest shortcuts every few months.
+CSS might need help, [says Daniel Kehoe](https://tutorials.yax.com/articles/the-yax-way/2.html). I agree, but I also think that HTML needs help, JS needs help and CSS needs help. That is exactly what frameworks are for. Frameworks, however, come at a price we might not want to pay. The Stackless Way wants you to learn to work with the basics, instead of learning the newest hottest shortcuts every few months. It is all about slowing down and the gradual path. Keep that in mind every time you are tempted to use a framework.
