@@ -10,7 +10,7 @@ The Stackless Way uses standard HTML elements. [Daniel Kehoe](https://tutorials.
 
 ## Vanilla JS
 
-The Stackless Way uses javascript without a framework, also referred to as Vanilla JS. I can explain why it is cool, but [this website](https://web.archive.org/web/20210824231100/http://vanilla-js.com/) does a better job. Note that this whole website is written in a 'tongue-in-cheek' style.
+The Stackless Way uses javascript without a framework, also referred to as Vanilla JS. I can explain why it is cool, but [this website](http://vanilla-js.com/) does a better job. Note that this whole website is written in a 'tongue-in-cheek' style.
 
 ## Plain CSS
 
