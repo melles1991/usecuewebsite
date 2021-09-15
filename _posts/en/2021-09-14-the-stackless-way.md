@@ -6,16 +6,16 @@ The Stackless Way wants to give beginners a gradual path from simple HTML into m
 
 ## Good old HTML
 
-Use standard HTML elements. [Daniel Kehoe](https://tutorials.yax.com/articles/the-yax-way/2.html), who inspired me to write something about Stackless, proposes to use custom HTML elements that are enriched with javascript, but I am a purist: loading unknown code from a package manager is not plain and Stackless enough for me.
+The Stackless Way uses standard HTML elements. [Daniel Kehoe](https://tutorials.yax.com/articles/the-yax-way/2.html), who inspired me to write something about Stackless, proposes to use custom HTML elements that are enriched with javascript, but I am a purist: loading unknown code from a package manager is not plain and Stackless enough for me.
 
 ## Vanilla JS
 
-Javascript without a framework is also referred to as Vanilla JS. I can explain why it is cool, but [this website](https://web.archive.org/web/20210824231100/http://vanilla-js.com/) does a better job. Note that this whole website is written in a 'tongue-in-cheek' style.
+The Stackless Way uses javascript without a framework, also referred to as Vanilla JS. I can explain why it is cool, but [this website](https://web.archive.org/web/20210824231100/http://vanilla-js.com/) does a better job. Note that this whole website is written in a 'tongue-in-cheek' style.
 
 ## Plain CSS
 
-I use plain CSS. No postprocessors, no fancy alternative CSS flavours, like SCSS or SASS. The advantage? The same as for the above (HTML and JS). You only need to learn web standards. Nothing more and nothing less (pun intended). This should be a relief, as these web standards evolve really slow.
+The Stackless Way uses plain CSS. No postprocessors, no fancy alternative CSS flavours, like SCSS or SASS. The advantage? The same as for the above (HTML and JS). You only need to learn web standards. Nothing more and nothing less (pun intended). This should be a relief, as these web standards evolve really slow.
 
 ## Remarks
 
-CSS might need help, [says Daniel Kehoe](https://tutorials.yax.com/articles/the-yax-way/2.html). I agree, but I also think that HTML and JS need help. That is exactly what frameworks are for. Frameworks, however, come at a price we might not want to pay. Instead of learning the newest hottest shortcuts every few months, the Stackless Way wants you to learn the basics. It is all about slowing down and the gradual path. Keep that in mind every time you are tempted to use a framework or build tool.
+CSS might need help, [says Daniel Kehoe](https://tutorials.yax.com/articles/the-yax-way/2.html). I agree, but the same goes for HTML and javascript. This is what frameworks are for. Frameworks, however, come at a price we might not want to pay. Instead of learning the newest hottest shortcuts every few months, the Stackless Way wants you to take time to learn the basics. It is all about slowing down and the gradual path. Keep that in mind every time you are tempted to use a framework or build tool.
