@@ -129,6 +129,31 @@ blockquote {margin-top: 0.5em; border-left: 2px solid #dde; margin-bottom: 1.35e
 .threecols {display: flex;}
 .threecols > div {flex: 1 33.3%;}
 
+a.video {position: relative; display: block;}
+a.video img {display: block;}
+a.video::after,
+a.video::before {
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    background: #0000ee;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+a.video::after {
+    width: 0; 
+    height: 0; 
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
+    border-left: 1.75rem solid white;
+    border-radius: 0;
+    margin-left: 0.25rem;
+}
+
+
 
 @media screen and (min-width: 2000px) {
     /* FONT SIZES */
