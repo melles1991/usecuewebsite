@@ -10,7 +10,7 @@ Their campaign revolved around the introduction of v8, a new Javascript engine. 
 
 In their campaign video they used the website [allrecipes.com](https://www.allrecipes.com). I was curious to see how fast it loads today. We could ask [Lighthouse](https://web.dev), but Lighthouse simulates a slow 3G connection, so I asked [Pingdom](https://www.pingdom.com). Pingdom reported that the current website of allrecipes.com loads in [4.8 seconds](/uploads/allrecipespingdom.png). That is far from instantly. Their website has either become much slower during the past 11 years or we were looking at a preloaded website or both.
 
-From the video description we can read the website was preloaded (they used a local version). However, with Googles current focus on speed, I was wondering: can a website load in under 0.2 seconds over the internet? In other words: could a website load instantly and beat the potato gun? The answer is YES. According to Pingdom, this website loads in [0.1 seconds](/uploads/usecuepingdom.png)!
+From the [video description](/blog/chrome-speed-tests) we can read the website was preloaded (they used a local version). However, with Googles current focus on speed, I was wondering: can a website load in under 0.2 seconds over the internet? In other words: could a website load instantly and beat the potato gun? The answer is YES. According to Pingdom, this website loads in [0.1 seconds](/uploads/usecuepingdom.png)!
 
 > This website loads in 0.1 seconds!
 
