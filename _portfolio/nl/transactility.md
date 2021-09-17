@@ -3,7 +3,7 @@ title: Transactility
 image: /uploads/transactility1.jpg
 mobile_image: /uploads/transactility2.jpg
 color: '#594c87'
-portfolio_url: 'https://wrinkly-bed.cloudvent.net/'
+portfolio_url: 'https://transactility.com/'
 google_score: 90%
 speed_index: 2.5s
 page_weight: 260kb
