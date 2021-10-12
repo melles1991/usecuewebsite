@@ -22,8 +22,8 @@ Here are some (random) wild ideas to do so:
 
 - Google fonts should no longer be a hosted service  
 (because it is leaking visitor data)
-- Cloudflare website should be penalized in the search results  
-(because it is leaking visitor data)
+- Cloudflare websites should be penalized in the search results  
+(because they are leaking visitor data)
 - AMP should be discontinued  
 (because it is a silo)
 - Making search results 'personalized' should be reverted  
