@@ -4,7 +4,7 @@ title: Building websites in rem
 
 Although I can almost build a website in my sleep (or in [20 minutes](/blog/speaking-at-jekyllconf2019/)), I am not talking about REM sleep or Rapid Eye Movement, but about 'root em'. 
 
-I used to build websites in pixels, but I have chosen to abandon pixels and to completely swap to *em*, and the be more specific *root em*. Forty percent of all pages use *root em* in some way, according to the [HTTP Archive Almanac](https://almanac.httparchive.org/en/2019/css#units), so you are probably familiar with the abbreviation 'rem'.
+I used to build websites in pixels, but I have chosen to abandon pixels and to completely swap to *em*, and the be more specific *root em*. Forty percent of all pages use *root em* in some way, according to the [HTTP Archive Almanac](https://almanac.httparchive.org/en/2019/css#units), so you might be familiar with the abbreviation 'rem'.
 
 The 'em' is a fascinating unit/measurement. It originates from the height of the metal body of a letter in a letterpress and its name comes from its relation to the width of the captial letter 'M'. In this digital era this relation has blurred. According to [Wikipedia](https://en.wikipedia.org/wiki/Em_(typography)), an average font might have a cap height of 70% of the *em*, and an x-height of 48% of the *em*. 'Root' means that the size of the *em* is related to the font-size of the root element, which it the HTML element of your web page.
 
