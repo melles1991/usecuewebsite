@@ -18,7 +18,7 @@ Cloudflare's CDN is acting as a reverse proxy, so Cloudflare can read all passwo
 
 ## Captchas
 
-You have seen them, especially on Cloudflare: captchas before you can enter a website. They might work against DDOS attacks, but they are also the best way to nullify any conversion your website has left.
+You must have seen them on Cloudflare: captchas before you can enter a website. They might work against DDOS attacks, but they are also the best way to nullify any conversion your website has left.
 
 ## Unethical
 
