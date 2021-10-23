@@ -14,7 +14,7 @@ Sure, your normal hosting server is a single point of failure too... but that is
 
 ## Privacy invading
 
-Cloudflare's CDN is acting as a reverse proxy, so Cloudflare can read all passwords, emails addresses, everything that gets entered on your website. This is in fact a man-in-the-middle attack, as they also handle the SSL certificate.
+Cloudflare's CDN is acting as a reverse proxy, so Cloudflare can read all passwords, emails addresses, everything that gets entered on your website. This is in fact a man-in-the-middle attack, as they also handle the SSL certificate. Do you really trust them that much?
 
 ## Captchas
 
