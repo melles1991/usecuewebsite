@@ -2,7 +2,7 @@
 title: Chrome speed tests
 ---
 
-Back in 2010 Chrome hired a company for some fun speed tests of their new v8 Javascript engine. More than 10 years later I compared these speed tests to actual loading times of really fast websites in my quest to [beat the potato gun](/blog/websites-that-load-instantly). 
+Back in 2010 Chrome hired a company for some fun speed tests of their new v8 Javascript engine. More than 10 years later I compared these speed tests to todays loading times of really fast websites in my quest to [beat the potato gun](/blog/websites-that-load-instantly). 
 
 Therefore it is interesting to know what they exactly did in this potato video and why. The following text is taken from the video description at Youtube. I copied it to make sure these details would not get lost.
 
