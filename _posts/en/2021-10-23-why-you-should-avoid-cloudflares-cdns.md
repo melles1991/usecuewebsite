@@ -26,4 +26,4 @@ CDN's are extremely cheap. You get them almost for free. This should have you wo
 
 ## Conclusion
 
-The bottom line is that it is bad practise to use Cloudflare, especially when you are building Jamstack websites. That is why I am moving away from Cloudflare and CDN's in general.
+The bottom line is that it is generally speaking bad practise to use Cloudflare. That is why I am moving away from Cloudflare and CDN's in general.
