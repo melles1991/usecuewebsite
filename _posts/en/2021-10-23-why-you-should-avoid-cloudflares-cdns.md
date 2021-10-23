@@ -2,11 +2,11 @@
 title: "Why you should avoid Cloudflare's CDN"
 ---
 
-Wait!? I thought CDN's were good? Are they not responsible for fast loading times, server-side caching and local nodes, providing low response times? And is Cloudflare not the hero of the internet, saving us from DDOS attacks and securing our websites?
+Wait!? I thought the Cloudflare's CDN was good? Is it not responsible for fast loading times, server-side caching and local nodes, providing low response times? And is Cloudflare not the hero of the internet, saving us from DDOS attacks and securing our websites? I hate to tell you this... but no, Cloudflare is not that great.
 
 ## Slow
 
-First of all they slow down your website. Yup... not speed up, but slow down. The delay caused by a CDN can be quite significant. This website on Cloudflare has loading times of up to 0.8 seconds, while without CDN this websites load in 0.1 second. Even when you visit from San Francisco, this website loads in 1.2 seconds, which is certainly not fast, but acceptable. So, without CDN my website is 8 times as fast from the Netherlands, while from the other side of the world it is not even that much slower.
+First of all they might slow down your website. Yup... not speed up, but slow down. The delay caused by a CDN can be quite significant. This website on Cloudflare has loading times of up to 0.8 seconds, while without CDN this websites load in 0.1 second. Even when you visit from San Francisco, this website loads in 1.2 seconds, which is certainly not fast, but acceptable. So, without CDN my website is 8 times as fast from the Netherlands, while from the other side of the world it is not even that much slower.
 
 ## A single point of failure
 
@@ -14,7 +14,7 @@ Sure, your normal hosting server is a single point of failure too... but that is
 
 ## Privacy invading
 
-Cloudflare CDN is acting as a reverse proxy, so Cloudflare can read all passwords, emails addresses, everything that gets entered on your website. This is in fact a man-in-the-middle attack, as they also handle the SSL certificate.
+Cloudflare's CDN is acting as a reverse proxy, so Cloudflare can read all passwords, emails addresses, everything that gets entered on your website. This is in fact a man-in-the-middle attack, as they also handle the SSL certificate.
 
 ## Captchas
 
