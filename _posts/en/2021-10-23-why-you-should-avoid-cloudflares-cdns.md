@@ -6,7 +6,7 @@ Wait!? I thought the Cloudflare's CDN was good? Is it not responsible for fast l
 
 ## Slow
 
-First of all they might slow down your website. Yup... not speed up, but slow down. The delay caused by a CDN can be quite significant. This website on Cloudflare has loading times of up to 0.8 seconds, while without CDN this websites load in 0.1 second. Even when you visit from San Francisco, this website loads in 1.2 seconds, which is certainly not fast, but acceptable. So, without CDN my website is 8 times as fast from the Netherlands, while from the other side of the world it is not even that much slower.
+First of all they might slow down your website. Yup... not speed up, but slow down. The delay caused by a CDN can be quite significant. This website on Cloudflare has loading times of up to 0.8 seconds, while without CDN this websites loads in 0.1 second. Even when you visit from San Francisco, this website loads in 1.2 seconds, which is certainly not fast, but acceptable. So, without CDN my website is 8 times as fast from the Netherlands, while from the other side of the world it is not even that much slower.
 
 ## A single point of failure
 
