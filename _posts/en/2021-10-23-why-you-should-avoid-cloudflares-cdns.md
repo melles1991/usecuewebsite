@@ -22,7 +22,7 @@ You have seen them, especially on Cloudflare: captchas before you can enter a we
 
 ## Unethical
 
-CDN's are extremely cheap. You get them almost for free. This should have you worried. Because we all know that when you are not paying... you are the product. But here it might be even worse. You are probably selling your clients visitors data in exchange for hosting, similar to what Google is doing with its Google Analytics and Google Fonts product. I think it highly unethical for web developers to sell something that is not theirs or theirs to sell. We all [should ask a fair price](/nl/blog/het-internet-is-niet-meer-gratis) for our products. Everything else is just plain deception, which might even be punishable by law.
+CDN's are extremely cheap. You get them almost for free. This should have you worried. Because we all know that when you are not paying... you are the product. But here it might be even worse. You are probably selling your clients visitors data in exchange for hosting, similar to what Google is doing with its Google Analytics and Google Fonts product. I think it highly unethical for web developers to sell something that is not theirs or theirs to sell. We all [should ask a fair price](/nl/blog/het-internet-is-niet-meer-gratis) for our products. Everything else is just deception, which might even be punishable by law.
 
 ## Conclusion
 
