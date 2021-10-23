@@ -2,7 +2,7 @@
 title: "Why you should avoid Cloudflare's CDN"
 ---
 
-Wait!? I thought CDN's were good? Are they not responsible for fast loading times, server-side caching and local nodes, providing low response times? And is Cloudflare not the best thing since the start of the internet, saving us from DDOS attacks and securing our websites?
+Wait!? I thought CDN's were good? Are they not responsible for fast loading times, server-side caching and local nodes, providing low response times? And is Cloudflare not the hero of the internet, saving us from DDOS attacks and securing our websites?
 
 ## Slow
 
