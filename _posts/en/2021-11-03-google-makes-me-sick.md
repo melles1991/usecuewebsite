@@ -12,4 +12,4 @@ My comment was very critical, harsh if you will. But (to my defense) I am very p
 
 However, Google decided to remove my message immediately. This message cannot be removed. I reposted it on my personal blog and will repost it here as often as I have to. I wonder if this is what the next step of Googles monopoly looks like: censorship. I think it is awful! I think the discussion about morality and ethics is essential and should not be censored. Controlling the public opinion with censorshop is even worse than massively invading people's privacy. 
 
-Google, you have outdone yourself. You are making me sick to my stomach!"
+Google, you have outdone yourself. You have made me sick to my stomach!"
