@@ -2,7 +2,7 @@
 title: Google makes me sick
 ---
 
-I posted a critical comment under this Keynote video of the Chrome Dev Summit "What's new in Chrome". I got deleted immediately by the Google team, which made me write the comment below instead. But first some context. We are talking about [this video](https://www.youtube.com/watch?v=Df2U9-R-OJs). Watched it? This was my reaction (that you can also no longer find online):
+I posted a critical comment under this Keynote video of the Chrome Dev Summit "What's new in Chrome". I got deleted immediately by the Google team, which made me write the comment below instead. But first some context. We are talking about [this video](https://www.youtube.com/watch?v=Df2U9-R-OJs). Watched it? This was my reaction (that got 'marked' and is no longer online):
 
 "Why is my reaction gone? What is it that you do not want people to read?
 
